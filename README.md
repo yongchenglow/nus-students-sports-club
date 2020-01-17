@@ -4,17 +4,17 @@ Website for NUS Students' Sports Club.
 
 
 ## Table of Contents
-1. [Running the Application on your local machine (Mac and PC)](#Running-the-Application-on-your-local-machine-(Mac-and-PC)
-    1. [Install Node.js](#Install-Node.js)
-    2. [Downloading the Application](#Downloading-the-Application)
-        1. [Downloading for Testers](#Downloading-for-Testers)
-        2. [Cloning for Developers](#Cloning-for-Developers)
-        3. [Committing for Developers](#Committing-for-Developers)
-    3. [Running the Application](#Running-the-Application)
-2. [Structure](#Structure)
-3. [Mentions](#Mentions)
+1. [Running the Application on your local machine (Mac and PC)](#running-the-application-on-your-local-machine)
+    1. [Install Node.js](#install-Node.js)
+    2. [Downloading the Application](#downloading-the-application)
+        1. [Downloading for Testers](#downloading-for-testers)
+        2. [Cloning for Developers](#cloning-for-developers)
+        3. [Committing for Developers](#committing-for-developers)
+    3. [Running the Application](#running-the-application)
+2. [Structure](#structure)
+3. [Mentions](#mentions)
 
-## 1. Running the Application on your local machine (Mac and PC)
+## 1. Running the Application on your local machine
 ### 1.1 Install Node.js
 Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
@@ -83,23 +83,18 @@ nus-students-sports-club
     ├── components
     │    ├── main
     │    │    ├── home (www.nussportsclub.org)
-    │    │    │    └── member club (e.g. www.nussportsclub.org/aerobics)
+    │    │    │    ├── member club (e.g. www.nussportsclub.org/aerobics)
     │    │    │    │    ├── images
     │    │    │    │    └── infomation.json
-    │    │    │    │
     │    │    │    ├── template.js    
     │    │    │    └── router.js
-    │    │    │
     │    │    └── others (www.nussportsclub.org/nusbiathlon)
-    │    │
     │    ├── year (e.g. 2019)
     │    └── router.js
-    │
     ├── images
     │    └── image group
     │        ├── image file
     │        └── image file.js
-    │
     └── reducers
 ```
 
