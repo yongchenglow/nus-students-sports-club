@@ -125,3 +125,5 @@ To write logs:
 ## Acknowledgements
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 2. Logging system is created with the help of [this article](https://levelup.gitconnected.com/step-up-your-console-messaging-game-in-your-react-app-42eee17659ec)
+
+## Licence : [GNU GENERAL PUBLIC LICENSE](./LICENSE)
