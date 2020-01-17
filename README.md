@@ -11,7 +11,8 @@ Website for NUS Students' Sports Club.
     6. [Running the Application](#running-the-application)
 2. [File Structure](#structure)
 3. [Testing](#testing)
-4. [Mentions](#mentions)
+4. [Logging](#logging)
+5. [Acknowledgements](#acknowledgements)
 
 ## Running the Application on your Computer
 ### Install Node.js
@@ -106,5 +107,13 @@ npm test
 
 Please write relevant test cases if you are developing!
 
-## Mentions
+## Logging
+Testing in this app is done using Jest, to write test cases you may refer to their [docs](https://jestjs.io/docs/en/getting-started)
+
+In order to run the test, type the following commands in terminal:
+```
+npm test
+```
+
+## Acknowledgements
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
