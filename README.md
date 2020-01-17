@@ -2,17 +2,18 @@
 Website for NUS Students' Sports Club.
 
 ## Table of Contents
-[Running the Application on your local machine (Mac and PC)](#running-the-application-on-your-local-machine)
-[Install Node.js](#install-Node.js)
-[Downloading the Application](#downloading-the-application)
-[Downloading for Testers](#downloading-for-testers)
-[Cloning for Developers](#cloning-for-developers)
-[Committing for Developers](#committing-for-developers)
-[Running the Application](#running-the-application)
-[File Structure](#structure)
-[Mentions](#mentions)
+1. [Running the Application on your computer](#running-the-application-on-your-local-machine)
+    1. [Install Node.js](#install-Node.js)
+    2. [Downloading the Application](#downloading-the-application)
+    3. [Downloading for Testers](#downloading-for-testers)
+    4. [Cloning for Developers](#cloning-for-developers)
+    5. [Committing for Developers](#committing-for-developers)
+    6. [Running the Application](#running-the-application)
+2. [File Structure](#structure)
+3. [Testing](#testing)
+4. [Mentions](#mentions)
 
-## Running the Application on your local machine
+## Running the Application on your Computer
 ### Install Node.js
 Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
@@ -71,7 +72,7 @@ cd<space>
 npm install
 npm start
 ```
-6. By default you should be able to access the website on your localhost [localhost:3000/](localhost:3000/)
+6. By default you should be able to access the website on your localhost [http://localhost:3000/](http://localhost:3000/ )
 
 ## File Structure
 ```
@@ -95,6 +96,15 @@ nus-students-sports-club
     │        └── image file.js
     └── reducers
 ```
+## Testing
+Testing in this app is done using Jest, to write test cases you may refer to their [docs](https://jestjs.io/docs/en/getting-started)
+
+In order to run the test, type the following commands in terminal:
+```
+npm test
+```
+
+Please write relevant test cases if you are developing!
 
 ## Mentions
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
