@@ -1,5 +1,6 @@
 # NUS Students' Sports Club Website
-Website for NUS Students' Sports Club.
+![image of NUS Students' Sports Club Logo](./src/images/logos/sportsClub/40_Sports_Club_Logo_Black.png =250x)
+This repository contains the code for NUS Students' Sports Club Website. It is coded using React-Redux with the help of Node.js
 
 ## Table of Contents
 1. [Running the Application on your computer](#running-the-application-on-your-local-machine)
@@ -19,6 +20,7 @@ Website for NUS Students' Sports Club.
 Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
 ![image of Node JS Homepage](./public/images/NodeHomepage.png "NodeHomepage")
+
 
 After installing Node.js, check that everything has been installed correctly, open the terminal application and type in the following:
 
