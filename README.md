@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NUS Students' Sports Club Website
+Website for NUS Students' Sports Club.
 
-## Available Scripts
+## Running the Application on your local machine (Mac and PC)
+### 1. Install Node.js
+Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
-In the project directory, you can run:
+![image of Node JS Homepage](./public/images/NodeHomepage.png "NodeHomepage")
 
-### `yarn start`
+After installing Node.js, check that everything has been installed correctly, open the terminal application and type in the following:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+node -v
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+If you see it return the version number `10.16.0`, all is well.
 
-### `yarn test`
+### 2. Downloading the Application
+#### 2.1 Downloading for Testers
+1. Download the [repository](https://github.com/yongchenglow/nus-students-sports-club/archive/master.zip)
+2. Unzip the file in your desired location
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 2.2 Cloning for Developers
+1. Download git for [mac](https://git-scm.com/download/mac) or [windows](https://git-scm.com/download/win) and install it
+2. Create a [github account](https://github.com/join)
+3. Navigate to the folder on where you want to store your computer
+4. Open Terminal(Mac) or Cmd(windows)
+5. Type
+```
+cd<space>
+```
+6. Drag the folder into the Terminal
+7. Press the `enter` key
+8. Type the following into the Terminal
+```
+ git clone https://github.com/yongchenglow/nus-students-sports-club.git
+```
 
-### `yarn build`
+#### 2.3 Committing for Developers
+1. Download [atom](https://atom.io) and install it
+2. Launch Atom
+3. Drag the folder you have just cloned into atom
+4. Make the necessary changes
+5. On the bottom right of Atom click on the word `Git`
+6. Stage all the changes by clicking the `Stage All` button near the top
+7. Write a commit message by describing the changes you have made
+8. Click on `commit to master`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 3. Running the Application
+1. Open Terminal(Mac) or Cmd(windows)
+2. Type
+```
+cd<space>
+```
+3. Drag the folder into the Terminal
+4. Press the `enter` key
+5. Run the following commands
+```
+npm install
+npm start
+```
+6. By default you should be able to access the website on your localhost [localhost:3000/](localhost:3000/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### Mentions
+1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
