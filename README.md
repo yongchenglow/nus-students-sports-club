@@ -89,7 +89,7 @@ nus-students-sports-club
     │    │    │    │    ├── images
     │    │    │    │    └── infomation.json
     │    │    │    ├── template.js    
-    │    │    │    └── router.js
+    │    │    │    └── webpage.js
     │    │    └── others (www.nussportsclub.org/nusbiathlon)
     │    ├── year (e.g. 2019)
     │    └── router.js

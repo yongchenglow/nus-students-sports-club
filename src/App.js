@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
-import Log from './Log';
 
 // Redux Store
 import { Provider } from 'react-redux';
@@ -8,6 +7,9 @@ import store from './store';
 
 // CSS
 import './App.css';
+
+// Components
+import WebPage from './components/webpage';
 
 // For Debugging
 if (process.env.NODE_ENV !== 'production') {
@@ -20,7 +22,7 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className='App'>
-            Hello
+            <WebPage />
           </div>
         </Router>
       </Provider>
