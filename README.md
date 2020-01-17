@@ -1,18 +1,16 @@
 # NUS Students' Sports Club Website
 Website for NUS Students' Sports Club.
 
-
-
 ## Table of Contents
-1. [Running the Application on your local machine (Mac and PC)](#running-the-application-on-your-local-machine)
-    1. [Install Node.js](#install-Node.js)
-    2. [Downloading the Application](#downloading-the-application)
-        1. [Downloading for Testers](#downloading-for-testers)
-        2. [Cloning for Developers](#cloning-for-developers)
-        3. [Committing for Developers](#committing-for-developers)
-    3. [Running the Application](#running-the-application)
-2. [Structure](#structure)
-3. [Mentions](#mentions)
+1. [Running the Application on your local machine (Mac and PC)](#1.-running-the-application-on-your-local-machine)
+    1. [Install Node.js](#1.1-install-Node.js)
+    2. [Downloading the Application](#1.2-downloading-the-application)
+        1. [Downloading for Testers](#1.2.1-downloading-for-testers)
+        2. [Cloning for Developers](#1.2.2-cloning-for-developers)
+        3. [Committing for Developers](#1.2.3-committing-for-developers)
+    3. [Running the Application](#1.3-running-the-application)
+2. [File Structure](#2.-structure)
+3. [Mentions](#3.-mentions)
 
 ## 1. Running the Application on your local machine
 ### 1.1 Install Node.js
@@ -75,7 +73,7 @@ npm start
 ```
 6. By default you should be able to access the website on your localhost [localhost:3000/](localhost:3000/)
 
-## 2. General Structure
+## 2. File Structure
 ```
 nus-students-sports-club
 └── src
