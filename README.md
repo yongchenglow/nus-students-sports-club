@@ -1,8 +1,21 @@
 # NUS Students' Sports Club Website
 Website for NUS Students' Sports Club.
 
-## Running the Application on your local machine (Mac and PC)
-### 1. Install Node.js
+
+
+## Table of Contents
+1. [Running the Application on your local machine (Mac and PC)](#Running-the-Application-on-your-local-machine-(Mac-and-PC)
+    1. [Install Node.js](#Install-Node.js)
+    2. [Downloading the Application](#Downloading-the-Application)
+        1. [Downloading for Testers](#Downloading-for-Testers)
+        2. [Cloning for Developers](#Cloning-for-Developers)
+        3. [Committing for Developers](#Committing-for-Developers)
+    3. [Running the Application](#Running-the-Application)
+2. [Structure](#Structure)
+3. [Mentions](#Mentions)
+
+## 1. Running the Application on your local machine (Mac and PC)
+### 1.1 Install Node.js
 Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
 ![image of Node JS Homepage](./public/images/NodeHomepage.png "NodeHomepage")
@@ -15,12 +28,12 @@ node -v
 
 If you see it return the version number `10.16.0`, all is well.
 
-### 2. Downloading the Application
-#### 2.1 Downloading for Testers
+### 1.2. Downloading the Application
+#### 1.2.1 Downloading for Testers
 1. Download the [repository](https://github.com/yongchenglow/nus-students-sports-club/archive/master.zip)
 2. Unzip the file in your desired location
 
-#### 2.2 Cloning for Developers
+#### 1.2.2 Cloning for Developers
 1. Download git for [mac](https://git-scm.com/download/mac) or [windows](https://git-scm.com/download/win) and install it
 2. Create a [github account](https://github.com/join)
 3. Navigate to the folder on where you want to store your computer
@@ -36,7 +49,7 @@ cd<space>
  git clone https://github.com/yongchenglow/nus-students-sports-club.git
 ```
 
-#### 2.3 Committing for Developers
+#### 1.2.3 Committing for Developers
 1. Download [atom](https://atom.io) and install it
 2. Launch Atom
 3. Drag the folder you have just cloned into atom
@@ -47,7 +60,7 @@ cd<space>
 8. Click on `commit to master`
 
 
-### 3. Running the Application
+### 1.2. Running the Application
 1. Open Terminal(Mac) or Cmd(windows)
 2. Type
 ```
@@ -62,6 +75,33 @@ npm start
 ```
 6. By default you should be able to access the website on your localhost [localhost:3000/](localhost:3000/)
 
+## 2. General Structure
+```
+nus-students-sports-club
+└── src
+    ├── actions
+    ├── components
+    │    ├── main
+    │    │    ├── home (www.nussportsclub.org)
+    │    │    │    └── member club (e.g. www.nussportsclub.org/aerobics)
+    │    │    │    │    ├── images
+    │    │    │    │    └── infomation.json
+    │    │    │    │
+    │    │    │    ├── template.js    
+    │    │    │    └── router.js
+    │    │    │
+    │    │    └── others (www.nussportsclub.org/nusbiathlon)
+    │    │
+    │    ├── year (e.g. 2019)
+    │    └── router.js
+    │
+    ├── images
+    │    └── image group
+    │        ├── image file
+    │        └── image file.js
+    │
+    └── reducers
+```
 
-#### Mentions
+## 3. Mentions
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
