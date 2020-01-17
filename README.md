@@ -10,7 +10,7 @@ Website for NUS Students' Sports Club.
         3. [Committing for Developers](#1.2.3-committing-for-developers)
     3. [Running the Application](#1.3-running-the-application)
 2. [File Structure](#2.-structure)
-3. [Mentions](#3.-mentions)
+3. [Mentions](#mentions)
 
 ## 1. Running the Application on your local machine
 ### 1.1 Install Node.js
@@ -96,5 +96,5 @@ nus-students-sports-club
     └── reducers
 ```
 
-## 3. Mentions
+## Mentions
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
