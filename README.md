@@ -1,5 +1,5 @@
 # NUS Students' Sports Club Website
-![NUS Students' Sports Club Logo](./src/images/logos/sportsClub/40_Sports_Club_Logo_Black.png | width=250)
+![NUS Students' Sports Club Logo](./src/images/logos/sportsClub/40_Sports_Club_Logo_Black.png)
 This repository contains the code for NUS Students' Sports Club Website. It is coded using React-Redux with the help of Node.js
 
 ## Table of Contents
