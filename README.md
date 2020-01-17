@@ -108,12 +108,18 @@ npm test
 Please write relevant test cases if you are developing!
 
 ## Logging
-Testing in this app is done using Jest, to write test cases you may refer to their [docs](https://jestjs.io/docs/en/getting-started)
+Logging is done using a custom logger file with the help of [npm debug](https://www.npmjs.com/package/debug). All logs will be removed during the production build.
 
-In order to run the test, type the following commands in terminal:
-```
-npm test
-```
+3 Different kinds of logs will be present throughout the code:
+1. Log.info() in lightblue
+2. Log.warning() in orange
+3. Log.error() in red
+
+
+To write logs:
+1. Import the log file into the document (located in the src folder)
+2. Use the correct log depending on the information
 
 ## Acknowledgements
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Logging system is created with the help of [this article](https://levelup.gitconnected.com/step-up-your-console-messaging-game-in-your-react-app-42eee17659ec)
