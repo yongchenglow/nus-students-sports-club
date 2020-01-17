@@ -2,18 +2,18 @@
 Website for NUS Students' Sports Club.
 
 ## Table of Contents
-1. [Running the Application on your local machine (Mac and PC)](#1.-running-the-application-on-your-local-machine)
-    1. [Install Node.js](#1.1-install-Node.js)
-    2. [Downloading the Application](#1.2-downloading-the-application)
-        1. [Downloading for Testers](#1.2.1-downloading-for-testers)
-        2. [Cloning for Developers](#1.2.2-cloning-for-developers)
-        3. [Committing for Developers](#1.2.3-committing-for-developers)
-    3. [Running the Application](#1.3-running-the-application)
-2. [File Structure](#2.-structure)
-3. [Mentions](#mentions)
+[Running the Application on your local machine (Mac and PC)](#running-the-application-on-your-local-machine)
+[Install Node.js](#install-Node.js)
+[Downloading the Application](#downloading-the-application)
+[Downloading for Testers](#downloading-for-testers)
+[Cloning for Developers](#cloning-for-developers)
+[Committing for Developers](#committing-for-developers)
+[Running the Application](#running-the-application)
+[File Structure](#structure)
+[Mentions](#mentions)
 
-## 1. Running the Application on your local machine
-### 1.1 Install Node.js
+## Running the Application on your local machine
+### Install Node.js
 Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and __download the LTS version__.
 
 ![image of Node JS Homepage](./public/images/NodeHomepage.png "NodeHomepage")
@@ -26,12 +26,12 @@ node -v
 
 If you see it return the version number `10.16.0`, all is well.
 
-### 1.2. Downloading the Application
-#### 1.2.1 Downloading for Testers
+### Downloading the Application
+#### Downloading for Testers
 1. Download the [repository](https://github.com/yongchenglow/nus-students-sports-club/archive/master.zip)
 2. Unzip the file in your desired location
 
-#### 1.2.2 Cloning for Developers
+#### Cloning for Developers
 1. Download git for [mac](https://git-scm.com/download/mac) or [windows](https://git-scm.com/download/win) and install it
 2. Create a [github account](https://github.com/join)
 3. Navigate to the folder on where you want to store your computer
@@ -47,7 +47,7 @@ cd<space>
  git clone https://github.com/yongchenglow/nus-students-sports-club.git
 ```
 
-#### 1.2.3 Committing for Developers
+#### Committing for Developers
 1. Download [atom](https://atom.io) and install it
 2. Launch Atom
 3. Drag the folder you have just cloned into atom
@@ -58,7 +58,7 @@ cd<space>
 8. Click on `commit to master`
 
 
-### 1.2. Running the Application
+### Running the Application
 1. Open Terminal(Mac) or Cmd(windows)
 2. Type
 ```
@@ -73,7 +73,7 @@ npm start
 ```
 6. By default you should be able to access the website on your localhost [localhost:3000/](localhost:3000/)
 
-## 2. File Structure
+## File Structure
 ```
 nus-students-sports-club
 └── src
