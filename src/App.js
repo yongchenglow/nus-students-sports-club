@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
-import Log from './Log';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 // Redux Store
 import { Provider } from 'react-redux';
@@ -8,6 +7,12 @@ import store from './store';
 
 // CSS
 import './App.css';
+
+// Components
+import { Container } from 'react-bootstrap';
+import Log from './Log';
+
+import WebPage from './components/webpage';
 
 // For Debugging
 if (process.env.NODE_ENV !== 'production') {
@@ -18,11 +23,11 @@ class App extends Component {
   render(){
     return (
       <Provider store={store}>
-        <Router>
+        <BrowserRouter>
           <div className='App'>
-            Hello
+            <WebPage />
           </div>
-        </Router>
+        </BrowserRouter>
       </Provider>
     );
   }
