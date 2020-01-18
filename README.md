@@ -88,11 +88,11 @@ nus-students-sports-club
     │    │    │    ├── member club (e.g. www.nussportsclub.org/aerobics)
     │    │    │    │    ├── images
     │    │    │    │    └── infomation.json
-    │    │    │    ├── template.js    
-    │    │    │    └── webpage.js
-    │    │    └── others (www.nussportsclub.org/nusbiathlon)
-    │    ├── year (e.g. 2019)
-    │    └── router.js
+    │    │    │    ├── memberclubtemplate.js    
+    │    │    │    └── homepage2020.js
+    │    │    ├── year (e.g. 2019)
+    │    │    └── projects (e.g.www.nussportsclub.org/nusbiathlon)
+    │    └── webpage.js
     ├── images
     │    └── image group
     │        ├── image file
