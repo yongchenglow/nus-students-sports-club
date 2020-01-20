@@ -1,0 +1,445 @@
+{
+  "club_img_url": "Archery/Archerylogo.png",
+  "club_name": "NUS Archery Club",
+  "carousel_img_url": ["Archery/archery.jpg",""],
+  "about_us": ["The most common form of archery, target archery is generally used in international and large-scale competitions. Stationary targets set at fixed distances are used, with indoor settings ranging from 18 to 25 metres and 30 to 90 metres for outdoor ones. Olympic targets however, are set at a standard 70 metres away from the shooting line. 
+","Incoming members can expect initial physical conditioning training for the first few trainings before actual shooting begins. Also the club will provide as beginner level equipment for trainings but we recommend you to acquire your own equipment eventually. 
+","Our club is a tight knit group of friends who are like family where we do not hesitate to help each other out and to bond over our shared enjoyment in shooting arrows. We usually take in about 80 incoming members."],
+  "training_sessions": ["Tuesday 7pm-10pm","Thursday 7pm-10pm"],
+  "training_venue": "Volleyball Courts",
+  "upcoming_events": [
+    {
+      "event_name":"Archery Indoor",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"Fun Shoot",
+      "event_date":"tbc",
+    },
+  ],
+  "instagram_url": "instagram.com/nus.archery",
+  "facebook_url": "https://www.facebook.com/nusarchery",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Basketball/basketballlogo.png",
+  "club_name": "NUS Basketball Club",
+  "carousel_img_url": ["Archery/basketball.jpg",""],
+  "about_us": ["Do you want to have an exciting match with your friends? Or just want to have some regular exercise every week with guidance and hone your basketball skill? ","At NUS Basketball Club, we offer a variety of training schemes catering to our member’s skills. Be it a three-pointer or a simple lay-up, we provide programs for all skill levels and our student coaches design different games to ensure that our members will get individual attention they need. By varying in focus and intensity, everyone can find his place in our club. On top of our weekly training, we also organise various competitions for all NUS students and staff to participate and gain experience over exciting games. With well-organised training sessions, good facilities and family-like atmosphere, we believe we can help our members to build basketball IQ, teach relevant skills and boost team morale to have a more vibrant university life!"],
+  "training_sessions": ["Thursday 7pm-9pm",""],
+  "training_venue": "Basketball Court 7 and 8",
+  "upcoming_events": [
+    {
+      "event_name":"BasketballALLSTAR",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nusbasketballclub",
+  "facebook_url": "",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Netball/NRClogo.png",
+  "club_name": "NUS Netball Recreational Club",
+  "carousel_img_url": ["Netball/netball.jpg",""],
+  "about_us": ["NUS Netball Recreational Club (NUSNRC) is a group that welcomes all netball enthusiasts, females AND males, regardless of playing experience. Students who are new to the sport are more than welcome to join- all that is required is a set of sports attire, a water bottle and a general interest in sports! Our warm and friendly exco team will take it from there. Not only will we cater to beginners by teaching the fundamentals of the sport, you will be able to put your skills to practice and engage in fun-filled netball games with fellow members."."
+Netball is an exciting sport played by 2 teams of 7, with each team aiming to score as many goals as possible. Netball relies on tactics more than timeouts and shooters require accuracy, not a backboard. Every position plays a part in bringing the ball down the court. Just as how Netball focuses on an entire squad, not one superstar, NUSNRC focuses on every of our club members within this big family. We make it our mission to know one another on a personal basis and form long lasting, genuine friendships. 
+","As much as stepping is a foul on court, we envision our members to be stepping out of their comfort zone to come together with open communication and feedback during trainings or meetings. This year, NUSNRC is forming an official member list for the club and we welcome anyone with an interest in Netball to join our big family of Netball enthusiasts."],
+  "training_sessions": ["Tuesday 7pm-9pm",""],
+  "training_venue": "Netball Courts",
+  "upcoming_events": [
+    {
+      "event_name":"Netballuxion 2020",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nusbasketballclub",
+  "facebook_url": "https://www.facebook.com/NUSNRC/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "volleyball/volleyballlogo.png",
+  "club_name": "NUS Volleyball Club",
+  "carousel_img_url": ["volleyball/volleyball.jpg",""],
+  "about_us": ["Volleyball is an indoor sport which requires the demonstration of only three basic movements -- dig, set and spike. As a recreational club, we welcome members of different backgrounds, amateur or skilled.","In recreational volleyball, you are free to do whatever you want (as long as it’s volleyball related)! We organise weekly training sessions for all members to help hone up your skills. But if your prefer not to do drills, we also have free and easy volleyball matches amongst members every session. We also organise a competition every year so that members can put their skills to the test!","Do hit us up if you're ready for a dive! And fret not because everyone is really friendly and nice. And if you join, you will definitely be included for our fun supper sessions after volleyball. So come join us if you’re hoping to make friends!
+"],
+  "training_sessions": ["Monday 7pm-10pm","Friday 7pm-10pm"],
+  "training_venue": "Netball Courts",
+  "upcoming_events": [
+    {
+      "event_name":"Volleyball Training Camp",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus.volleyball",
+  "facebook_url": "https://www.facebook.com/groups/nusvolleyballclub/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "ULC/ULClogo.png",
+  "club_name": "NUS University Lifeguard Corps",
+  "carousel_img_url": ["ULC/ULC.jpg",""],
+  "about_us": ["University Lifeguard Corps (ULC) is a family of lifesavers, both undergraduates and alumni, dedicated to the waters and beaches. Apart from competitive pool activities like swimming, finning, and towing manikins, we engage in competitive activities on the beach like sprints (yes, on sand!), surfing, and ski-kayaking. Importantly, we promote lifesaving and resuscitation awareness, knowledge and skills - the fundamentals of being a lifeguard.","ULC is colourful, to say the least. Here, you’ll find people of all sorts - introverted or extroverted, laidback or serious - we’ve got them all. We even vary in skill-set - we’ve got some of the most talented & seasoned swimmers, as well as beginners with minimal swimming experience. Everyone is vastly different in many ways, but we’ve all got heart and spirit for the sport. We grow together, regardless of how experienced each individual member may be.","We offer courses - Lifesaving 1, 2, & 3, and Bronze Medallion - to equip interested individuals withzskills to become lifeguards. The Bronze Medallion is also the prerequisite for joining our competitive team. There are no limits in terms of number or skillset in our semestral intakes - we’ve got a great coach and welcoming seniors who are willing to groom newcomers to fully reach their potential."],
+  "training_sessions": ["Monday 7pm-9pm","Wednesday 7pm-9pm"],
+  "training_venue": "NUS USC Swimming Pool",
+  "upcoming_events": [
+    {
+      "event_name":"Splashdown 2020",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"Beach Introduction & Games Day",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nuslifesaving",
+  "facebook_url": "https://www.facebook.com/nuslifesaving/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Climbing/climblogo.png",
+  "club_name": "NUS University Lifeguard Corps",
+  "carousel_img_url": ["Climbing/climb.jpg",""],
+  "about_us": ["The NUS Climbing Club prides itself as the largest recreational interest group as part of the NUSSSC. We aim to equip our club members with the technical ability and know-hows of climbing, and to induct NUS students to the ever-growing climbing community.","This year marks the fourth annual ClimbNUS organised by the Club to introduce the sport of climbing to the NUS community. In addition, the Club also organises the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS BoulderActive. Held annually, BoulderActive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore.","Club sessions are held twice weekly on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester."],
+  "training_sessions": ["Tuesday 4pm-10pm","Friday 4pm-10pm"],
+  "training_venue": "Tuesday(USC) and Friday USC &Utown",
+  "upcoming_events": [
+    {
+      "event_name":"ClimbNUS",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"NUS Boulderactive",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus_climbing",
+  "facebook_url": "https://www.facebook.com/ClimbNUS/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "IGC/igc.png",
+  "club_name": "NUS Intellectual Games Club",
+  "carousel_img_url": ["IGC/igclogo.png",""],
+  "about_us": ["NUS Intellectual Game Club is a family for people who play board games. The main aim of the club is to entertain the NUS community (undergraduate and graduate students, teachers and staff) and to popularize board games on campus. We provide a large variety of board games, and our members have meetings once a week. No previous knowledge of games is required, and no restriction is imposed. You can make friends and learn new games by joining us. Details of different games are introduced below. Are you ready to transform yourself into a smarter person? Make the first step and learn this game because you’ll benefit from it for a lifetime. 
+
+Contract Bridge (Bridge): Contract bridge is a trick-taking game using a standard deck of 52 playing cards. It is played by four players in two competing partnerships, with partners sitting opposite each other around a table. 
+
+Chinese Chess: This game is a battle of wits between two armies. To achieve victory, you need to have patience, composure and serious tactical thinking among many other great qualities that a person has. 
+
+International Chess (Chess): Being one of the world's most popular game, chess is played by millions worldwide. "To see the infinity within the finite, that's beauty." ~ Louis Chin, 2007. 
+
+Reversi (Othello): Othello is an abstract, two-player strategy game played on an 8x8, 64-square board. The objective is to end the game with more discs of your own colour face up. 
+
+Weiqi (Go): Weiqi uses the most elemental concepts -- line and circle, black and white -- combining them with simple rules to generate subtle strategies and complex tactics that stagger the imagination. 
+
+The culture of our club can be described as friendly and recreational. We play, laugh and have fun together. No matter what your skill level is, feel free to join us since we play for fun instead of competition. There is no limit for the number of members that we take in each year. If you are keen on intellectual games and want to have fun and learn, don't hesitate to join our club so that we can play, learn and most importantly enjoy ourselves together!
+"],
+  "training_sessions": ["Tuesday 7pm-9pm",""],
+  "training_venue": "MPSH 4",
+  "upcoming_events": [
+    {
+      "event_name":"Open Pairs (bridge)",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"NUS Invitational Tertiary Chess Championships",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus_igc",
+  "facebook_url": "https://www.facebook.com/igcnus/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Aerobics/Aerobicslogo.png",
+  "club_name": "NUS Aerobics",
+  "carousel_img_url": ["Aerobics/aerobics.jpg","Aerobics/aerobics2.jpg"],
+  "about_us": ["NUS Aerobics Club is a friendly community of like-minded individuals- students and staffs alike, with a common goal to get active. Here, regardless of fitness level, everyone is welcome to join the myriad of group exercises available. Like our slogan: Sore Today, Strong Tomorrow, the hour-long classes will push both physical and mental boundaries, and we guarantee that all will leave the studio sweaty yet extremely satisfied! 
+
+While a healthy lifestyle is an individual’s choice, Aerobics Club is dedicated to support everyone on their road towards their fitness goals- big or small. Our weekly sessions, held through the semester, hope to make exercising a regular habit. Not to mention, our very own experienced instructors are always there to ensure safety and give support- correcting posture, stances or simply to provide encouragement and reassurance. 
+
+We offer a wide variety of aerobics classes which cater to all interests and fitness needs. Select from classes like Vinyasa Yoga, Hatha Yoga, Power Yoga, Pilates, Kickboxing, Piloxing, HIIT, Kkardio, Zumba, CardioAerobics, BodySculpt and ABT. As part of Aerobics Club, we learn and grow together as a collective group, gaining confidence and friendship along the way.
+"],
+  "training_sessions": ["Various",""],
+  "training_venue": "Aerobics Studio Utown",
+  "upcoming_events": [
+    {
+      "event_name":"Hyperjive 2020",
+      "event_date":"18th Jan 2020",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nusaerobics",
+  "facebook_url": "https://facebook.com/nusaerobicsclub/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Cuesports/cuesportslogo.png",
+  "club_name": "NUS Cuesports",
+  "carousel_img_url": ["Cuesports/cuesports.jpg",""],
+  "about_us": ["Cuesports consist of pool, snooker, and billiards. The sport is a well developed art of thinking ahead. It is not only a game, but first and foremost a demanding sport that requires good stamina, the logical thinking of a chess player, and the stable hand of a concert pianist. 
+
+Here at NUS Cuesports, we welcome players of all skill levels. For beginners, we provide weekly coaching on the fundamentals such as bridging, cueing and aiming. For the more advanced players, we enjoy a close relationship with the varsity athletes to create a competitive gameplay. For anyone who wishes to challenge themselves to greater heights, our annual 8-ball Carnival and 9-ball Open event is the perfect environment to do so. 
+
+The friends we make here are the family we choose!"],
+  "training_sessions": ["Monday","Thursday"],
+  "training_venue": "Haw Par",
+  "upcoming_events": [
+    {
+      "event_name":"9 Ball Open",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nuscuesportsclub",
+  "facebook_url": "https://www.facebook.com/nuscuesports/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "aikido/Aikidologo.png",
+  "club_name": "NUS Aikido",
+  "carousel_img_url": ["aikido/aikido.jpg","aikido/aikido2.jpg","aikido/aikido3.jpg","aikido/aikido4.jpg"],
+  "about_us": ["Fundamentally, Aikido is the “way of the spirit of harmony”. However, the word “Aikido” can be translated as the “way of blending energy”, or the “path of unity with the fundamental force of nature”. Aikido is a true Budo (??) or martial way that evolved in the historic tradition of Japanese warrior arts. Budo is more than a science of tactics and self-defence. It is a discipline for perfecting the spirit of the practitioner. Aikido is a paradox: it is an extremely effective form of self-defence but it is also considered by many to be a path of peace and reconciliation. 
+
+We are a community of kind and compassionate people who trains with utmost respect, discipline and enthusiasm. 
+
+Respect and care for the safety of those who they practice with. Respect and adhere to the Dojo Etiquette.
+"],
+  "training_sessions": ["Tuesday 7pm-9pm","Friday 7pm-9pm"],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"Aikido Camp",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus_aikido",
+  "facebook_url": "https://www.facebook.com/nus.aikido/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "muaythai/muaythailogo.png",
+  "club_name": "NUS MuayThai",
+  "carousel_img_url": ["muaythai/muaythai.jpg","muaythai/muaythai2.jpg"],
+  "about_us": ["Muay Thai, also known as the art of 8 limbs, utilizes the fists, elbows, knees and legs as weapons. We use stand up striking along with various clinching techniques. Muay Thai, like all other combat sports, is not merely about combos and hits but a tactful amalgam of fight IQ, muscle memory, fitness, training, training and training (smart). 
+
+Our team consists of our coach, alumni, students, and our team manager who’s running her 6th academic year with us. No doubt an individual sport, you do not train alone. We create a safe space for one another, for making mistakes and learning from them. A space free of mindless judgements, we only do what’s necessary and effective. As a team we strive for excellence - even in the simplest of pad holding. 
+
+We hold recreational classes, both beginners and Intermediate. Depending on prior knowledge and experience, team members will advise on which class is more suitable. Through the 8 lessons, expect to learn the basics of fighting stance and power generation as well as simple combinations and padwork. Classes are systematic and well thought out by the coach, with at least 4 team members facilitating each class. Come join us for your first Muay Thai experience!
+
+"],
+  "training_sessions": ["Various"],
+  "training_venue": "USC Mezzanine",
+  "upcoming_events": [
+    {
+      "event_name":"COMBAT",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nusmuaythai",
+  "facebook_url": "www.facebook.com/nusmuaythai/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "capoeira/capoeiralogo.jpg",
+  "club_name": "NUS Capoeira",
+  "carousel_img_url": ["capoeira/capo.jpg","capoeira/capo2.jpg"],
+  "about_us": ["Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature. 
+
+The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It’s always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!
+"],
+  "training_sessions": ["Tuesday 7pm-9pm","Thursday 7pm-9pm"],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"Batizado",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus_capoeira",
+  "facebook_url": "https://www.facebook.com/nuscapoeira/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "nwp/nwplogo.png",
+  "club_name": "NUS Nam Wah Pai- Self Defence",
+  "carousel_img_url": ["nwp/nwp.jpg",""],
+  "about_us": ["NUS Nam Wah Pai Self-Defence (NWPSD) is a martial arts club formed with the aim to promote good health and to teach the art of self-defense. We are affiliated with World Nam Wah Pai which was established in Singapore since 1964. To date, many branches have been established in Singapore, New Zealand, Japan, China and Malaysia. Our martial arts form tends towards practicality and is based on a flexible system of strikes and grapples. 
+
+Our club is very supportive of each other and we will not hesitate to help each other during event planning and should any unforeseen circumstances arise. Despite the challenges we face in event planning, we remain close knit and we'll always have each others' backs.
+"],
+  "training_sessions": ["Saturday 2pm-4.30pm",""],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nus_nwp",
+  "facebook_url": "https://www.facebook.com/nwpnus/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "wushu/wushulogo.png",
+  "club_name": "NUS Wushu",
+  "carousel_img_url": ["wushu/wushu.jpg","wushu/wushu2.jpg","wushu/wushu3.jpg"],
+  "about_us": ["Wushu is a Chinese martial arts, incorporating Chinese culture and allows building of character, discipline and virtues. In the past, Chinese martial arts was not only used in the military, but also among citizens for their hunting endeavors, self defense and to improve health. NUS Wushu adopts the taolu form of wushu, which focuses on a set routine comprising of a connected set of techniques, choreographed and incorporating techniques of attack and defense. 
+
+We welcome all who are interested in joining us and learn more about Wushu. It does not matter if participants do not have any martial arts background. We have had members with no prior experiences but managed to learn different routines and even participated in performances. 
+
+Even though Wushu may seem more like an individual sport, NUS Wushu have always been working on fostering club bonding by having various events and outings. Hence, we train hard and play hard as well. Also, many of our members stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.
+"],
+  "training_sessions": ["Monday 7pm-10pm","Friday 7pm-10pm"],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nuswushu",
+  "facebook_url": "https://www.facebook.com/NUSWushu/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "kendo/Kendologo.png",
+  "club_name": "NUS Kendo",
+  "carousel_img_url": ["kendo/kendo2.jpg",""],
+  "about_us": ["Kendo is a martial art about the way of the sword, where NUS students and alumni gather to hone their skills in the dojo. While Kendo may seem like a very physical activity, don't be deceived – the underpinnings of both philosophy and mental resilience make their appearance both in trainings and in competitions. 
+
+In Kendo we all start from the ground up, no prior experience is required. Under the seniors' and sensei's guidance, you will learn to move swiftly and strike fearlessly, to attack and counter-attack, and to think on your feet while paying attention to your surroundings; all fundamental to being a kendoka.
+"],
+  "training_sessions": ["Tuesday 6pm-9pm","Friday 6pm-9pm"],
+  "training_venue": "MPSH 6",
+  "upcoming_events": [
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nuskendoclub",
+  "facebook_url": "https://www.facebook.com/NUSKendoClub/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "karate/karatelogo.png",
+  "club_name": "NUS Karate",
+  "carousel_img_url": ["karate/karate.jpg",""],
+  "about_us": ["NUS Karate is a well-established martial arts club, practicing the Shito-ryu style of Karate. This style unites agility & strength while achieving an artistic form of movement. Our instructor Shihan Yoshimasa Ishikawa, founder of the Ken Yu Kai Karate Association (Singapore), holds an impressive 8th Dan black belt in Karate (Shito-ryu style) and has practiced the art for more than 50 years! Under his guidance, members will learn Kihon (Basics), Kata (set of choreographed movements) and Kumite (sparring). 
+
+We are extremely beginner friendly as incoming members do not need to have any prior experience in Karate. All they need is an enthusiastic attitude towards learning and to be respectful towards the rules of the dojo! 
+
+Besides our regular training every Monday & Thursday, 7 to 9pm at the Japanese Primary School and MPSH 2 respectively, NUS Karate holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and MADNUS. Interested students can be assured that there is no limit on the number of newcomers we take in each year!
+"],
+  "training_sessions": ["Tuesday 6pm-9pm","Saturday 9am-1pm"],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nuskarate",
+  "facebook_url": "https://www.facebook.com/NUSKarate/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "boxing/boxinglogo.png",
+  "club_name": "NUS Boxing",
+  "carousel_img_url": ["boxing/boxing.jpg",""],
+  "about_us": ["NUS Boxing Club’s arms are open to all – whether you’ve been boxing since young or if it’s your first time touching gloves, we guarantee that you’ll learn something out of it. You’ll see us training in different ways – some murdering the punching bags, showcasing slick bob and weaves, hitting the pads, and of course, sparring. Don’t worry though, safety is emphasized here and you’ll be taught how to watch out for one another. 
+
+To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers in the intermediate class will also have the chance to participate in our annual Boxing Exhibition Fight! This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they’ve learnt. 
+
+We’re proud to say that we have an extremely dedicated coach licensed and recognised by the Singapore Amateur Boxing Association (SABA) to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won’t regret jumping on board.
+"],
+  "training_sessions": ["Wednesday 6pm-9pm",""],
+  "training_venue": "MPSH 2",
+  "upcoming_events": [
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+    {
+      "event_name":"",
+      "event_date":"",
+    },
+  ],
+  "instagram_url": "instagram.com/nusboxing",
+  "facebook_url": "https://www.facebook.com/nusboxing/",
+  "telegram_url": "",
+},
+{
+  "club_img_url": "Skating/skatinglogo.jpg",
+  "club_name": "NUS Skating Club",
+  "carousel_img_url": ["Skating/skating1.jpg","Skating/skating2.jpg","Skating/skating3.jpg","Skating/skating4.jpg","Skating/skating5.jpg"],
+  "about_us": ["NUS Skating Club is home to inline skaters of all skill levels and backgrounds. We are a fun-loving family of undergraduates, graduates and alumni who are always keen to share our passion for skating with newcomers. Our skaters vary greatly in skill-level, from competitive to first-time skaters. We also have very different personalities and interests, but we all share a common passion for skating. As long as you are eager to have fun and look cool while doing so, you will fit right in. 
+
+During our weekly Wednesday sessions, we practice slalom and sliding skating. Slalom skating involves performing cool tricks around a line of cones, while sliding skating focuses on braking at high speed with style. Apart from these sessions, we also organise urban skates such as the Mid-autumn Festival Skate. Every year, we also hold two major events, Skate Challenge where we play camp games on skates, and Inpulse which is a light-themed urban event – think iLight but on wheels. 
+
+NUS Skating Club is also part of a larger skating family which spans across Singapore. You will often find skaters from other universities and polytechnics at our sessions. Similarly, some of us join the SMUx skating team on Friday urban skates around the city, typically from SMU to places with good food. You will also get to participate in other schools’ events such as NTU’s Skating Man – think Running Man but on skates, and SMUx Halloween Skate, where about 100 skaters in costumes skate around Orchard. If you are interested, do visit our Instagram to find out more about us. All are welcome and rental skates are available. As long as you are willing to learn, there will be skaters who will teach and learn alongside you.
+"],
+  "training_sessions": ["Wednesday 7pm-9pm",""],
+  "training_venue": "Multi-purpose Court 14 & 15",
+  "upcoming_events": [
+    {
+      "event_name":"Skate Challenge",
+      "event_date":"tbc",
+    },
+    {
+      "event_name":"Impulse",
+      "event_date":"tbc",
+    },
+  ],
+  "instagram_url": "instagram.com/nus.volleyball ",
+  "facebook_url": "https://www.facebook.com/nussc/",
+  "telegram_url": "",
+}
