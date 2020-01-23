@@ -6,12 +6,8 @@ import { Container } from 'react-bootstrap';
 import Log from '../Log';
 
 import Maintenance from './maintenance/Maintenance';
-import Main from './main/Main';
-import Main2019 from './2019/Main2019';
-import NUSBiathlon from './main/nusbiathlon/NUSBiathlon';
-import RunNUS from './main/runnus/RunNUS';
-import SunNUS from './main/sunnus/SunNUS';
-import InterFacultyGames from './main/ifg/InterFacultyGames';
+import HomeRouter from './home/HomeRouter';
+import HomeRouter2019 from './2019/HomeRouter2019';
 
 class WebPage extends Component {
   render(){
@@ -21,18 +17,14 @@ class WebPage extends Component {
       Log.info('Page is on Maintenance');
       webpage = (
         <Switch>
-          <Route path='/' exact component={MaintenancePage} />
+          <Route path='/' exact component={Maintenance} />
         </Switch>
       );
     } else {
       webpage = (
         <Switch>
-          <Route path='/nusbiathlon' exact component={NUSBiathlon} />
-          <Route path='/runnus' exact component={RunNUS} />
-          <Route path='/sunnus' exact component={SunNUS} />
-          <Route path='/ifg' exact component={InterFacultyGames} />
-          <Route path='/2019/:page' component={HomePage2019} />
-          <Route path='/' component={HomePage} />
+          <Route path='/2019/' component={HomeRouter2019} />
+          <Route path='/' component={HomeRouter} />
         </Switch>
       );
     }
