@@ -5,14 +5,13 @@ import { Route, Switch} from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Log from '../Log';
 
-import MaintenancePage from './maintenance/maintenance';
-import NotFoundPage from './notfound/index';
-import HomePage from './main/index';
-import HomePage2019 from './2019/index';
-import NUSBiathlon from './main/nusbiathlon/index';
-import RunNUS from './main/runnus/index';
-import SunNUS from './main/sunnus/index';
-import InterFacultyGames from './main/ifg/index';
+import Maintenance from './maintenance/Maintenance';
+import Main from './main/Main';
+import Main2019 from './2019/Main2019';
+import NUSBiathlon from './main/nusbiathlon/NUSBiathlon';
+import RunNUS from './main/runnus/RunNUS';
+import SunNUS from './main/sunnus/SunNUS';
+import InterFacultyGames from './main/ifg/InterFacultyGames';
 
 class WebPage extends Component {
   render(){
@@ -33,8 +32,7 @@ class WebPage extends Component {
           <Route path='/sunnus' exact component={SunNUS} />
           <Route path='/ifg' exact component={InterFacultyGames} />
           <Route path='/2019/:page' component={HomePage2019} />
-          <Route path='/' exact component={HomePage} />
-          <Route component={NotFoundPage} />
+          <Route path='/' component={HomePage} />
         </Switch>
       );
     }
