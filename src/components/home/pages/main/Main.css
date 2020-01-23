@@ -1,3 +1,28 @@
 body {
-  margin-top: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 66px;
+}
+
+.nav-logo {
+  height: 40px;
+}
+
+.nav-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.shadow-bottom {
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }

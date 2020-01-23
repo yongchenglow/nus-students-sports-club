@@ -13,7 +13,7 @@ import NotFound from './body/NotFound';
 class MainBody extends Component {
   render () {
     return (
-      <div>
+      <div className='content'>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
