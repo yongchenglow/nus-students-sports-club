@@ -6,7 +6,7 @@ class SportsClubLogo extends Component {
   render () {
     return (
       <React.Fragment>
-        <img src={Logo} className={this.props.className} style={this.props.style}/>
+        <img src={Logo} className={this.props.className} style={this.props.style} alt='Sports Club Logo'/>
       </React.Fragment>
     );
   }

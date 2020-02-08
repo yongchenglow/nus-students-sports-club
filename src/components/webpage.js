@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route, Switch} from 'react-router-dom';
 
 // Components
-import { Container } from 'react-bootstrap';
 import Log from '../Log';
 
 import Maintenance from './maintenance/Maintenance';
@@ -30,9 +29,9 @@ class WebPage extends Component {
     }
 
     return (
-      <Container>
+      <React.Fragment>
         {webpage}
-      </Container>
+      </React.Fragment>
     );
   }
 }
