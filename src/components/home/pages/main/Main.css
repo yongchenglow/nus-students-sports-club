@@ -141,17 +141,29 @@ ul.social-buttons li a {
 
 .section {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  display:inline-block;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--sc-red);
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 992px) {
   .section {
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   .section {
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -159,4 +171,21 @@ ul.social-buttons li a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  box-shadow: 1px 2px 4px 0 #C2C2C2;
+}
+
+.card-img-top {
+  padding: 10px 10px 0px 10px;
+}
+
+.card-body {
+  border-right: 4px solid var(--sc-red);
+  border-bottom-right-radius: 0.25rem;
+}
+
+.card-text {
+  color: var(--sc-grey-light);
 }
