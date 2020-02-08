@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CardDeck, Card } from 'react-bootstrap';
+import { CardDeck, Card, Container } from 'react-bootstrap';
 
 import IFGClosingPoster from '../images/IFG_Closing_Ceremony_Poster.png';
 import RunNUSPoster from '../images/RunNUS_Poster.jpg';
@@ -8,7 +8,7 @@ import SportsClubDayPoster from '../images/Sports_Club_Day_Poster.jpg';
 class FeaturedEvents extends Component {
   render () {
     return (
-      <div className='section text-center'>
+      <Container className='section text-center'>
         <div className='section-heading'>Featured Events</div>
         <CardDeck>
           <Card>
@@ -39,7 +39,7 @@ class FeaturedEvents extends Component {
             </Card.Body>
           </Card>
         </CardDeck>
-      </div>
+      </Container>
     );
   }
 };

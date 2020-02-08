@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
 
 import Collage from './components/Collage';
 import FeaturedEvents from './components/FeaturedEvents';
+import OurStakeholders from './components/OurStakeholders';
 
 class Home extends Component {
   render () {
     return (
-      <Container>
+      <React.Fragment>
         <Collage />
         <FeaturedEvents />
-      </Container>
+        <OurStakeholders />
+      </React.Fragment>
     );
   }
 };
