@@ -38,7 +38,7 @@ class MainNavbar extends Component {
       home = (
         <React.Fragment>
           <NavItem href='/'>
-            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' exact='true' to='/' >
+            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' exact={true} to='/' >
               Home
             </Nav.Link>
           </NavItem>
@@ -48,7 +48,7 @@ class MainNavbar extends Component {
       home = (
         <React.Fragment>
           <NavItem href='/'>
-            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' className='navbar-brand' exact='true' to='/' >
+            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' className='navbar-brand' exact={true} to='/' >
               <SportsClubLogo className='nav-logo'/>
             </Nav.Link>
           </NavItem>

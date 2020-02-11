@@ -165,6 +165,7 @@ a.nav-link {
 
 .card {
   box-shadow: 1px 2px 4px 0 #C2C2C2;
+  margin: auto;
 }
 
 .card-img-top {
@@ -178,6 +179,44 @@ a.nav-link {
 
 .card-text {
   color: var(--sc-grey-light);
+}
+
+.featured-events {
+  max-width: 370px;
+  height: 681px;
+}
+
+.embed-responsive-A4::before {
+  padding-top: 140.817963111%;
+}
+
+.slider{
+  margin-bottom:2rem;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+.slider-controls {
+  top:40px !important;
+}
+
+.paging-dot {
+  margin-top:-17px;
+}
+
+.paging-dot-button {
+  fill: var(--sc-red) !important;
+  width: 50px !important;
+  height: 10px !important;
+  background: var(--sc-red) !important;
+  margin: 0px 15px !important;
+  border-radius: 50px !important;
+}
+
+.paging-dot-button:focus{
+  outline:none;
 }
 
 .stakeholders {
