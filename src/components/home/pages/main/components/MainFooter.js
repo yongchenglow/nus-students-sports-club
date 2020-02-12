@@ -5,16 +5,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 
 class MainFooter extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      width: 0
+    };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({
+      width: window.innerWidth,
+    });
+  }
+
   render () {
     return (
       <div className='footer'>
         <Container>
           <Row>
-            <Col className='text-left'>
+            <Col className='text-left' md={4}>
               <div className='footer-text'><strong>Address:</strong> 8 Sports Drive 1 S(117564)</div>
               <div className='footer-text'><strong>Email:</strong> enquiry@nussportsclub.org</div>
             </Col>
-            <Col>
+            <Col md={4}>
               <Button variant='outline-light' className='social-button' href='https://www.facebook.com/NUSSportsClub/'>
                 <FontAwesomeIcon icon={faFacebookF}/>
               </Button>
@@ -25,8 +48,8 @@ class MainFooter extends Component {
                 <FontAwesomeIcon icon={faTelegramPlane}/>
               </Button>
             </Col>
-            <Col>
-              <small className='copyright'>&copy; Copyright 2020 NUS Students' Sports Club <br/> All Rights Reserved</small>
+            <Col md={4}>
+              <div className='copyright-text'>&copy; Copyright 2020 NUS Students' Sports Club.{this.state.width >= 1200? <br/> : null} All Rights Reserved.</div>
             </Col>
           </Row>
         </Container>
