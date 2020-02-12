@@ -82,6 +82,18 @@ a.nav-link {
   font-size: 0.8rem;
 }
 
+.footer-col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .footer-col {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
 .copyright-text {
   color: white;
   font-size: 0.8rem;
@@ -104,7 +116,7 @@ a.nav-link {
 
 @media (min-width: 992px) {
   .copyright-text {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .footer-text {
@@ -205,7 +217,10 @@ a.nav-link {
 
 .featured-events {
   max-width: 370px;
-  height: 681px;
+}
+
+.stakeholder-card {
+  margin: 0px 0px 15px 0px !important;
 }
 
 .embed-responsive-A4::before {
@@ -213,7 +228,17 @@ a.nav-link {
 }
 
 .slider{
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
+}
+
+.slider-frame {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+  .slider{
+    margin-bottom: 0rem;
+  }
 }
 
 .slider:focus {

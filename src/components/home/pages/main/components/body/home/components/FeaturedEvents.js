@@ -59,6 +59,7 @@ class FeaturedEvents1 extends Component {
           autoplay={true}
           withoutControls={withoutControls}
           heightMode={'max'}
+          wrapAround={true}
           initialSlideHeight={681}
           dragging={false}
           defaultControlsConfig={{
@@ -97,7 +98,7 @@ class FeaturedEvents1 extends Component {
             <Card.Body className='text-left'>
               <Card.Title>IFG Closing Ceremony</Card.Title>
               <Card.Text>
-                Come down to IFG Closing Ceremoney and support your faculty. Find out who will be crown the IFG Champions of 2019.
+                Come down to IFG Closing Ceremoney and support your faculty. Find out who will be the IFG Champions of 2019.
               </Card.Text>
             </Card.Body>
           </Card>
