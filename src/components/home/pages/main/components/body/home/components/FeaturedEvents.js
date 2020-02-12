@@ -7,7 +7,7 @@ import SportsClubDayPoster from '../images/Sports_Club_Day_Poster.jpg';
 
 import Carousel from 'nuka-carousel';
 
-class FeaturedEvents1 extends Component {
+class FeaturedEvents extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -108,4 +108,4 @@ class FeaturedEvents1 extends Component {
   }
 };
 
-export default FeaturedEvents1;
+export default FeaturedEvents;
