@@ -47,6 +47,7 @@ a.nav-link {
   color: var(--sc-grey) !important;
   font-weight: bold;
   border-bottom: 3px solid var(--sc-red);
+  border-radius: 3px;
 }
 
 @media (min-width: 768px) {
@@ -270,4 +271,76 @@ a.nav-link {
   background: url(/images/StakeholdersBackground.png) no-repeat center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-cover {
+  background: url(/images/AboutBackground.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-cover-container {
+  padding: 150px 0px;
+}
+
+.about-container {
+  background: white;
+  opacity: 0.9;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.about-title {
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-text {
+ font-size: 1rem;
+}
+
+.about-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .about-text {
+    font-size: 1.25rem;
+  }
+
+  .about-description {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-description {
+    font-size: 1.35rem;
+  }
+}
+
+.parent-vertical-center {
+  position: static;
+}
+
+.child-vertical-center {
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .parent-vertical-center {
+    position: relative;
+  }
+
+  .child-vertical-center {
+    padding: 0px 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

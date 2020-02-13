@@ -14,7 +14,7 @@ class OurStakeholders extends Component {
           <CardDeck className='row justify-content-center'>
             <div className='col-md-6 col-lg-4'>
               <Card className='stakeholder-card'>
-                <Card.Img variant='top' src={NUSClimibingClub} />
+                <Card.Img variant='top' src={NUSClimibingClub} alt='NUS Climbing Club'/>
                 <Card.Body className='text-left'>
                   <Card.Title>Member Clubs</Card.Title>
                   <Card.Text>
@@ -25,7 +25,7 @@ class OurStakeholders extends Component {
             </div>
             <div className='col-md-6 col-lg-4'>
               <Card className='stakeholder-card'>
-                <Card.Img variant='top' src={RunNUS} />
+                <Card.Img variant='top' src={RunNUS} alt='RunNUS'/>
                 <Card.Body className='text-left'>
                   <Card.Title>Sports Club Projects</Card.Title>
                   <Card.Text>
@@ -36,7 +36,7 @@ class OurStakeholders extends Component {
             </div>
             <div className='col-md-6 col-lg-4'>
               <Card className='stakeholder-card'>
-                <Card.Img variant='top' src={ManagementCommittee} />
+                <Card.Img variant='top' src={ManagementCommittee} alt='Management Committee' />
                 <Card.Body className='text-left'>
                   <Card.Title>Management Committee</Card.Title>
                   <Card.Text>
