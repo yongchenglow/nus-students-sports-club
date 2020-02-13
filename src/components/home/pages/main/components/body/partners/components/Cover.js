@@ -4,12 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Cover extends Component {
   render () {
     return (
-      <div className='about-cover'>
+      <div className='partners-cover'>
         <Container>
           <Row className='cover-row-container justify-content-center'>
             <Col className='cover-container' xs={11} sm={11} md={10} lg={9} xl={8}>
-              <div className='cover-title'>About Us</div>
-              <div className='cover-text'>We cater to the recreational needs of the students and seek to promote a healthier lifestyle among everyone</div>
+              <div className='cover-title'>Our Partners</div>
+              <div className='cover-text'>Be a partner of Sports Club</div>
+              <div className='cover-text'>Contact <span className='contact'>marketing@nussportsclub.org</span> for potiential collaborations</div>
             </Col>
           </Row>
         </Container>

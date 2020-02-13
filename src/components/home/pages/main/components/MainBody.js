@@ -6,7 +6,7 @@ import About from './body/about/About';
 import Clubs from './body/Clubs';
 import Committee from './body/Committee';
 import Events from './body/Events';
-import Partners from './body/Partners';
+import Partners from './body/partners/Partners';
 import Projects from './body/Projects';
 import NotFound from './body/NotFound';
 

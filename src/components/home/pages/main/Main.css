@@ -279,19 +279,19 @@ a.nav-link {
   background-size: cover;
 }
 
-.about-cover-container {
+.cover-row-container {
   padding: 150px 0px;
 }
 
-.about-container {
+.cover-container {
   background: white;
   opacity: 0.9;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   border-radius: 20px;
 }
 
-.about-title {
+.cover-title {
   display:inline-block;
   text-transform: uppercase;
   font-weight: 500;
@@ -299,8 +299,9 @@ a.nav-link {
   margin-bottom: 10px;
 }
 
-.about-text {
+.cover-text {
  font-size: 1rem;
+ margin-bottom: 5px;
 }
 
 .about-description {
@@ -309,6 +310,10 @@ a.nav-link {
 }
 
 @media (min-width: 992px) {
+  .cover-container {
+    padding: 50px;
+  }
+
   .about-text {
     font-size: 1.25rem;
   }
@@ -343,4 +348,15 @@ a.nav-link {
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+.partners-cover {
+  background: url(/images/NUS_Students_Sports_Club_Partners.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  display: inline-block;
+  color: var(--sc-red);
 }

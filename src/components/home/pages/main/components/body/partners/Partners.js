@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import Cover from './components/Cover';
+
 class Partners extends Component {
   render () {
     return (
-      <div>
-        Partners
-      </div>
+      <React.Fragment>
+        <Cover />
+      </React.Fragment>
     );
   }
 };
