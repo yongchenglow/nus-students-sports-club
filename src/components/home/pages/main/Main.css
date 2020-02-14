@@ -200,7 +200,6 @@ a.nav-link {
 
 .card {
   box-shadow: 1px 2px 4px 0 #C2C2C2;
-  margin: auto;
 }
 
 .card-img-top {
@@ -314,7 +313,7 @@ a.nav-link {
     padding: 50px;
   }
 
-  .about-text {
+  .cover-text {
     font-size: 1.25rem;
   }
 
@@ -356,7 +355,30 @@ a.nav-link {
   background-size: cover;
 }
 
-.contact {
+.red-text {
   display: inline-block;
   color: var(--sc-red);
+}
+
+.committee-cover {
+  background: url(/images/39_Management_Committee.JPG) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell-card {
+  min-width: 300px;
+  max-width: 346px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.single-card {
+  margin-right: 0px;
+}
+
+@media (min-width: 1024px) {
+  .single-card {
+    margin-right: -15px;
+  }
 }

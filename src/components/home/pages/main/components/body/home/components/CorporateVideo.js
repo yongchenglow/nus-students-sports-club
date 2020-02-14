@@ -9,7 +9,7 @@ class CorporateVideo extends Component {
         <Row className='justify-content-center'>
           <Col md={9} lg={8} xl={7}>
             <div className='embed-responsive embed-responsive-16by9'>
-              <iframe className='embed-responsive-item' src='https://www.youtube.com/embed/_pXxmsIkRF0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' title='NUS Sports Club Coporate Video' allowfullscreen></iframe>
+              <iframe className='embed-responsive-item' src='https://www.youtube.com/embed/_pXxmsIkRF0' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' title='NUS Sports Club Coporate Video' allowfullscreen></iframe>
             </div>
           </Col>
         </Row>

@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './body/home/Home';
 import About from './body/about/About';
 import Clubs from './body/Clubs';
-import Committee from './body/Committee';
+import Committee from './body/committee/Committee';
 import Events from './body/Events';
 import Partners from './body/partners/Partners';
 import Projects from './body/Projects';
