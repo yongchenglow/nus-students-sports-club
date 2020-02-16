@@ -5,7 +5,7 @@ import Home from './body/home/Home';
 import About from './body/about/About';
 import Clubs from './body/Clubs';
 import Committee from './body/committee/Committee';
-import Events from './body/Events';
+import Events from './body/events/Events';
 import Partners from './body/partners/Partners';
 import Projects from './body/Projects';
 import NotFound from './body/NotFound';
