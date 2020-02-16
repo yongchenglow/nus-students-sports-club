@@ -204,6 +204,7 @@ a.nav-link {
 
 .card-img-top {
   padding: 10px 10px 0px 10px;
+  border-radius: 10px !important;
 }
 
 .card-body {
@@ -384,7 +385,7 @@ a.nav-link {
 }
 
 .event-block {
-  margin: 0px 15px;
+  margin: 0px 15px 15px 15px;
   padding: 15px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -411,10 +412,6 @@ a.nav-link {
 
 .event-description {
   color: var(--sc-grey);
-}
-
-.event-image-block {
-
 }
 
 .event-text{
