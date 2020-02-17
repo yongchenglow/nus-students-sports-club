@@ -3,6 +3,7 @@
   --sc-grey: #4A4A4A;
   --sc-grey-light: #5E5E5E;
   --sc-grey-super-light: #979797;
+  --sc-blue: #052552;
 }
 
 body {
@@ -207,6 +208,13 @@ a.nav-link {
   border-radius: 10px !important;
 }
 
+.card-sub-title {
+  margin-top: -12px;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  color: var(--sc-grey);
+}
+
 .card-body {
   border-right: 4px solid var(--sc-red);
   border-bottom-right-radius: 0.25rem;
@@ -304,6 +312,11 @@ a.nav-link {
  margin-bottom: 5px;
 }
 
+.cover-text-large {
+ font-size: 1.25rem;
+ margin-bottom: 5px;
+}
+
 .about-description {
   font-size: 1rem;
   margin-bottom: 15px;
@@ -316,6 +329,10 @@ a.nav-link {
 
   .cover-text {
     font-size: 1.25rem;
+  }
+
+  .cover-text-large {
+   font-size: 1.5rem;
   }
 
   .about-description {
@@ -421,7 +438,8 @@ a.nav-link {
 
 .paragraph {
   color: var(--sc-grey-light);
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  line-height: 22px;
 }
 
 @media (min-width: 768px) {
@@ -476,4 +494,12 @@ a.nav-link {
 .btn-outline-sc-red:not(:disabled):not(.disabled):active:focus, .btn-outline-sc-red:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-sc-red.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.plain-cover {
+  background: url(/images/Plain_Cover.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--sc-blue);
+  border:none;
 }

@@ -7,7 +7,7 @@ import Clubs from './body/Clubs';
 import Committee from './body/committee/Committee';
 import Events from './body/events/Events';
 import Partners from './body/partners/Partners';
-import Projects from './body/Projects';
+import Projects from './body/projects/Projects';
 import NotFound from './body/NotFound';
 
 class MainBody extends Component {
