@@ -7,7 +7,7 @@ import RunNUS from '../images/RunNUS_Logo_No_Year.jpg';
 import NUSSportsCamp from '../images/NUS_Sports_Camp_Logo.png';
 import SunNUS from '../images/SunNUS_Logo_No_Year.png';
 
-class Cover extends Component {
+class Projects extends Component {
   render () {
     return (
       <div className='section text-center'>
@@ -106,4 +106,4 @@ class Cover extends Component {
   }
 };
 
-export default Cover;
+export default Projects;

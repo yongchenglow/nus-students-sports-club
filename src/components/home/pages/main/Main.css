@@ -503,3 +503,20 @@ a.nav-link {
   background-color: var(--sc-blue);
   border:none;
 }
+
+.club-card {
+  min-width: 253px;
+  max-width: 253px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin: auto;
+}
+
+.club-name {
+  padding: 22px 10px 10px 10px;
+  text-align: center;
+}
+
+.club-name .card-title {
+  font-size: 19px;
+}

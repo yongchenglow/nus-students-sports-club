@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
 import Cover from './components/Cover';
-import Project from './components/Project';
+import Projects from './components/Projects';
 
-class Projects extends Component {
+class SCProjects extends Component {
   render () {
     return (
       <React.Fragment>
         <Cover />
-        <Project />
+        <Projects />
       </React.Fragment>
     );
   }
 };
 
-export default Projects;
+export default SCProjects;

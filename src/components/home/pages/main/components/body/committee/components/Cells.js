@@ -17,7 +17,9 @@ class Cells extends Component {
         <Container>
           <CardDeck className='justify-content-center single-card'>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={PresidentialCell} alt='Presidential Cell'/>
+              <div>
+                <Card.Img variant='top' src={PresidentialCell} alt='Presidential Cell'/>
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Presidential Cell</Card.Title>
                 <Card.Text>
@@ -28,7 +30,9 @@ class Cells extends Component {
           </CardDeck>
           <CardDeck className='justify-content-center'>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={FinanceCell} alt='Finance Cell'/>
+              <div>
+                <Card.Img variant='top' src={FinanceCell} alt='Finance Cell'/>
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Finance Cell</Card.Title>
                 <Card.Text>
@@ -37,7 +41,9 @@ class Cells extends Component {
               </Card.Body>
             </Card>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={SecretariatCell} alt='Secretariat Cell' />
+              <div>
+                <Card.Img variant='top' src={SecretariatCell} alt='Secretariat Cell' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Secretariat Cell</Card.Title>
                 <Card.Text>
@@ -46,7 +52,9 @@ class Cells extends Component {
               </Card.Body>
             </Card>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={MarketingCell} alt='Marketing Cell' />
+              <div>
+                <Card.Img variant='top' src={MarketingCell} alt='Marketing Cell' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Marketing Cell</Card.Title>
                 <Card.Text>
@@ -55,7 +63,9 @@ class Cells extends Component {
               </Card.Body>
             </Card>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={PublicityCell} alt='Publicity Cell' />
+              <div>
+                <Card.Img variant='top' src={PublicityCell} alt='Publicity Cell' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Publicity Cell</Card.Title>
                 <Card.Text>
@@ -64,7 +74,9 @@ class Cells extends Component {
               </Card.Body>
             </Card>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={WelfareCell} alt='Welfare Cell' />
+              <div>
+                <Card.Img variant='top' src={WelfareCell} alt='Welfare Cell' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Welfare Cell</Card.Title>
                 <Card.Text>
@@ -73,7 +85,9 @@ class Cells extends Component {
               </Card.Body>
             </Card>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={ProjectsCell} alt='Projects Cell' />
+              <div>
+                <Card.Img variant='top' src={ProjectsCell} alt='Projects Cell' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>Projects Cell</Card.Title>
                 <Card.Text>
@@ -84,7 +98,9 @@ class Cells extends Component {
           </CardDeck>
           <CardDeck className='justify-content-center single-card'>
             <Card className='cell-card'>
-              <Card.Img variant='top' src={NUSSUExcoRep} alt='NUSSU Exco Rep' />
+              <div>
+                <Card.Img variant='top' src={NUSSUExcoRep} alt='NUSSU Exco Rep' />
+              </div>
               <Card.Body className='text-left'>
                 <Card.Title>NUSSU Exco Rep</Card.Title>
                 <Card.Text>
