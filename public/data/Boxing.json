@@ -1,0 +1,24 @@
+[
+  {
+    "club_img_url": "boxing/boxinglogo.png",
+    "club_name": "NUS Boxing",
+    "carousel_img_url": [
+      "boxing/boxing.jpg"
+    ],
+    "about_us": [
+      "NUS Boxing Club's arms are open to all whether you've been boxing since young or if it's your first time touching gloves, we guarantee that you�ll learn something out of it. You�ll see us training in different ways � some murdering the punching bags, showcasing slick bob and weaves, hitting the pads, and of course, sparring. Don't worry though, safety is emphasized here and you�ll be taught how to watch out for one another.",
+      "To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers in the intermediate class will also have the chance to participate in our annual Boxing Exhibition Fight! This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they've learnt.",
+      "We're proud to say that we have an extremely dedicated coach licensed and recognised by the Singapore Amateur Boxing Association (SABA) to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won't regret jumping on board."
+    ],
+    "training_sessions": [
+      "Wednesday 6pm-9pm"
+    ],
+    "training_venue": "MPSH 2",
+    "upcoming_events": [
+
+    ],
+    "instagram_url": "instagram.com/nusboxing",
+    "facebook_url": "https://www.facebook.com/nusboxing/",
+    "telegram_url": "",
+  }
+]

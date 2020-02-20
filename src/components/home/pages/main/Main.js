@@ -7,7 +7,6 @@ import MainFooter from './components/MainFooter';
 
 // CSS
 import './Main.css';
-import 'owl.carousel/dist/assets/owl.carousel.css';
 
 class Main extends Component {
   render() {
