@@ -1,0 +1,28 @@
+{
+  "club_img_url": "/images/memberClubs/Aerobics/AerobicsLogo.png",
+  "club_name": "NUS Aerobics",
+  "carousel_img_url": [
+    "/images/memberClubs/Aerobics/aerobics1.jpg",
+    "/images/memberClubs/Aerobics/aerobics2.jpg"
+  ],
+  "about_us": [
+    "NUS Aerobics Club is a friendly community of like-minded individuals- students and staffs alike, with a common goal to get active. Here, regardless of fitness level, everyone is welcome to join the myriad of group exercises available. Like our slogan: Sore Today, Strong Tomorrow, the hour-long classes will push both physical and mental boundaries, and we guarantee that all will leave the studio sweaty yet extremely satisfied!",
+    "While a healthy lifestyle is an individual's choice, Aerobics Club is dedicated to support everyone on their road towards their fitness goals- big or small. Our weekly sessions, held through the semester, hope to make exercising a regular habit. Not to mention, our very own experienced instructors are always there to ensure safety and give support- correcting posture, stances or simply to provide encouragement and reassurance.",
+    "We offer a wide variety of aerobics classes which cater to all interests and fitness needs. Select from classes like Vinyasa Yoga, Hatha Yoga, Power Yoga, Pilates, Kickboxing, Piloxing, HIIT, Kkardio, Zumba, CardioAerobics, BodySculpt and ABT. As part of Aerobics Club, we learn and grow together as a collective group, gaining confidence and friendship along the way."
+  ],
+  "training_sessions": [
+    "Various"
+  ],
+  "training_venue": "Aerobics Studio Utown",
+  "upcoming_events": [
+    {
+      "event_name": "Hyperjive 2020",
+      "event_date": "18th Jan 2020",
+      "event_link": "https://www.google.com",
+      "event_description": "18th Jan 2020"      
+    }
+  ],
+  "instagram_url": "instagram.com/nusaerobics",
+  "facebook_url": "https://facebook.com/nusaerobicsclub/",
+  "telegram_url": ""
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "club_img_url": "volleyball/volleyballlogo.png",
+    "club_name": "NUS Volleyball Club",
+    "carousel_img_url": [
+      "volleyball/volleyball.jpg"
+    ],
+    "about_us": [
+      "Volleyball is an indoor sport which requires the demonstration of only three basic movements -- dig, set and spike. As a recreational club, we welcome members of different backgrounds, amateur or skilled.","In recreational volleyball, you are free to do whatever you want (as long as it�s volleyball related)! We organise weekly training sessions for all members to help hone up your skills. But if your prefer not to do drills, we also have free and easy volleyball matches amongst members every session. We also organise a competition every year so that members can put their skills to the test!","Do hit us up if you're ready for a dive! And fret not because everyone is really friendly and nice. And if you join, you will definitely be included for our fun supper sessions after volleyball. So come join us if you�re hoping to make friends!"
+    ],
+    "training_sessions": [
+      "Monday 7pm-10pm","Friday 7pm-10pm"
+    ],
+    "training_venue": "Netball Courts",
+    "upcoming_events": [
+      {
+        "event_name":"Volleyball Training Camp",
+        "event_date":"tbc",
+      }
+    ],
+    "instagram_url": "instagram.com/nus.volleyball",
+    "facebook_url": "https://www.facebook.com/groups/nusvolleyballclub/",
+    "telegram_url": "",
+  }
+]

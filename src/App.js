@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // Redux Store
 import { Provider } from 'react-redux';
 import store from './store';
 
-// CSS
-import './App.css';
-
 // Components
-import { Container } from 'react-bootstrap';
-import Log from './Log';
-
 import WebPage from './components/webpage';
 
 // For Debugging
