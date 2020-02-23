@@ -520,3 +520,93 @@ a.nav-link {
 .club-name .card-title {
   font-size: 19px;
 }
+
+.club-page-logo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .club-page-logo {
+    height: 200px;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.club-page-name {
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.club-header {
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.red-line {
+  margin-top: 0px;
+  border-bottom: 3px solid var(--sc-red);
+}
+
+.event-block-small {
+  margin: 0px 0px 15px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 1px 2px 4px 0 #C2C2C2;
+  display: block;
+}
+
+.event-image-small {
+  height: 100px;
+  width: auto;
+}
+
+.event-title-small {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.event-date-small {
+  color: var(--sc-grey);
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.event-text-small{
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .event-block-small {
+    display:flex;
+  }
+
+  .event-title-small {
+    margin-top: 0px;
+  }
+
+  .event-date-small {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.social-club-button {
+  margin: 0px 5px;
+  border: solid 2px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem;
+}

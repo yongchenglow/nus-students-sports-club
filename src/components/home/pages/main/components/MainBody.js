@@ -19,7 +19,7 @@ class MainBody extends Component {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/clubs' component={MemberClubs} />
-          <Route path='/clubs/:name' component={ClubPage} />
+          <Route path='/clubs/:clubName' component={ClubPage} />
           <Route exact path='/committee' component={Committee} />
           <Route exact path='/events' component={Events} />
           <Route exact path='/partners' component={Partners} />
