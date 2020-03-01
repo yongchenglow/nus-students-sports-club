@@ -14,12 +14,20 @@
     "Various"
   ],
   "training_venue": "Aerobics Studio Utown",
-  "upcoming_events": [
+  "events": [
     {
       "event_name": "Hyperjive 2020",
-      "event_date": "18th Jan 2020",
+      "event_date": "18 Jan 2020",
+      "event_image": "/images/memberClubs/Aerobics/testPoster.jpg",
       "event_link": "https://www.google.com",
-      "event_description": "18th Jan 2020"      
+      "event_description": "18th Jan 2020"
+    },
+    {
+      "event_name": "Hyperjive wow 2020",
+      "event_date": "19 Jan 2020",
+      "event_image": "/images/memberClubs/Aerobics/testPoster.jpg",
+      "event_link": "https://www.google.com",
+      "event_description": "18th Jan 2020"
     }
   ],
   "instagram_url": "instagram.com/nusaerobics",

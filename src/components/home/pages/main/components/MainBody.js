@@ -24,7 +24,7 @@ class MainBody extends Component {
           <Route exact path='/events' component={Events} />
           <Route exact path='/partners' component={Partners} />
           <Route exact path='/projects' component={SCProjects} />
-          <Route component={NotFound} />
+          <Route path='/notfound' component={NotFound} />
         </Switch>
       </div>
     );

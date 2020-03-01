@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Carousel, Button } from 'react-bootstrap';
+import { Redirect } from 'react-router-dom';
 import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +11,8 @@ class ClubPage extends Component {
     // var clubName = props.match.params.name;
     this.state = {
       clubName: props.match.params.clubName,
-      clubData: {}
+      clubData: {},
+      has_error: false
     };
 
     this.getClubData = this.getClubData.bind(this);
@@ -19,28 +21,50 @@ class ClubPage extends Component {
 
   getClubData(){
     $.ajax({
-      url:'/data/'+this.state.clubName+'.json',
+      url:'/data/memberClubs/'+this.state.clubName+'.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({clubData: data});
+        this.setState({clubData: this.sortClubData(data)});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
-        alert(err);
-      }
+        this.setState({ has_error: true });
+      }.bind(this)
     });
   }
 
-  render () {
-    let aboutUs = null;
+  sortClubData(data){
+    var clubData = data;
+    clubData.events.sort(function (a, b) {
+      var date1 = Date.parse(a.event_date);
+      var date2 = Date.parse(b.event_date);
+      return date2 - date1;
+    });
 
+    console.log(clubData.events);
+    return clubData;
+  }
+
+  render () {
+    // Redirect to page not found if the member club does not exist
+    if(this.state.has_error === true){
+      return (
+        <Redirect to='/notfound' />
+      );
+    }
+
+    var today = new Date();
+
+    // Creates About Us
+    let aboutUs = null;
     if(this.state.clubData.about_us !== undefined) {
       aboutUs = this.state.clubData.about_us.map((paragraph, i) => (
         <div className='paragraph' key={'paragraph'+i}>{paragraph}</div>
       ))
     }
 
+    // Creates the Image Carousell for the Member Clubs
     let imageCarousel = null;
     if(this.state.clubData.carousel_img_url !== undefined) {
       imageCarousel = this.state.clubData.carousel_img_url.map((url, i) => (
@@ -50,6 +74,7 @@ class ClubPage extends Component {
       ))
     }
 
+    // Creates the Training Details of the Member Clubs
     let trainingDetails = null;
     if(this.state.clubData.training_sessions !== undefined) {
       trainingDetails = (
@@ -76,12 +101,14 @@ class ClubPage extends Component {
       );
     }
 
-    let upcomingEvents = null;
-    if(this.state.clubData.upcoming_events !== undefined) {
-      upcomingEvents = this.state.clubData.upcoming_events.map((event, i) => (
+    // Creates the Upcoming events
+    let events = null;
+
+    if(this.state.clubData.events !== undefined) {
+      events = this.state.clubData.events.map((event, i) => (
         <div className='event-block-small' key={'event'+i}>
           <div className='text-md-left text-center'>
-            <img className='event-image-small' src={process.env.PUBLIC_URL + this.state.clubData.club_img_url} alt='' />
+            <img className='event-image-small' src={process.env.PUBLIC_URL + this.state.clubData.event_image} alt='' />
           </div>
           <div className='event-text-small'>
             <Row>
@@ -93,9 +120,15 @@ class ClubPage extends Component {
                   Date: {event.event_date}
                 </div>
               </Col>
-              <Col className='text-md-right text-center'>
-                <Button className='btn-outline-sc-red' href={process.env.PUBLIC_URL + event.event_link}>Join Now!</Button>
-              </Col>
+              {
+                Date.parse(event.event_date) > Date.now()?
+                  (
+                    <Col className='text-md-right text-center'>
+                      <Button className='btn-outline-sc-red' href={process.env.PUBLIC_URL + event.event_link}>Join Now!</Button>
+                    </Col>
+                  )
+                : null
+              }
             </Row>
             <div className='mt-3 mt-md-0'>
               {event.event_description}
@@ -105,6 +138,7 @@ class ClubPage extends Component {
       ))
     }
 
+    // Creates the Social Icons for the member clubs
     var socials = [];
     if(this.state.clubData.facebook_url !== undefined && this.state.clubData.facebook_url !== "") {
       socials.push(
@@ -169,10 +203,10 @@ class ClubPage extends Component {
                 </div>
               </div>
               <div className='text-md-left text-center'>
-                <span className='club-header'>Upcoming Events</span>
+                <span className='club-header'>Events</span>
               </div>
               <hr className='red-line' />
-              {upcomingEvents}
+              {events}
             </Col>
             <Col md={6}>
               <div className='text-md-left text-center'>
