@@ -1,9 +1,9 @@
 {
-  "club_img_url": "/images/memberClubs/Aerobics/AerobicsLogo.png",
+  "club_logo_image_name": "AerobicsLogo.png",
   "club_name": "NUS Aerobics",
-  "carousel_img_url": [
-    "/images/memberClubs/Aerobics/aerobics1.jpg",
-    "/images/memberClubs/Aerobics/aerobics2.jpg"
+  "carousel_image_name": [
+    "aerobics1.jpg",
+    "aerobics2.jpg"
   ],
   "about_us": [
     "NUS Aerobics Club is a friendly community of like-minded individuals- students and staffs alike, with a common goal to get active. Here, regardless of fitness level, everyone is welcome to join the myriad of group exercises available. Like our slogan: Sore Today, Strong Tomorrow, the hour-long classes will push both physical and mental boundaries, and we guarantee that all will leave the studio sweaty yet extremely satisfied!",
@@ -11,23 +11,33 @@
     "We offer a wide variety of aerobics classes which cater to all interests and fitness needs. Select from classes like Vinyasa Yoga, Hatha Yoga, Power Yoga, Pilates, Kickboxing, Piloxing, HIIT, Kkardio, Zumba, CardioAerobics, BodySculpt and ABT. As part of Aerobics Club, we learn and grow together as a collective group, gaining confidence and friendship along the way."
   ],
   "training_sessions": [
-    "Various"
+    {
+      "day": "",
+      "time": "",
+      "venue": "Aerobics Studio Utown",
+      "venue_link": ""
+    }
   ],
-  "training_venue": "Aerobics Studio Utown",
   "events": [
     {
       "event_name": "Hyperjive 2020",
       "event_date": "18 Jan 2020",
-      "event_image": "/images/memberClubs/Aerobics/testPoster.jpg",
-      "event_link": "https://www.google.com",
-      "event_description": "18th Jan 2020"
+      "event_image_name": "testPoster.jpg",
+      "event_website": "https://www.google.com",
+      "event_sign_up_link": "https://www.nussportsclub.org",
+      "event_sign_up_close": "10 Jan 2020",
+      "event_description": "18th Jan 2020",
+      "event_to_show": "true"
     },
     {
       "event_name": "Hyperjive wow 2020",
       "event_date": "19 Jan 2020",
-      "event_image": "/images/memberClubs/Aerobics/testPoster.jpg",
+      "event_image_name": "testPoster.jpg",
       "event_link": "https://www.google.com",
-      "event_description": "18th Jan 2020"
+      "event_sign_up_link": "https://www.nussportsclub.org",
+      "event_sign_up_close": "10 Jan 2020",
+      "event_description": "18th Jan 2020",
+      "event_to_show": "true"
     }
   ],
   "instagram_url": "instagram.com/nusaerobics",

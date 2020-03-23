@@ -8,7 +8,6 @@ import { faFacebookF, faInstagram, faTelegramPlane } from '@fortawesome/free-bra
 class ClubPage extends Component {
   constructor(props){
     super(props);
-    // var clubName = props.match.params.name;
     this.state = {
       clubName: props.match.params.clubName,
       clubData: {},
@@ -21,11 +20,11 @@ class ClubPage extends Component {
 
   getClubData(){
     $.ajax({
-      url:'/data/memberClubs/'+this.state.clubName+'.json',
+      url: process.env.REACT_APP_MEMBER_CLUB_FILE_PATH+this.state.clubName+'/'+this.state.clubName+'.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({clubData: this.sortClubData(data)});
+        this.setState({clubData: this.formatClubData(data)});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -34,6 +33,35 @@ class ClubPage extends Component {
     });
   }
 
+  // Parse and Sort of the club data
+  formatClubData(data){
+    var clubData;
+    clubData = this.parseClubData(data);
+    clubData = this.sortClubData(data);
+    return clubData;
+  }
+
+  // Parse the Club Data by adding the file paths defined in the environment
+  parseClubData(data){
+    var clubData = data;
+    var addFileString = process.env.REACT_APP_MEMBER_CLUB_FILE_PATH + this.state.clubName+'/images/';
+
+    // Adjust Logo File Path
+    clubData.club_logo_image_name = addFileString + clubData.club_logo_image_name;
+    
+    // Adjust Carousel Image File Path
+    clubData.carousel_image_name.forEach(function(item,index){
+      item = addFileString + item;
+    });
+
+    // Adjust Events File Path
+    clubData.events.forEach(function(item,index){
+      item.event_image_name = addFileString + item.event_image_name;
+    });
+    return clubData;
+  }
+
+  // Sort the Club Events to be the latest event first
   sortClubData(data){
     var clubData = data;
     clubData.events.sort(function (a, b) {
@@ -42,7 +70,6 @@ class ClubPage extends Component {
       return date2 - date1;
     });
 
-    console.log(clubData.events);
     return clubData;
   }
 
@@ -53,8 +80,6 @@ class ClubPage extends Component {
         <Redirect to='/notfound' />
       );
     }
-
-    var today = new Date();
 
     // Creates About Us
     let aboutUs = null;
@@ -99,6 +124,8 @@ class ClubPage extends Component {
           </div>
         </div>
       );
+    } else {
+      
     }
 
     // Creates the Upcoming events
