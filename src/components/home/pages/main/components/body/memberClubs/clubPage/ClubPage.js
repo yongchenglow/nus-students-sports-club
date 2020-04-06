@@ -14,6 +14,7 @@ class ClubPage extends Component {
       has_error: false
     };
 
+    console.log(this.clubName);
     this.getClubData = this.getClubData.bind(this);
     this.getClubData();
   }
@@ -94,8 +95,8 @@ class ClubPage extends Component {
     let imageCarousel = null;
     if(this.state.clubData.carousel_image_name !== undefined) {
       imageCarousel = this.state.clubData.carousel_image_name.map((url, i) => (
-        <Carousel.Item key={'image'+i}>
-          <img className='img-fluid' src={process.env.PUBLIC_URL + url} alt={this.state.clubData.club_name + ' picture '+ i}/>
+        <Carousel.Item className='text-center' key={'image'+i}>
+          <img className='img-fluid max-height-300' src={process.env.PUBLIC_URL + url} alt={this.state.clubData.club_name + ' picture '+ i}/>
         </Carousel.Item>
       ))
     }
@@ -113,7 +114,7 @@ class ClubPage extends Component {
             }
             <div>
               {this.state.clubData.training_sessions[i].day}
-              {this.state.clubData.training_sessions[i].time !== ''?','+this.state.clubData.training_sessions[i].time: null}
+              {this.state.clubData.training_sessions[i].time !== ''?', '+this.state.clubData.training_sessions[i].time: null}
             </div>
             <div className='event-date-small'>
               {this.state.clubData.training_sessions[i].venue_link === ""?

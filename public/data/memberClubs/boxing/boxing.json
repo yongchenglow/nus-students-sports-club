@@ -1,0 +1,36 @@
+{
+  "club_logo_image_name": "boxinglogo.PNG",
+  "club_name": "NUS Boxing Club",
+  "carousel_image_name": [
+    "boxing.JPG"
+  ],
+  "about_us": [
+    "NUS Boxing Club's arms are open to all whether you've been boxing since young or if it's your first time touching gloves, we guarantee that you'll learn something out of it. You'll see us training in different ways some murdering the punching bags, showcasing slick bob and weaves, hitting the pads, and of course, sparring. Don't worry though, safety is emphasized here and you'll be taught how to watch out for one another.",
+    "To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers in the intermediate class will also have the chance to participate in our annual Boxing Exhibition Fight! This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they've learnt.",
+    "We're proud to say that we have an extremely dedicated coach licensed and recognised by the Singapore Amateur Boxing Association (SABA) to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won't regret jumping on board."
+  ],
+  "training_sessions": [
+    {
+      "day": "Wednesday",
+      "time": "6pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Boxing Exhibition Fight",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nusboxing",
+  "facebook_url": "https://www.facebook.com/nusboxing/",
+  "telegram_url": ""
+}
