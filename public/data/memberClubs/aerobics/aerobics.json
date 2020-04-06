@@ -12,12 +12,19 @@
   ],
   "training_sessions": [
     {
-      "day": "",
+      "day": "Various",
+      "time": "",
+      "venue": "Aerobics Studio Utown",
+      "venue_link": ""
+    },
+    {
+      "day": "Various",
       "time": "",
       "venue": "Aerobics Studio Utown",
       "venue_link": ""
     }
   ],
+  "training_sessions_join_url": "",
   "events": [
     {
       "event_name": "Hyperjive 2020",
@@ -26,7 +33,7 @@
       "event_website": "https://www.google.com",
       "event_sign_up_link": "https://www.nussportsclub.org",
       "event_sign_up_close": "10 Jan 2020",
-      "event_description": "18th Jan 2020",
+      "event_description": "Event Description",
       "event_to_show": "true"
     },
     {
@@ -36,7 +43,7 @@
       "event_link": "https://www.google.com",
       "event_sign_up_link": "https://www.nussportsclub.org",
       "event_sign_up_close": "10 Jan 2020",
-      "event_description": "18th Jan 2020",
+      "event_description": "Event Description",
       "event_to_show": "true"
     }
   ],

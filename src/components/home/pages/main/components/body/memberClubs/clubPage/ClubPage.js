@@ -9,7 +9,7 @@ class ClubPage extends Component {
   constructor(props){
     super(props);
     this.state = {
-      clubName: props.match.params.clubName,
+      clubName: props.match.params.clubName.toLowerCase(),
       clubData: {},
       has_error: false
     };
@@ -51,13 +51,14 @@ class ClubPage extends Component {
     
     // Adjust Carousel Image File Path
     clubData.carousel_image_name.forEach(function(item,index){
-      item = addFileString + item;
+      clubData.carousel_image_name[index] = addFileString + item;
     });
 
     // Adjust Events File Path
     clubData.events.forEach(function(item,index){
       item.event_image_name = addFileString + item.event_image_name;
     });
+
     return clubData;
   }
 
@@ -91,51 +92,73 @@ class ClubPage extends Component {
 
     // Creates the Image Carousell for the Member Clubs
     let imageCarousel = null;
-    if(this.state.clubData.carousel_img_url !== undefined) {
-      imageCarousel = this.state.clubData.carousel_img_url.map((url, i) => (
+    if(this.state.clubData.carousel_image_name !== undefined) {
+      imageCarousel = this.state.clubData.carousel_image_name.map((url, i) => (
         <Carousel.Item key={'image'+i}>
           <img className='img-fluid' src={process.env.PUBLIC_URL + url} alt={this.state.clubData.club_name + ' picture '+ i}/>
         </Carousel.Item>
       ))
     }
 
-    // Creates the Training Details of the Member Clubs
-    let trainingDetails = null;
-    if(this.state.clubData.training_sessions !== undefined) {
-      trainingDetails = (
-        <div className='event-block-small'>
-          <div className='text-md-left text-center'>
-            <img className='event-image-small' src={process.env.PUBLIC_URL + this.state.clubData.club_img_url} alt='' />
+    var trainingSessions = [];
+    if(this.state.clubData.training_sessions !== undefined){
+      var arrayLength = this.state.clubData.training_sessions.length;
+      for (var i = 0; i < arrayLength; i++) {
+        trainingSessions.push(
+          <div className={i>0?'mt-2':null}>
+            {
+              this.state.clubData.training_sessions.length > 1?
+              (<div className='event-title-small'>Session {i+1}</div>):
+              null
+            }
+            <div>
+              {this.state.clubData.training_sessions[i].day}
+              {this.state.clubData.training_sessions[i].time !== ''?','+this.state.clubData.training_sessions[i].time: null}
+            </div>
+            <div className='event-date-small'>
+              {this.state.clubData.training_sessions[i].venue_link === ""?
+                this.state.clubData.training_sessions[i].venue
+              :
+                (<a href={this.state.clubData.training_sessions[i].venue_link}>{this.state.clubData.training_sessions[i].venue}</a>)
+              }
+            </div>
           </div>
-          <div className='event-text-small'>
-            <Row>
-              <Col md='auto' className='text-center text-md-left'>
-                <div className='event-title-small'>
-                  {this.state.clubData.training_sesions}
-                </div>
-                <div className='event-date-small'>
-                  {this.state.clubData.training_venue}
-                </div>
-              </Col>
-              <Col className='text-md-right text-center'>
-                <Button className='btn-outline-sc-red'>Join Now!</Button>
-              </Col>
-            </Row>
-          </div>
-        </div>
-      );
-    } else {
-      
+        )
+      }
     }
+
+    // Creates the Training Details and Sessions for the Member Clubs
+    let trainingDetails = (
+      <div className='event-block-small'>
+        <div className='text-md-left text-center'>
+        <img className='event-image-small' src={process.env.PUBLIC_URL + '/images/icons/calendar.svg'} alt='calendar' />
+        </div>
+        <div className='event-text-small'>
+          <Row>
+            <Col md='auto' className='text-center text-md-left'>
+              {trainingSessions}
+            </Col>
+            {
+              this.state.clubData.training_sessions_join_url === ""?
+              null:
+              (
+                <Col className='text-md-right text-center'>
+                  <Button className='btn-outline-sc-red' href={this.state.clubData.training_sessions_join_url}>Join Now!</Button>
+                </Col>
+              )
+            } 
+          </Row>
+        </div>
+      </div>
+    );
 
     // Creates the Upcoming events
     let events = null;
-
     if(this.state.clubData.events !== undefined) {
       events = this.state.clubData.events.map((event, i) => (
         <div className='event-block-small' key={'event'+i}>
           <div className='text-md-left text-center'>
-            <img className='event-image-small' src={process.env.PUBLIC_URL + this.state.clubData.event_image} alt='' />
+            <img className='event-image-medium' src={process.env.PUBLIC_URL + event.event_image_name} alt='' />
           </div>
           <div className='event-text-small'>
             <Row>
@@ -195,7 +218,7 @@ class ClubPage extends Component {
       <React.Fragment>
         <Container className='section'>
           <div className='text-center'>
-            <img className='club-page-logo' src={this.state.clubData.club_img_url} alt={this.state.clubData.club_name + ' Logo'}/>
+            <img className='club-page-logo' src={this.state.clubData.club_logo_image_name} alt={this.state.clubData.club_name + ' Logo'}/>
           </div>
           <div className='text-center'>
             <div className='cover-title'>{this.state.clubData.club_name}</div>
@@ -209,26 +232,7 @@ class ClubPage extends Component {
                 <span className='club-header'>Training Details</span>
               </div>
               <hr className='red-line' />
-              <div className='event-block-small'>
-                <div className='text-md-left text-center'>
-                  <img className='event-image-small' src={process.env.PUBLIC_URL + '/images/icons/calendar.svg'} alt='' />
-                </div>
-                <div className='event-text-small'>
-                  <Row>
-                    <Col md='auto' className='text-center text-md-left'>
-                      <div className='event-title-small'>
-                        {this.state.clubData.training_sesions}
-                      </div>
-                      <div className='event-date-small'>
-                        {this.state.clubData.training_venue}
-                      </div>
-                    </Col>
-                    <Col className='text-md-right text-center'>
-                      <Button className='btn-outline-sc-red'>Join Now!</Button>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
+              {trainingDetails}
               <div className='text-md-left text-center'>
                 <span className='club-header'>Events</span>
               </div>

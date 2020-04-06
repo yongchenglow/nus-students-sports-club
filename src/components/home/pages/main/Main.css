@@ -569,6 +569,11 @@ a.nav-link {
   width: auto;
 }
 
+.event-image-medium {
+  height: 150px;
+  width: auto;
+}
+
 .event-title-small {
   font-size: 1.25rem;
   font-weight: bold;
