@@ -1,28 +1,43 @@
-[
-  {
-    "club_img_url": "capoeira/capoeiralogo.jpg",
-    "club_name": "NUS Capoeira",
-    "carousel_img_url": [
-      "capoeira/capo.jpg",
-      "capoeira/capo2.jpg"
-    ],
-    "about_us": [
-      "Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature.",
-      "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It�s always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!"
-    ],
-    "training_sessions": [
-      "Tuesday 7pm-9pm",
-      "Thursday 7pm-9pm"
-    ],
-    "training_venue": "MPSH 2",
-    "upcoming_events": [
-      {
-        "event_name":"Batizado",
-        "event_date":"tbc",
-      },
-    ],
-    "instagram_url": "instagram.com/nus_capoeira",
-    "facebook_url": "https://www.facebook.com/nuscapoeira/",
-    "telegram_url": "",
-  }
-]
+{
+  "club_logo_image_name": "Capoeira.jpg",
+  "club_name": "NUS Capoeira",
+  "carousel_image_name": [
+    "capo.jpeg",
+    "capo2.jpeg",
+    "capo3.jpeg"
+  ],
+  "about_us": [
+    "Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature.",
+    "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It's always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Tuesday",
+      "time": "7pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    },
+    {
+      "day": "Thursday",
+      "time": "7pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Batizado",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus_capoeira",
+  "facebook_url": "https://www.facebook.com/nuscapoeira/",
+  "telegram_url": ""
+}

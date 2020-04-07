@@ -1,32 +1,52 @@
-[
-  {
-    "club_img_url": "Cuesports/cuesportslogo.png",
-    "club_name": "NUS Cuesports",
-    "carousel_img_url": [
-      "Cuesports/cuesports.jpg"
-    ],
-    "about_us": [
-      "Cuesports consist of pool, snooker, and billiards. The sport is a well developed art of thinking ahead. It is not only a game, but first and foremost a demanding sport that requires good stamina, the logical thinking of a chess player, and the stable hand of a concert pianist.",
-      "Here at NUS Cuesports, we welcome players of all skill levels. For beginners, we provide weekly coaching on the fundamentals such as bridging, cueing and aiming. For the more advanced players, we enjoy a close relationship with the varsity athletes to create a competitive gameplay. For anyone who wishes to challenge themselves to greater heights, our annual 8-ball Carnival and 9-ball Open event is the perfect environment to do so.",
-      "The friends we make here are the family we choose!"
-    ],
-    "training_sessions": [
-      "Monday",
-      "Thursday"
-    ],
-    "training_venue": "Haw Par",
-    "upcoming_events": [
-      {
-        "event_name":"9 Ball Open",
-        "event_date":"tbc",
-      },
-      {
-        "event_name":"8 Ball Open",
-        "event_date":"tbc",
-      },
-    ],
-    "instagram_url": "instagram.com/nuscuesportsclub",
-    "facebook_url": "https://www.facebook.com/nuscuesports/",
-    "telegram_url": "",
-  }
-]
+{
+  "club_logo_image_name": "Cuesports.gif",
+  "club_name": "NUS Cuesports",
+  "carousel_image_name": [
+    "cuesports.jpeg"
+  ],
+  "about_us": [
+    "Cuesports consist of pool, snooker, and billiards. The sport is a well developed art of thinking ahead. It is not only a game, but first and foremost a demanding sport that requires good stamina, the logical thinking of a chess player, and the stable hand of a concert pianist.",
+    "Here at NUS Cuesports, we welcome players of all skill levels. For beginners, we provide weekly coaching on the fundamentals such as bridging, cueing and aiming. For the more advanced players, we enjoy a close relationship with the varsity athletes to create a competitive gameplay. For anyone who wishes to challenge themselves to greater heights, our annual 8-ball Carnival and 9-ball Open event is the perfect environment to do so.",
+    "The friends we make here are the family we choose!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Monday",
+      "time": "",
+      "venue": "Haw Par Villa",
+      "venue_link": ""
+    },
+    {
+      "day": "Thursday",
+      "time": "",
+      "venue": "Haw Par Villa",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "9 Ball Open",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "8 Ball Open",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nuscuesportsclub",
+  "facebook_url": "https://www.facebook.com/nuscuesports/",
+  "telegram_url": ""
+}
