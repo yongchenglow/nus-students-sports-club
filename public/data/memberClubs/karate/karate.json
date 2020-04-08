@@ -1,25 +1,33 @@
-[
-  {
-    "club_img_url": "karate/karatelogo.png",
-    "club_name": "NUS Karate",
-    "carousel_img_url": [
-      "karate/karate.jpg"
-    ],
-    "about_us": [
-      "NUS Karate is a well-established martial arts club, practicing the Shito-ryu style of Karate. This style unites agility & strength while achieving an artistic form of movement. Our instructor Shihan Yoshimasa Ishikawa, founder of the Ken Yu Kai Karate Association (Singapore), holds an impressive 8th Dan black belt in Karate (Shito-ryu style) and has practiced the art for more than 50 years! Under his guidance, members will learn Kihon (Basics), Kata (set of choreographed movements) and Kumite (sparring).",
-      "We are extremely beginner friendly as incoming members do not need to have any prior experience in Karate. All they need is an enthusiastic attitude towards learning and to be respectful towards the rules of the dojo!",
-      "Besides our regular training every Monday & Thursday, 7 to 9pm at the Japanese Primary School and MPSH 2 respectively, NUS Karate holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and MADNUS. Interested students can be assured that there is no limit on the number of newcomers we take in each year!",
-    ],
-    "training_sessions": [
-      "Tuesday 6pm-9pm",
-      "Saturday 9am-1pm"
-    ],
-    "training_venue": "MPSH 2",
-    "upcoming_events": [
+{
+  "club_logo_image_name": "Karate.jpg",
+  "club_name": "NUS Karate",
+  "carousel_image_name": [
+    "karate.jpeg"
+  ],
+  "about_us": [
+    "NUS Karate is a well-established martial arts club, practicing the Shito-ryu style of Karate. This style unites agility & strength while achieving an artistic form of movement. Our instructor Shihan Yoshimasa Ishikawa, founder of the Ken Yu Kai Karate Association (Singapore), holds an impressive 8th Dan black belt in Karate (Shito-ryu style) and has practiced the art for more than 50 years! Under his guidance, members will learn Kihon (Basics), Kata (set of choreographed movements) and Kumite (sparring).",
+    "We are extremely beginner friendly as incoming members do not need to have any prior experience in Karate. All they need is an enthusiastic attitude towards learning and to be respectful towards the rules of the dojo!",
+    "Besides our regular training every Monday & Thursday, 7 to 9pm at the Japanese Primary School and MPSH 2 respectively, NUS Karate holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and MADNUS. Interested students can be assured that there is no limit on the number of newcomers we take in each year!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Tuesday",
+      "time": "6pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    },
+    {
+      "day": "Saturday",
+      "time": "9am-1pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
 
-    ],
-    "instagram_url": "instagram.com/nuskarate",
-    "facebook_url": "https://www.facebook.com/NUSKarate/",
-    "telegram_url": "",
-  }
-]
+  ],
+  "instagram_url": "https://www.instagram.com/nuskarate",
+  "facebook_url": "https://www.facebook.com/NUSKarate/",
+  "telegram_url": ""
+}

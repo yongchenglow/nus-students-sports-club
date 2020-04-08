@@ -1,36 +1,50 @@
-[
-  {
-    "club_img_url": "Skating/skatinglogo.jpg",
-    "club_name": "NUS Skating Club",
-    "carousel_img_url": [
-      "Skating/skating1.jpg",
-      "Skating/skating2.jpg",
-      "Skating/skating3.jpg",
-      "Skating/skating4.jpg",
-      "Skating/skating5.jpg"
-    ],
-    "about_us": [
-      "NUS Skating Club is home to inline skaters of all skill levels and backgrounds. We are a fun-loving family of undergraduates, graduates and alumni who are always keen to share our passion for skating with newcomers. Our skaters vary greatly in skill-level, from competitive to first-time skaters. We also have very different personalities and interests, but we all share a common passion for skating. As long as you are eager to have fun and look cool while doing so, you will fit right in.",
-      "During our weekly Wednesday sessions, we practice slalom and sliding skating. Slalom skating involves performing cool tricks around a line of cones, while sliding skating focuses on braking at high speed with style. Apart from these sessions, we also organise urban skates such as the Mid-autumn Festival Skate. Every year, we also hold two major events, Skate Challenge where we play camp games on skates, and Inpulse which is a light-themed urban event � think iLight but on wheels.",
-      "NUS Skating Club is also part of a larger skating family which spans across Singapore. You will often find skaters from other universities and polytechnics at our sessions. Similarly, some of us join the SMUx skating team on Friday urban skates around the city, typically from SMU to places with good food. You will also get to participate in other schools� events such as NTU�s Skating Man � think Running Man but on skates, and SMUx Halloween Skate, where about 100 skaters in costumes skate around Orchard. If you are interested, do visit our Instagram to find out more about us. All are welcome and rental skates are available. As long as you are willing to learn, there will be skaters who will teach and learn alongside you.",
-    ],
-    "training_sessions": [
-      "Wednesday 7pm-9pm"
-    ],
-    "training_venue": "Multi-purpose Court 14 & 15",
-    "upcoming_events": [
-      {
-        "event_name":"Skate Challenge",
-        "event_date":"tbc",
-      },
-      {
-        "event_name":"Impulse",
-        "event_date":"tbc",
-      },
-    ],
-    "instagram_url": "instagram.com/nus.volleyball ",
-    "facebook_url": "https://www.facebook.com/nussc/",
-    "telegram_url": "",
-  }
-
-]
+{
+  "club_logo_image_name": "skatinglogo.png",
+  "club_name": "NUS Skating Club",
+  "carousel_image_name": [
+    "skating1.jpg",
+    "skating2.jpg",
+    "skating3.jpg",
+    "skating4.jpg",
+    "skating5.jpg"
+  ],
+  "about_us": [
+    "NUS Skating Club is home to inline skaters of all skill levels and backgrounds. We are a fun-loving family of undergraduates, graduates and alumni who are always keen to share our passion for skating with newcomers. Our skaters vary greatly in skill-level, from competitive to first-time skaters. We also have very different personalities and interests, but we all share a common passion for skating. As long as you are eager to have fun and look cool while doing so, you will fit right in.",
+    "During our weekly Wednesday sessions, we practice slalom and sliding skating. Slalom skating involves performing cool tricks around a line of cones, while sliding skating focuses on braking at high speed with style. Apart from these sessions, we also organise urban skates such as the Mid-autumn Festival Skate. Every year, we also hold two major events, Skate Challenge where we play camp games on skates, and Inpulse which is a light-themed urban event ~ think iLight but on wheels.",
+    "NUS Skating Club is also part of a larger skating family which spans across Singapore. You will often find skaters from other universities and polytechnics at our sessions. Similarly, some of us join the SMUx skating team on Friday urban skates around the city, typically from SMU to places with good food. You will also get to participate in other schools' events such as NTU's Skating Man ~ think Running Man but on skates, and SMUx Halloween Skate, where about 100 skaters in costumes skate around Orchard. If you are interested, do visit our Instagram to find out more about us. All are welcome and rental skates are available. As long as you are willing to learn, there will be skaters who will teach and learn alongside you."
+  ],
+  "training_sessions": [
+    {
+      "day": "Wednesday",
+      "time": "7pm-9pm",
+      "venue": "Multi-purpose Court 14 & 15",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Skate Challenge",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "Impulse",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nusskating",
+  "facebook_url": "https://www.facebook.com/nussc/",
+  "telegram_url": ""
+}

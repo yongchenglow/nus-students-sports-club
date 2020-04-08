@@ -1,29 +1,52 @@
-[
-  {
-    "club_img_url": "ULC/ULClogo.png",
-    "club_name": "NUS University Lifeguard Corps",
-    "carousel_img_url": [
-      "ULC/ULC.jpg"
-    ],
-    "about_us": [
-      "University Lifeguard Corps (ULC) is a family of lifesavers, both undergraduates and alumni, dedicated to the waters and beaches. Apart from competitive pool activities like swimming, finning, and towing manikins, we engage in competitive activities on the beach like sprints (yes, on sand!), surfing, and ski-kayaking. Importantly, we promote lifesaving and resuscitation awareness, knowledge and skills - the fundamentals of being a lifeguard.","ULC is colourful, to say the least. Here, you'll find people of all sorts - introverted or extroverted, laidback or serious - we�ve got them all. We even vary in skill-set - we�ve got some of the most talented & seasoned swimmers, as well as beginners with minimal swimming experience. Everyone is vastly different in many ways, but we�ve all got heart and spirit for the sport. We grow together, regardless of how experienced each individual member may be.","We offer courses - Lifesaving 1, 2, & 3, and Bronze Medallion - to equip interested individuals withzskills to become lifeguards. The Bronze Medallion is also the prerequisite for joining our competitive team. There are no limits in terms of number or skillset in our semestral intakes - we�ve got a great coach and welcoming seniors who are willing to groom newcomers to fully reach their potential."
-    ],
-    "training_sessions": [
-      "Monday 7pm-9pm","Wednesday 7pm-9pm"
-    ],
-    "training_venue": "NUS USC Swimming Pool",
-    "upcoming_events": [
-      {
-        "event_name":"Splashdown 2020",
-        "event_date":"tbc",
-      },
-      {
-        "event_name":"Beach Introduction & Games Day",
-        "event_date":"",
-      },
-    ],
-    "instagram_url": "instagram.com/nuslifesaving",
-    "facebook_url": "https://www.facebook.com/nuslifesaving/",
-    "telegram_url": "",
-  }
-]
+{
+  "club_logo_image_name": "ULC.png",
+  "club_name": "NUS University Lifeguard Corps",
+  "carousel_image_name": [
+    "ULC.jpg"
+  ],
+  "about_us": [
+    "University Lifeguard Corps (ULC) is a family of lifesavers, both undergraduates and alumni, dedicated to the waters and beaches. Apart from competitive pool activities like swimming, finning, and towing manikins, we engage in competitive activities on the beach like sprints (yes, on sand!), surfing, and ski-kayaking. Importantly, we promote lifesaving and resuscitation awareness, knowledge and skills - the fundamentals of being a lifeguard.",
+    "ULC is colourful, to say the least. Here, you'll find people of all sorts - introverted or extroverted, laidback or serious - we've got them all. We even vary in skill-set - we've got some of the most talented & seasoned swimmers, as well as beginners with minimal swimming experience. Everyone is vastly different in many ways, but we've all got heart and spirit for the sport. We grow together, regardless of how experienced each individual member may be.",
+    "We offer courses - Lifesaving 1, 2, & 3, and Bronze Medallion - to equip interested individuals withzskills to become lifeguards. The Bronze Medallion is also the prerequisite for joining our competitive team. There are no limits in terms of number or skillset in our semestral intakes - we've got a great coach and welcoming seniors who are willing to groom newcomers to fully reach their potential."
+  ],
+  "training_sessions": [
+    {
+      "day": "Monday",
+      "time": "7pm-9pm",
+      "venue": "NUS USC Swimming Pool",
+      "venue_link": ""
+    },
+    {
+      "day": "Wednesday",
+      "time": "7pm-9pm",
+      "venue": "NUS USC Swimming Pool",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Splashdown 2020",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "Beach Introduction & Games Day",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nuslifesaving",
+  "facebook_url": "https://www.facebook.com/nuslifesaving/",
+  "telegram_url": ""
+}
