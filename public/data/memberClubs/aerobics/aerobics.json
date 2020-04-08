@@ -1,0 +1,47 @@
+{
+  "club_logo_image_name": "AerobicsLogo.png",
+  "club_name": "NUS Aerobics",
+  "carousel_image_name": [
+    "aerobics1.jpg",
+    "aerobics2.jpg"
+  ],
+  "about_us": [
+    "NUS Aerobics Club is a friendly community of like-minded individuals- students and staffs alike, with a common goal to get active. Here, regardless of fitness level, everyone is welcome to join the myriad of group exercises available. Like our slogan: Sore Today, Strong Tomorrow, the hour-long classes will push both physical and mental boundaries, and we guarantee that all will leave the studio sweaty yet extremely satisfied!",
+    "While a healthy lifestyle is an individual's choice, Aerobics Club is dedicated to support everyone on their road towards their fitness goals- big or small. Our weekly sessions, held through the semester, hope to make exercising a regular habit. Not to mention, our very own experienced instructors are always there to ensure safety and give support- correcting posture, stances or simply to provide encouragement and reassurance.",
+    "We offer a wide variety of aerobics classes which cater to all interests and fitness needs. Select from classes like Vinyasa Yoga, Hatha Yoga, Power Yoga, Pilates, Kickboxing, Piloxing, HIIT, Kkardio, Zumba, CardioAerobics, BodySculpt and ABT. As part of Aerobics Club, we learn and grow together as a collective group, gaining confidence and friendship along the way."
+  ],
+  "training_sessions": [
+    {
+      "day": "Various",
+      "time": "",
+      "venue": "Aerobics Studio Utown",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Hyperjive 2020",
+      "event_date": "18 Jan 2020",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "10 Jan 2020",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "Hyperjive wow 2020",
+      "event_date": "19 Jan 2020",
+      "event_description": "",
+      "event_link": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "instagram.com/nusaerobics",
+  "facebook_url": "https://facebook.com/nusaerobicsclub/",
+  "telegram_url": ""
+}

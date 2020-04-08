@@ -1,0 +1,46 @@
+{
+  "club_logo_image_name": "Aikido.png",
+  "club_name": "NUS Aikido",
+  "carousel_image_name": [
+    "aikido.jpeg",
+    "aikido2.jpeg",
+    "aikido3.jpeg",
+    "aikido4.jpeg"
+  ],
+  "about_us": [
+    "Fundamentally, Aikido is the way of the spirit of harmony. However, the word Aikido can be translated as \"the way of blending energy\", or the \"path of unity with the fundamental force of nature\". Aikido is a true budo or martial way that evolved in the historic tradition of Japanese warrior arts. Budo is more than a science of tactics and self-defence. It is a discipline for perfecting the spirit of the practitioner. Aikido is a paradox: it is an extremely effective form of self-defence but it is also considered by many to be a path of peace and reconciliation.",
+    "We are a community of kind and compassionate people who trains with utmost respect, discipline and enthusiasm.",
+    "Respect and care for the safety of those who they practice with. Respect and adhere to the Dojo Etiquette."
+  ],
+  "training_sessions": [
+    {
+      "day": "Tuesday",
+      "time": "7pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    },
+    {
+      "day": "Friday",
+      "time": "7pm-9pm",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name":"Aikido Camp",
+      "event_date":"tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus_aikido",
+  "facebook_url": "https://www.facebook.com/nus.aikido/",
+  "telegram_url": ""
+}
+

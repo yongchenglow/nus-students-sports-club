@@ -1,0 +1,52 @@
+{
+  "club_logo_image_name": "Archery_Logo.jpg",
+  "club_name": "NUS Archery Club",
+  "carousel_image_name": [
+    "Archery_Shooting.jpeg"
+  ],
+  "about_us": [
+    "The most common form of archery, target archery is generally used in international and large-scale competitions. Stationary targets set at fixed distances are used, with indoor settings ranging from 18 to 25 metres and 30 to 90 metres for outdoor ones. Olympic targets however, are set at a standard 70 metres away from the shooting line.",
+    "Incoming members can expect initial physical conditioning training for the first few trainings before actual shooting begins. Also the club will provide as beginner level equipment for trainings but we recommend you to acquire your own equipment eventually.",
+    "Our club is a tight knit group of friends who are like family where we do not hesitate to help each other out and to bond over our shared enjoyment in shooting arrows. We usually take in about 80 incoming members."
+  ],
+  "training_sessions": [
+    {
+      "day": "Tuesday",
+      "time": "7pm-10pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    },
+    {
+      "day": "Thursday",
+      "time": "7pm-10pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "Archery Indoors",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "Archery Fun Shoot",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_link": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus.archery",
+  "facebook_url": "https://www.facebook.com/nusarchery",
+  "telegram_url": ""
+}

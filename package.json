@@ -1,5 +1,6 @@
 {
   "name": "nus-students-sports-club",
+  "homepage": "https://www.nussportsclub.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

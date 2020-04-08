@@ -1,0 +1,50 @@
+{
+  "club_logo_image_name": "Climbing.png",
+  "club_name": "NUS Climbing Club",
+  "carousel_image_name": [
+    "climb.JPG"
+  ],
+  "about_us": [
+    "The NUS Climbing Club prides itself as the largest recreational interest group as part of the NUSSSC. We aim to equip our club members with the technical ability and know-hows of climbing, and to induct NUS students to the ever-growing climbing community.","This year marks the fourth annual ClimbNUS organised by the Club to introduce the sport of climbing to the NUS community. In addition, the Club also organises the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS BoulderActive. Held annually, BoulderActive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore.","Club sessions are held twice weekly on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester."
+  ],
+  "training_sessions": [
+    {
+      "day": "Tuesday",
+      "time": "4pm-10pm",
+      "venue": "University Sports Centre",
+      "venue_link": ""
+    },
+    {
+      "day": "Friday",
+      "time": "4pm-10pm",
+      "venue": "University Sports Centre & Univeristy Town",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "",
+  "events": [
+    {
+      "event_image_name": "",
+      "event_name": "ClimbNUS",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "",
+      "event_name": "NUS Boulderactive",
+      "event_date": "tbc",
+      "event_description": "",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus_climbing",
+  "facebook_url": "https://www.facebook.com/ClimbNUS/",
+  "telegram_url": ""
+}
