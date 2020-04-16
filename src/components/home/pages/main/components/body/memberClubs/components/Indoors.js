@@ -14,36 +14,56 @@ class Indoors extends Component {
           <div className='section-heading'>Indoors</div>
           <CardDeck className='justify-content-center'>
             <Card className='club-card'>
-              <div>
-                <Card.Img variant='top' className='project-image' src={Aerobics} alt='NUS Aerobics Club'/>
-              </div>
-              <Card.Body className='club-name'>
-                <Card.Title>Aerobics</Card.Title>
-              </Card.Body>
+              <a href={process.env.PUBLIC_URL + '/clubs/aerobics'}>
+                <div>
+                  <Card.Img variant='top' className='project-image' src={Aerobics} alt='NUS Aerobics Club'/>
+                </div>
+                <Card.Body className='club-name'>
+                  <Card.Title>Aerobics</Card.Title>
+                </Card.Body>
+                <h6 className='find-out'>
+                  Find out more!
+                </h6>
+              </a>
             </Card>
             <Card className='club-card'>
-              <div>
-                <Card.Img variant='top' className='project-image' src={Climbing} alt='NUS Climbing Club'/>
-              </div>
-              <Card.Body className='club-name'>
-                <Card.Title>Climbing</Card.Title>
-              </Card.Body>
+              <a href={process.env.PUBLIC_URL + '/clubs/climbing'}>
+                <div>
+                  <Card.Img variant='top' className='project-image' src={Climbing} alt='NUS Climbing Club'/>
+                </div>
+                <Card.Body className='club-name'>
+                  <Card.Title>Climbing</Card.Title>
+                  <h6 className='find-out'>
+                    Find out more!
+                  </h6>
+                </Card.Body>
+              </a>
             </Card>
             <Card className='club-card'>
-              <div>
-                <Card.Img variant='top' className='project-image' src={Cuesports} alt='NUS Cuesports Club'/>
-              </div>
-              <Card.Body className='club-name'>
-                <Card.Title>Cuesports</Card.Title>
-              </Card.Body>
+              <a href={process.env.PUBLIC_URL + '/clubs/cuesports'}>
+                <div>
+                  <Card.Img variant='top' className='project-image' src={Cuesports} alt='NUS Cuesports Club'/>
+                </div>
+                <Card.Body className='club-name'>
+                  <Card.Title>Cuesports</Card.Title>
+                  <h6 className='find-out'>
+                    Find out more!
+                  </h6>
+                </Card.Body>
+              </a>
             </Card>
             <Card className='club-card'>
-              <div>
-                <Card.Img variant='top' className='project-image' src={IGC} alt='NUS Intellectual Games Club'/>
-              </div>
-              <Card.Body className='club-name'>
-                <Card.Title>Intellectual Games Club</Card.Title>
-              </Card.Body>
+              <a href={process.env.PUBLIC_URL + '/clubs/igc'}>
+                <div>
+                  <Card.Img variant='top' className='project-image' src={IGC} alt='NUS Intellectual Games Club'/>
+                </div>
+                <Card.Body className='club-name'>
+                  <Card.Title>Intellectual Games Club</Card.Title>
+                  <h6 className='find-out'>
+                    Find out more!
+                  </h6>
+                </Card.Body>
+              </a>
             </Card>
           </CardDeck>
         </Container>
