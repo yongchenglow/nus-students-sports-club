@@ -3,41 +3,53 @@
   "club_name": "NUS Capoeira",
   "carousel_image_name": [
     "capo.jpeg",
-    "capo2.jpeg",
-    "capo3.jpeg"
+    "capo3.jpeg",
+    "capo2.jpg",
+    "capo4.jpg"
   ],
   "about_us": [
     "Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature.",
-    "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It's always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!"
+    "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It's always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!",
+    "Interested to find out more? Talk to us now at capoeira@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "7pm-9pm",
+      "day": "Tues",
+      "time": "7 - 9 pm",
       "venue": "MPSH 2",
       "venue_link": ""
     },
     {
-      "day": "Thursday",
-      "time": "7pm-9pm",
-      "venue": "MPSH 2",
+      "day": "Thurs",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 6",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "",
   "events": [
     {
-      "event_image_name": "",
+      "event_image_name": "batizado.jpg",
       "event_name": "Batizado",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_date": "25 Oct 2019",
+      "event_description": "Annual Capoeira Festival filled with exciting workshops!",
       "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "capoids.png",
+      "event_name": "Capoeira Interest Development Series",
+      "event_date": "28 Jan 2020",
+      "event_description": "Join us at our introductory workshops where you'll learn the basics of Capoeira, including kicks and acrobatics. See you there!",
+      "event_website": "https://nus.campuslabs.com/engage/event/5310996",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }
   ],
-  "instagram_url": "https://www.instagram.com/nus_capoeira",
+  "instagram_url": "https://www.instagram.com/nus.capoeira/",
   "facebook_url": "https://www.facebook.com/nuscapoeira/",
   "telegram_url": ""
 }

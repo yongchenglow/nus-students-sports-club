@@ -1,35 +1,49 @@
 {
-  "club_logo_image_name": "Basketball.png",
+  "club_logo_image_name": "logo.png",
   "club_name": "NUS Basketball Club",
   "carousel_image_name": [
-    "basketball.jpeg"
+    "Bball1.jpg",
+    "Bball2.jpeg",
+    "Bball3.jpg",
+    "Bball4.jpg"
   ],
   "about_us": [
     "Do you want to have an exciting match with your friends? Or just want to have some regular exercise every week with guidance and hone your basketball skill? ",
-    "At NUS Basketball Club, we offer a variety of training schemes catering to our member's skills. Be it a three-pointer or a simple lay-up, we provide programs for all skill levels and our student coaches design different games to ensure that our members will get individual attention they need. By varying in focus and intensity, everyone can find his place in our club. On top of our weekly training, we also organise various competitions for all NUS students and staff to participate and gain experience over exciting games. With well-organised training sessions, good facilities and family-like atmosphere, we believe we can help our members to build basketball IQ, teach relevant skills and boost team morale to have a more vibrant university life!"
+    "At NUS Basketball Club, we offer a variety of training schemes catering to our member's skills. Be it a three-pointer or a simple lay-up, we provide programs for all skill levels and our student coaches design different games to ensure that our members will get individual attention they need. By varying in focus and intensity, everyone can find his place in our club. On top of our weekly training, we also organise various competitions such as the annual 3v3 BasketbALLSTAR Competition for all NUS students and staff to participate and gain experience over exciting games. With well-organised training sessions, good facilities and family-like atmosphere, we believe we can help our members to build basketball IQ, teach relevant skills and boost team morale to have a more vibrant university life!",
+   "Interested to find out more? Talk to us now at basketball@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Thursday",
-      "time": "7pm-9pm",
-      "venue": "Basketball Court 7 and 8",
+      "day": "Thurs",
+      "time": "7 - 9 pm",
+      "venue": "Basketball Courts 7 and 8",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "",
   "events": [
     {
-      "event_image_name": "",
-      "event_name":"BasketballALLSTAR",
-      "event_date":"tbc",
-      "event_description": "",
+      "event_image_name": "basketball.jpeg",
+      "event_name":"BasketballALLSTAR 2020",
+      "event_date":"Sep 2020",
+      "event_description": "The highly anticipated 3v3 basketball competition is open to NUS students/staff/alumni AND the public, with male and female categories. Stay tuned for more updates!",
       "event_website": "",
       "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "ids_poster_final.jpg",
+      "event_name":"Basketball Interest Development Series",
+      "event_date":"23 Jan 2020",
+      "event_description": "Come join us for this IDS session and learn the basics of basketball. See you there!",
+      "event_website": "",
+      "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5310996",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }
   ],
   "instagram_url": "https://www.instagram.com/nusbasketballclub",
   "facebook_url": "",
-  "telegram_url": ""
+  "telegram_url": "https://t.me/joinchat/AAAAAE4TqiAaXYka9Hpl3Q"
 }

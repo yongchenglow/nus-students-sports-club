@@ -6,7 +6,7 @@ import Log from '../Log';
 
 import Maintenance from './maintenance/Maintenance';
 import HomeRouter from './home/HomeRouter';
-import HomeRouter2019 from './2019/HomeRouter2019';
+import HomeRouter39 from './39/HomeRouter39';
 
 class WebPage extends Component {
   render(){
@@ -22,7 +22,7 @@ class WebPage extends Component {
     } else {
       webpage = (
         <Switch>
-          <Route path='/2019/' component={HomeRouter2019} />
+          <Route path='/39/' component={HomeRouter39} />
           <Route path='/' component={HomeRouter} />
         </Switch>
       );

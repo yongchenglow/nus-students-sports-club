@@ -2,30 +2,50 @@
   "club_logo_image_name": "boxinglogo.PNG",
   "club_name": "NUS Boxing Club",
   "carousel_image_name": [
-    "boxing.JPG"
+    "boxing1.jpg",
+    "boxing2.jpg",
+    "boxing3.jpg",
+    "boxing4.jpg"
   ],
   "about_us": [
     "NUS Boxing Club's arms are open to all whether you've been boxing since young or if it's your first time touching gloves, we guarantee that you'll learn something out of it. You'll see us training in different ways some murdering the punching bags, showcasing slick bob and weaves, hitting the pads, and of course, sparring. Don't worry though, safety is emphasized here and you'll be taught how to watch out for one another.",
-    "To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers in the intermediate class will also have the chance to participate in our annual Boxing Exhibition Fight! This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they've learnt.",
-    "We're proud to say that we have an extremely dedicated coach licensed and recognised by the Singapore Amateur Boxing Association (SABA) to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won't regret jumping on board."
+    "To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers who are passionate and committed will also get to participate in our annual Boxing Exhibition Fight. This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they've learnt.",
+    "We're proud to say that we have an extremely dedicated and licensed coach to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won't regret jumping on board.",
+    "Interested to find out more? Talk to us now at boxing@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Wednesday",
-      "time": "6pm-9pm",
+      "day": "Wed",
+      "time": "6.30 - 7.30 pm (Intermediate)",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    },
+    {
+      "day": "Wed",
+      "time": "7.30 - 8.30 pm (Beginner)",
       "venue": "MPSH 2",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/383148",
   "events": [
     {
-      "event_image_name": "",
-      "event_name": "Boxing Exhibition Fight",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_image_name": "fight.jpg",
+      "event_name": "Boxing Exhibition Fight 2020",
+      "event_date": "17 Jan 2020",
+      "event_description": "Are you a fan of BOXING or simply happen to be in school on a Friday and want to soak yourself in an action packed atmosphere? Then come on down and support your school mates from NUS Boxing, who have been training hard during the holidays, display their fighting skills in the ring!",
       "event_website": "",
       "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "ids.jpg",
+      "event_name": "Boxing Interest Development Series",
+      "event_date": "29 Jan 2020",
+      "event_description": "Interested to find out more about boxing? Join us for a crash course in boxing!",
+      "event_website": "",
+      "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5310996",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }

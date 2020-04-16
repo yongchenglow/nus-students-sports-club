@@ -2,49 +2,81 @@
   "club_logo_image_name": "IGC.jpeg",
   "club_name": "NUS Intellectual Games Club",
   "carousel_image_name": [
-    "igc.jpg"
+    "igc1.jpg",
+    "igc2.jpg",
+    "igc3.jpg"
   ],
   "about_us": [
-    "NUS Intellectual Game Club is a family for people who play board games. The main aim of the club is to entertain the NUS community (undergraduate and graduate students, teachers and staff) and to popularize board games on campus. We provide a large variety of board games, and our members have meetings once a week. No previous knowledge of games is required, and no restriction is imposed. You can make friends and learn new games by joining us. Details of different games are introduced below. Are you ready to transform yourself into a smarter person? Make the first step and learn this game because you�ll benefit from it for a lifetime.",
-    "Contract Bridge (Bridge): Contract bridge is a trick-taking game using a standard deck of 52 playing cards. It is played by four players in two competing partnerships, with partners sitting opposite each other around a table.",
-    "Chinese Chess: This game is a battle of wits between two armies. To achieve victory, you need to have patience, composure and serious tactical thinking among many other great qualities that a person has.",
-    "International Chess (Chess): Being one of the world's most popular game, chess is played by millions worldwide. \"To see the infinity within the finite, that's beauty.\" ~ Louis Chin, 2007.",
-    "Reversi (Othello): Othello is an abstract, two-player strategy game played on an 8x8, 64-square board. The objective is to end the game with more discs of your own colour face up.",
-    "Weiqi (Go): Weiqi uses the most elemental concepts -- line and circle, black and white -- combining them with simple rules to generate subtle strategies and complex tactics that stagger the imagination.",
-    "The culture of our club can be described as friendly and recreational. We play, laugh and have fun together. No matter what your skill level is, feel free to join us since we play for fun instead of competition. There is no limit for the number of members that we take in each year. If you are keen on intellectual games and want to have fun and learn, don't hesitate to join our club so that we can play, learn and most importantly enjoy ourselves together!"
+    "NUS Intellectual Games Club is a family of people who indulges in mindsports. The main aim of the club is to entertain the NUS community (staff and students), exchange insights and strategies and popularize mindsports on campus. We provide a large variety of mindsports and our members have meetings at least once a week. No previous knowledge of games is required, and no restriction is imposed. You can make friends and learn new games by joining us. Details of different games are introduced below. Are you ready to transform yourself into a smarter person? Make the first step and learn this game because you'll benefit from it for a lifetime.",
+   "Contract Bridge (Bridge): Contract bridge is a trick-taking game using a standard deck of 52 playing cards. It is played by four players in two competing partnerships, with partners sitting opposite each other around a table.",
+   "Chinese Chess: This game is a battle of wits between two armies. To achieve victory, you need to have patience, composure and serious tactical thinking among many other great qualities that a person has.",
+   "International Chess (Chess): Being one of the world's most popular game, chess is played by millions worldwide. \"To see the infinity within the finite, that's beauty.\" ~ Louis Chin, 2007.",
+   "Reversi (Othello): Othello is an abstract, two-player strategy game played on an 8x8, 64-square board. The objective is to end the game with more discs of your own colour face up.", 
+   "Weiqi (Go): Weiqi uses the most elemental concepts -- line and circle, black and white -- combining them with simple rules to generate subtle strategies and complex tactics that stagger the imagination.",
+   "Riichi Maajan: Riichi Maajan is the Japanese variant of mahjong. Unlike the other variants of mahjong, Riichi Maajan is more strategic-based. The game involves much analytical thinking and risk-benefit analysis in order for the player to make the optimal decision.",
+   "The culture of our club can be described as friendly and welcoming. We play, laugh and have fun together. No matter what your skill level is, feel free to join us. There is no limit for the number of members that we take in each year. If you are keen on intellectual games and want to have fun and learn, don't hesitate to join our club so that we can play, learn and most importantly enjoy ourselves together!",
+    "Interested to find out more? Talk to us now at igc@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "7pm-9pm",
+      "day": "Mon & Tues",
+      "time": "6.30 - 9 pm (Weiqi)",
+      "venue": "MPSH 4",
+      "venue_link": ""
+    },
+    {
+      "day": "Mon & Thurs",
+      "time": "7 - 10 pm (Contract Bridge)",
+      "venue": "MPSH 4",
+      "venue_link": ""
+    },
+    {
+      "day": "Mon",
+      "time": "6.30 - 9 pm (Xiangqi, Reversi, Richii Maajan)",
+      "venue": "MPSH 4",
+      "venue_link": ""
+    },
+    {
+      "day": "Thurs",
+      "time": "6.30 - 9 pm (International Chess)",
       "venue": "MPSH 4",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/389061",
   "events": [
     {
-      "event_image_name": "",
-      "event_name": "Open Pairs (bridge)",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_image_name": "open pairs.png",
+      "event_name": "NUS Open Pairs (bridge)",
+      "event_date": "11 Jan 2020",
+      "event_description": "The annual NUS IGC-SCBA Open Pairs is back! Sign up now and pit your skills against your peers!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },
     {
-      "event_image_name": "",
+      "event_image_name": "ichess.png",
       "event_name": "NUS Invitational Tertiary Chess Championships",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_date": "18 May 2019",
+      "event_description": "This tournament is open to all tertiary institutions (Universities, ITEs and Polytechnics) in Singapore. Sign up now and see you then!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "igcids.png",
+      "event_name": "IGC Interest Development Series",
+      "event_date": "20 Jan 2020",
+      "event_description": "Have you ever been keen to learn strategic board games? Join our beginner's courses for Contract Bridge (Mon), International Chess (Tues) and Weiqi (Wed). No prior experience needed!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }
   ],
-  "instagram_url": "https://www.instagram.com/nus_igc",
+  "instagram_url": "https://www.instagram.com/igc_nus",
   "facebook_url": "https://www.facebook.com/igcnus/",
   "telegram_url": ""
 }
