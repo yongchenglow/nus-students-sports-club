@@ -2,44 +2,84 @@
   "club_logo_image_name": "Archery_Logo.jpg",
   "club_name": "NUS Archery Club",
   "carousel_image_name": [
-    "Archery_Shooting.jpeg"
+    "Archery1.jpeg",
+    "Archery2.jpg",   
+    "Archery3.png"
   ],
   "about_us": [
-    "The most common form of archery, target archery is generally used in international and large-scale competitions. Stationary targets set at fixed distances are used, with indoor settings ranging from 18 to 25 metres and 30 to 90 metres for outdoor ones. Olympic targets however, are set at a standard 70 metres away from the shooting line.",
-    "Incoming members can expect initial physical conditioning training for the first few trainings before actual shooting begins. Also the club will provide as beginner level equipment for trainings but we recommend you to acquire your own equipment eventually.",
-    "Our club is a tight knit group of friends who are like family where we do not hesitate to help each other out and to bond over our shared enjoyment in shooting arrows. We usually take in about 80 incoming members."
+    "Here in NUS Archery, we practice mainly target archery, comprising of recurve and compound archery. Set at distances ranging from 18m - 70m using target faces ranging from 40cm - 122cm.",
+   "We host bi-annual exposure events such as Beginner Archery Courses and Funshoots which are catered to NUS students of all skills level. We also host the annual NUS Indoor Archery Competition where both local and international archers come to compete. As an archer of NUS Archery, you also get the opportunity to participate in many archery competitions, be it local or international!",
+   "Our intake for new members will be in Semester 1 of every academic year, incoming members can expect initial physical conditioning training prior to actual shooting. Also, the club can provide beginner level equipment for trainings but we recommend you to purchase your own equipment eventually.",
+   "No prior experience is required to join the club, anyone is free to join the archery family. If you are an experienced archer, just reach out to us and we will fill you in!",
+    "Interested to find out more? Talk to us now at archery@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "7pm-10pm",
+      "day": "Tues",
+      "time": "7 - 9.30 pm",
       "venue": "Volleyball Courts",
       "venue_link": ""
     },
     {
-      "day": "Thursday",
-      "time": "7pm-10pm",
+      "day": "Thurs",
+      "time": "7 - 9.30 pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    },
+    {
+      "day": "Sat",
+      "time": "10 - 4 pm",
       "venue": "Volleyball Courts",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/363224",
   "events": [
     {
-      "event_image_name": "",
-      "event_name": "Archery Indoors",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_image_name": "lgoo2.jpeg",
+      "event_name": "Archery Indoors 2021",
+      "event_date": "Jun 2021",
+      "event_description": "Stay tuned for more updates!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },
     {
-      "event_image_name": "",
-      "event_name": "Archery Fun Shoot",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_image_name": "lgoo2.jpeg",
+      "event_name": "Funshoot 2020",
+      "event_date": "Aug 2020",
+      "event_description": "Stay tuned for more updates!",
+      "event_link": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "Indoors poster .jpg",
+      "event_name": "Archery Indoors 2019",
+      "event_date": "1 Jun 2019",
+      "event_description": "A major archery competition with participants from both local and overseas archery clubs, including Malaysia and Thailand to interact and compete with one another. Not confident in competing? Join our archery tag event simply to have fun!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "IDS.png",
+      "event_name": "Archery Interest Development Series (Beginners' Course)",
+      "event_date": "21 Jan 2020",
+      "event_description": "IDS is here! Sign up now and learn how to handle a bow and shoot an arrow! Course is held from W2 to W5, weekly Tues or Thurs depending on which session you picked.",
+      "event_link": "",
+      "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5310996",
+      "event_sign_up_close": "5 Feb 2020",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "Funshoot.png",
+      "event_name": "Funshoot",
+      "event_date": "19 Aug 2019",
+      "event_description": "Annual Fun shoot sessions for the campus, from students to staff. Ideal for beginners with no prior experience in Archery with the aims of introducing Archery and providing basic skills to begin their foray into the sport.",
       "event_link": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

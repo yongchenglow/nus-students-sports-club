@@ -2,35 +2,60 @@
   "club_logo_image_name": "Netball.png",
   "club_name": "NUS Netball Recreational Club",
   "carousel_image_name": [
-    "netball.jpg"
+    "nb4.jpg",
+    "netball.jpg",
+    "nb2.jpg",
+    "nb3.jpg"
   ],
   "about_us": [
-    "NUS Netball Recreational Club (NUSNRC) is a group that welcomes all netball enthusiasts, females AND males, regardless of playing experience. Students who are new to the sport are more than welcome to join- all that is required is a set of sports attire, a water bottle and a general interest in sports! Our warm and friendly exco team will take it from there. Not only will we cater to beginners by teaching the fundamentals of the sport, you will be able to put your skills to practice and engage in fun-filled netball games with fellow members.",
-    "Netball is an exciting sport played by 2 teams of 7, with each team aiming to score as many goals as possible. Netball relies on tactics more than timeouts and shooters require accuracy, not a backboard. Every position plays a part in bringing the ball down the court. Just as how Netball focuses on an entire squad, not one superstar, NUSNRC focuses on every of our club members within this big family. We make it our mission to know one another on a personal basis and form long lasting, genuine friendships.",
-    "As much as stepping is a foul on court, we envision our members to be stepping out of their comfort zone to come together with open communication and feedback during trainings or meetings. This year, NUSNRC is forming an official member list for the club and we welcome anyone with an interest in Netball to join our big family of Netball enthusiasts."
+    "NUS Netball Recreational Club (NUS NRC) is a group that welcomes all netball enthusiasts, regardless of gender and playing experience. All that is required is a set of sports attire, a water bottle and a general interest in sports! Our warm and friendly exco team will take it from there. NRC's training sessions are carefully planned to cater to beginners as we teach you the fundamentals of the sport. You can also look forward to be engaged in fun-filled netball games with fellow members every session!",
+   "NRC has recently implemented a new approach towards membership as we take in official members who share the same passion for netball. This closed membership allows us to focus on each and every members' needs and interests. With this, we hope that our members will be able to play netball confidently as we journey through fundamentals, drills, internal leagues and Netballuxion (an annual street Netball competition organised by NRC) together.",
+   "As much as stepping is a foul on court, we envision our members to be stepping out of their comfort zone to come together with open communication and feedback during trainings.",
+   "Netball is an exciting sport played by 2 teams of 7, with each team aiming to score as many goals as possible. Netball relies on tactics more than timeouts while shooters require accuracy and not a backboard. Every position plays a part in bringing the ball down the court. Just as Netball depends on an entire squad and not one superstar, NUS NRC focuses on every one of our members within this big family. We make it our mission to know one another on a personal basis and form long lasting, genuine friendships.",
+    "Interested to find out more? Talk to us now at netball@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "7pm-9pm",
+      "day": "Tues",
+      "time": "7 - 9 pm",
       "venue": "Netball Courts",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://orgsyn.com/140428/forms/369796",
   "events": [
-    {
-      "event_image_name": "",
+     {
+      "event_image_name": "Netball.png",
       "event_name": "Netballuxion 2020",
-      "event_date": "tbc",
-      "event_description": "",
+      "event_date": "Jul 2020",
+      "event_description": "Stay tuned for more updates!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+{
+      "event_image_name": "netballids.jpg",
+      "event_name": "Netball Interest Development Series",
+      "event_date": "21 Jan 2020",
+      "event_description": "Attention to those who are interested in joining us! Do come down on 21 Jan to join us in some fun games!! ",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "lluxion.jpg",
+      "event_name": "Netballuxion 2019",
+      "event_date": "22 Jun 2019",
+      "event_description": "Netballuxion is Singapore's largest annual 4-on-4 Street Netball Competition. Regardless of your skills level, we welcome your participation. Sign up now and look forward to a fun & exciting day of street netball with your friends with tees & goodie bags!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }
   ],
-  "instagram_url": "https://www.instagram.com/nusbasketballclub",
+  "instagram_url": "https://www.instagram.com/nus.nrc",
   "facebook_url": "https://www.facebook.com/NUSNRC/",
-  "telegram_url": ""
+  "telegram_url": "https://tinyurl.com/nusnrctelegram"
 }

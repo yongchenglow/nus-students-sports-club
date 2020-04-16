@@ -1,30 +1,60 @@
 {
-  "club_logo_image_name": "Karate.jpg",
+  "club_logo_image_name": "logo.jpg",
   "club_name": "NUS Karate",
   "carousel_image_name": [
-    "karate.jpeg"
+    "karate1.jpg",
+    "karate2.jpeg",
+    "karate3.jpg",
+    "karate4.jpg"
   ],
   "about_us": [
     "NUS Karate is a well-established martial arts club, practicing the Shito-ryu style of Karate. This style unites agility & strength while achieving an artistic form of movement. Our instructor Shihan Yoshimasa Ishikawa, founder of the Ken Yu Kai Karate Association (Singapore), holds an impressive 8th Dan black belt in Karate (Shito-ryu style) and has practiced the art for more than 50 years! Under his guidance, members will learn Kihon (Basics), Kata (set of choreographed movements) and Kumite (sparring).",
     "We are extremely beginner friendly as incoming members do not need to have any prior experience in Karate. All they need is an enthusiastic attitude towards learning and to be respectful towards the rules of the dojo!",
-    "Besides our regular training every Monday & Thursday, 7 to 9pm at the Japanese Primary School and MPSH 2 respectively, NUS Karate holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and MADNUS. Interested students can be assured that there is no limit on the number of newcomers we take in each year!"
+    "Besides our regular training every Monday & Thursday, NUS Karate also holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and Exchangers' Welcome PARTY. Interested students can be assured that there is no limit on the number of newcomers we take in each year!",
+    "Interested to find out more? Talk to us now at karate@nussportsclub.org!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "6pm-9pm",
+      "day": "Mon",
+      "time": "7 - 9 pm",
+      "venue": "Outside of school",
+      "venue_link": ""
+    },
+    {
+      "day": "Thurs",
+      "time": "7 - 9 pm",
       "venue": "MPSH 2",
       "venue_link": ""
     },
     {
-      "day": "Saturday",
-      "time": "9am-1pm",
+      "day": "Sat",
+      "time": "9 - 12 pm (optional)",
       "venue": "MPSH 2",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/364454",
   "events": [
+    {
+      "event_image_name": "logo.jpg",
+      "event_name": "Karate Self Defense Workshop 2020",
+      "event_date": "Aug 2020",
+      "event_description": "Stay tuned for more updates!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "karateids.png",
+      "event_name": "Karate Interest Development Series",
+      "event_date": "30 Jan 2020",
+      "event_description": "NUS Karate will be having our self defense workshop on 30 Jan from 7pm - 9pm at MPSH2. Join us to learn some moves to protect yourself! Sign up with your friends now and let's have a fun yet fulfilling session together!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
 
   ],
   "instagram_url": "https://www.instagram.com/nuskarate",

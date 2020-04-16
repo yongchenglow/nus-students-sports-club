@@ -3,31 +3,37 @@
   "club_name": "NUS Wushu",
   "carousel_image_name": [
     "wushu.jpg",
+    "wushu3.jpg",
     "wushu2.jpg",
-    "wushu3.jpg"
+    "wushu4.jpg"
   ],
   "about_us": [
-    "Wushu is a Chinese martial arts, incorporating Chinese culture and allows building of character, discipline and virtues. In the past, Chinese martial arts was not only used in the military, but also among citizens for their hunting endeavors, self defense and to improve health. NUS Wushu adopts the taolu form of wushu, which focuses on a set routine comprising of a connected set of techniques, choreographed and incorporating techniques of attack and defense.",
-    "We welcome all who are interested in joining us and learn more about Wushu. It does not matter if participants do not have any martial arts background. We have had members with no prior experiences but managed to learn different routines and even participated in performances.",
-    "Even though Wushu may seem more like an individual sport, NUS Wushu have always been working on fostering club bonding by having various events and outings. Hence, we train hard and play hard as well. Also, many of our members stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered."
+    "Wushu is a blanket term for all Chinese martial arts.  It is an integral part of Chinese culture and helps build character, discipline and virtue. In the past, Chinese martial arts were not only used by the military, but also by civilians for self defense, to improve their health, or simply as part of the history and traditions of individual families and villages.",
+   "NUS Wushu focuses on traditional wushu practiced through taolus, which are a set routine comprising connected techniques, choreographed with patterns of attack and defense.",
+   "As it does not contain many stunts and acrobatics, traditional wushu is not difficult to pick up or learn, even if one does not have a background in martial arts or sports.",
+   "We welcome all who are interested in joining us and learning more about Wushu. Even though Wushu may seem like an individual sport, NUS Wushu has always been working on fostering club bonding through various events and outings. We train hard and play hard. Also, many of our members have stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.",
+    "Interested to find out more? Talk to us now at nuswushu@gmail.com!"
   ],
   "training_sessions": [
     {
-      "day": "Monday",
-      "time": "7pm-10pm",
-      "venue": "MPSH 2",
-      "venue_link": ""
-    },
-    {
-      "day": "Friday",
-      "time": "7pm-10pm",
-      "venue": "MPSH 2",
+      "day": "Mon & Fri",
+      "time": "7 - 10 pm",
+      "venue": "MPSH 6",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/362902",
   "events": [
-
+    {
+      "event_image_name": "wushuids.png",
+      "event_name": "Wushu Interest Development Series",
+      "event_date": "31 Jan 2020",
+      "event_description": "New to sports? Curious about our martial arts form? Sign up and join us for an introductory session. See you there!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
   ],
   "instagram_url": "https://www.instagram.com/nuswushu",
   "facebook_url": "https://www.facebook.com/NUSWushu/",

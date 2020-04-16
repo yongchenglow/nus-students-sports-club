@@ -2,30 +2,54 @@
   "club_logo_image_name": "Kendo.jpg",
   "club_name": "NUS Kendo",
   "carousel_image_name": [
-    "kendo2.jpeg"
+    "kendo1.jpg",
+    "kendo2.jpeg",
+    "kendo3.jpg",
+    "kendo4.jpg"
   ],
   "about_us": [
     "Kendo is a martial art about the way of the sword, where NUS students and alumni gather to hone their skills in the dojo. While Kendo may seem like a very physical activity, don't be deceived, the underpinnings of both philosophy and mental resilience make their appearance both in trainings and in competitions.",
-    "In Kendo we all start from the ground up, no prior experience is required. Under the seniors' and sensei's guidance, you will learn to move swiftly and strike fearlessly, to attack and counter-attack, and to think on your feet while paying attention to your surroundings; all fundamental to being a kendoka."
+    "In Kendo we all start from the ground up, no prior experience is required. Under the seniors' and sensei's guidance, you will learn to move swiftly and strike fearlessly, to attack and counter-attack, and to think on your feet while paying attention to your surroundings; all fundamental to being a kendoka.",
+    "Interested to find out more? Talk to us now at nuskendoka@gmail.com!"
   ],
   "training_sessions": [
     {
-      "day": "Tuesday",
-      "time": "6pm-9pm",
+      "day": "Tues",
+      "time": "7 - 9 pm",
       "venue": "MPSH 6",
       "venue_link": ""
     },
     {
-      "day": "Friday",
-      "time": "6pm-9pm",
+      "day": "Fri",
+      "time": "7 - 9 pm",
       "venue": "MPSH 6",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/361855",
   "events": [
-
+    {
+      "event_image_name": "camp.jpeg",
+      "event_name": "Kendo Training Camp 2020",
+      "event_date": "2 Jan 2020",
+      "event_description": "An annual training camp for members to interact and prepare for upcoming competitions.",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "ken.jpeg",
+      "event_name": "Kendo Welcome Tea 2019",
+      "event_date": "23 Aug 2019",
+      "event_description": "Interested to know more about kendo? Come down to MPSH 6 for our welcome tea! 来てください!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
   ],
+
   "instagram_url": "https://www.instagram.com/nuskendoclub",
   "facebook_url": "https://www.facebook.com/NUSKendoClub/",
   "telegram_url": ""
