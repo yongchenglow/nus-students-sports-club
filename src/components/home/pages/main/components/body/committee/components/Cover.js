@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Cover extends Component {
   render () {
     return (
-      <div className='committee-cover'>
+      <div className='committee-cover-40'>
         <Container>
           <Row className='cover-row-container justify-content-center'>
             <Col className='cover-container' xs={11} sm={11} md={10} lg={9} xl={8}>

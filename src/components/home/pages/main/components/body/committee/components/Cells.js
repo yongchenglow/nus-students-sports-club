@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
 import { CardDeck, Card, Container } from 'react-bootstrap';
 
-import FinanceCell from '../images/39_Finance_Cell.JPG';
-import MarketingCell from '../images/39_Marketing_Cell.JPG';
-import PresidentialCell from '../images/39_Presidential_Cell.JPG';
-import ProjectsCell from '../images/39_Projects_Cell.JPG';
-import PublicityCell from '../images/39_Publicity_Cell.JPG';
-import SecretariatCell from '../images/39_Secretariat_Cell.JPG';
-import WelfareCell from '../images/39_Welfare_Cell.JPG';
-import NUSSUExcoRep from '../images/39_NUSSU_Exco_Rep.png';
-
 class Cells extends Component {
+  
   render () {
     return (
       <div className='section text-center'>
@@ -18,7 +10,7 @@ class Cells extends Component {
           <CardDeck className='justify-content-center single-card'>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={PresidentialCell} alt='Presidential Cell'/>
+                <Card.Img variant='top' src={process.env.PUBLIC_URL + process.env.REACT_APP_40_IMAGES_FILE_PATH + '/cells/Presidential.jpg'} alt='Presidential Cell'/>
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Presidential Cell</Card.Title>
@@ -31,7 +23,7 @@ class Cells extends Component {
           <CardDeck className='justify-content-center'>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={FinanceCell} alt='Finance Cell'/>
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Finance.jpg'} alt='Finance Cell'/>
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Finance Cell</Card.Title>
@@ -42,7 +34,7 @@ class Cells extends Component {
             </Card>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={SecretariatCell} alt='Secretariat Cell' />
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Secretariat.jpg'} alt='Secretariat Cell' />
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Secretariat Cell</Card.Title>
@@ -53,7 +45,7 @@ class Cells extends Component {
             </Card>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={MarketingCell} alt='Marketing Cell' />
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Marketing.jpg'} alt='Marketing Cell' />
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Marketing Cell</Card.Title>
@@ -64,7 +56,7 @@ class Cells extends Component {
             </Card>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={PublicityCell} alt='Publicity Cell' />
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Publicity.jpg'} alt='Publicity Cell' />
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Publicity Cell</Card.Title>
@@ -75,7 +67,7 @@ class Cells extends Component {
             </Card>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={WelfareCell} alt='Welfare Cell' />
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Welfare.jpg'} alt='Welfare Cell' />
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Welfare Cell</Card.Title>
@@ -86,7 +78,7 @@ class Cells extends Component {
             </Card>
             <Card className='cell-card'>
               <div>
-                <Card.Img variant='top' src={ProjectsCell} alt='Projects Cell' />
+                <Card.Img variant='top' src={process.env.PUBLIC_URL+process.env.REACT_APP_40_IMAGES_FILE_PATH+'/cells/Projects.jpg'} alt='Projects Cell' />
               </div>
               <Card.Body className='text-left'>
                 <Card.Title>Projects Cell</Card.Title>
@@ -96,7 +88,7 @@ class Cells extends Component {
               </Card.Body>
             </Card>
           </CardDeck>
-          <CardDeck className='justify-content-center single-card'>
+          {/* <CardDeck className='justify-content-center single-card'>
             <Card className='cell-card'>
               <div>
                 <Card.Img variant='top' src={NUSSUExcoRep} alt='NUSSU Exco Rep' />
@@ -108,7 +100,7 @@ class Cells extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </CardDeck>
+          </CardDeck> */}
         </Container>
       </div>
     );
