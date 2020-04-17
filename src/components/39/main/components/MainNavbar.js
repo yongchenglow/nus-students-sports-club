@@ -38,7 +38,7 @@ class MainNavbar extends Component {
       home = (
         <React.Fragment>
           <NavItem href='/'>
-            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' exact={true} to='/' >
+            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' exact={true} to='/39' >
               Home
             </Nav.Link>
           </NavItem>
@@ -48,7 +48,7 @@ class MainNavbar extends Component {
       home = (
         <React.Fragment>
           <NavItem href='/'>
-            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' className='navbar-brand' exact={true} to='/' >
+            <Nav.Link as={NavLink} eventKey='1' activeClassName='nav-link-active' className='navbar-brand' exact={true} to='/39' >
               <SportsClubLogo className='nav-logo'/>
             </Nav.Link>
           </NavItem>
@@ -59,7 +59,7 @@ class MainNavbar extends Component {
     var about = (
       <React.Fragment>
         <NavItem href='/about'>
-          <Nav.Link as={NavLink} eventKey='2' activeClassName='nav-link-active' to='/about'>
+          <Nav.Link as={NavLink} eventKey='2' activeClassName='nav-link-active' to='/39/about'>
             {this.state.smallWords? 'About': 'About Us'}
           </Nav.Link>
         </NavItem>
@@ -69,7 +69,7 @@ class MainNavbar extends Component {
     var partners = (
       <React.Fragment>
         <NavItem href='/partners'>
-          <Nav.Link as={NavLink} eventKey='3' activeClassName='nav-link-active' to='/partners' >
+          <Nav.Link as={NavLink} eventKey='3' activeClassName='nav-link-active' to='/39/partners' >
             {this.state.smallWords? 'Partners': 'Our Partners'}
           </Nav.Link>
         </NavItem>
@@ -79,7 +79,7 @@ class MainNavbar extends Component {
     var events = (
       <React.Fragment>
         <NavItem href='/events'>
-          <Nav.Link as={NavLink} eventKey='4' activeClassName='nav-link-active' to='/events' >
+          <Nav.Link as={NavLink} eventKey='4' activeClassName='nav-link-active' to='/39/events' >
             {this.state.smallWords? 'Events': 'Our Events'}
           </Nav.Link>
         </NavItem>
@@ -89,7 +89,7 @@ class MainNavbar extends Component {
     var clubs = (
       <React.Fragment>
         <NavItem href='/clubs'>
-          <Nav.Link as={NavLink} eventKey='5' activeClassName='nav-link-active' to='/clubs' >
+          <Nav.Link as={NavLink} eventKey='5' activeClassName='nav-link-active' to='/39/clubs' >
             {this.state.smallWords? 'Clubs': 'Member Clubs'}
           </Nav.Link>
         </NavItem>
@@ -99,7 +99,7 @@ class MainNavbar extends Component {
     var projects = (
       <React.Fragment>
         <NavItem href='/projects'>
-          <Nav.Link as={NavLink} eventKey='6' activeClassName='nav-link-active' to='/projects' >
+          <Nav.Link as={NavLink} eventKey='6' activeClassName='nav-link-active' to='/39/projects' >
             {this.state.smallWords? 'Projects': 'Our Projects'}
           </Nav.Link>
         </NavItem>
@@ -109,7 +109,7 @@ class MainNavbar extends Component {
     var committee = (
       <React.Fragment>
         <NavItem href='/committee'>
-          <Nav.Link as={NavLink} eventKey='7' activeClassName='nav-link-active' to='/committee' >
+          <Nav.Link as={NavLink} eventKey='7' activeClassName='nav-link-active' to='/39/committee' >
             {this.state.smallWords? 'Committee': 'Our Committee'}
           </Nav.Link>
         </NavItem>
