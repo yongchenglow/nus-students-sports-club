@@ -34,7 +34,7 @@ class MainFooter extends Component {
         <Container>
           <Row>
             <Col className='text-center text-md-left' md={4}>
-              <div className='footer-text'><strong>Address:</strong> 8 Sports Drive 1 S(117564)</div>
+              <div className='footer-text'><strong>Address:</strong> 2 Sports Drive 1 S(117564)</div>
               <div className='footer-text'><strong>Email:</strong> enquiry@nussportsclub.org</div>
             </Col>
             <Col className='footer-col' md={4}>

@@ -101,7 +101,7 @@ class MartialArts extends Component {
                   <Card.Img variant='top' className='project-image' src={NWP} alt='NUS Nam Wah Pai Self Defence'/>
                 </div>
                 <Card.Body className='club-name'>
-                  <Card.Title>Nam Wah Pai Self Defense</Card.Title>
+                  <Card.Title>Nam Wah Pai Self-Defence</Card.Title>
                   <h6 className='find-out'>
                     Find out more!
                   </h6>
