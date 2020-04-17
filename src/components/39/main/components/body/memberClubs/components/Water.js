@@ -11,12 +11,17 @@ class Water extends Component {
           <div className='section-heading'>Water</div>
           <CardDeck className='justify-content-center'>
             <Card className='club-card'>
-              <div>
-                <Card.Img variant='top' className='project-image' src={ULC} alt='NUS University Lifeguard Corps'/>
-              </div>
-              <Card.Body className='club-name'>
-                <Card.Title>University Lifegaurd Corps</Card.Title>
-              </Card.Body>
+              <a href={process.env.PUBLIC_URL + '/clubs/ulc'}>
+                <div>
+                  <Card.Img variant='top' className='project-image' src={ULC} alt='NUS University Lifeguard Corps'/>
+                </div>
+                <Card.Body className='club-name'>
+                  <Card.Title>University Lifeguard Corps</Card.Title>
+                  <h6 className='find-out'>
+                    Find out more!
+                  </h6>
+                </Card.Body>
+              </a>
             </Card>
           </CardDeck>
         </Container>
