@@ -9,6 +9,8 @@ import Committee from './body/committee/Committee';
 import Events from './body/events/Events';
 import Partners from './body/partners/Partners';
 import SCProjects from './body/scProjects/SCProjects';
+import Shop from './body/shop/Shop';
+import Contact from './body/contact/Contact';
 import NotFound from './body/NotFound';
 
 class MainBody extends Component {
@@ -24,6 +26,8 @@ class MainBody extends Component {
           <Route exact path='/events' component={Events} />
           <Route exact path='/partners' component={Partners} />
           <Route exact path='/projects' component={SCProjects} />
+          <Route exact path='/shop' component={Shop} />
+          <Route exact path='/contact' component={Contact} />
           <Route path='/notfound' component={NotFound} />
         </Switch>
       </div>

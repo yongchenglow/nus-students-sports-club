@@ -83,7 +83,7 @@ class Cells extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>Projects Cell</Card.Title>
                 <Card.Text>
-                  We work together to strategically brand and organize the 6 Sports Club Projects, ensuring its quality and excellence.
+                  We work together to strategically brand and organize the 5 Sports Club Projects, ensuring its quality and excellence.
                 </Card.Text>
               </Card.Body>
             </Card>

@@ -7,7 +7,7 @@ class MainNavbar extends Component {
   constructor() {
     super();
     this.state = {
-      smallWords: false,
+      smallWords: true,
       collapseNav: false,
     };
     this.resize = this.resize.bind(this);
@@ -24,6 +24,8 @@ class MainNavbar extends Component {
         this.setState({collapseNav: collapseNav});
     }
 
+    // For the case where there are less items in the navigation bar
+    // let smallWords = true;
     let smallWords = (window.innerWidth < 992 && window.innerWidth >= 768 );
     if (smallWords !== this.state.smallWords) {
         this.setState({smallWords: smallWords});
@@ -90,7 +92,7 @@ class MainNavbar extends Component {
       <React.Fragment>
         <NavItem href='/clubs'>
           <Nav.Link as={NavLink} eventKey='5' activeClassName='nav-link-active' to='/clubs' >
-            {this.state.smallWords? 'Clubs': 'Member Clubs'}
+            {this.state.smallWords? 'Clubs': 'Our Clubs'}
           </Nav.Link>
         </NavItem>
       </React.Fragment>
@@ -116,7 +118,25 @@ class MainNavbar extends Component {
       </React.Fragment>
     );
 
+    var shop = (
+      <React.Fragment>
+        <NavItem href='/shop'>
+          <Nav.Link as={NavLink} eventKey='8' activeClassName='nav-link-active' to='/shop' >
+            {this.state.smallWords? 'Shop': 'Our Shop'}
+          </Nav.Link>
+        </NavItem>
+      </React.Fragment>
+    );
 
+    var contact = (
+      <React.Fragment>
+        <NavItem href='/contact'>
+          <Nav.Link as={NavLink} eventKey='9' activeClassName='nav-link-active' to='/contact' >
+            {this.state.smallWords? 'Contact': 'Contact Us'}
+          </Nav.Link>
+        </NavItem>
+      </React.Fragment>
+    );
 
     if(this.state.collapseNav){
       navbar = (
@@ -128,10 +148,12 @@ class MainNavbar extends Component {
               {home}
               {about}
               {clubs}
-              {events}
               {projects}
               {committee}
+              {shop}
+              {events}
               {partners}
+              {contact}
             </Nav>
           </Navbar.Collapse>
         </React.Fragment>
@@ -140,13 +162,15 @@ class MainNavbar extends Component {
       navbar = (
         <React.Fragment>
           <Nav>
-          {partners}
-          {events}
-          {about}
-          {home}
-          {clubs}
-          {projects}
-          {committee}
+            {about}
+            {clubs}
+            {projects}
+            {committee}
+            {home}
+            {shop}
+            {partners}
+            {events}
+            {contact}
           </Nav>
         </React.Fragment>
       );

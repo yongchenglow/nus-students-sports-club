@@ -53,19 +53,19 @@ a.nav-link {
 
 @media (min-width: 768px) {
   .nav-link {
-    margin: 0px 10px;
+    margin: 0px 2px;
   }
 }
 
 @media (min-width: 992px) {
   .nav-link {
-    margin: 0px 10px;
+    margin: 0px 0px;
   }
 }
 
 @media (min-width: 1200px) {
   .nav-link {
-    margin: 0px 15px;
+    margin: 0px 5px;
   }
 }
 
@@ -283,6 +283,12 @@ a.nav-link {
 
 .about-cover {
   background: url(/images/AboutBackground.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us-cover {
+  background: url(/images/Synergy.jpg) no-repeat center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -661,4 +667,48 @@ a.nav-link {
   height: 50px;
   width: 50px;
   font-size: 1.5rem;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-grow-item {
+  flex-grow: 1;
+}
+
+.contact-image {
+  max-height: 242px;
+}
+
+.contact-form-top {
+  order: 2;
+}
+
+.contact-form-image {
+  order: 1;
+  padding-bottom: 1rem;
+}
+
+.card-body-no-border {
+  border-right: 0px;
+}
+
+.flex-container-wrapper {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 576px) {
+  .flex-container-wrapper {
+    flex-wrap: none;
+  }
+
+  .contact-form-top {
+    padding-right: 1.25rem;
+    order: 1;
+  }
+  
+  .contact-form-image {
+    order: 2;
+  }
 }
