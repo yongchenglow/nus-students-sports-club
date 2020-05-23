@@ -18,7 +18,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>NUS Biathlon</Card.Title>
                 <div className='card-sub-title'>
-                  23rd March 2019 8am to 11am
+                  TBA
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
@@ -35,7 +35,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>SunNUS</Card.Title>
                 <div className='card-sub-title'>
-                  23rd March 2019 8am to 11am
+                  TBA
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
@@ -53,7 +53,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>NUS Sports Camp</Card.Title>
                 <div className='card-sub-title'>
-                  23rd March 2019 8am to 11am
+                  29th June to 2nd July
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
@@ -70,7 +70,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>Inter-Faculty Games</Card.Title>
                 <div className='card-sub-title'>
-                  23rd March 2019 8am to 11am
+                  TBA
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
@@ -87,7 +87,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>RunNUS</Card.Title>
                 <div className='card-sub-title'>
-                  23rd March 2019 8am to 11am
+                  6th September
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
