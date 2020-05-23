@@ -39,11 +39,11 @@ class Projects extends Component {
                 </div>
                 <Card.Text>
                   <span className='paragraph'>
-                    SunNUS the National University of Singapore's largest annual beach event for anyone to do sports.
+                    SunNUS is the National University of Singapore's largest annual beach event for anyone to do sports.
                     SunNUS empowers individuals from all walks of life to pursue an active lifestyle and have fun under the sun!
                   </span>
                   <span className='paragraph'>
-                    Both NUS students and the general public alike can look forward to the Mount Imbiah Challenge, several beach sports, a performance by beach pageants and an exciting array for frings games.
+                    Both NUS students and the general public alike can look forward to the Mount Imbiah Challenge, several beach sports, a performance by beach pageants and an exciting array for fringe games.
                   </span>
                 </Card.Text>
               </Card.Body>
