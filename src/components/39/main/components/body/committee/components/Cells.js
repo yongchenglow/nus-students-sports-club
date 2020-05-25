@@ -8,7 +8,7 @@ import ProjectsCell from '../images/39_Projects_Cell.JPG';
 import PublicityCell from '../images/39_Publicity_Cell.JPG';
 import SecretariatCell from '../images/39_Secretariat_Cell.JPG';
 import WelfareCell from '../images/39_Welfare_Cell.JPG';
-import NUSSUExcoRep from '../images/39_NUSSU_Exco_Rep.png';
+import NUSSUExcoRep from '../images/39_NUSSU_Exco_Rep.jpg';
 
 class Cells extends Component {
   render () {
