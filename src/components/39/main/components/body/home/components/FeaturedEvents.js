@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Card, Container } from 'react-bootstrap';
 
-import IFGClosingPoster from '../images/IFG_Closing_Ceremony_Poster.png';
-import RunNUSPoster from '../images/RunNUS_Poster.png';
+import IFGClosingPoster from '../images/IFG_Closing_Ceremony_Poster.jpg';
+import RunNUSPoster from '../images/RunNUS_Poster.jpg';
 import SportsClubDayPoster from '../images/Sports_Club_Day_Poster.jpg';
 
 import Carousel from 'nuka-carousel';

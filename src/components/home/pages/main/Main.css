@@ -446,6 +446,7 @@ a.nav-link {
   color: var(--sc-grey-light);
   margin-bottom: 10px;
   line-height: 22px;
+  display: block;
 }
 
 @media (min-width: 768px) {

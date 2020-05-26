@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { CardDeck, Card, Container } from 'react-bootstrap';
 
 import ManagementCommittee from '../images/39_Management_Committee.JPG';
-import NUSClimibingClub from '../images/NUS_Climbing_Club.png';
+import NUSClimibingClub from '../images/NUS_Climbing_Club.jpg';
 import RunNUS from '../images/RunNUS.jpg';
 
 class OurStakeholders extends Component {
