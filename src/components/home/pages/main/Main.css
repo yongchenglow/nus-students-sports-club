@@ -713,3 +713,21 @@ a.nav-link {
     order: 2;
   }
 }
+
+.section-contact {
+  background-color: var(--sc-grey);
+  background-image: url(/images/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-card {
+  background: #d0d0d0;
+}
+
+.shop-item {
+  min-width: 253px;
+  max-width: 253px;
+  padding: 10px;
+  display: inline-block;
+}

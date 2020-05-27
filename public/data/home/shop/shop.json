@@ -1,0 +1,125 @@
+{
+    "items": [
+      {
+        "name": "RunNUS 2019 Singlet",
+        "price": "$6.00",
+        "description": "RunNUS dri-fit running singlet",
+        "details": [
+          "Male Model is 170cm and wears M",
+          "Female Model is 164cm and wears S"
+        ],
+        "share_url": "RunNUS2019Singlet",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sports-merchsunnus/menu",
+        "pictures_url": [
+          "RunNUS_2019_Front.jpg",
+          "RunNUS_2019.jpg"
+        ]
+      },
+      {
+        "name": "RunNUS 2018 Singlet",
+        "price": "$6.00",
+        "description": "RunNUS dri-fit running singlet",
+        "details": [
+          "Male Model is 170cm and wears M",
+          "Female Model is 164cm and wears S"
+        ],
+        "share_url": "RunNUS2018Singlet",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sports-merchsunnus/menu",
+        "pictures_url": [
+          "RunNUS_2018_Front.jpg",
+          "RunNUS_2018_Back.jpg"
+        ]
+      },
+      {
+        "name": "NUS Biathlon Singlet",
+        "price": "$6.00",
+        "description": "NUS Biathlon dri-fit running singlet",
+        "details": [
+          "Model is 159cm and wears XS."
+        ],
+        "share_url": "NUSBiathlonSinglet",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sports-merchsunnus/menu",
+        "pictures_url": [
+          "NUS_Biathlon_Front.jpg",
+          "NUS_Biathlon_Back.jpg"
+        ]
+      },
+      {
+        "name": "Sports Club Shirt",
+        "price": "$10.00",
+        "description": "NUS Students' Sports Club navy blue dry fit casual tee",
+        "details": [
+          "Male model wears L and is 177cm tall.",
+          "Female model wears S and is 153cm tall."
+        ],
+        "share_url": "SportsClubShirt",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sportsclub-merch/menu",
+        "pictures_url": [
+          "Sports_Club_Shirt_1.jpg",
+          "Sports_Club_Shirt_2.jpg",
+          "Sports_Club_Shirt_3.jpg",
+          "Sports_Club_Shirt_4.jpg"
+        ]
+      },
+      {
+        "name": "SunNUS Team Sports Series Singlet",
+        "price": "$6.00",
+        "description": "Official SunNUS dri-fit tank top, available in red and blue.",
+        "details": [
+          "Male model is 170cm and wears S.",
+          "Female model is 160cm and wears S."
+        ],
+        "share_url": "NUSSunNUSSinglet",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sportsclub-merch/menu",
+        "pictures_url": [
+            "SunNUS_Singlet_1.jpg"
+        ]
+      },
+      {
+        "name": "Sun's Out, Fun's Out T-Shirt",
+        "price": "$12.00",
+        "description": "SunNUS crew neck, cotton tee, available in black and white.",
+        "details": [
+          "Male model is 170cm and wears S.",
+          "Female model is 160cm and wears S."
+        ],
+        "share_url": "SunNUSShirt",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sportsclub-merch/menu",
+        "pictures_url": [
+            "SunNUS_Shirt_1.jpg",
+            "SunNUS_Shirt_2.jpg"
+        ]
+      },
+      {
+        "name": "SunNUS Muscle Tank",
+        "price": "$10.00",
+        "description": "Black SunNUS crew neck muscle tank.",
+        "details": [
+          "Male model is 170cm and wears S.",
+          "Female model is 160cm and wears XS."
+        ],
+        "share_url": "SunNUSMuscleTank",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sportsclub-merch/menu",
+        "pictures_url": [
+          "SunNUS_MuscleTank_2.jpg",
+          "SunNUS_MuscleTank_1.jpg"
+        ]
+      },
+      {
+        "name": "SunNUS Cap",
+        "price": "$8.00",
+        "description": "Sun cap available in white, and Sunny Side Up cap available in black.",
+        "details": [
+        
+        ],
+        "share_url": "SunNUSCap",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sportsclub-merch/menu",
+        "pictures_url": [
+          "SunNUS_Cap.jpg",
+          "SunNUS_White_Cap.jpg",
+          "SunNUS_Black_Cap.jpg"
+        ]
+      }
+    ]
+  }
+  

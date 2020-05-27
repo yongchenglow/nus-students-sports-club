@@ -48,11 +48,11 @@ class ContactForm extends Component {
 
   render () {
     return (
-      <div className='section'>
+      <div className='section section-contact'>
         <Container>
           <Row className='justify-content-center'>
             <Col className='col-lg-8 col-md-10 col-sm-12'>
-              <Card>
+              <Card className='contact-card'>
                 <Card.Body className="card-body-no-border">
                   <Card.Title className='text-center mb-3' style={{"fontSize" :"1.75rem"}}>Send us a Message</Card.Title>
                   <form id='contact-form' onSubmit={this.handleSubmit.bind(this)} method='POST'>
@@ -72,7 +72,7 @@ class ContactForm extends Component {
                         </div>
                       </div>
                       <div className="contact-form-image">
-                        <img className='img-fluid contact-image' src={process.env.PUBLIC_URL+'/images/Contact_Us.jpg'} alt='Contact Us' />
+                        <img className='img-fluid contact-image rounded' src={process.env.PUBLIC_URL+'/images/Contact_Us.jpg'} alt='Contact Us' />
                       </div>
                     </div>
                     <div className='form-group'>
@@ -80,7 +80,7 @@ class ContactForm extends Component {
                       <textarea className='form-control' rows='5' value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                     </div>
                     <div className='text-center'>
-                      <button type='submit' className='btn btn-primary'>Submit</button>
+                      <button type='submit' className='btn btn-success btn-block'>Submit</button>
                     </div>
                   </form>
                 </Card.Body>
