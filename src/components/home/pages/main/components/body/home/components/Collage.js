@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 
-import SportsClubCollage from '../images/sports_club_collage.png';
+import SportsClubCollage from '../images/sports_club_collage.jpg';
 import SportsClubLogo from '../../../../../../images/logos/SportsClubLogo.js';
 
 class Collage extends Component {
