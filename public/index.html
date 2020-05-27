@@ -8,7 +8,6 @@
     <link rel="canonical" href="http://www.nussportsclub.org" />
 
     <link rel="icon" href="images/logos/Sports_Club_Torch.png">
-    <title>NUS Students' Sports Club</title>
     <meta name="author" content="NUS Students' Sports Club">
     <meta name="description" content="NUS Students' Sports Club is the leading platform in promoting community bonding through recreational sports in NUS.">
     <meta name="keywords" content="NUS Students' Sports Club, NUSSSC, NUS Sports, Sports, NUS Sports Club, National University of Singapore, NUS">
@@ -25,6 +24,31 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="302112095550"
+      logged_in_greeting="Hi! NUS Sports Camp is now opened. Sign up at http://bit.ly/NUSSportsCamp2020"
+      logged_out_greeting="Hi! NUS Sports Camp is now opened. Sign up at http://bit.ly/NUSSportsCamp2020">
+    </div>
     <div id="root"></div>
   </body>
 </html>
