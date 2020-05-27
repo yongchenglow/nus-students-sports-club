@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Card, Container, CardDeck, Button } from 'react-bootstrap';
 
-import IFGClosingPoster from '../images/IFG_Closing_Ceremony_Poster.jpg';
-import RunNUSPoster from '../images/RunNUS_Poster.jpg';
-import SportsClubDayPoster from '../images/Sports_Club_Day_Poster.jpg';
+import SportsCampPoster from '../images/SportsCamp2020.jpeg';
 
-import Carousel from 'nuka-carousel';
+// import Carousel from 'nuka-carousel';
 
 class FeaturedEvents extends Component {
   constructor(props) {
@@ -19,6 +17,12 @@ class FeaturedEvents extends Component {
 
   componentDidMount() {
     this.updateWindowDimensions();
+    const script = document.createElement("script");
+
+    script.src = "https://static.addtoany.com/menu/page.js";
+    script.async = true;
+
+    document.body.appendChild(script);
     window.addEventListener('resize', this.updateWindowDimensions);
   }
 
@@ -53,7 +57,7 @@ class FeaturedEvents extends Component {
     return (
       <Container className='section text-center'>
         <div className='section-heading'>Featured Events</div>
-        <Carousel
+        {/* <Carousel
           cellSpacing={20}
           slidesToShow={slidesToShow}
           autoplay={true}
@@ -68,41 +72,28 @@ class FeaturedEvents extends Component {
             pagingDotsContainerClassName:'slider-controls',
             pagingDotsClassName: 'paging-dot-button'
           }}
-        >
+        > */}
+        <CardDeck className='justify-content-center'>
           <Card className='featured-events'>
-            <div className='embed-responsive embed-responsive-A4'>
-              <Card.Img variant='top' className='embed-responsive-item' src={SportsClubDayPoster} alt='Sports Club Day Poster'/>
-            </div>
+            <Card.Img variant='top' src={SportsCampPoster} alt='NUS Sports Camp Poster'/>
             <Card.Body className='text-left'>
-              <Card.Title>Sports Club Day</Card.Title>
+              <Card.Title>NUS Sports Camp 2020</Card.Title>
               <Card.Text>
-                Join us for a day of fun, find out the different recreational sports avialable in NUS and our upcoming evnts!
+                <div>Gear up for NUS Sports Camp from 29th to 30th June bringing you an orientation programme like no other!</div>
               </Card.Text>
+              <Card.Text className='mb-0'>Share this:</Card.Text>
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style mb-3" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
+                {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_whatsapp"></a>
+                <a class="a2a_button_telegram"></a>
+                <a class="a2a_button_copy_link"></a>
+              </div>
+              <Button className='btn btn-block btn-success' href='http://www.bit.ly/NUSSportsCamp2020' target='_blank'>Sign Up Now</Button>
             </Card.Body>
           </Card>
-          <Card className='featured-events'>
-            <div className='embed-responsive embed-responsive-A4'>
-              <Card.Img variant='top' className='embed-responsive-item' src={RunNUSPoster} alt='RunNUS Poster'/>
-            </div>
-            <Card.Body className='text-left'>
-              <Card.Title>RunNUS 2019</Card.Title>
-              <Card.Text>
-                Take on a challenge and participate in NUS Annual Biggest Running event to raise awarness for Disability Support.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className='featured-events'>
-            <div className='embed-responsive embed-responsive-A4'>
-              <Card.Img variant='top' className='embed-responsive-item' src={IFGClosingPoster} alt='IFG Closing Ceremony Poster'/>
-            </div>
-            <Card.Body className='text-left'>
-              <Card.Title>IFG Closing Ceremony</Card.Title>
-              <Card.Text>
-                Come down to IFG Closing Ceremoney and support your faculty. Find out who will be the IFG Champions of 2019.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Carousel>
+        </CardDeck>
+        {/* </Carousel> */}
       </Container>
     );
   }
