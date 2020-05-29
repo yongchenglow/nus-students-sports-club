@@ -729,5 +729,14 @@ a.nav-link {
   min-width: 253px;
   max-width: 253px;
   padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  vertical-align: top;
   display: inline-block;
+}
+
+.transform {
+  transform: translate(0px, -8px);
+  box-shadow: 2px 4px 8px 0 var(--sc-grey-super-light);
 }

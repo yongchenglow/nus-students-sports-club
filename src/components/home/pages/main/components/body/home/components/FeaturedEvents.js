@@ -38,21 +38,20 @@ class FeaturedEvents extends Component {
   }
 
   render () {
-    var slidesToShow;
-    var withoutControls;
-    if(this.state.width >= 992){
-      slidesToShow = 3;
-    } else if (this.state.width >= 768){
-      slidesToShow = 2;
-    } else {
-      slidesToShow = 1;
-    }
+    // var slidesToShow;
+    // if(this.state.width >= 992){
+    //   slidesToShow = 3;
+    // } else if (this.state.width >= 768){
+    //   slidesToShow = 2;
+    // } else {
+    //   slidesToShow = 1;
+    // }
 
-    if(slidesToShow === 3){
-      withoutControls = true;
-    } else {
-      withoutControls = false;
-    }
+    // if(slidesToShow === 3){
+    //   withoutControls = true;
+    // } else {
+    //   withoutControls = false;
+    // }
 
     return (
       <Container className='section text-center'>

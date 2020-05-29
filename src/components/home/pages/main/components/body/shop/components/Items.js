@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Carousel, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';
 import $ from 'jquery';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 
 class Items extends Component {
   constructor(props){
@@ -47,6 +45,14 @@ class Items extends Component {
     return shopData;
   }
 
+  addCardClass(e) {
+    e.currentTarget.className = 'shop-item text-center card transform';
+  }
+
+  removeCardClass(e) {
+    e.currentTarget.className = 'shop-item text-center';
+  }
+
   render () {
     // Redirect to page not found if the member club does not exist
     if(this.state.has_error === true){
@@ -60,9 +66,9 @@ class Items extends Component {
       for(var i = 0; i < this.state.shopData["items"].length; i++){
         var item = this.state.shopData.items[i];
         shops.push(
-          <div className='shop-item text-center' key={'item-'+i}>
-            <img className='img-fluid mb-2' src={item.pictures_url[0]} alt={item.name} />
-            <div >{item.name}</div>
+          <div className='shop-item text-center' key={'item-'+i} onMouseEnter={this.addCardClass} onMouseLeave={this.removeCardClass}>
+            <img className='img-fluid mb-2 rounded' src={item.pictures_url[0]} alt={item.name} />
+            <h6 style={{marginTop:'0.5rem',fontSize:'1.2rem'}}>{item.name}</h6>
           </div>
         );
       }
@@ -71,7 +77,7 @@ class Items extends Component {
     return (
       <div className='section'>
         <Container>
-          <div className='justify-content-center'>
+          <div className='text-center'>
             {shops}
           </div>
         </Container>
