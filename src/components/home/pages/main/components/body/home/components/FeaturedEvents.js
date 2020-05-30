@@ -79,7 +79,7 @@ class FeaturedEvents extends Component {
             <Card.Body className='text-left'>
               <Card.Title>NUS Sports Camp 2020</Card.Title>
               <Card.Text>
-                <div>Gear up for NUS Sports Camp from 29th to 30th June bringing you an orientation programme like no other!</div>
+                <div>Gear up for NUS Sports Camp from 29th to 30th June. We will be bringing you an orientation programme like no other!</div>
               </Card.Text>
               <Card.Text className='mb-0'>Share this:</Card.Text>
               <div class="a2a_kit a2a_kit_size_32 a2a_default_style mb-3" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
