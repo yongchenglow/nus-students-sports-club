@@ -1,42 +1,57 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
-import IFGClosingPoster from '../images/IFG_Closing_Ceremony_Poster.png';
-import RunNUSPoster from '../images/RunNUS_Poster.png';
-import SportsClubDayPoster from '../images/Sports_Club_Day_Poster.jpg';
+import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
+import ProjectX from '../images/ProjectX.jpg';
 
 class Event extends Component {
+  componentDidMount() {
+    const script = document.createElement("script");
+
+    script.src = "https://static.addtoany.com/menu/page.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+  }
+
   render () {
     return (
       <div className='section'>
         <Container>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image' src={IFGClosingPoster} alt='IFG Closing Ceremony' />
+              <img class='event-image' src={SportsCamp2020} alt='NUS Sports Camp 2020' />
               <div className='event-text'>
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
                     <div className='event-title'>
-                      IFG Swimming X Closing Ceremony
+                      NUS Sports Camp 2020
                     </div>
                     <div className='event-date'>
-                      19th September 2019 6pm-10pm
+                      29th to 30th June
+                    </div>
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
+                      {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
+                      <a class="a2a_button_facebook"></a>
+                      <a class="a2a_button_whatsapp"></a>
+                      <a class="a2a_button_telegram"></a>
+                      <a class="a2a_button_copy_link"></a>
                     </div>
                   </Col>
                   <Col className='text-md-right text-center'>
-                    <Button className='btn-outline-sc-red'>Sign Up Now!</Button>
+                    <Button className='btn-outline-sc-red' href='http://www.bit.ly/NUSSportsCamp2020' target='_blank'>Sign Up Now!</Button>
                   </Col>
                 </Row>
                 <Row className='mt-3'>
                   <Col className='event-description text-left'>
                     <div className='paragraph'>
-                      Join us for an evening of fun while supporting your faculty at IFG Swimming.
+                      Gear up for NUS Sports Camp. We will bring you an orientation programme like no other!
                     </div>
                     <div className='paragraph'>
-                      Celebrate your wins together as a faculty during the award ceremony and enjoy the food and drinks at the different carnival booths.
+                      NUS Sports Camp is the largest non-faculty camp an NUS that aims to expose freshmen to the various sporting avenues in NUS in a fun and exciting way. The camp is catered to freshmen who are generally interested in sports, health an fitness or just want to make friends outside of their own faculty.
                     </div>
-                    <div className='paragraph'>
-                      Find out which faculty will be crowned the IFG Champions and walking away with the Tan Eng Chye Challenge Trophy for 2019.
+                    <div className='paragraph small mb-0' style={{lineHeight:'18px'}}>
+                      *Due to Covid-19, NUS Sports Camp will be held online, but do not worry, we will show you how we utilise technology to our advantage here in NUS.
                     </div>
                   </Col>
                 </Row>
@@ -45,62 +60,30 @@ class Event extends Component {
           </Row>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image' src={RunNUSPoster} alt='IFG Closing Ceremony' />
+              <img class='event-image' src={ProjectX} alt='IFG Closing Ceremony' />
               <div className='event-text'>
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
                     <div className='event-title'>
-                      RunNUS 2019
+                      Sports Club's Virtual Series
                     </div>
                     <div className='event-date'>
-                      8th September 2019 7am-11am
+                      13 July to 16 August 2020
                     </div>
                   </Col>
                   <Col className='text-md-right text-center'>
-                    <Button className='btn-outline-sc-red'>Sign Up Now!</Button>
+                    Sign Ups TBC
+                    {/* <Button className='btn-outline-sc-red'>Sign Up Now!</Button> */}
                   </Col>
                 </Row>
                 <Row className='mt-3'>
                   <Col className='event-description text-left'>
-                  <div className='paragraph'>
-                    Take on a challenge and participate in NUS Annual Biggest Running event to raise awarness for Disability Support.
-                  </div>
-                  <div className='paragraph'>
-                    This year, RunNUS will be graced by Minister of Culture, Community and Youth Ms Grace Fu. She will be taking part in our 3km challenge to run alongside those with disabilities or special needs. RunNUS 2019 will also be held in conjunction with the launch of the NUS Healthy Campus Initiative between NUS, ActiveSG and HPB.
-                  </div>
-                  <div className='paragraph'>
-                    After the run, don't miss out on our race carnival where you will get to enjoy the food and drinks, as well as games booth to learn more about disability support and living a healthy lifestyle.
-                  </div>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-          </Row>
-          <Row className='justify-content-center'>
-            <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image' src={SportsClubDayPoster} alt='IFG Closing Ceremony' />
-              <div className='event-text'>
-                <Row>
-                  <Col md='auto' className='text-center text-md-left'>
-                    <div className='event-title'>
-                      Sports Club Day
+                    <div className='paragraph'>
+                      The Sports Club’s Virtual Series is a special Ruby Jubilee project organised by NUS Students’ Sports Club. The series comprises a Run & Swim component and a Run & Cycle component.
                     </div>
-                    <div className='event-date'>
-                      22nd January 2019 10am-5pm
+                    <div className='paragraph'>
+                      The series features Sports Club’s very own Ruby Jubilee medals that participants can look forward to collecting. Each component entitles participants to a unique medal that can be stacked with the other 2 medals to form an exclusive Ruby Jubilee medal!
                     </div>
-                  </Col>
-                  <Col className='text-md-right text-center'>
-                    <Button className='btn-outline-sc-red'>Sign Up Now!</Button>
-                  </Col>
-                </Row>
-                <Row className='mt-3'>
-                  <Col className='event-description text-left'>
-                  <div className='paragraph'>
-                    Join us for an ultimate day of fun and get a chance to win different types of pizes for participating.
-                  </div>
-                  <div className='paragraph'>
-                    Sports Club Day will have a total of 23 booths for your to explore and try out the different types of recreational sports and recreational events that you can take up in NUS. If you do enjoy the try-out sessions, you can continue to join their free opening training sessions to learn more!
-                  </div>
                   </Col>
                 </Row>
               </div>
