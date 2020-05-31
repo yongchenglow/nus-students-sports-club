@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Modal } from 'react-bootstrap';
+import { Modal, Button, Row, Col } from 'react-bootstrap';
+
+import Carousel from 'nuka-carousel';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faPlus } from '@fortawesome/free-solid-svg-icons';
@@ -27,79 +29,83 @@ class ItemModal extends Component {
   }
 
   render() {
-    var showModal = false;
+    var details = [];
+    for(var detail in this.props.item.details){
+      details.push(
+        <h6>{this.props.item.details[detail]}</h6>
+      );
+    }
+
+    var maxSlide = 3;
+    var itemMaxSlide = this.props.item.pictures_url.length;
+    console.log(itemMaxSlide);
+    var slidesToShow;
+    var withoutControls;
+
+    if(itemMaxSlide > maxSlide){
+      slidesToShow = maxSlide;
+      withoutControls = false;
+    } else {
+      slidesToShow = itemMaxSlide;
+      withoutControls = true;
+    }
+
+    var pictures = []
+    for(var itemNo in this.props.item.pictures_url){
+      pictures.push(
+        <img className='rounded' style={{width:'80px'}} src={this.props.item.pictures_url[itemNo]} alt={this.props.item.name+'-'+itemNo} />
+      );
+    }
+    console.log(this.props.item.pictures_url);
 
     return (
       <div>
           <Modal
-            show = {showModal}
-            onHide = {this.hideModal}
-            size='md'
+            show = {this.props.show}
+            onHide = {this.props.onHide}
+            size='lg'
             aria-labelledby='contained-modal-title-vcenter'
             centered
           >
-            <Modal.Header className='bg-success' closeButton>
-              <Modal.Title id="contained-modal-title-vcenter" className='text-white'>
-                <FontAwesomeIcon icon={faPlus} className='iconMargin'/> New Collection
+            <Modal.Header className='bg-success' style={{padding:'9px 1rem'}} closeButton>
+              <Modal.Title className='text-white' style={{fontSize:'1.25rem'}}>
+                Sports Club Merchandise
               </Modal.Title>
             </Modal.Header>
-            <Form onSubmit={this.onSubmit}>
-              <Modal.Body>
-                <Form.Group controlId='formCollectionLabel'>
-                  <Form.Label>Collection Label</Form.Label>
-                  <Form.Control
-                    type='text'
-                    placeholder='Collection Label'
-                    name='collectionLabel'
-                    value={this.state.collectionLabel}
-                    onChange={this.onChange}
-                    isInvalid={this.state.collectionLabelError !== '' && this.state.collectionLabel !== ''? true: false}
-                    isValid={this.state.collectionLabelError === '' && this.state.collectionLabel !== ''? true: false}
-                    autoFocus
-                    required/>
-                  <Form.Text className='text-danger'>{this.state.collectionLabelError}</Form.Text>
-                </Form.Group>
-                <Form.Group controlId='formCollectionColour'>
-                  <Form.Label>Collection Colour</Form.Label>
-                  <ButtonToolbar>
-                    <ToggleButtonGroup type='radio' name='collections'>
-                      {collection}
-                    </ToggleButtonGroup>
-                  </ButtonToolbar>
-                  <Form.Text className='text-danger'>{this.state.collectionColourError}</Form.Text>
-                </Form.Group>
-              </Modal.Body>
-              <Modal.Footer>
-                {this.props.collections.isLoading? addCollectionSpinner : null}
-                  {this.state.showError && this.props.collections.isError ? <p className='text-danger'>{this.state.addCollectionError}</p> : null}
-                <Button onClick={this.hideModal} variant="secondary">Close</Button>
-                <Button variant='success' type='submit' name='add'>
-                  <FontAwesomeIcon icon={faPlus} className='iconMargin'/> Collection
-                </Button>
-              </Modal.Footer>
-            </Form>
+            <Modal.Body>
+              <Row>
+                <Col>
+                  <img className='img-fluid mb-2 rounded' src={this.props.item.pictures_url[0]} alt={this.props.item.name} />
+                  <Carousel
+                    cellSpacing={0}
+                    slidesToShow={4}
+                    autoplay={true}
+                    withoutControls={withoutControls}
+                    wrapAround={true}
+                    dragging={false}
+                    defaultControlsConfig={{
+                      nextButtonStyle:{display:'none'},
+                      prevButtonStyle:{display:'none'},
+                      pagingDotsContainerClassName:'slider-controls',
+                      pagingDotsClassName: 'paging-dot-button'
+                    }}
+                  >
+                    {pictures}
+                  </Carousel>
+                </Col>
+                <Col>
+                  <h3>{this.props.item.name}</h3>
+                  <h4>{this.props.item.description}</h4>
+                  <h6 className='text-muted'>{this.props.item.price}</h6>
+                  {details}
+                  <Button variant='success' className='btn btn-block'>Buy Now</Button>
+                </Col>
+              </Row>
+            </Modal.Body>
           </Modal>
       </div>
     )
   }
 }
-
-AddCollectionModal.propTypes = {
-  closeAddCollectionModal: PropTypes.func.isRequired,
-};
-
-const mapStateToProps = state => ({
-  collections: {
-    collectionList: state.collections.collectionList,
-    isModalOpen: state.collections.isModalOpen,
-    actionType: state.collections.actionType,
-    isLoading: state.collections.isLoading,
-  },
-  user: {
-    userID: state.user.userID,
-    name: state.user.name,
-    email: state.user.email,
-  }
-});
 
 export default ItemModal;

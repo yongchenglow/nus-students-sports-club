@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';
+import ItemModal from './ItemModal';
 import $ from 'jquery';
 
 class Items extends Component {
@@ -8,10 +9,29 @@ class Items extends Component {
     super(props);
     this.state = {
       shopData: null,
-      has_error: false
+      has_error: false,
+      showModal: false,
+      item: {
+        "name": "RunNUS 2019 Singlet",
+        "price": "$6.00",
+        "description": "RunNUS dri-fit running singlet",
+        "details": [
+          "Male Model is 170cm and wears M",
+          "Female Model is 164cm and wears S"
+        ],
+        "share_url": "RunNUS2019Singlet",
+        "buy_url": "https://nusfastpay.nus.edu.sg/sports-merchsunnus/menu",
+        "pictures_url": [
+          "RunNUS_2019_Front.jpg",
+          "RunNUS_2019.jpg"
+        ]
+      }
     };
 
     this.getShopData = this.getShopData.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClickItem = this.handleClickItem.bind(this);
     this.getShopData();
   }
 
@@ -53,6 +73,20 @@ class Items extends Component {
     e.currentTarget.className = 'shop-item text-center';
   }
 
+  handleClose(){
+    this.setState({showModal: false});
+  }
+
+  handleShow(){
+    this.setState({showModal: true});
+  }
+
+  handleClickItem(e){
+    var itemID = e.currentTarget.dataset.id;
+    this.setState({ item: this.state.shopData.items[itemID] });
+    this.handleShow();
+  }
+
   render () {
     // Redirect to page not found if the member club does not exist
     if(this.state.has_error === true){
@@ -66,7 +100,7 @@ class Items extends Component {
       for(var i = 0; i < this.state.shopData["items"].length; i++){
         var item = this.state.shopData.items[i];
         shops.push(
-          <div className='shop-item text-center' key={'item-'+i} onMouseEnter={this.addCardClass} onMouseLeave={this.removeCardClass}>
+          <div className='shop-item text-center' key={'item-'+i} data-id={i} onMouseEnter={this.addCardClass} onMouseLeave={this.removeCardClass} onClick={this.handleClickItem}>
             <img className='img-fluid mb-2 rounded' src={item.pictures_url[0]} alt={item.name} />
             <h6 style={{marginTop:'0.5rem',fontSize:'1.2rem'}}>{item.name}</h6>
           </div>
@@ -80,6 +114,10 @@ class Items extends Component {
           <div className='text-center'>
             {shops}
           </div>
+          <ItemModal
+            show={this.state.showModal}
+            onHide={this.handleClose}
+            item={this.state.item}/>
         </Container>
       </div>
     );
