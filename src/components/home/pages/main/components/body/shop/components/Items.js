@@ -11,21 +11,7 @@ class Items extends Component {
       shopData: null,
       has_error: false,
       showModal: false,
-      item: {
-        "name": "RunNUS 2019 Singlet",
-        "price": "$6.00",
-        "description": "RunNUS dri-fit running singlet",
-        "details": [
-          "Male Model is 170cm and wears M",
-          "Female Model is 164cm and wears S"
-        ],
-        "share_url": "RunNUS2019Singlet",
-        "buy_url": "https://nusfastpay.nus.edu.sg/sports-merchsunnus/menu",
-        "pictures_url": [
-          "RunNUS_2019_Front.jpg",
-          "RunNUS_2019.jpg"
-        ]
-      }
+      item: null
     };
 
     this.getShopData = this.getShopData.bind(this);
@@ -60,6 +46,7 @@ class Items extends Component {
       item.pictures_url.forEach(function(picture,index){
         item.pictures_url[index] = addFileString + picture;
       });
+      item.size_chart_url = addFileString + item.size_chart_url;
     });
 
     return shopData;
@@ -114,10 +101,12 @@ class Items extends Component {
           <div className='text-center'>
             {shops}
           </div>
-          <ItemModal
+          {this.state.showModal? (
+            <ItemModal
             show={this.state.showModal}
             onHide={this.handleClose}
             item={this.state.item}/>
+          ): null}
         </Container>
       </div>
     );

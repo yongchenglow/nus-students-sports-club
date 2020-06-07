@@ -98,6 +98,9 @@ class ItemModal extends Component {
                   <h4>{this.props.item.description}</h4>
                   <h6 className='text-muted'>{this.props.item.price}</h6>
                   {details}
+                  <img className='img-fluid mb-2 rounded' src={this.props.item.size_chart_url} alt={this.props.item.name} />
+                  <div className='text-muted'>*While Stocks Last, Get them before it runs out!</div>
+                  <div className='text-muted'>*Item is low in Stock</div>
                   <Button variant='success' className='btn btn-block'>Buy Now</Button>
                 </Col>
               </Row>
