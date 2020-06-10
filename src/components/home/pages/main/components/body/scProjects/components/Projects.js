@@ -53,7 +53,7 @@ class Projects extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>NUS Sports Camp</Card.Title>
                 <div className='card-sub-title'>
-                  29th June to 2nd July
+                  29th June to 30th June
                 </div>
                 <Card.Text>
                   <span className='paragraph'>

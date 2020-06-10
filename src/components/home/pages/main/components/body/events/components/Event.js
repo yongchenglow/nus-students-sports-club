@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
+import SunNUS from '../images/SunNUS2020.png';
 import ProjectX from '../images/ProjectX.jpg';
 
 class Event extends Component {
@@ -18,6 +19,53 @@ class Event extends Component {
     return (
       <div className='section'>
         <Container>
+        <Row className='justify-content-center'>
+            <Col className='event-block' md={11} lg={10} xl={9}>
+              <img class='event-image' src={SunNUS} alt='SunNUS Breaker' />
+              <div className='event-text'>
+                <Row>
+                  <Col md='auto' className='text-center text-md-left'>
+                    <div className='event-title'>
+                      SunNUS SUNbreaker
+                    </div>
+                    <div className='event-date'>
+                      30 May 2020-19 June 2020
+                    </div>
+                  </Col>
+                  <Col className='text-md-right text-center'>
+                    <Button className='btn-outline-sc-red' href='https://www.instagram.com/sunnus_official/' target='_blank'>Join Now!</Button>
+                  </Col>
+                </Row>
+                <Row className='mt-3'>
+                  <Col className='event-description text-left'>
+                    <div className='paragraph'>
+                      Feeling bored at home? Join us online with SUNbreaker 2020, complete 1 of the 3 challenges below!
+                    </div>
+                    <div className='paragraph'>
+                      EVERY participant will receive an exclusive SunNUS medal and stand a chance to win $20 GRABFOOD VOUCHERS (15 Total)
+                    </div>
+
+                    <div className='paragraph'>
+                      <div>1) Tiktok challenge 🎶🎬</div>
+                      <div>Show your creative side by making a sports-related tiktok that best represents SunNUS and your friends</div>
+                    </div>
+
+                    <div className='paragraph'>
+                      <div>2) HIIT challenge 🏃🤸🏻‍♀️</div>
+                      <div>Film a timelapse of yourself doing the SUNbreaker HIIT workout</div>
+                    </div>
+
+                    <div className='paragraph'>
+                      <div>3) Paper Roll challenge ⚾️⚽️</div>
+                      <div>Grab a paper roll and show us how long you can juggle it for</div>
+                    </div>
+
+                    <div className='paragraph'>Post your videos on your Instagram story, and TAG US @sunnus_official with the hashtag #SUNbreaker2020</div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={SportsCamp2020} alt='NUS Sports Camp 2020' />
@@ -60,7 +108,7 @@ class Event extends Component {
           </Row>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image' src={ProjectX} alt='IFG Closing Ceremony' />
+              <img class='event-image' src={ProjectX} alt='Project X' />
               <div className='event-text'>
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
