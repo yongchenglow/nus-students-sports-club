@@ -51,7 +51,7 @@ class FeaturedEvents extends Component {
       autoplay = true;
     }
 
-    if(slidesToShow === 2){
+    if(slidesToShow > 1){
       withoutControls = true;
     } else {
       withoutControls = false;
@@ -60,14 +60,14 @@ class FeaturedEvents extends Component {
     return (
       <Container className='section text-center'>
         <div className='section-heading'>Featured Events</div>
-        <Carousel
+        {/* <Carousel
           cellSpacing={20}
-          slidesToShow={slidesToShow}
+          slidesToShow={2}
           autoplay={autoplay}
           withoutControls={withoutControls}
           heightMode={'max'}
           wrapAround={true}
-          initialSlideHeight={619}
+          initialSlideHeight={665}
           dragging={false}
           defaultControlsConfig={{
             nextButtonStyle:{display:'none'},
@@ -75,7 +75,8 @@ class FeaturedEvents extends Component {
             pagingDotsContainerClassName:'slider-controls',
             pagingDotsClassName: 'paging-dot-button'
           }}
-        >
+        > */}
+        <CardDeck className='justify-content-center'>
           <Card className='featured-events'>
             <Card.Img variant='top' src={SportsCampPoster} alt='NUS Sports Camp Poster'/>
             <Card.Body className='text-left'>
@@ -106,10 +107,11 @@ class FeaturedEvents extends Component {
                   <div>2) Do the SUNbreaker HIIT workout</div>
                   <div>3) Juggle a paper roll till it falls</div>
               </Card.Text>
-              <Button className='btn btn-block btn-success' href='https://www.instagram.com/sunnus_official/' target='_blank'>Join Now</Button>
+              <Button className='btn btn-block btn-success' href='http://www.instagram.com/_u/sunnus_official/?hl=en' target='_blank'>Join Now</Button>
             </Card.Body>
           </Card>
-        </Carousel>
+        {/* </Carousel> */}
+        </CardDeck>
       </Container>
     );
   }
