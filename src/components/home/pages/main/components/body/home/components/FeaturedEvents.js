@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Card, Container, CardDeck, Button } from 'react-bootstrap';
 
 import SportsCampPoster from '../images/SportsCamp2020.jpeg';
+import SunNUS from '../images/SunNUS2020.jpeg';
 
-// import Carousel from 'nuka-carousel';
+import Carousel from 'nuka-carousel';
 
 class FeaturedEvents extends Component {
   constructor(props) {
@@ -38,32 +39,35 @@ class FeaturedEvents extends Component {
   }
 
   render () {
-    // var slidesToShow;
-    // if(this.state.width >= 992){
-    //   slidesToShow = 3;
-    // } else if (this.state.width >= 768){
-    //   slidesToShow = 2;
-    // } else {
-    //   slidesToShow = 1;
-    // }
+    var slidesToShow;
+    var withoutControls;
+    var autoplay = false;
+    if(this.state.width >= 992){
+      slidesToShow = 2;
+    } else if (this.state.width >= 768){
+      slidesToShow = 2;
+    } else {
+      slidesToShow = 1;
+      autoplay = true;
+    }
 
-    // if(slidesToShow === 3){
-    //   withoutControls = true;
-    // } else {
-    //   withoutControls = false;
-    // }
+    if(slidesToShow > 1){
+      withoutControls = true;
+    } else {
+      withoutControls = false;
+    }
 
     return (
       <Container className='section text-center'>
         <div className='section-heading'>Featured Events</div>
         {/* <Carousel
           cellSpacing={20}
-          slidesToShow={slidesToShow}
-          autoplay={true}
+          slidesToShow={2}
+          autoplay={autoplay}
           withoutControls={withoutControls}
           heightMode={'max'}
           wrapAround={true}
-          initialSlideHeight={681}
+          initialSlideHeight={665}
           dragging={false}
           defaultControlsConfig={{
             nextButtonStyle:{display:'none'},
@@ -91,8 +95,23 @@ class FeaturedEvents extends Component {
               <Button className='btn btn-block btn-success' href='http://www.bit.ly/NUSSportsCamp2020' target='_blank'>Sign Up Now</Button>
             </Card.Body>
           </Card>
-        </CardDeck>
+          <Card className='featured-events'>
+            <Card.Img variant='top' src={SunNUS} alt='SunNUS SUNBreaker'/>
+            <Card.Body className='text-left'>
+              <Card.Title>SunNUS SUNBreaker</Card.Title>
+              <Card.Text>
+                <div>
+                  Complete 1 of the challenges to receive an exclusive SunNUS medal and stand a chance to win $20 Grabfood vouchers
+                </div> 
+                  <div>1) Create a Tiktok that represents SunNUS</div>
+                  <div>2) Do the SUNbreaker HIIT workout</div>
+                  <div>3) Juggle a paper roll till it falls</div>
+              </Card.Text>
+              <Button className='btn btn-block btn-success' href='http://www.instagram.com/_u/sunnus_official/?hl=en' target='_blank'>Join Now</Button>
+            </Card.Body>
+          </Card>
         {/* </Carousel> */}
+        </CardDeck>
       </Container>
     );
   }

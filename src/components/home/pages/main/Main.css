@@ -226,6 +226,7 @@ a.nav-link {
 
 .featured-events {
   max-width: 370px;
+  margin: auto;
 }
 
 .stakeholder-card {
@@ -739,4 +740,33 @@ a.nav-link {
 .transform {
   transform: translate(0px, -8px);
   box-shadow: 2px 4px 8px 0 var(--sc-grey-super-light);
+}
+
+.slider {
+  height: 655px !important;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .share-buttons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0px;
+  }
+}
+
+.event-image-vertical {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .event-image-vertical {
+    height: auto;
+    width: 300px;
+  }
 }
