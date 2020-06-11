@@ -668,3 +668,28 @@ a.nav-link {
 .slider {
   height: 655px !important;
 }
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .share-buttons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0px;
+  }
+}
+
+.event-image-vertical {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .event-image-vertical {
+    height: auto;
+    width: 300px;
+  }
+}

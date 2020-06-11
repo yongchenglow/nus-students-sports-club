@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
-import SunNUS from '../images/SunNUS2020.jpg';
-import ProjectX from '../images/ProjectX.jpg';
+import SunNUS from '../images/SunNUS2020.jpeg';
+import ProjectX from '../images/ProjectX.jpeg';
 
 class Event extends Component {
   componentDidMount() {
@@ -78,7 +78,7 @@ class Event extends Component {
                     <div className='event-date'>
                       29th to 30th June
                     </div>
-                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style share-buttons" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
                       {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
                       <a class="a2a_button_facebook"></a>
                       <a class="a2a_button_whatsapp"></a>
@@ -108,7 +108,7 @@ class Event extends Component {
           </Row>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image' src={ProjectX} alt='Project X' />
+              <img class='event-image-vertical' src={ProjectX} alt='Project X' />
               <div className='event-text'>
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
