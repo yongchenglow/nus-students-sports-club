@@ -12,10 +12,22 @@ class ItemModal extends Component {
 
     this.state = {
       collectionLabel: '',
-      showError: false
+      showError: false,
+      mouseEnter: false,
+      transformOrigin: '',
+      mainPicture: ''
     };
 
     this.onChange = this.onChange.bind(this);
+    this.onMouseEnterPicture = this.onMouseEnterPicture.bind(this);
+    this.onMouseMovePicture = this.onMouseMovePicture.bind(this);
+    this.onMouseLeavePicture = this.onMouseLeavePicture.bind(this);
+  }
+
+  componentDidMount(){
+    let elem = document.getElementById('product-main-picture');
+    let rect = elem.getBoundingClientRect();
+    this.setState({ mainPicture: rect});
   }
 
   // When the restaurant label changes
@@ -28,6 +40,39 @@ class ItemModal extends Component {
     this.props.closeItemModal();
   }
 
+  onHoverMenuPicture() {
+
+  }
+
+  onMouseEnterPicture(e) {
+    this.setState({mouseEnter: true});
+  }
+
+  onMouseMovePicture(e) {  
+    var x = e.clientX - this.state.mainPicture.x;
+    var y = e.clientY - this.state.mainPicture.y;
+    var xPercent = (x / this.state.mainPicture.width) * 100 + '%';
+    var yPercent = (y / this.state.mainPicture.height) * 100 + '%';
+
+    var calculateTransformValue = xPercent + ' ' + yPercent;
+    this.setState({transformOrigin: calculateTransformValue});
+
+    // console.log(e.screenX)
+    // console.log(e.screenY)
+    // console.log(e.clientX)
+    // console.log(e.clientY)
+    // console.log(this.state.mainPicture.x);
+    // console.log(this.state.mainPicture.y);
+    // console.log(this.state.mainPicture.width);
+    // console.log(this.state.mainPicture.height);
+    // console.log(calculateTransformValue);
+
+  }
+
+  onMouseLeavePicture(e) {
+    this.setState({mouseEnter: false});
+  }
+
   render() {
     var details = [];
     for(var detail in this.props.item.details){
@@ -38,7 +83,6 @@ class ItemModal extends Component {
 
     var maxSlide = 3;
     var itemMaxSlide = this.props.item.pictures_url.length;
-    console.log(itemMaxSlide);
     var slidesToShow;
     var withoutControls;
 
@@ -56,7 +100,6 @@ class ItemModal extends Component {
         <img className='rounded' style={{width:'80px'}} src={this.props.item.pictures_url[itemNo]} alt={this.props.item.name+'-'+itemNo} />
       );
     }
-    console.log(this.props.item.pictures_url);
 
     return (
       <div>
@@ -75,11 +118,21 @@ class ItemModal extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <img className='img-fluid mb-2 rounded' src={this.props.item.pictures_url[0]} alt={this.props.item.name} />
+                  <div className='rounded mb-2' style={{overflow:'hidden'}}>
+                    <img
+                      id='product-main-picture'
+                      className={this.state.mouseEnter?' picture-transform-scale-3 img-fluid':' picture-transform-scale-1 img-fluid'}
+                      src={this.props.item.pictures_url[0]}
+                      onMouseEnter={this.onMouseEnterPicture}
+                      onMouseMove={this.onMouseMovePicture}
+                      onMouseLeave={this.onMouseLeavePicture}
+                      style={{transformOrigin: this.state.transformOrigin}}
+                      alt={this.props.item.name} />
+                  </div>
                   <Carousel
                     cellSpacing={0}
                     slidesToShow={4}
-                    autoplay={true}
+                    autoplay={false}
                     withoutControls={withoutControls}
                     wrapAround={true}
                     dragging={false}
@@ -94,14 +147,14 @@ class ItemModal extends Component {
                   </Carousel>
                 </Col>
                 <Col>
-                  <h3>{this.props.item.name}</h3>
+                  <h2>{this.props.item.name}</h2>
                   <h4>{this.props.item.description}</h4>
-                  <h6 className='text-muted'>{this.props.item.price}</h6>
+                  <h6 className='text-muted mb-3'>{this.props.item.price}</h6>
                   {details}
-                  <img className='img-fluid mb-2 rounded' src={this.props.item.size_chart_url} alt={this.props.item.name} />
+                  <Button variant='success' className='btn btn-block mt-4'>Buy Now</Button>
                   <div className='text-muted'>*While Stocks Last, Get them before it runs out!</div>
                   <div className='text-muted'>*Item is low in Stock</div>
-                  <Button variant='success' className='btn btn-block'>Buy Now</Button>
+                  <img className='img-fluid mt-4 mb-2 rounded' src={this.props.item.size_chart_url} alt={this.props.item.name} />
                 </Col>
               </Row>
             </Modal.Body>

@@ -740,11 +740,12 @@ a.nav-link {
 .transform {
   transform: translate(0px, -8px);
   box-shadow: 2px 4px 8px 0 var(--sc-grey-super-light);
+  cursor: pointer;
 }
 
-.slider {
+/* .slider {
   height: 655px !important;
-}
+} */
 
 .share-buttons {
   display: flex;
@@ -769,4 +770,15 @@ a.nav-link {
     height: auto;
     width: 300px;
   }
+}
+
+.picture-transform-scale-3{
+  transform: scale(3);
+  transition: transform .5s ease-out;
+  backface-visibility: hidden;
+}
+
+.picture-transform-scale-1{
+  transform: scale(1);
+  transition: transform .5s ease-out;
 }
