@@ -116,12 +116,11 @@ class Event extends Component {
                       Sports Club's Virtual Series
                     </div>
                     <div className='event-date'>
-                      13 July to 16 August 2020
+                      29 June to 10 August 2020
                     </div>
                   </Col>
                   <Col className='text-md-right text-center'>
-                    Sign Ups TBC
-                    {/* <Button className='btn-outline-sc-red'>Sign Up Now!</Button> */}
+                    <Button className='btn-outline-sc-red' href='http//www.bit.ly/iwantniceshirt' target='_blank'>Sign Up Now!</Button>
                   </Col>
                 </Row>
                 <Row className='mt-3'>

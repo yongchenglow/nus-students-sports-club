@@ -98,7 +98,7 @@ class MartialArts extends Component {
             <Card className='club-card'>
               <a href={process.env.PUBLIC_URL + '/clubs/nwp'}>
                 <div>
-                  <Card.Img variant='top' className='project-image' src={NWP} alt='NUS Nam Wah Pai Self Defence'/>
+                  <Card.Img variant='top' className='project-image' src={NWP} alt='NUS Nam Wah Pai Self-Defence'/>
                 </div>
                 <Card.Body className='club-name'>
                   <Card.Title>Nam Wah Pai Self Defense</Card.Title>

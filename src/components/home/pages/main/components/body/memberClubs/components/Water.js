@@ -13,7 +13,7 @@ class Water extends Component {
             <Card className='club-card'>
               <a href={process.env.PUBLIC_URL + '/clubs/ulc'}>
                 <div>
-                  <Card.Img variant='top' className='project-image' src={ULC} alt='NUS University Lifeguard Corps'/>
+                  <Card.Img variant='top' className='project-image' src={ULC} alt='NUS University Lifegaurd Corps'/>
                 </div>
                 <Card.Body className='club-name'>
                   <Card.Title>University Lifegaurd Corps</Card.Title>
