@@ -16,7 +16,7 @@ class Water extends Component {
                   <Card.Img variant='top' className='project-image' src={ULC} alt='NUS University Lifegaurd Corps'/>
                 </div>
                 <Card.Body className='club-name'>
-                  <Card.Title>University Lifegaurd Corps</Card.Title>
+                  <Card.Title>University Lifeguard Corps</Card.Title>
                   <h6 className='find-out'>
                     Find out more!
                   </h6>
