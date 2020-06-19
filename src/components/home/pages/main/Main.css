@@ -684,12 +684,13 @@ a.nav-link {
 }
 
 .event-image-vertical {
+  height: auto;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .event-image-vertical {
-    height: auto;
+    height: 100%;
     width: 300px;
   }
 }

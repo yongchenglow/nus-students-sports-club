@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
 import SunNUS from '../images/SunNUS2020.jpeg';
-import ProjectX from '../images/ProjectX.jpeg';
+import ProjectX from '../images/ProjectX.jpg';
 
 class Event extends Component {
   componentDidMount() {
