@@ -46,20 +46,20 @@
   "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/389061",
   "events": [
     {
-      "event_image_name": "open pairs.png",
-      "event_name": "NUS Open Pairs (bridge)",
-      "event_date": "11 Jan 2020",
-      "event_description": "The annual NUS IGC-SCBA Open Pairs is back! Sign up now and pit your skills against your peers!",
+      "event_image_name": "ichess.jpeg",
+      "event_name": "NUS Invitational Tertiary Chess Championships",
+      "event_date": "28 Jun 2020",
+      "event_description": "A platform and opportunity for students from various tertiary institutions to play chess with one another, NUS Invitational Tertiary Chess 2020 will be held online due to the safe distancing measures in place.",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },
     {
-      "event_image_name": "ichess.png",
-      "event_name": "NUS Invitational Tertiary Chess Championships",
-      "event_date": "18 May 2019",
-      "event_description": "This tournament is open to all tertiary institutions (Universities, ITEs and Polytechnics) in Singapore. Sign up now and see you then!",
+      "event_image_name": "open pairs.png",
+      "event_name": "NUS Open Pairs (bridge)",
+      "event_date": "11 Jan 2020",
+      "event_description": "The annual NUS IGC-SCBA Open Pairs is back! Sign up now and pit your skills against your peers!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

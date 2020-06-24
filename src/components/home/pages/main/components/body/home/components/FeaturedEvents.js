@@ -3,6 +3,7 @@ import { Card, Container, CardDeck, Button } from 'react-bootstrap';
 
 import SportsCampPoster from '../images/SportsCamp2020.jpeg';
 import SunNUS from '../images/SunNUS2020.jpeg';
+import Netball from '../images/Netball.jpeg';
 
 import Carousel from 'nuka-carousel';
 
@@ -108,6 +109,21 @@ class FeaturedEvents extends Component {
                   <div>3) Juggle a paper roll till it falls</div>
               </Card.Text>
               <Button className='btn btn-block btn-success' href='http://www.instagram.com/_u/sunnus_official/?hl=en' target='_blank'>Join Now</Button>
+            </Card.Body>
+          </Card>
+          <Card className='featured-events'>
+            <Card.Img variant='top' src={Netball} alt='Netball'/>
+            <Card.Body className='text-left'>
+              <Card.Title>Interetballuxion 2020</Card.Title>
+              <Card.Text>
+                <div >
+                  Introducing NRC's first ever ONLINE Netball event from 22 June to 11 July that you can participate from home.
+                </div>
+                <div>
+                  There are $600 worth of grabfood vouchers and Netballuxion 2021 discounts up for grabs!💰
+                </div>
+              </Card.Text>
+              <Button className='btn btn-block btn-success' href='https://www.instagram.com/nus.nrc/' target='_blank'>Join Now</Button>
             </Card.Body>
           </Card>
         {/* </Carousel> */}

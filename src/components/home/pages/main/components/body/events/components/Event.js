@@ -3,7 +3,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
 import SunNUS from '../images/SunNUS2020.jpeg';
-import ProjectX from '../images/ProjectX.jpg';
+import ProjectX from '../images/ProjectX.jpeg';
+import Netball from '../images/Netball.jpeg';
 
 class Event extends Component {
   componentDidMount() {
@@ -29,7 +30,7 @@ class Event extends Component {
                       SunNUS SUNbreaker
                     </div>
                     <div className='event-date'>
-                      30 May 2020-19 June 2020
+                      30 May to 4th July 2020
                     </div>
                   </Col>
                   <Col className='text-md-right text-center'>
@@ -76,7 +77,7 @@ class Event extends Component {
                       NUS Sports Camp 2020
                     </div>
                     <div className='event-date'>
-                      29th to 30th June
+                      29th to 30th June 2020
                     </div>
                     <div class="a2a_kit a2a_kit_size_32 a2a_default_style share-buttons" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
                       {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
@@ -108,7 +109,7 @@ class Event extends Component {
           </Row>
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
-              <img class='event-image-vertical' src={ProjectX} alt='Project X' />
+              <img class='event-image' src={ProjectX} alt='Project X' />
               <div className='event-text'>
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
@@ -116,20 +117,65 @@ class Event extends Component {
                       Sports Club's Virtual Series
                     </div>
                     <div className='event-date'>
-                      29 June to 10 August 2020
+                      29th June to 10th August 2020
                     </div>
                   </Col>
                   <Col className='text-md-right text-center'>
-                    <Button className='btn-outline-sc-red' href='http//www.bit.ly/iwantniceshirt' target='_blank'>Sign Up Now!</Button>
+                    <Button className='btn-outline-sc-red' href='http://www.bit.ly/iwantniceshirt' target='_blank'>Sign Up Now!</Button>
                   </Col>
                 </Row>
                 <Row className='mt-3'>
                   <Col className='event-description text-left'>
                     <div className='paragraph'>
-                      The Sports Club’s Virtual Series is a special Ruby Jubilee project organised by NUS Students’ Sports Club. The series comprises a Run & Swim component and a Run & Cycle component.
+                      Start gearing up because NUS’ first virtual Aquathlon and Duathlon events are coming to you!
                     </div>
                     <div className='paragraph'>
-                      The series features Sports Club’s very own Ruby Jubilee medals that participants can look forward to collecting. Each component entitles participants to a unique medal that can be stacked with the other 2 medals to form an exclusive Ruby Jubilee medal!
+                      Featuring Novice and Advanced categories, Virtual Series welcomes everyone who’s willing to push themselves and take on the challenge. It’s time to show the world that your time in Circuit Breaker wasn’t wasted! 
+                    </div>
+                    <div className='paragraph'>
+                      Stay tuned for our registration opening on the 29th of June. 
+                    </div>
+                    <div className='paragraph'>
+                      PS. Check out our collectible medals 😍
+                    </div>
+                    <div className='text-center'>
+                      <Button className='btn-outline-sc-red' href='http://virtualseries.nussportsclub.org' target='_blank'>Find Out More!</Button>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+          <Row className='justify-content-center'>
+            <Col className='event-block' md={11} lg={10} xl={9}>
+              <img class='event-image' src={Netball} alt='Internetballuxion X' />
+              <div className='event-text'>
+                <Row>
+                  <Col md='auto' className='text-center text-md-left'>
+                    <div className='event-title'>
+                      Interetballuxion 2020
+                    </div>
+                    <div className='event-date'>
+                      22nd June to 11th July 2020
+                    </div>
+                  </Col>
+                  <Col className='text-md-right text-center'>
+                    <Button className='btn-outline-sc-red' href='https://www.instagram.com/nus.nrc/' target='_blank'>Join Now</Button>
+                  </Col>
+                </Row>
+                <Row className='mt-3'>
+                  <Col className='event-description text-left'>
+                    <div className='paragraph'>
+                      Feeling cooped up at home? Don't worry, NUS NRC has got you covered!
+                    </div>
+                    <div className='paragraph'>
+                      Introducing NRC's first ever ONLINE Netball event - InterNetballuxion 2020 📱, that you can participate in from the comfort of your homes and WIN some attractive prizes!!🏅
+                    </div>
+                    <div className='paragraph'>
+                      InterNetballuxion 2020 will be held on Instagram (@nus.nrc) from 22 June to 11 July with $600 worth of grabfood vouchers up for grabs! ✨On top of that, stand a chance to be eligible for Netballuxion 2021 discounts as well!💰
+                    </div>
+                    <div className='paragraph'>
+                      More details can be found on our Instagram (@nus.nrc) so what are you waiting for? Join us at InterNetballuxion 2020!!🔥
                     </div>
                   </Col>
                 </Row>
