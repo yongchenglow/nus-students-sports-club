@@ -114,7 +114,7 @@ class FeaturedEvents extends Component {
           <Card className='featured-events'>
             <Card.Img variant='top' src={Netball} alt='Netball'/>
             <Card.Body className='text-left'>
-              <Card.Title>Interetballuxion 2020</Card.Title>
+              <Card.Title>InterNetballuxion 2020</Card.Title>
               <Card.Text>
                 <div >
                   Introducing NRC's first ever ONLINE Netball event from 22 June to 11 July that you can participate from home.

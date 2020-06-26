@@ -153,7 +153,7 @@ class Event extends Component {
                 <Row>
                   <Col md='auto' className='text-center text-md-left'>
                     <div className='event-title'>
-                      Interetballuxion 2020
+                      InterNetballuxion 2020
                     </div>
                     <div className='event-date'>
                       22nd June to 11th July 2020
