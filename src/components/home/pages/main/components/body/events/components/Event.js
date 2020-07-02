@@ -5,6 +5,7 @@ import SportsCamp2020 from '../images/SportsCamp2020.jpeg';
 import SunNUS from '../images/SunNUS2020.jpeg';
 import ProjectX from '../images/ProjectX.jpeg';
 import Netball from '../images/Netball.jpeg';
+import RunNUS from '../images/RunNUSEarlyBird.jpeg';
 
 class Event extends Component {
   componentDidMount() {
@@ -67,7 +68,7 @@ class Event extends Component {
               </div>
             </Col>
           </Row>
-          <Row className='justify-content-center'>
+          {/* <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={SportsCamp2020} alt='NUS Sports Camp 2020' />
               <div className='event-text'>
@@ -80,7 +81,7 @@ class Event extends Component {
                       29th to 30th June 2020
                     </div>
                     <div class="a2a_kit a2a_kit_size_32 a2a_default_style share-buttons" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
-                      {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
+                      <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
                       <a class="a2a_button_facebook"></a>
                       <a class="a2a_button_whatsapp"></a>
                       <a class="a2a_button_telegram"></a>
@@ -106,7 +107,7 @@ class Event extends Component {
                 </Row>
               </div>
             </Col>
-          </Row>
+          </Row> */}
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={ProjectX} alt='Project X' />
@@ -176,6 +177,45 @@ class Event extends Component {
                     </div>
                     <div className='paragraph'>
                       More details can be found on our Instagram (@nus.nrc) so what are you waiting for? Join us at InterNetballuxion 2020!!🔥
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+          <Row className='justify-content-center'>
+            <Col className='event-block' md={11} lg={10} xl={9}>
+              <img class='event-image' src={RunNUS} alt='RunNUS' />
+              <div className='event-text'>
+                <Row>
+                  <Col md='auto' className='text-center text-md-left'>
+                    <div className='event-title'>
+                      RunNUS 2020
+                    </div>
+                    <div className='event-date'>
+                      13th July to 27th September 2020
+                    </div>
+                  </Col>
+                  <Col className='text-md-right text-center'>
+                    <Button className='btn-outline-sc-red' href='http://www.bit.ly/runnus2020' target='_blank'>Sign Up Now!</Button>
+                  </Col>
+                </Row>
+                <Row className='mt-3'>
+                  <Col className='event-description text-left'>
+                    <div className='paragraph'>
+                      In light of Covid-19, it is pivotal to practice social distancing even while exercising. 🏃🏻‍♀️🏃🏻‍♂️
+                    </div>
+                    <div className='paragraph'>
+                      Introducing RunNUS’s very own VIRTUAL RUN!!!✨ Complete the race anywhere and at your own pace - be it out at the park or indoors on a treadmill! Track yourself with any distance tracking app or take a photo of your treadmill as proof of completion, and upload your image to the submission page.
+                    </div>
+                    <div className='paragraph'>
+                      RunNUS aims promote and support people with disabilities and special needs with Disabled People's Association(DPA) and Singapore Disability Sports Council(SDSC). For each shirt purchased $2 will be donated to our beneficiaries.
+                    </div>
+                    <div className='paragraph'>
+                      Join now and save up to 11.5% off your registration fees during early bird. 
+                    </div>
+                    <div className='text-center'>
+                      <Button className='btn-outline-sc-red' href='http://www.nussportsclub.org/runnus' target='_blank'>Find Out More!</Button>
                     </div>
                   </Col>
                 </Row>
