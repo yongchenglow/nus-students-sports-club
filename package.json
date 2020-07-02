@@ -20,7 +20,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "jest-enzyme": "^7.1.2",
     "jquery": "^3.4.1",
-    "nuka-carousel": "^4.6.2",
+    "nuka-carousel": "^4.7.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
@@ -30,6 +30,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "react-test-renderer": "^16.12.0",
+    "react-toastify": "^6.0.6",
+    "react-toastr": "^3.0.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^2.1.2"

@@ -256,7 +256,7 @@ a.nav-link {
 }
 
 .slider-controls {
-  top:40px !important;
+  top:30px !important;
 }
 
 .paging-dot {
@@ -693,4 +693,8 @@ a.nav-link {
     height: 100%;
     width: 300px;
   }
+}
+
+.Toastify__progress-bar{
+  background: var(--sc-red);
 }

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
 import SportsClubLogo from '../../../images/logos/SportsClubLogo';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class MainNavbar extends Component {
   constructor() {
@@ -9,13 +11,42 @@ class MainNavbar extends Component {
     this.state = {
       smallWords: false,
       collapseNav: false,
+      VSTriggered: false,
+      RunNUSTriggered: false
     };
     this.resize = this.resize.bind(this);
+    this.timer = this.timer.bind(this);
   }
 
   componentDidMount() {
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
+    setInterval(this.timer, 1000);
+  }
+
+  timer(){
+    var num = Math.random();
+    var chance = 0.03;
+    if(this.state.VSTriggered && this.state.RunNUSTriggered){
+      chance = 0.0035;
+    }
+    if(num < chance){
+      if(this.state.VSTriggered && this.state.RunNUSTriggered || !this.state.VSTriggered && !this.state.RunNUSTriggered){
+        if(Math.floor(num * 100)%2 === 0){
+          this.notifyVirtualSeries();
+          this.setState({ VSTriggered: true});
+        } else {
+          this.notifyRunNUS();
+          this.setState({ RunNUSTriggered: true });
+        }
+      } else if(this.state.VSTriggered){
+        this.notifyRunNUS();
+        this.setState({ RunNUSTriggered: true });
+      } else {
+        this.notifyVirtualSeries();
+        this.setState({ VSTriggered: true});
+      }
+    }
   }
 
   resize() {
@@ -28,6 +59,44 @@ class MainNavbar extends Component {
     if (smallWords !== this.state.smallWords) {
         this.setState({smallWords: smallWords});
     }
+  }
+
+  notifyVirtualSeries() {
+    toast(
+      <div style={{"padding":"10px","color":"black"}}>
+        <h6>
+          A person has just signed up for our <strong>Virtual Series</strong> 🏃‍♀️🚴‍♂️🏊‍♀️
+        </h6>
+        <Button className='btn-outline-sc-red' size='sm' href='http://virtualseries.nussportsclub.org/' target='_blank' block>Find out More</Button>
+      </div>
+      , {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  }
+
+  notifyRunNUS() {
+    toast(
+      <div style={{"padding":"10px","color":"black"}}>
+        <h6>
+          A person has just signed up for <strong>RunNUS</strong> ~ Run For a Cause 🏃‍♀️
+        </h6>
+        <Button className='btn-outline-sc-red' size='sm' href='https://www.nussportsclub.org/runnus' target='_blank' block>Find out More</Button>
+      </div>
+      , {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
   }
 
   render () {
@@ -153,11 +222,24 @@ class MainNavbar extends Component {
     }
 
     return (
-      <Navbar collapseOnSelect className='shadow-bottom' bg='light' expand='md' variant='light' fixed='top'>
-        <div className={this.state.collapseNav?'container':'container justify-content-center'} >
-          {navbar}
-        </div>
-      </Navbar>
+      <React.Fragment>
+        <Navbar collapseOnSelect className='shadow-bottom' bg='light' expand='md' variant='light' fixed='top'>
+          <div className={this.state.collapseNav?'container':'container justify-content-center'} >
+            {navbar}
+          </div>
+        </Navbar>
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+      </React.Fragment>
     );
   }
 };
