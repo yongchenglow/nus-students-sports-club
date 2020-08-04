@@ -6,6 +6,8 @@ import SunNUS from '../images/SunNUS2020.jpeg';
 import ProjectX from '../images/ProjectX.jpeg';
 import Netball from '../images/Netball.jpeg';
 import RunNUS from '../images/RunNUSEarlyBird.jpeg';
+import StudentLifeFair from '../images/StudentLifeFair.png';
+import WelcomeTea from '../images/WelcomeTea.jpeg';
 
 class Event extends Component {
   componentDidMount() {
@@ -21,7 +23,7 @@ class Event extends Component {
     return (
       <div className='section'>
         <Container>
-        <Row className='justify-content-center'>
+        {/* <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={SunNUS} alt='SunNUS Breaker' />
               <div className='event-text'>
@@ -67,7 +69,7 @@ class Event extends Component {
                 </Row>
               </div>
             </Col>
-          </Row>
+          </Row> */}
           {/* <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={SportsCamp2020} alt='NUS Sports Camp 2020' />
@@ -147,7 +149,7 @@ class Event extends Component {
               </div>
             </Col>
           </Row>
-          <Row className='justify-content-center'>
+          {/* <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={Netball} alt='Internetballuxion X' />
               <div className='event-text'>
@@ -182,7 +184,7 @@ class Event extends Component {
                 </Row>
               </div>
             </Col>
-          </Row>
+          </Row> */}
           <Row className='justify-content-center'>
             <Col className='event-block' md={11} lg={10} xl={9}>
               <img class='event-image' src={RunNUS} alt='RunNUS' />
@@ -216,6 +218,66 @@ class Event extends Component {
                     </div>
                     <div className='text-center'>
                       <Button className='btn-outline-sc-red' href='http://www.nussportsclub.org/runnus' target='_blank'>Find Out More!</Button>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+          <Row className='justify-content-center'>
+            <Col className='event-block' md={11} lg={10} xl={9}>
+              <img class='event-image' src={StudentLifeFair} alt='Student Life Fair' />
+              <div className='event-text'>
+                <Row>
+                  <Col md='auto' className='text-center text-md-left'>
+                    <div className='event-title'>
+                      Student Life Fair
+                    </div>
+                    <div className='event-date'>
+                      11am - 8pm, 11th August 2020
+                    </div>
+                  </Col>
+                  <Col className='text-md-right text-center'>
+                    <Button className='btn-outline-sc-red' href='https://bit.ly/SCSLF' target='_blank'>Sign Up Now!</Button>
+                  </Col>
+                </Row>
+                <Row className='mt-3'>
+                  <Col className='event-description text-left'>
+                    <div className='paragraph'>
+                      Join our Zoom session on 11th Aug from 11am - 8pm to find out all about Sports Club and our Member Clubs. Live demonstrations and attractive prizes up for grabs! See you there! 
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+          <Row className='justify-content-center'>
+            <Col className='event-block' md={11} lg={10} xl={9}>
+              <img class='event-image' src={WelcomeTea} alt='Welcome Tea' />
+              <div className='event-text'>
+                <Row>
+                  <Col md='auto' className='text-center text-md-left'>
+                    <div className='event-title'>
+                      Welcome Tea
+                    </div>
+                    <div className='event-date'>
+                      17th to 18th August 8-9pm 2020
+                    </div>
+                  </Col>
+                  <Col className='text-md-right text-center'>
+                    <Button className='btn-outline-sc-red' href='https://bit.ly/scwelcometea' target='_blank'>Sign Up Now!</Button>
+                  </Col>
+                </Row>
+                <Row className='mt-3'>
+                  <Col className='event-description text-left'>
+                    <div className='paragraph'>
+                      Bored? Lonely? Lost with no direction or meaning to student life?
+                    </div>
+                    <div className='paragraph'>
+                      Well come join us, make friends, and solve the first two problems! At Sports Club, there's never a dull day as you take on new adventures with like-minded friends! Learn new skills, achieve great things, and plan amazing projects that will bring smiles to everyone through sports. What's more, did we mention that this looks great on your resume? That's right, polish up that portfolio and gain an edge over your less-holistic peers!
+                    </div>
+                    <div className='paragraph'>
+                      For all these, and much much more, come join us at our welcome tea, and take your first step towards salvation.
                     </div>
                   </Col>
                 </Row>
