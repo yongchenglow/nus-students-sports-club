@@ -16,32 +16,42 @@
   "training_sessions": [
     {
       "day": "Mon",
-      "time": "7 - 9 pm",
-      "venue": "Outside of school",
+      "time": "7 - 9 pm (All Zones)",
+      "venue": "Zoom",
       "venue_link": ""
     },
     {
       "day": "Thurs",
       "time": "7 - 9 pm",
-      "venue": "MPSH 2",
+      "venue": "UTown (Zone C)/Zoom (All Zones)",
       "venue_link": ""
     },
     {
       "day": "Sat",
-      "time": "9 - 12 pm (optional)",
-      "venue": "MPSH 2",
+      "time": "3 - 4 pm (All Zones, optional)",
+      "venue": "Zoom",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/364454",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430840",
   "events": [
-    {
+   {
       "event_image_name": "logo.jpg",
-      "event_name": "Karate Self Defense Workshop 2020",
+      "event_name": "Welcome Tea 2020",
       "event_date": "Aug 2020",
-      "event_description": "Stay tuned for more updates!",
+      "event_description": "Join us on 20 Aug (Zone C, UTown), 24 Aug (Zone A, MPSH 2) or 31 Aug (Zone B, UTown) from 7 - 9 pm to learn more about Karate!",
       "event_website": "",
-      "event_sign_up_link": "",
+      "event_sign_up_link": "https://bit.ly/SCSLF",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "ma.png",
+      "event_name":"E-SLF Live Demonstration",
+      "event_date":"11 Aug 2020",
+      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Karate and other Martial Arts!",
+      "event_website": "",
+      "event_sign_up_link": "https://nus-sg.zoom.us/j/98977147045?pwd=WkkwUXVUelRpQ2VXZ1habDdqUzBpdz09",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },

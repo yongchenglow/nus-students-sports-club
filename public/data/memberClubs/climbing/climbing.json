@@ -15,19 +15,43 @@
   ],
   "training_sessions": [
     {
-      "day": "Tues",
-      "time": "4 - 10 pm",
-      "venue": "University Sports Centre",
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Mon, 6.30 - 8, 8 - 10 pm (Zone B)",
       "venue_link": ""
     },
     {
-      "day": "Fri",
-      "time": "4 - 10 pm",
-      "venue": "University Sports Centre & UTown",
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Tues, Thurs 6.30 - 8, 8 - 10 pm (Zone C)",
+      "venue_link": ""
+    },
+    {
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Wed, 6.30 - 8, 8 - 10 pm (Zone A)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Mon, 4 - 6.30, 6.30 - 9 pm (Zone A)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Tues, 4 - 6, 6 - 8, 8 - 10 pm (Zone B)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Fri, 4 - 6, 6 - 8, 8 - 10 pm (Zone C)",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://bit.ly/39vLARO",
   "events": [
     {
       "event_image_name": "logo2.jpeg",

@@ -21,29 +21,29 @@
     {
       "day": "Mon & Tues",
       "time": "6.30 - 9 pm (Weiqi)",
-      "venue": "MPSH 4",
+      "venue": "Zoom",
       "venue_link": ""
     },
     {
       "day": "Mon & Thurs",
       "time": "7 - 10 pm (Contract Bridge)",
-      "venue": "MPSH 4",
+      "venue": "Zoom",
       "venue_link": ""
     },
     {
       "day": "Mon",
       "time": "6.30 - 9 pm (Xiangqi, Reversi, Richii Maajan)",
-      "venue": "MPSH 4",
+      "venue": "Zoom",
       "venue_link": ""
     },
     {
       "day": "Thurs",
       "time": "6.30 - 9 pm (International Chess)",
-      "venue": "MPSH 4",
+      "venue": "Zoom",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/389061",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430852",
   "events": [
     {
       "event_image_name": "ichess.jpeg",
