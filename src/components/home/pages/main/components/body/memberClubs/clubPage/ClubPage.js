@@ -175,7 +175,7 @@ class ClubPage extends Component {
                 Date.parse(event.event_date) > Date.now()?
                   (
                     <Col className='text-md-right text-center'>
-                      <Button className='btn-outline-sc-red' href={process.env.PUBLIC_URL + event.event_link}>Join Now!</Button>
+                      <Button className='btn-outline-sc-red' href={process.env.PUBLIC_URL + event.event_sign_up_link} target='_blank'>Join Now!</Button>
                     </Col>
                   )
                 : null

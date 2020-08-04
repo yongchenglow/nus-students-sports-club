@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Card, Container, CardDeck, Button } from 'react-bootstrap';
 
 import RunNUS from '../images/RunNUSEarlyBird.jpeg';
-import SunNUS from '../images/SunNUS2020.jpeg';
-import Netball from '../images/Netball.jpeg';
+import WelcomeTea from '../images/WelcomeTea.jpeg';
+import StudentLifeFair from '../images/StudentLifeFair.png';
 import ProjectX from '../images/ProjectX.jpeg';
 
 import Carousel from 'nuka-carousel';
@@ -80,6 +80,36 @@ class FeaturedEvents extends Component {
           }}
         >
         {/* <CardDeck className='justify-content-center'> */}
+        <Card className='featured-events'>
+            <Card.Img variant='top' src={StudentLifeFair} alt='Student Life Fair'/>
+            <Card.Body className='text-left'>
+              <Card.Title>Student Life Fair</Card.Title>
+              <Card.Text>
+                <div className='mb-3'>
+                  Join our Zoom session on 11th Aug from 11am - 8pm to find out all about Sports Club and our Member Clubs.
+                </div>
+                <div className='mb-4'>
+                  Live demonstrations and attractive prizes up for grabs! See you there! 
+                </div>
+              </Card.Text>
+              <Button className='btn btn-block btn-success' href='https://bit.ly/SCSLF' target='_blank'>Join Now</Button>
+            </Card.Body>
+          </Card>
+          <Card className='featured-events'>
+            <Card.Img variant='top' src={WelcomeTea} alt='NUS Students Sports Club Welcome Tea'/>
+            <Card.Body className='text-left'>
+              <Card.Title>Sports Club Welcome Tea</Card.Title>
+              <Card.Text>
+                <div>
+                  Bored? Lonely? Lost with no direction?
+                </div>
+                <div>
+                  At Sports Club, there's never a dull day as you take on new adventures with like-minded friends! Learn new skills, achieve great things, and plan amazing projects that will bring smiles to everyone.
+                </div> 
+              </Card.Text>
+              <Button className='btn btn-block btn-success' href='https://bit.ly/scwelcometea' target='_blank'>Join Now</Button>
+            </Card.Body>
+          </Card>
           <Card className='featured-events'>
             <Card.Img variant='top' src={ProjectX} alt='Virtual Series'/>
             <Card.Body className='text-left'>
@@ -108,36 +138,6 @@ class FeaturedEvents extends Component {
                 </div>
               </Card.Text>
               <Button className='btn btn-block btn-success' href='https://www.nussportsclub.org/runnus' target='_blank'>Join Now</Button>
-            </Card.Body>
-          </Card>
-          <Card className='featured-events'>
-            <Card.Img variant='top' src={Netball} alt='Netball'/>
-            <Card.Body className='text-left'>
-              <Card.Title>InterNetballuxion 2020</Card.Title>
-              <Card.Text>
-                <div >
-                  Introducing NRC's first ever ONLINE Netball event from 22 June to 11 July that you can participate from home.
-                </div>
-                <div>
-                  There are $600 worth of grabfood vouchers and Netballuxion 2021 discounts up for grabs!💰
-                </div>
-              </Card.Text>
-              <Button className='btn btn-block btn-success' href='https://www.instagram.com/nus.nrc/' target='_blank'>Join Now</Button>
-            </Card.Body>
-          </Card>
-          <Card className='featured-events'>
-            <Card.Img variant='top' src={SunNUS} alt='SunNUS SUNBreaker'/>
-            <Card.Body className='text-left'>
-              <Card.Title>SunNUS SUNBreaker</Card.Title>
-              <Card.Text>
-                <div>
-                  Complete 1 of the challenges to receive an exclusive SunNUS medal and stand a chance to win $20 Grabfood vouchers
-                </div> 
-                  <div>1) Create a Tiktok that represents SunNUS</div>
-                  <div>2) Do the SUNbreaker HIIT workout</div>
-                  <div>3) Juggle a paper roll till it falls</div>
-              </Card.Text>
-              <Button className='btn btn-block btn-success' href='http://www.instagram.com/_u/sunnus_official/?hl=en' target='_blank'>Join Now</Button>
             </Card.Body>
           </Card>
         </Carousel>

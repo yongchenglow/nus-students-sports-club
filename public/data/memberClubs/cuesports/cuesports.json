@@ -3,8 +3,8 @@
   "club_name": "NUS Cuesports",
   "carousel_image_name": [
     "cue1.jpg",
-    "cue2.jpg",
-    "cue3.jpg",
+    "cue2.jpeg",
+    "cue3.jpeg",
     "cue4.jpg"
   ],
   "about_us": [
@@ -15,19 +15,19 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon",
-      "time": "7.30 - 9.30 pm",
+      "day": "Tues",
+      "time": "7 - 9 pm (resuming in Phase 3)",
       "venue": "West Coast Billiard Saloon",
       "venue_link": ""
     },
     {
-      "day": "Tues",
-      "time": "7.30 - 9.30 pm",
+      "day": "Wed",
+      "time": "7 - 9 pm (resuming in Phase 3)",
       "venue": "West Coast Billiard Saloon",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/363863",
+  "training_sessions_join_url": "https://bit.ly/2D511Eq",
   "events": [
     {
       "event_image_name": "logo_black.png",
@@ -36,6 +36,16 @@
       "event_description": "Stay tuned for more updates!",
       "event_website": "",
       "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "logo_black.png",
+      "event_name": "Welcome Tea 2020",
+      "event_date": "17 Aug 2020",
+      "event_description": "Interested to find out more? Join us on our Zoom session!",
+      "event_website": "",
+      "event_sign_up_link": "https://bit.ly/2D511Eq",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },
@@ -72,5 +82,5 @@
   ],
   "instagram_url": "https://www.instagram.com/nuscuesportsclub",
   "facebook_url": "https://www.facebook.com/nuscuesports/",
-  "telegram_url": "https://t.me/joinchat/ChmFRUOQpX4Q9nZ8moUxJg"
+  "telegram_url": "https://tinyurl.com/cuesportsrecre"
 }

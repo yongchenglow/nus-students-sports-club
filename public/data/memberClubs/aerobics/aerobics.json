@@ -14,13 +14,13 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon - Fri",
-      "time": "hourly sessions between 5 - 8 pm",
-      "venue": "UTown Gym Studio",
+      "day": "Mon - Thurs",
+      "time": "6 - 7 pm",
+      "venue": "Zoom",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://www.instagram.com/p/B7hdGMtFu5e/?utm_source=ig_web_copy_link",
+  "training_sessions_join_url": "https://linktr.ee/nusaerobics",
   "events": [
     {
       "event_image_name": "Hyperjive.jpg",

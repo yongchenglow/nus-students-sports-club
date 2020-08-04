@@ -9,32 +9,54 @@
   "about_us": [
     "University Lifeguard Corps (ULC) is a family of lifesavers, both undergraduates and alumni, dedicated to the waters and beaches. Apart from competitive pool activities like swimming, finning, and towing manikins, we engage in competitive activities on the beach like sprints (yes, on sand!), surfing, and ski-kayaking. Importantly, we promote lifesaving and resuscitation awareness, knowledge and skills - the fundamentals of being a lifeguard.",
     "ULC is colourful, to say the least. Here, you'll find people of all sorts - introverted or extroverted, laidback or serious - we've got them all. We even vary in skill-set - we've got some of the most talented & seasoned swimmers, as well as beginners with minimal swimming experience. Everyone is vastly different in many ways, but we've all got heart and spirit for the sport. We grow together, regardless of how experienced each individual member may be.",
-    "We offer courses - Lifesaving 1, 2, & 3, and Bronze Medallion - to equip interested individuals withzskills to become lifeguards. The Bronze Medallion is also the prerequisite for joining our competitive team. There are no limits in terms of number or skillset in our semestral intakes - we've got a great coach and welcoming seniors who are willing to groom newcomers to fully reach their potential.",
-    "Interested to find out more? Talk to us now at exco@nuslifesaving.com!"
+    "We offer courses - Lifesaving 1, 2, & 3, and Bronze Medallion - to equip interested individuals with skills to become lifeguards. The Bronze Medallion is also the prerequisite for joining our competitive team. There are no limits in terms of number or skillset in our semestral intakes - we've got a great coach and welcoming seniors who are willing to groom newcomers to fully reach their potential.",
+    "Interested to find out more? Talk to us now at hello@nuslifesaving.com!"
   ],
   "training_sessions": [
     {
       "day": "Mon",
-      "time": "7 - 9 pm",
+      "time": "7 - 9 pm (Zone A)",
+      "venue": "USC Swimming Pool",
+      "venue_link": ""
+    },
+    {
+      "day": "Tues",
+      "time": "7 - 9 pm (Zone B)",
       "venue": "USC Swimming Pool",
       "venue_link": ""
     },
     {
       "day": "Wed",
-      "time": "7 - 9 pm",
+      "time": "7 - 9 pm (Zone C)",
       "venue": "USC Swimming Pool",
+      "venue_link": ""
+    },
+   {
+      "day": "Sat",
+      "time": "10 - 1 pm",
+      "venue": "Palawan Beach, Sentosa (you will be separated into your respective zones)",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/381272",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/422006",
   "events": [
     {
       "event_image_name": "ULC.png",
       "event_name": "Splashdown 2020",
-      "event_date": "Sep 2020",
+      "event_date": "12 Dec 2020",
       "event_description": "Stay tuned for more updates!",
       "event_website": "",
       "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
+    {
+      "event_image_name": "demonstration.jpeg",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "13 Aug 2020",
+      "event_description": "Come join us to find out all about lifesaving!",
+      "event_website": "",
+      "event_sign_up_link": "https://nus-sg.zoom.us/meeting/register/tJUqf-isqjMiE9OLFRiHGK_Ve_x8QzaqeLrX",
       "event_sign_up_close": "",
       "event_to_show": "true"
     },

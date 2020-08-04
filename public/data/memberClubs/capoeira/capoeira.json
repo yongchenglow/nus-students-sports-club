@@ -15,19 +15,29 @@
   "training_sessions": [
     {
       "day": "Tues",
-      "time": "7 - 9 pm",
-      "venue": "MPSH 2",
+      "time": "6.30 - 7.30 pm",
+      "venue": "Zoom",
       "venue_link": ""
     },
     {
       "day": "Thurs",
-      "time": "7 - 9 pm",
-      "venue": "MPSH 6",
+      "time": "6.30 - 7.30 pm",
+      "venue": "Zoom",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/431121",
   "events": [
+    {
+      "event_image_name": "ma.png",
+      "event_name":"E-SLF Live Demonstration",
+      "event_date":"11 Aug 2020",
+      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Capoeira and other Martial Arts!",
+      "event_website": "",
+      "event_sign_up_link": "https://bit.ly/SCSLF",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    },
     {
       "event_image_name": "batizado.jpg",
       "event_name": "Batizado",
