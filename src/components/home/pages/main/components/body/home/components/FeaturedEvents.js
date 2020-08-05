@@ -5,6 +5,7 @@ import RunNUS from '../images/RunNUSEarlyBird.jpeg';
 import WelcomeTea from '../images/WelcomeTea.jpeg';
 import StudentLifeFair from '../images/StudentLifeFair.png';
 import ProjectX from '../images/ProjectX.jpeg';
+import Election from '../images/Election.png';
 
 import Carousel from 'nuka-carousel';
 
@@ -138,6 +139,18 @@ class FeaturedEvents extends Component {
                 </div>
               </Card.Text>
               <Button className='btn btn-block btn-success' href='https://www.nussportsclub.org/runnus' target='_blank'>Join Now</Button>
+            </Card.Body>
+          </Card>
+          <Card className='featured-events'>
+            <Card.Img variant='top' src={Election} alt='Election'/>
+            <Card.Body className='text-left'>
+              <Card.Title>41st MC Elections</Card.Title>
+              <Card.Text>
+                <div>
+                  Nominations for Sports Club 41st Management Committee will be open from 15 to 22 August! Want to learn more about how you can contribute to the recreational sporting scene in NUS and organise major sporting events?
+                </div>
+              </Card.Text>
+              <Button className='btn btn-block btn-success' href='https://www.nussportsclub.org/elections' target='_blank'>Find Out More</Button>
             </Card.Body>
           </Card>
         </Carousel>
