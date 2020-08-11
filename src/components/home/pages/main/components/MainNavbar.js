@@ -11,7 +11,6 @@ class MainNavbar extends Component {
     this.state = {
       smallWords: false,
       collapseNav: false,
-      VSTriggered: false,
       RunNUSTriggered: false
     };
     this.resize = this.resize.bind(this);
@@ -26,26 +25,13 @@ class MainNavbar extends Component {
 
   timer(){
     var num = Math.random();
-    var chance = 0.03;
-    if(this.state.VSTriggered && this.state.RunNUSTriggered){
-      chance = 0.0035;
+    var chance = 0.015;
+    if(this.state.RunNUSTriggered){
+      chance = 0.0015;
     }
     if(num < chance){
-      if(this.state.VSTriggered && this.state.RunNUSTriggered || !this.state.VSTriggered && !this.state.RunNUSTriggered){
-        if(Math.floor(num * 100)%2 === 0){
-          this.notifyVirtualSeries();
-          this.setState({ VSTriggered: true});
-        } else {
-          this.notifyRunNUS();
-          this.setState({ RunNUSTriggered: true });
-        }
-      } else if(this.state.VSTriggered){
-        this.notifyRunNUS();
-        this.setState({ RunNUSTriggered: true });
-      } else {
-        this.notifyVirtualSeries();
-        this.setState({ VSTriggered: true});
-      }
+      this.notifyRunNUS();
+      this.setState({ RunNUSTriggered: true });
     }
   }
 

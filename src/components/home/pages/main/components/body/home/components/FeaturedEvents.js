@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Container, CardDeck, Button } from 'react-bootstrap';
 
-import RunNUS from '../images/RunNUSEarlyBird.jpeg';
+import RunNUS from '../images/RunNUS_Poster.png';
 import WelcomeTea from '../images/WelcomeTea.jpeg';
 import StudentLifeFair from '../images/StudentLifeFair.png';
 import ProjectX from '../images/ProjectX.jpeg';
@@ -81,7 +81,7 @@ class FeaturedEvents extends Component {
           }}
         >
         {/* <CardDeck className='justify-content-center'> */}
-        <Card className='featured-events'>
+        {/* <Card className='featured-events'>
             <Card.Img variant='top' src={StudentLifeFair} alt='Student Life Fair'/>
             <Card.Body className='text-left'>
               <Card.Title>Student Life Fair</Card.Title>
@@ -95,7 +95,7 @@ class FeaturedEvents extends Component {
               </Card.Text>
               <Button className='btn btn-block btn-success' href='https://bit.ly/SCSLF' target='_blank'>Join Now</Button>
             </Card.Body>
-          </Card>
+          </Card> */}
           <Card className='featured-events'>
             <Card.Img variant='top' src={WelcomeTea} alt='NUS Students Sports Club Welcome Tea'/>
             <Card.Body className='text-left'>
@@ -111,24 +111,24 @@ class FeaturedEvents extends Component {
               <Button className='btn btn-block btn-success' href='https://bit.ly/scwelcometea' target='_blank'>Join Now</Button>
             </Card.Body>
           </Card>
-          <Card className='featured-events'>
+          {/* <Card className='featured-events'>
             <Card.Img variant='top' src={ProjectX} alt='Virtual Series'/>
             <Card.Body className='text-left'>
               <Card.Title>Sports Club's Virtual Series</Card.Title>
               <Card.Text>
                 <div>From 29th June to 10th August, participate in NUS first ever virtual aquathlon and duathlon with both novice and advanced categories. Check out the collectible medals, shirts and race packs when you complete the race!</div>
               </Card.Text>
-              {/* <Card.Text className='mb-0'>Share this:</Card.Text>
-              <div class="a2a_kit a2a_kit_size_32 a2a_default_style mb-3" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link"> */}
-                {/* <a class="a2a_dd" href="https://www.addtoany.com/share"></a> */}
-                {/* <a class="a2a_button_facebook"></a>
+              <Card.Text className='mb-0'>Share this:</Card.Text>
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style mb-3" data-a2a-url="http://www.bit.ly/NUSSportsCamp2020" data-a2a-title="NUS Sports Camp Sign Up Link">
+                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                <a class="a2a_button_facebook"></a>
                 <a class="a2a_button_whatsapp"></a>
                 <a class="a2a_button_telegram"></a>
                 <a class="a2a_button_copy_link"></a>
-              </div> */}
+              </div>
               <Button className='btn btn-block btn-success' href='http://virtualseries.nussportsclub.org' target='_blank'>Find Out More</Button>
-            </Card.Body>
-          </Card>
+            </Card.Body> 
+          </Card> */}
           <Card className='featured-events'>
             <Card.Img variant='top' src={RunNUS} alt='RunNUS Early Bird'/>
             <Card.Body className='text-left'>
