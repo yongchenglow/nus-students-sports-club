@@ -50,7 +50,7 @@ class Cells extends Component {
               <Card.Body className='text-left'>
                 <Card.Title>Marketing Cell</Card.Title>
                 <Card.Text>
-                  We help to secure strategic supports and privilege partners for Sports Club. We also manage the disbursement of marketing products.
+                  We help to secure strategic sponsors and privilege partners for Sports Club. We also manage the disbursement of marketing products.
                 </Card.Text>
               </Card.Body>
             </Card>
