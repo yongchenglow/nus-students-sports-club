@@ -698,3 +698,11 @@ a.nav-link {
 .Toastify__progress-bar{
   background: var(--sc-red);
 }
+
+.partner-img-high {
+  max-height: 150px;
+}
+
+.partner-img-medium {
+  max-height: 100px;
+}

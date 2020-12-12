@@ -11,28 +11,14 @@ class MainNavbar extends Component {
     this.state = {
       smallWords: false,
       collapseNav: false,
-      RunNUSTriggered: false
     };
     this.resize = this.resize.bind(this);
-    this.timer = this.timer.bind(this);
   }
 
   componentDidMount() {
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
     setInterval(this.timer, 1000);
-  }
-
-  timer(){
-    var num = Math.random();
-    var chance = 0.015;
-    if(this.state.RunNUSTriggered){
-      chance = 0.0015;
-    }
-    if(num < chance){
-      this.notifyRunNUS();
-      this.setState({ RunNUSTriggered: true });
-    }
   }
 
   resize() {
@@ -45,44 +31,6 @@ class MainNavbar extends Component {
     if (smallWords !== this.state.smallWords) {
         this.setState({smallWords: smallWords});
     }
-  }
-
-  notifyVirtualSeries() {
-    toast(
-      <div style={{"padding":"10px","color":"black"}}>
-        <h6>
-          A person has just signed up for our <strong>Virtual Series</strong> 🏃‍♀️🚴‍♂️🏊‍♀️
-        </h6>
-        <Button className='btn-outline-sc-red' size='sm' href='http://virtualseries.nussportsclub.org/' target='_blank' block>Find out More</Button>
-      </div>
-      , {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
-  }
-
-  notifyRunNUS() {
-    toast(
-      <div style={{"padding":"10px","color":"black"}}>
-        <h6>
-          A person has just signed up for <strong>RunNUS</strong> ~ Run For a Cause 🏃‍♀️
-        </h6>
-        <Button className='btn-outline-sc-red' size='sm' href='https://www.nussportsclub.org/runnus' target='_blank' block>Find out More</Button>
-      </div>
-      , {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
   }
 
   render () {
