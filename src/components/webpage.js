@@ -12,21 +12,21 @@ class WebPage extends Component {
   render(){
     let webpage = null;
 
-    if(process.env.REACT_APP_IS_MAINTENANCE === 'true'){
-      Log.info('Page is on Maintenance');
-      webpage = (
-        <Switch>
-          <Route path='/' exact component={Maintenance} />
-        </Switch>
-      );
-    } else {
+    // if(process.env.REACT_APP_IS_MAINTENANCE === 'true'){
+    //   Log.info('Page is on Maintenance');
+    //   webpage = (
+    //     <Switch>
+    //       <Route path='/' exact component={Maintenance} />
+    //     </Switch>
+    //   );
+    // } else {
       webpage = (
         <Switch>
           <Route path='/39/' component={HomeRouter39} />
           <Route path='/' component={HomeRouter} />
         </Switch>
       );
-    }
+    // }
 
     return (
       <React.Fragment>

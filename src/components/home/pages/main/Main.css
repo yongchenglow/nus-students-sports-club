@@ -369,7 +369,7 @@ a.nav-link {
 }
 
 .partners-cover {
-  background: url(/images/NUS_Students_Sports_Club_Partners.png) no-repeat center center;
+  background: url("/images/NUS_Students_Sports_Club_Partners.png") no-repeat center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
