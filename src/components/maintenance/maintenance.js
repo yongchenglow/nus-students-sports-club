@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MaintenancePage extends Component {
+class Maintenance extends Component {
   render() {
     return(
       <div>
@@ -10,4 +10,4 @@ class MaintenancePage extends Component {
   }
 }
 
-export default MaintenancePage;
+export default Maintenance;
