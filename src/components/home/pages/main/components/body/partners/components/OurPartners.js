@@ -41,7 +41,7 @@ class OurPartners extends Component {
             <img className='img-fluid partner-img-medium' src={ariston} alt='Ariston'/>
             </Col>
             <Col sm={2} className='my-auto pb-4'>
-              <img className='img-fluid partner-img-medium' src={Win2} alt='Win2'/>
+              <img className='img-fluid partner-img-medium ml-5 ml-m-0' src={Win2} alt='Win2'/>
             </Col>
           </Row>
         </Container>
