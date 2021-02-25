@@ -1,20 +1,21 @@
-import React, { Component } from 'react';
-import { Card, Container, CardDeck, Button } from 'react-bootstrap';
+import React, { Component } from "react";
+import { Card, Container, CardDeck, Button } from "react-bootstrap";
 
-import RunNUS from '../images/RunNUS_Poster.png';
-import WelcomeTea from '../images/WelcomeTea.jpeg';
-import StudentLifeFair from '../images/StudentLifeFair.png';
-import ProjectX from '../images/ProjectX.jpeg';
-import Election from '../images/Election.png';
+import NUSBiathlon from "../images/NUSBiathlon21.png";
+import RunNUS from "../images/RunNUS_Poster.png";
+import WelcomeTea from "../images/WelcomeTea.jpeg";
+import StudentLifeFair from "../images/StudentLifeFair.png";
+import ProjectX from "../images/ProjectX.jpeg";
+import Election from "../images/Election.png";
 
-import Carousel from 'nuka-carousel';
+import Carousel from "nuka-carousel";
 
 class FeaturedEvents extends Component {
   constructor(props) {
     super(props);
     this.state = {
       width: 0,
-      height: 0
+      height: 0,
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -27,34 +28,34 @@ class FeaturedEvents extends Component {
     script.async = true;
 
     document.body.appendChild(script);
-    window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
+    window.removeEventListener("resize", this.updateWindowDimensions);
   }
 
   updateWindowDimensions() {
     this.setState({
       width: window.innerWidth,
-      height: window.innerHeight
+      height: window.innerHeight,
     });
   }
 
-  render () {
+  render() {
     var totalSlides = 4;
     var slidesToShow;
     var withoutControls;
     var autoplay = false;
-    if(this.state.width >= 992){
+    if (this.state.width >= 992) {
       slidesToShow = 3;
-    } else if (this.state.width >= 768){
+    } else if (this.state.width >= 768) {
       slidesToShow = 2;
     } else {
       slidesToShow = 1;
     }
 
-    if(totalSlides > slidesToShow){
+    if (totalSlides > slidesToShow) {
       withoutControls = false;
       autoplay = true;
     } else {
@@ -63,9 +64,9 @@ class FeaturedEvents extends Component {
     }
 
     return (
-      <Container className='section text-center'>
-        <div className='section-heading'>Featured Events</div>
-        <Carousel
+      <Container className="section text-center">
+        <div className="section-heading">Featured Events</div>
+        {/* <Carousel
           cellSpacing={20}
           slidesToShow={slidesToShow}
           autoplay={autoplay}
@@ -79,9 +80,32 @@ class FeaturedEvents extends Component {
             pagingDotsContainerClassName:'slider-controls',
             pagingDotsClassName: 'paging-dot-button'
           }}
-        >
-        {/* <CardDeck className='justify-content-center'> */}
-        {/* <Card className='featured-events'>
+        > */}
+        <CardDeck className="justify-content-center">
+          <Card className="featured-events">
+            <Card.Img variant="top" src={NUSBiathlon} alt="NUS Biathlon 2021" />
+            <Card.Body className="text-left">
+              <Card.Title>NUS Biathlon 2021</Card.Title>
+              <Card.Text>
+                <div className="mb-3">
+                  Your long awaited sign ups for NUS Biathlon 2021 are open now
+                  with 3 main categories to choose from! Want to push yourself
+                  to your limits? Sprint Individual is just for you. New to NUS
+                  Biathlon? Fret not, the Novice Individual category does not
+                  discriminate. Lastly, for the shy ones, grab a companion along
+                  for our Power Duo Race. HURRY! Sign up for our races now !!
+                </div>
+              </Card.Text>
+              <Button
+                className="btn btn-block btn-success"
+                href="http://bit.ly/biathlon2021registration"
+                target="_blank"
+              >
+                Join Now
+              </Button>
+            </Card.Body>
+          </Card>
+          {/* <Card className='featured-events'>
             <Card.Img variant='top' src={StudentLifeFair} alt='Student Life Fair'/>
             <Card.Body className='text-left'>
               <Card.Title>Student Life Fair</Card.Title>
@@ -96,7 +120,7 @@ class FeaturedEvents extends Component {
               <Button className='btn btn-block btn-success' href='https://bit.ly/SCSLF' target='_blank'>Join Now</Button>
             </Card.Body>
           </Card> */}
-          <Card className='featured-events'>
+          {/* <Card className='featured-events'>
             <Card.Img variant='top' src={WelcomeTea} alt='NUS Students Sports Club Welcome Tea'/>
             <Card.Body className='text-left'>
               <Card.Title>Sports Club Welcome Tea</Card.Title>
@@ -110,7 +134,7 @@ class FeaturedEvents extends Component {
               </Card.Text>
               <Button className='btn btn-block btn-success' href='https://bit.ly/scwelcometea' target='_blank'>Join Now</Button>
             </Card.Body>
-          </Card>
+          </Card> */}
           {/* <Card className='featured-events'>
             <Card.Img variant='top' src={ProjectX} alt='Virtual Series'/>
             <Card.Body className='text-left'>
@@ -129,7 +153,7 @@ class FeaturedEvents extends Component {
               <Button className='btn btn-block btn-success' href='http://virtualseries.nussportsclub.org' target='_blank'>Find Out More</Button>
             </Card.Body> 
           </Card> */}
-          <Card className='featured-events'>
+          {/* <Card className='featured-events'>
             <Card.Img variant='top' src={RunNUS} alt='RunNUS Early Bird'/>
             <Card.Body className='text-left'>
               <Card.Title>RunNUS 2020</Card.Title>
@@ -152,12 +176,12 @@ class FeaturedEvents extends Component {
               </Card.Text>
               <Button className='btn btn-block btn-success' href='https://www.nussportsclub.org/elections' target='_blank'>Find Out More</Button>
             </Card.Body>
-          </Card>
-        </Carousel>
-        {/* </CardDeck> */}
+          </Card> */}
+          {/* </Carousel> */}
+        </CardDeck>
       </Container>
     );
   }
-};
+}
 
 export default FeaturedEvents;
