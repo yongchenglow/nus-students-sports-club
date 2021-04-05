@@ -13,7 +13,7 @@ class Projects extends Component {
       <div className="section text-center">
         <Container>
           <CardDeck className="justify-content-center">
-            <Card className="cell-card">
+            <Card className="project-card">
               <Card.Img
                 variant="top"
                 className="project-image"
@@ -50,7 +50,7 @@ class Projects extends Component {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="cell-card">
+            <Card className="project-card">
               <Card.Img
                 variant="top"
                 className="project-image"
@@ -76,7 +76,7 @@ class Projects extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="cell-card">
+            <Card className="project-card">
               <Card.Img
                 variant="top"
                 className="project-image"
@@ -103,7 +103,7 @@ class Projects extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="cell-card">
+            <Card className="project-card">
               <Card.Img
                 variant="top"
                 className="project-image"
@@ -129,7 +129,7 @@ class Projects extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="cell-card">
+            <Card className="project-card">
               <Card.Img
                 variant="top"
                 className="project-image"
