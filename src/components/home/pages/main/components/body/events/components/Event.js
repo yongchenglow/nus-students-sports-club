@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import SportsCamp2020 from "../images/SportsCamp2020.jpeg";
+import SunNUS2021 from "../images/SunNUS2021.PNG";
 import SunNUS from "../images/SunNUS2020.jpeg";
 import ProjectX from "../images/ProjectX.jpeg";
 import Netball from "../images/Netball.jpeg";
@@ -23,6 +24,52 @@ class Event extends Component {
     return (
       <div className="section">
         <Container>
+        <Row className="justify-content-center">
+            <Col className="event-block" md={11} lg={10} xl={9}>
+              <img
+                class="event-image-vertical"
+                src={SunNUS2021}
+                alt="SunNUS 2021"
+              />
+              <div className="event-text">
+                <Row>
+                  <Col md="auto" className="text-center text-md-left">
+                    <div className="event-title">SunNUS 2021</div>
+                    <div className="event-date">
+                      12th June to 13th June (Team Sports Series)<br/>
+                      5th June to 13th June (Sentosa Outdoor Adventure Race)
+                    </div>
+                  </Col>
+                  <Col className="text-center">
+                    <Button
+                      className="btn-outline-sc-red"
+                      href="http://bit.ly/ilovesunnus"
+                      target="_blank"
+                    >
+                      Sign Up Now!
+                    </Button>
+                  </Col>
+                </Row>
+                <Row className="mt-3">
+                  <Col className="event-description text-left">
+                    <div className="paragraph">
+                    School is out, and SunNUS is in! Guess what, REGISTRATION IS OPEN! Ready for an awesome summer? Grab your friends and take part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa Outdoor Adventure Race (SOAR) and win attractive prizes!  🔍📱🌿☀️ What are you waiting for? Click on the link and sign up now!😆 
+
+                    </div>
+                    <div className="text-center">
+                      <Button
+                        className="btn-outline-sc-red"
+                        href="http://www.nussportsclub.org/sunnus"
+                        target="_blank"
+                      >
+                        Find Out More!
+                      </Button>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
           <Row className="justify-content-center">
             <Col className="event-block" md={11} lg={10} xl={9}>
               <img

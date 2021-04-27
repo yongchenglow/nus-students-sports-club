@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Card, Container, CardDeck, Button } from "react-bootstrap";
 
+import SunNUS from "../images/SunNUS2021.PNG";
 import NUSBiathlon from "../images/NUSBiathlon21.png";
 import RunNUS from "../images/RunNUS_Poster.png";
 import WelcomeTea from "../images/WelcomeTea.jpeg";
@@ -83,6 +84,24 @@ class FeaturedEvents extends Component {
         > */}
         <CardDeck className="justify-content-center">
           <Card className="featured-events">
+            <Card.Img variant="top" src={SunNUS} alt="SunNUS 2021" />
+            <Card.Body className="text-left">
+              <Card.Title>SunNUS 2021</Card.Title>
+              <Card.Text>
+                <div className="mb-3">
+                School is out, and SunNUS is in! Guess what, REGISTRATION IS OPEN! Ready for an awesome summer? Grab your friends and take part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa Outdoor Adventure Race (SOAR) and win attractive prizes!  🔍📱🌿☀️ What are you waiting for? Click on the link and sign up now!😆 
+                </div>
+              </Card.Text>
+              <Button
+                className="btn btn-block btn-success"
+                href="http://bit.ly/ilovesunnus"
+                target="_blank"
+              >
+                Join Now
+              </Button>
+            </Card.Body>
+          </Card>
+          {/* <Card className="featured-events">
             <Card.Img variant="top" src={NUSBiathlon} alt="NUS Biathlon 2021" />
             <Card.Body className="text-left">
               <Card.Title>NUS Biathlon 2021</Card.Title>
@@ -104,7 +123,7 @@ class FeaturedEvents extends Component {
                 Join Now
               </Button>
             </Card.Body>
-          </Card>
+          </Card> */}
           {/* <Card className='featured-events'>
             <Card.Img variant='top' src={StudentLifeFair} alt='Student Life Fair'/>
             <Card.Body className='text-left'>
