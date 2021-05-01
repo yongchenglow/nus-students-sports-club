@@ -59,7 +59,10 @@ class Projects extends Component {
               />
               <Card.Body className="text-left">
                 <Card.Title>SunNUS</Card.Title>
-                <div className="card-sub-title">TBA</div>
+                <div className="card-sub-title">
+                  12 to 13 June (Team Sports Series)
+                  <br />5 to 13 June (Sentosa Outdoor Adventure Race)
+                </div>
                 <Card.Text>
                   <span className="paragraph">
                     SunNUS is the National University of Singapore's largest

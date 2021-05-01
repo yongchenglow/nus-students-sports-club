@@ -17,7 +17,6 @@ class MainRouter extends Component {
           <Route path="/runnus" exact component={RunNUS} />
           <Route
             path="/sunnus"
-            exact
             component={() => {
               window.location.href = "https://www.sunnus2021.nussportsclub.org";
               return null;
