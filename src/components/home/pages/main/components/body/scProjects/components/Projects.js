@@ -60,8 +60,13 @@ class Projects extends Component {
               <Card.Body className="text-left">
                 <Card.Title>SunNUS</Card.Title>
                 <div className="card-sub-title">
-                  12 to 13 June (Team Sports Series)
-                  <br />5 to 13 June (Sentosa Outdoor Adventure Race)
+                  24 to 25 July (Team Sports Series)
+                  <br />
+                  TBC (Sentosa Outdoor Adventure Race)
+                  <br />
+                  <a href="https://www.instagram.com/sunnus_official/?hl=en">
+                    Follow SunNUS Instagram for the latest updates
+                  </a>
                 </div>
                 <Card.Text>
                   <span className="paragraph">
@@ -88,20 +93,29 @@ class Projects extends Component {
               />
               <Card.Body className="text-left">
                 <Card.Title>NUS Sports Camp</Card.Title>
-                <div className="card-sub-title">TBA</div>
+                <div className="card-sub-title">5th to 8th July</div>
                 <Card.Text>
                   <span className="paragraph">
-                    NUS Sports Camp is the largest non-faculty freshmen
-                    orientation camp. This 4D3N camp brings together students of
-                    different backgrounds and advocates the need to live a
-                    healthy and active lifestyle.
+                    NUS Sports Camp is a freshmen orientation camp organized
+                    annually by the NUS Students’ Sports Club. This year, we
+                    will be taking the 4-days camp both online and physical*
+                    (dependent on the COVID-19 situation), where we bring
+                    together many sportsmen/women of different backgrounds and
+                    proliferate the need to lead a healthy and active lifestyle
+                    through a wide array of sporting activities.
                   </span>
                   <span className="paragraph">
-                    In this camp, Freshmen will be exposed to a variety of
-                    Martial Arts, Indoor, Land, Water and outdoor sports.
-                    Through team-building activities, freshmen are bound to have
-                    an exciting start to their university life through the
-                    strong friendships forged.
+                    With more than 25 years of history, NUS Sports Camp has
+                    earned a reputation of being the most anticipated camp on
+                    campus for incoming freshmen and current undergraduates, who
+                    return as camp seniors. Apart from engaging in the multitude
+                    of sports ranging from Land, Water, Indoor and Martial Arts
+                    offered by NUS, participants will also experience a wide
+                    array of online sporting activities, through the use of
+                    online platforms such as Zoom, Instagram and TikTok. Through
+                    team-building activities, freshmen are bound to have an
+                    exciting start to their university life through the strong
+                    friendships forged!
                   </span>
                 </Card.Text>
               </Card.Body>

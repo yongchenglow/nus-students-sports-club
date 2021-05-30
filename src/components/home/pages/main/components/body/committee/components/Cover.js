@@ -1,21 +1,30 @@
-import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React, { Component } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 class Cover extends Component {
-  render () {
+  render() {
     return (
-      <div className='committee-cover-40'>
+      <div className="committee-cover-41">
         <Container>
-          <Row className='cover-row-container justify-content-center'>
-            <Col className='cover-container' xs={11} sm={11} md={10} lg={9} xl={8}>
-              <div className='cover-title'>Management Committee</div>
-              <div className='cover-text'>The adminstrative body of Sports Club</div>
+          <Row className="cover-row-container-committee justify-content-center">
+            <Col
+              className="cover-container-committee"
+              xs={11}
+              sm={11}
+              md={10}
+              lg={9}
+              xl={8}
+            >
+              <div className="cover-title">Management Committee</div>
+              <div className="cover-text">
+                The adminstrative body of Sports Club
+              </div>
             </Col>
           </Row>
         </Container>
       </div>
     );
   }
-};
+}
 
 export default Cover;

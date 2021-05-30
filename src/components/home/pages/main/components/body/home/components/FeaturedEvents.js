@@ -86,10 +86,21 @@ class FeaturedEvents extends Component {
           <Card className="featured-events">
             <Card.Img variant="top" src={SunNUS} alt="SunNUS 2021" />
             <Card.Body className="text-left">
-              <Card.Title>SunNUS 2021</Card.Title>
+              <Card.Title className="text-center">SunNUS 2021</Card.Title>
               <Card.Text>
+                <div className="text-center">
+                  <h6 className="text-danger">SunNUS is Postponed!</h6>
+                  <a href="https://www.instagram.com/sunnus_official/?hl=en">
+                    Follow SunNUS Instagram for the latest updates
+                  </a>
+                </div>
                 <div className="mb-3">
-                School is out, and SunNUS is in! Guess what, REGISTRATION IS OPEN! Ready for an awesome summer? Grab your friends and take part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa Outdoor Adventure Race (SOAR) and win attractive prizes!  🔍📱🌿☀️ What are you waiting for? Click on the link and sign up now!😆 
+                  School is out, and SunNUS is in! Guess what, REGISTRATION IS
+                  OPEN! Ready for an awesome summer? Grab your friends and take
+                  part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️
+                  or take part in our NEW SEGMENT, Sentosa Outdoor Adventure
+                  Race (SOAR) and win attractive prizes! 🔍📱🌿☀️ What are you
+                  waiting for? Click on the link and sign up now!😆
                 </div>
               </Card.Text>
               <Button

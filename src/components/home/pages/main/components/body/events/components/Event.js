@@ -24,7 +24,7 @@ class Event extends Component {
     return (
       <div className="section">
         <Container>
-        <Row className="justify-content-center">
+          <Row className="justify-content-center">
             <Col className="event-block" md={11} lg={10} xl={9}>
               <img
                 class="event-image-vertical"
@@ -36,8 +36,13 @@ class Event extends Component {
                   <Col md="auto" className="text-center text-md-left">
                     <div className="event-title">SunNUS 2021</div>
                     <div className="event-date">
-                      12th June to 13th June (Team Sports Series)<br/>
-                      5th June to 13th June (Sentosa Outdoor Adventure Race)
+                      24th June to 25th July (Team Sports Series)
+                      <br />
+                      TBC (Sentosa Outdoor Adventure Race)
+                      <br />
+                      <a href="https://www.instagram.com/sunnus_official/?hl=en">
+                        Follow SunNUS Instagram for the latest updates
+                      </a>
                     </div>
                   </Col>
                   <Col className="text-center">
@@ -53,8 +58,13 @@ class Event extends Component {
                 <Row className="mt-3">
                   <Col className="event-description text-left">
                     <div className="paragraph">
-                    School is out, and SunNUS is in! Guess what, REGISTRATION IS OPEN! Ready for an awesome summer? Grab your friends and take part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa Outdoor Adventure Race (SOAR) and win attractive prizes!  🔍📱🌿☀️ What are you waiting for? Click on the link and sign up now!😆 
-
+                      School is out, and SunNUS is in! Guess what, REGISTRATION
+                      IS OPEN! Ready for an awesome summer? Grab your friends
+                      and take part in our Team Sports Series (TSS) in campus!
+                      🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa
+                      Outdoor Adventure Race (SOAR) and win attractive prizes!
+                      🔍📱🌿☀️ What are you waiting for? Click on the link and
+                      sign up now!😆
                     </div>
                     <div className="text-center">
                       <Button
