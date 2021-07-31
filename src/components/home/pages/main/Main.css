@@ -761,6 +761,15 @@ a.nav-link {
   font-size: 1.5rem;
 }
 
+.sm-social-club-button {
+  margin: 0px 5px 12px 5px;
+  border: solid 2px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 1rem;
+}
+
 .slider {
   height: 655px !important;
 }
@@ -801,4 +810,8 @@ a.nav-link {
 
 .partner-img-medium {
   max-height: 100px;
+}
+
+.margin-top-12 {
+  margin-top: -12px;
 }
