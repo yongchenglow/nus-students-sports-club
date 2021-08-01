@@ -9,9 +9,9 @@
   ],
   "about_us": [
     "Wushu is a blanket term for all Chinese martial arts.  It is an integral part of Chinese culture and helps build character, discipline and virtue. In the past, Chinese martial arts were not only used by the military, but also by civilians for self defense, to improve their health, or simply as part of the history and traditions of individual families and villages.",
-   "NUS Wushu focuses on traditional wushu practiced through taolus, which are a set routine comprising connected techniques, choreographed with patterns of attack and defense.",
-   "As it does not contain many stunts and acrobatics, traditional wushu is not difficult to pick up or learn, even if one does not have a background in martial arts or sports.",
-   "We welcome all who are interested in joining us and learning more about Wushu. Even though Wushu may seem like an individual sport, NUS Wushu has always been working on fostering club bonding through various events and outings. We train hard and play hard. Also, many of our members have stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.",
+    "NUS Wushu focuses on traditional wushu practiced through taolus, which are a set routine comprising connected techniques, choreographed with patterns of attack and defense.",
+    "As it does not contain many stunts and acrobatics, traditional wushu is not difficult to pick up or learn, even if one does not have a background in martial arts or sports.",
+    "We welcome all who are interested in joining us and learning more about Wushu. Even though Wushu may seem like an individual sport, NUS Wushu has always been working on fostering club bonding through various events and outings. We train hard and play hard. Also, many of our members have stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.",
     "Interested to find out more? Talk to us now at nuswushu@gmail.com!"
   ],
   "training_sessions": [
@@ -38,8 +38,8 @@
   "events": [
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Wushu and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://bit.ly/SCSLF",
@@ -59,5 +59,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nuswushu",
   "facebook_url": "https://www.facebook.com/NUSWushu/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

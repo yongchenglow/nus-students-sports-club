@@ -3,11 +3,12 @@
     {
       "name": "NUS Biathlon",
       "image": "NUS_Biathlon_Logo_No_Year.png",
-      "dates": ["20th March to 27th March 2021"],
+      "image_url": "https://www.nussportsclub.org/nusbiathlon",
+      "dates": ["20th March 2021 to 27th March 2021"],
       "message": "",
       "instagram_url": "https://www.instagram.com/nusbiathlon",
       "facebook_url": "https://www.facebook.com/nusbiathlon",
-      "telegram_url": "",
+      "telegram_url": "https://t.me/nusbiathlon",
       "description": [
         "NUS Biathlon is the largest swim and run event in the National University of Singapore. It has consistently attracted over 200 participants ranging from the NUS community, various educational institutions and the public.",
         "With a huge outreach to both athletes and non-athletes, NUS Biathlon serves as a platform for varsity teams to compete and at the same time, a great opportunity for novices to indulge in the sport."
@@ -20,11 +21,12 @@
     {
       "name": "SunNUS",
       "image": "SunNUS_Logo_No_Year.png",
+      "image_url": "",
       "dates": ["(TBA) Sentosa Outdoor Adventure Race"],
       "message": "Follow our socials for the latest updates",
       "instagram_url": "https://www.instagram.com/sunnus_official",
       "facebook_url": "https://www.facebook.com/sunnus.official",
-      "telegram_url": "",
+      "telegram_url": "https://t.me/sunnus_official",
       "description": [
         "SunNUS is the National University of Singapore's largest annual beach event for anyone to do sports. SunNUS empowers individuals from all walks of life to pursue an active lifestyle and have fun under the sun!",
         "Both NUS students and the general public alike can look forward to the Mount Imbiah Challenge, several beach sports, a performance by beach pageants and an exciting array for fringe games."
@@ -37,11 +39,12 @@
     {
       "name": "NUS Sports Camp",
       "image": "NUS_Sports_Camp_Logo.png",
-      "dates": ["5th to 8th July"],
+      "image_url": "",
+      "dates": ["5th July 2021 to 8th July 2021"],
       "message": "",
       "instagram_url": "https://www.instagram.com/nussportscamp",
       "facebook_url": "https://www.facebook.com/nussscsc",
-      "telegram_url": "sdfdf",
+      "telegram_url": "https://t.me/nussportscamp",
       "description": [
         "NUS Sports Camp is a freshmen orientation camp organized annually by the NUS Students’ Sports Club. This year, we will be taking the 4-days camp both online and physical* (dependent on the COVID-19 situation), where we bring together many sportsmen/women of different backgrounds and proliferate the need to lead a healthy and active lifestyle through a wide array of sporting activities.",
         "With more than 25 years of history, NUS Sports Camp has earned a reputation of being the most anticipated camp on campus for incoming freshmen and current undergraduates, who return as camp seniors. Apart from engaging in the multitude of sports ranging from Land, Water, Indoor and Martial Arts offered by NUS, participants will also experience a wide array of online sporting activities, through the use of online platforms such as Zoom, Instagram and TikTok. Through team-building activities, freshmen are bound to have an exciting start to their university life through the strong friendships forged!"
@@ -54,11 +57,12 @@
     {
       "name": "Inter-Faculty Games",
       "image": "IFG_Logo_No_Year.png",
+      "image_url": "",
       "dates": ["TBA"],
       "message": "",
       "instagram_url": "https://www.instagram.com/official_ifg",
       "facebook_url": "https://www.facebook.com/InterFacultyGames",
-      "telegram_url": "",
+      "telegram_url": "https://t.me/official_ifg",
       "description": [
         "Inter-Faculty Games (IFG) is the largest and most anticipated student life event in NUS. For 5 weeks, 3500+ athletes across 11 faculties take part in 23 sporting events in hopes of clinching the Tan Eng Chye Challenge Trophy.",
         "Along with various performing arts groups and student volunteers, we kick start the season with an Opening Ceremony extravaganza, and end it on a high note with a celebratory Closing Ceremony."
@@ -71,18 +75,20 @@
     {
       "name": "RunNUS",
       "image": "RunNUS_Logo_No_Year.jpg",
-      "dates": ["TBA"],
+      "image_url": "http://runnus.nussportsclub.org",
+      "dates": ["19th August 2021 - 19th September 2021"],
       "message": "",
       "instagram_url": "https://www.instagram.com/runnus",
       "facebook_url": "https://www.facebook.com/RunNUS",
-      "telegram_url": "",
+      "telegram_url": "https://t.me/runnus",
       "description": [
-        "RunNUS is a running event that includes a 3km, 5km and 10km run bundled with a spectacular carnival that includes games, refreshments and lucky draws.",
-        "With the tagline ‘Run For A Cause’, RunNUS partners with NUS Disability Support Office (DSO) and Disabled People's Association, to promote the empowerment of people with disabilities through inclusiveness and to encourage running to keep a healthy lifestyle."
+        "RunNUS is an annual running event organised by the NUS Students' Sports Club (NUSSSC) and aims to promote healthy living among the NUS population and the public. Since our inception in 2007, RunNUS has become one of the largest and most anticipated running events for NUS students, staff, alumni and the public.",
+        "In light of the COVID-19 situation, RunNUS 2021 will be held virtually. In addition to our classic 3km, 5km, and 10km categories, we present an exclusive 115km category in celebration of our 15th Anniversary. Challenge yourself through running a cumulative distance of 115km by going solo or in a team of 5.",
+        "With our tagline “Run For a Cause”, RunNUS aims to encourage a healthy lifestyle through running and to raise awareness and promote inclusivity of Persons with Disabilities and Special Needs (PWDSNs). As such, net proceeds of the event will be channelled to our beneficiaries, Disabled People’s Association (DPA) and Singapore Disability Sports Council (SDSC)."
       ],
       "button": {
-        "button_text": "",
-        "button_link": ""
+        "button_text": "Find Out More!",
+        "button_link": "http://runnus.nussportsclub.org"
       }
     }
   ]

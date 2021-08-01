@@ -11,7 +11,7 @@
     "Muay Thai, also known as the art of 8 limbs, utilizes the fists, elbows, knees and legs as weapons. We use stand up striking along with various clinching techniques. Muay Thai, like all other combat sports, is not merely about combos and hits but a tactful amalgam of fight IQ, muscle memory, fitness, training, training and training (smart).",
     "Our team consists of our coach, alumni, students, and our team manager. No doubt an individual sport, you do not train alone. We create a safe space for one another, for making mistakes and learning from them. A space free of mindless judgements, we only do what is necessary and effective. As a team we strive for excellence - even in the simplest of pad holding.",
     "We hold recreational classes, both beginners and intermediate. Depending on prior knowledge and experience, team members will advise on which class is more suitable. Through the 8 lessons, expect to learn the basics of fighting stance and power generation as well as simple combinations and padwork. Classes are systematic and well thought out by the coach, with at least 4 team members facilitating each class. Come join us for your first Muay Thai experience!",
-   "Interested to find out more? Talk to us now at nusmuaythaicomm@gmail.com!"
+    "Interested to find out more? Talk to us now at nusmuaythaicomm@gmail.com!"
   ],
   "training_sessions": [
     {
@@ -37,8 +37,8 @@
   "events": [
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Muay Thai and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://bit.ly/SCSLF",
@@ -58,5 +58,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nusmuaythai",
   "facebook_url": "https://www.facebook.com/nusmuaythai/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

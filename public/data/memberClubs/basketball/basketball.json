@@ -8,11 +8,11 @@
     "Bball4.jpg"
   ],
   "about_us": [
-     "NUS Basketball Club is a recreational and non-competitive basketball member club under NUS Students' Sports Club. Our club caters to all NUS students who are interested in the game of basketball. We strive to provide a safe platform for members to play, learn, practice basketball skills and in the process, have fun and forge new friendships!",
-     "NUS Basketball Club welcomes everyone, regardless of your skill level. Our training sessions cater to our members' needs and experience in basketball: training sessions are split into the beginners and intermediate group to ensure that members can learn at their own pace comfortably.",
-     "The beginners group focuses on the basics of basketball with drills such as dribbling and shooting, while slowly working up to the more advanced aspects of basketball and eventually being able to play in matches. Whereas the intermediate group focuses on more advanced drills and are split into smaller groups to play matches.",
-     "On top of our weekly trainings, we also organise various competitions such as the annual 3v3 BasketbALLSTAR Competition for all NUS students and staff to participate and gain experience over exciting games. On top of that, there are also amazing prizes are up for grabs!",
-   "Interested to find out more? Talk to us now at basketball@nussportsclub.org!"
+    "NUS Basketball Club is a recreational and non-competitive basketball member club under NUS Students' Sports Club. Our club caters to all NUS students who are interested in the game of basketball. We strive to provide a safe platform for members to play, learn, practice basketball skills and in the process, have fun and forge new friendships!",
+    "NUS Basketball Club welcomes everyone, regardless of your skill level. Our training sessions cater to our members' needs and experience in basketball: training sessions are split into the beginners and intermediate group to ensure that members can learn at their own pace comfortably.",
+    "The beginners group focuses on the basics of basketball with drills such as dribbling and shooting, while slowly working up to the more advanced aspects of basketball and eventually being able to play in matches. Whereas the intermediate group focuses on more advanced drills and are split into smaller groups to play matches.",
+    "On top of our weekly trainings, we also organise various competitions such as the annual 3v3 BasketbALLSTAR Competition for all NUS students and staff to participate and gain experience over exciting games. On top of that, there are also amazing prizes are up for grabs!",
+    "Interested to find out more? Talk to us now at basketball@nussportsclub.org!"
   ],
   "training_sessions": [
     {
@@ -26,8 +26,8 @@
   "events": [
     {
       "event_image_name": "logo.png",
-      "event_name":"BasketballALLSTAR 2021",
-      "event_date":"Mar 2021",
+      "event_name": "BasketballALLSTAR 2021",
+      "event_date": "Mar 2021",
       "event_description": "Stay tuned for more updates!",
       "event_website": "",
       "event_sign_up_link": "",
@@ -36,8 +36,8 @@
     },
     {
       "event_image_name": "ids_poster_final.jpg",
-      "event_name":"Basketball Interest Development Series",
-      "event_date":"23 Jan 2020",
+      "event_name": "Basketball Interest Development Series",
+      "event_date": "23 Jan 2020",
       "event_description": "Come join us for this IDS session and learn the basics of basketball. See you there!",
       "event_website": "",
       "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5310996",
@@ -47,5 +47,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nusbasketballclub",
   "facebook_url": "",
-  "telegram_url": "https://t.me/joinchat/AAAAAE4TqiAaXYka9Hpl3Q"
+  "telegram_url": "https://t.me/joinchat/AAAAAE4TqiAaXYka9Hpl3Q",
+  "linktree_url": ""
 }

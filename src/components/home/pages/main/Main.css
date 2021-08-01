@@ -815,3 +815,8 @@ a.nav-link {
 .margin-top-12 {
   margin-top: -12px;
 }
+
+.club-social-icon {
+  width: 35px;
+  height: 35px;
+}

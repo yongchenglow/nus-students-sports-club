@@ -1,12 +1,7 @@
 {
   "club_logo_image_name": "NWP.jpg",
   "club_name": "NUS Nam Wah Pai Self-Defence",
-  "carousel_image_name": [
-    "nwp3.jpg",
-    "nwp2.jpg",
-    "nwp4.jpg",
-    "nwp1.jpg"
-  ],
+  "carousel_image_name": ["nwp3.jpg", "nwp2.jpg", "nwp4.jpg", "nwp1.jpg"],
   "about_us": [
     "NUS Nam Wah Pai Self-Defence (NWPSD) is a martial arts club formed with the aim to promote good health and to teach the art of self defence. We are affiliated with World Nam Wah Pai which was established in Singapore since 1964. To date, many branches have been established in Singapore, Malaysia, Japan, China and New Zealand. Our martial arts form tends towards practicality and is based on a flexible system of strikes and grapples.",
     "Here in NUS NWPSD, we do general martial training such as kata and weapons but we specialise in self defence techniques. Want to learn how to defend yourself? Then join us now! We promise you'll find a close-knit community here in NUS NWPSD who's very supportive of one other and will not hesitate to help one another out during events planning and any other challenges you may face.",
@@ -24,8 +19,8 @@
   "events": [
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Nam Wah Pai Self-Defence and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://nus-sg.zoom.us/j/97052807457?pwd=MEFoRndwVDh1UEc5d0pnOHRmd094Zz09",
@@ -45,5 +40,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nus_nwp",
   "facebook_url": "https://www.facebook.com/nwpnus/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

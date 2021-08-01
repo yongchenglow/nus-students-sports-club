@@ -1,12 +1,7 @@
 {
   "club_logo_image_name": "Capoeira.jpg",
   "club_name": "NUS Capoeira",
-  "carousel_image_name": [
-    "capo.jpeg",
-    "capo3.jpeg",
-    "capo2.jpg",
-    "capo4.jpg"
-  ],
+  "carousel_image_name": ["capo.jpeg", "capo3.jpeg", "capo2.jpg", "capo4.jpg"],
   "about_us": [
     "Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature.",
     "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It's always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!",
@@ -30,8 +25,8 @@
   "events": [
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Capoeira and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://bit.ly/SCSLF",
@@ -61,5 +56,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nus.capoeira/",
   "facebook_url": "https://www.facebook.com/nuscapoeira/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

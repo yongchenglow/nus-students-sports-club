@@ -1,12 +1,7 @@
 {
   "club_logo_image_name": "logo_2020.png",
   "club_name": "NUS Cuesports",
-  "carousel_image_name": [
-    "cue1.jpg",
-    "cue2.jpeg",
-    "cue3.jpeg",
-    "cue4.jpg"
-  ],
+  "carousel_image_name": ["cue1.jpg", "cue2.jpeg", "cue3.jpeg", "cue4.jpg"],
   "about_us": [
     "Cuesports consist of pool, snooker, and billiards. The sport is a well developed art of thinking ahead. It is not only a game, but first and foremost a demanding sport that requires good stamina, the logical thinking of a chess player, and the stable hand of a concert pianist.",
     "Here at NUS Cuesports, we welcome players of all skill levels. For beginners, we provide weekly coaching on the fundamentals such as bridging, cueing and aiming. For the more advanced players, we enjoy a close relationship with the varsity athletes to create a competitive gameplay. For anyone who wishes to challenge themselves to greater heights, our annual 8-ball Carnival and 9-ball Open event is the perfect environment to do so.",
@@ -82,5 +77,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nuscuesportsclub",
   "facebook_url": "https://www.facebook.com/nuscuesports/",
-  "telegram_url": "https://tinyurl.com/cuesportsrecre"
+  "telegram_url": "https://tinyurl.com/cuesportsrecre",
+  "linktree_url": ""
 }

@@ -31,8 +31,8 @@
   "events": [
     {
       "event_image_name": "welcome tea.jpeg",
-      "event_name":"Welcome Tea 2020",
-      "event_date":"21 Aug 2020",
+      "event_name": "Welcome Tea 2020",
+      "event_date": "21 Aug 2020",
       "event_description": "Join us at our Welcome Tea session from 7 - 9 pm at MPSH 2 (Zone C) or over Zoom to find out more about Aikido!",
       "event_website": "",
       "event_sign_up_link": "https://nus.campuslabs.com/engage/submitter/form/start/430579",
@@ -41,8 +41,8 @@
     },
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Aikido and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://bit.ly/SCSLF",
@@ -51,8 +51,8 @@
     },
     {
       "event_image_name": "Exposure Course.jpg",
-      "event_name":"Aikido Exposure Course",
-      "event_date":"31 Jan 2020",
+      "event_name": "Aikido Exposure Course",
+      "event_date": "31 Jan 2020",
       "event_description": "Curious about what is Aikido? Want to try out our Aikido lesson? We welcome you to join our Aikido Exposure Course to gain an insight about aikido!",
       "event_website": "",
       "event_sign_up_link": "http://bit.ly/aikidoexposure2020",
@@ -62,6 +62,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nus_aikido",
   "facebook_url": "https://www.facebook.com/nus.aikido/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }
-

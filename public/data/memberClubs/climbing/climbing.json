@@ -9,8 +9,8 @@
   ],
   "about_us": [
     "The NUS Climbing Club prides itself as the largest recreational interest group as part of the NUSSSC. We aim to equip our club members with the technical ability and know-hows of climbing, and to induct NUS students to the ever-growing climbing community.",
-   "This year marks the seventh annual ClimbNUS organised by the club to introduce the sport of climbing to the NUS community. In addition, the club also organises one of the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS Boulderactive. Held annually, Boulderactive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore. In 2019, Boulderactive also partnered the SEA League.",  
-   "Club sessions are held twice every week on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester.",
+    "This year marks the seventh annual ClimbNUS organised by the club to introduce the sport of climbing to the NUS community. In addition, the club also organises one of the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS Boulderactive. Held annually, Boulderactive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore. In 2019, Boulderactive also partnered the SEA League.",
+    "Club sessions are held twice every week on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester.",
     "Interested to find out more? Talk to us now at hello@nusclimb.com or visit us at nusclimb.com!"
   ],
   "training_sessions": [
@@ -86,5 +86,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nus_climbing",
   "facebook_url": "https://www.facebook.com/ClimbNUS/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

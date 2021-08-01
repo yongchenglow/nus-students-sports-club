@@ -73,6 +73,7 @@ function Projects() {
             style={{ fontSize: "1.2rem", padding: "0.3rem" }}
             href={project.facebook_url}
             key={"facebokLink"}
+            target="_blank"
           >
             <FontAwesomeIcon icon={faFacebookF} />
           </Button>
@@ -87,6 +88,7 @@ function Projects() {
             style={{ fontSize: "1.5rem", padding: "0.07rem" }}
             href={project.instagram_url}
             key={"instagramLink"}
+            target="_blank"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </Button>
@@ -101,20 +103,40 @@ function Projects() {
             style={{ fontSize: "1.5rem", padding: "0.1rem" }}
             href={project.telegram_url}
             key={"telegramLink"}
+            target="_blank"
           >
             <FontAwesomeIcon icon={faTelegramPlane} />
           </Button>
         );
       }
 
-      return (
-        <Card className="project-card">
+      let cardImage = null;
+
+      if (project.image_url === "") {
+        cardImage = (
           <Card.Img
             variant="top"
             className="project-image"
             src={process.env.REACT_APP_41_PROJECT_IMAGE_PATH + project.image}
             alt={project.name}
           />
+        );
+      } else {
+        cardImage = (
+          <a href={project.image_url} target="_blank" rel="noopener noreferrer">
+            <Card.Img
+              variant="top"
+              className="project-image"
+              src={process.env.REACT_APP_41_PROJECT_IMAGE_PATH + project.image}
+              alt={project.name}
+            />
+          </a>
+        );
+      }
+
+      return (
+        <Card className="project-card">
+          {cardImage}
           <Card.Body className="text-left">
             <Card.Title>{project.name}</Card.Title>
             {projectDates}

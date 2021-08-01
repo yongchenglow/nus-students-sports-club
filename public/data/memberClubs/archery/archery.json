@@ -1,16 +1,12 @@
 {
   "club_logo_image_name": "Archery_Logo.jpg",
   "club_name": "NUS Archery Club",
-  "carousel_image_name": [
-    "Archery1.jpeg",
-    "Archery2.jpg",   
-    "Archery3.png"
-  ],
+  "carousel_image_name": ["Archery1.jpeg", "Archery2.jpg", "Archery3.png"],
   "about_us": [
     "Here in NUS Archery, we practice mainly target archery, comprising of recurve and compound archery. Set at distances ranging from 18m - 70m using target faces ranging from 40cm - 122cm.",
-   "We host bi-annual exposure events such as Beginner Archery Courses and Funshoots which are catered to NUS students of all skills level. We also host the annual NUS Indoor Archery Competition where both local and international archers come to compete. As an archer of NUS Archery, you also get the opportunity to participate in many archery competitions, be it local or international!",
-   "Our intake for new members will be in Semester 1 of every academic year, incoming members can expect initial physical conditioning training prior to actual shooting. Also, the club can provide beginner level equipment for trainings but we recommend you to purchase your own equipment eventually.",
-   "No prior experience is required to join the club, anyone is free to join the archery family. If you are an experienced archer, just reach out to us and we will fill you in!",
+    "We host bi-annual exposure events such as Beginner Archery Courses and Funshoots which are catered to NUS students of all skills level. We also host the annual NUS Indoor Archery Competition where both local and international archers come to compete. As an archer of NUS Archery, you also get the opportunity to participate in many archery competitions, be it local or international!",
+    "Our intake for new members will be in Semester 1 of every academic year, incoming members can expect initial physical conditioning training prior to actual shooting. Also, the club can provide beginner level equipment for trainings but we recommend you to purchase your own equipment eventually.",
+    "No prior experience is required to join the club, anyone is free to join the archery family. If you are an experienced archer, just reach out to us and we will fill you in!",
     "Interested to find out more? Talk to us now at archery@nussportsclub.org!"
   ],
   "training_sessions": [
@@ -98,5 +94,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nus.archery",
   "facebook_url": "https://www.facebook.com/nusarchery",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

@@ -36,8 +36,8 @@
   "events": [
     {
       "event_image_name": "ma.png",
-      "event_name":"E-SLF Live Demonstration",
-      "event_date":"11 Aug 2020",
+      "event_name": "E-SLF Live Demonstration",
+      "event_date": "11 Aug 2020",
       "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Kendo and other Martial Arts!",
       "event_website": "",
       "event_sign_up_link": "https://bit.ly/SCSLF",
@@ -68,5 +68,6 @@
 
   "instagram_url": "https://www.instagram.com/nuskendoclub",
   "facebook_url": "https://www.facebook.com/NUSKendoClub/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }
