@@ -770,10 +770,6 @@ a.nav-link {
   font-size: 1rem;
 }
 
-.slider {
-  height: 655px !important;
-}
-
 .share-buttons {
   display: flex;
   justify-content: center;

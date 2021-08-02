@@ -33,7 +33,8 @@ function Projects() {
 
   useEffect(() => {
     getProjects();
-  });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const generateProjects = (projects) => {
     return projects.map((project) => {
