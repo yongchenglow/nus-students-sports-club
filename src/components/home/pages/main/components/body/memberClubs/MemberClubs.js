@@ -1,23 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Indoors from './components/Indoors';
-import Land from './components/Land';
-import Water from './components/Water';
-import MartialArts from './components/MartialArts';
+import Clubs from "./components/Clubs";
 
 class MemberClubs extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
-        <Cover />
-        <Land />
-        <Indoors />
-        <Water />
-        <MartialArts />
+        <Clubs />
       </React.Fragment>
     );
   }
-};
+}
 
 export default MemberClubs;

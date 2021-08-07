@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import SunNUS2021 from "../images/SunNUS2021.PNG";
-import NUSBiathlon from "../images/NUSBiathlon21.png";
 import { Redirect } from "react-router-dom";
 
 function Event() {
