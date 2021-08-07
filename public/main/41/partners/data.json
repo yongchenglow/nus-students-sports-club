@@ -1,0 +1,72 @@
+{
+  "notes": "Each row can only contain a maximum of size 12, please adjust the photos such that you only see the logo with no white spaces",
+  "partners": [
+    {
+      "section_name": "Featuring",
+      "rows": [
+        {
+          "sponsors": [
+            {
+              "name": "Nivea",
+              "image": "nivea.jpg",
+              "image_link": "",
+              "size": 3
+            },
+            {
+              "name": "Unilever",
+              "image": "Unilever.bmp",
+              "image_link": "",
+              "size": 3
+            },
+            {
+              "name": "Wirpo",
+              "image": "wipro.png",
+              "image_link": "",
+              "size": 3
+            },
+            {
+              "name": "PSFoodAndBeverage",
+              "image": "psFoodAndBeverage.png",
+              "image_link": "",
+              "size": 3
+            }
+          ]
+        },
+        {
+          "sponsors": [
+            {
+              "name": "AF",
+              "image": "af.jpg",
+              "image_link": 2
+            },
+            {
+              "name": "Cationorm",
+              "image": "cationorm.png",
+              "image_link": "",
+              "size": 2
+            },
+            {
+              "name": "My Protein",
+              "image": "myproteih.jpeg",
+              "image_link": "",
+              "size": 2
+            },
+            {
+              "name": "Rev",
+              "image": "rev.jpg",
+              "image_link": "",
+              "size": 2
+            },
+            {
+              "name": "Seng Hong",
+              "image": "SengHong.jpg",
+              "image_link": "",
+              "size": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "old_partners": []
+}
