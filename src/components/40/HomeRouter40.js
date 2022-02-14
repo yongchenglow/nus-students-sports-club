@@ -2,18 +2,18 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
 // Components
-import Main39 from "./main/Main39";
+import Main40 from "./pages/main/Main40";
 
-class HomePage39 extends Component {
+class HomePage40 extends Component {
   render() {
     return (
       <React.Fragment>
         <Switch>
-          <Route path="/39/" component={Main39} />
+          <Route path="/40/" component={Main40} />
         </Switch>
       </React.Fragment>
     );
   }
 }
 
-export default HomePage39;
+export default HomePage40;
