@@ -18,7 +18,6 @@ class ClubPage extends Component {
       has_error: false,
     };
 
-    console.log(this.clubName);
     this.getClubData = this.getClubData.bind(this);
     this.getClubData();
   }

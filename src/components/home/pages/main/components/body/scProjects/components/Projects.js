@@ -8,18 +8,23 @@ import {
   faTelegramPlane,
 } from "@fortawesome/free-brands-svg-icons";
 
-function Projects() {
+function Projects(props) {
   const [projects, setProjects] = useState();
 
   const [hasError, setError] = useState(false);
 
   const getProjects = () => {
-    fetch(process.env.REACT_APP_41_PROJECT_DATA_PATH, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_PROJECT_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
       .then(function (response) {
         return response.json();
       })
@@ -118,7 +123,12 @@ function Projects() {
           <Card.Img
             variant="top"
             className="project-image"
-            src={process.env.REACT_APP_41_PROJECT_IMAGE_PATH + project.image}
+            src={
+              process.env.REACT_APP_FILE_PATH_PREFIX +
+              props.mc +
+              process.env.REACT_APP_PROJECT_IMAGE_PATH +
+              project.image
+            }
             alt={project.name}
           />
         );
@@ -128,7 +138,12 @@ function Projects() {
             <Card.Img
               variant="top"
               className="project-image"
-              src={process.env.REACT_APP_41_PROJECT_IMAGE_PATH + project.image}
+              src={
+                process.env.REACT_APP_FILE_PATH_PREFIX +
+                props.mc +
+                process.env.REACT_APP_PROJECT_IMAGE_PATH +
+                project.image
+              }
               alt={project.name}
             />
           </a>

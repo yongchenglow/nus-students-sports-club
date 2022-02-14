@@ -16,7 +16,10 @@ class CellModal extends Component {
 
   getCellData() {
     $.ajax({
-      url: process.env.REACT_APP_41_CELL_IMAGES_DATA_PATH,
+      url:
+        process.env.REACT_APP_FILE_PATH_PREFIX +
+        this.props.mc +
+        process.env.REACT_APP_CELL_IMAGES_DATA_PATH,
       dataType: "json",
       cache: false,
       success: function (data) {
@@ -39,7 +42,10 @@ class CellModal extends Component {
   // Parse the Cell Data by adding the file paths defined in the environment
   parseCellData(data) {
     var cellData = data;
-    var addFileString = process.env.REACT_APP_41_CELL_IMAGES_FILE_PATH;
+    var addFileString =
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+      this.props.mc +
+      process.env.REACT_APP_CELL_IMAGES_FILE_PATH;
 
     for (var key in cellData) {
       cellData[key].forEach(function (item, index) {

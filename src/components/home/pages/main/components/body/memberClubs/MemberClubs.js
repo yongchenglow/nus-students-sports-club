@@ -4,9 +4,10 @@ import Clubs from "./components/Clubs";
 
 class MemberClubs extends Component {
   render() {
+    var mc = this.props.match.params.mc ?? "";
     return (
       <React.Fragment>
-        <Clubs />
+        <Clubs mc={mc ? mc : "current"} />
       </React.Fragment>
     );
   }

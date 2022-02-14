@@ -43,7 +43,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Presidential.jpg"
                   }
                   alt="Presidential Cell"
@@ -67,7 +69,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Finance.jpg"
                   }
                   alt="Finance Cell"
@@ -91,7 +95,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Secretariat.jpg"
                   }
                   alt="Secretariat Cell"
@@ -112,7 +118,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Marketing.jpg"
                   }
                   alt="Marketing Cell"
@@ -133,7 +141,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Publicity.jpg"
                   }
                   alt="Publicity Cell"
@@ -153,7 +163,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Welfare.jpg"
                   }
                   alt="Welfare Cell"
@@ -174,7 +186,9 @@ class Cells extends Component {
                   variant="top"
                   src={
                     process.env.PUBLIC_URL +
-                    process.env.REACT_APP_41_IMAGES_FILE_PATH +
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    this.props.mc +
+                    process.env.REACT_APP_IMAGES_FILE_PATH +
                     "/cells/Projects.jpg"
                   }
                   alt="Projects Cell"
@@ -207,6 +221,7 @@ class Cells extends Component {
           show={this.state.showModal}
           onHide={this.closeModal}
           cellName={this.state.cellName}
+          mc={this.props.mc}
         />
       </div>
     );

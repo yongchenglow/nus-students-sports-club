@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, CardDeck, Card, Row, Col } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
 
-function Clubs() {
+function Clubs(props) {
   const [clubs, setClubs] = useState();
 
   const [hasError, setError] = useState(false);
@@ -11,12 +11,17 @@ function Clubs() {
   const [numClubs, setNumClubs] = useState(0);
 
   const getClubs = () => {
-    fetch(process.env.REACT_APP_41_CLUB_DATA_PATH, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_CLUB_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
       .then(function (response) {
         return response.json();
       })
@@ -54,7 +59,7 @@ function Clubs() {
             <a
               href={
                 process.env.PUBLIC_URL +
-                process.env.REACT_APP_41_CLUB_PATH +
+                process.env.REACT_APP_CLUB_PATH +
                 club.short_name
               }
             >
@@ -62,7 +67,12 @@ function Clubs() {
                 <Card.Img
                   variant="top"
                   className="project-image"
-                  src={process.env.REACT_APP_41_CLUB_IMAGE_PATH + club.image}
+                  src={
+                    process.env.REACT_APP_FILE_PATH_PREFIX +
+                    props.mc +
+                    process.env.REACT_APP_CLUB_IMAGE_PATH +
+                    club.image
+                  }
                   alt={club.full_name}
                 />
               </div>

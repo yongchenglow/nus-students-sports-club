@@ -15,13 +15,7 @@ class MainRouter extends Component {
         <Switch>
           <Route path="/nusbiathlon" exact component={NUSBiathlon} />
           <Route path="/runnus" exact component={RunNUS} />
-          <Route
-            path="/sunnus"
-            component={() => {
-              window.location.href = "https://www.sunnus2021.nussportsclub.org";
-              return null;
-            }}
-          />
+          <Route path="/sunnus" exact component={SunNUS} />
           <Route path="/ifg" exact component={InterFacultyGames} />
           <Route path="/" component={Main} />
         </Switch>

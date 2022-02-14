@@ -2,19 +2,25 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
 
-function Event() {
+function Event(props) {
   const [events, setEvents] = useState();
 
   const [hasError, setError] = useState(false);
 
   const getEvents = () => {
-    fetch(process.env.REACT_APP_41_EVENTS_DATA_PATH, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_EVENTS_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
       .then(function (response) {
+        console.log(response);
         return response.json();
       })
       .then(function (myJson) {
@@ -76,7 +82,12 @@ function Event() {
           <Col className="event-block" md={11} lg={10} xl={9}>
             <img
               class="event-image-vertical"
-              src={process.env.REACT_APP_41_EVENTS_IMAGE_PATH + event.image}
+              src={
+                process.env.REACT_APP_FILE_PATH_PREFIX +
+                props.mc +
+                process.env.REACT_APP_EVENTS_IMAGE_PATH +
+                event.image
+              }
               alt={event.name}
             />
             <div className="event-text">

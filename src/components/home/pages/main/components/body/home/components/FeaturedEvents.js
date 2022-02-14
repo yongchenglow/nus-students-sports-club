@@ -12,7 +12,7 @@ function getWindowDimensions() {
   };
 }
 
-function FeaturedEvents() {
+function FeaturedEvents(props) {
   const [featured, setFeatured] = useState();
   const [windowDimensions, setWindowDimensions] = useState(
     getWindowDimensions()
@@ -23,12 +23,17 @@ function FeaturedEvents() {
   const [hasError, setError] = useState(false);
 
   const getFeatured = () => {
-    fetch(process.env.REACT_APP_41_FEATURED_DATA_PATH, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_FEATURED_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
       .then(function (response) {
         return response.json();
       })
@@ -48,7 +53,6 @@ function FeaturedEvents() {
     // script.src = "https://static.addtoany.com/menu/page.js";
     // script.async = true;
     // document.body.appendChild(script);
-    console.log(window.width);
     function handleResize() {
       setWindowDimensions(getWindowDimensions());
     }
@@ -70,7 +74,12 @@ function FeaturedEvents() {
           <a href={event.image_link} target="_blank" rel="noopener noreferrer">
             <Card.Img
               variant="top"
-              src={process.env.REACT_APP_41_FEATURED_IMAGE_PATH + event.image}
+              src={
+                process.env.REACT_APP_FILE_PATH_PREFIX +
+                props.mc +
+                process.env.REACT_APP_FEATURED_IMAGE_PATH +
+                event.image
+              }
               alt={event.name}
             />
           </a>

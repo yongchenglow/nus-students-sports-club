@@ -2,18 +2,23 @@ import React, { useState, useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
 
-function OurPartners() {
+function OurPartners(props) {
   const [partners, setPartners] = useState();
 
   const [hasError, setError] = useState(false);
 
   const getPartners = () => {
-    fetch(process.env.REACT_APP_41_PARTNERS_DATA_PATH, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_PARTNERS_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
       .then(function (response) {
         return response.json();
       })
@@ -46,7 +51,10 @@ function OurPartners() {
               <img
                 className="img-fluid partner-img-high"
                 src={
-                  process.env.REACT_APP_41_PARTNERS_IMAGE_PATH + sponsor.image
+                  process.env.REACT_APP_FILE_PATH_PREFIX +
+                  props.mc +
+                  process.env.REACT_APP_PARTNERS_IMAGE_PATH +
+                  sponsor.image
                 }
                 alt={sponsor.name}
               />
