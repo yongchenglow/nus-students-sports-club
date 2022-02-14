@@ -15,41 +15,25 @@
   ],
   "training_sessions": [
     {
-      "day": "Zone A",
-      "time": "Outside of school",
-      "venue": "Mon, 1.30 - 2.30, 2.45 - 3.45, 4 - 5 pm, Sat, 1 - 2, 5 - 6 pm (Max 5 pax per session)",
+      "day": "Beginner Sessions",
+      "time": "Tues: 5 - 6.30 pm, Wed: 5 - 6.30 pm, Fri: 4 - 5.30pm & 5.30 - 7pm",
+      "venue": "USC Mezzanine",
       "venue_link": ""
     },
     {
-      "day": "Zone B",
-      "time": "Outside of school",
-      "venue": "Tues, 1.30 - 2.30, 2.45 - 3.45, 4 - 5 pm, Thurs, 1.30 - 2.30, 2.45 - 3.45, 4 - 5 pm (Max 5 pax per session)",
-      "venue_link": ""
-    },
-    {
-      "day": "Zone C",
-      "time": "Outside of school",
-      "venue": "Wed, 1.30 - 2.30, 2.45 - 3.45, 4 - 5 pm, Fri, 1.30 - 2.30, 2.45 - 3.45, 4 - 5 pm (Max 5 pax per session)",
+      "day": "Intermediate Sessions",
+      "time": "Wed: 6.30 - 8 pm",
+      "venue": "USC Mezzanine",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "https://bit.ly/nusmt2020",
   "events": [
     {
-      "event_image_name": "ma.png",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "11 Aug 2020",
-      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Muay Thai and other Martial Arts!",
-      "event_website": "",
-      "event_sign_up_link": "https://bit.ly/SCSLF",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "mtids.jpg",
-      "event_name": "Muay Thai Interest Development Series",
-      "event_date": "21 Jan 2020",
-      "event_description": "Always wanted to try Muay Thai? Come join us for a Muay Thai crash course today!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "18 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

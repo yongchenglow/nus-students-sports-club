@@ -11,76 +11,24 @@
   "training_sessions": [
     {
       "day": "Mon",
-      "time": "7 - 9 pm (Zone A)",
+      "time": "7 - 9 pm",
       "venue": "USC Swimming Pool",
       "venue_link": ""
     },
     {
-      "day": "Tues",
-      "time": "7 - 9 pm (Zone B)",
+      "day": "Fri",
+      "time": "7 - 9 pm",
       "venue": "USC Swimming Pool",
-      "venue_link": ""
-    },
-    {
-      "day": "Wed",
-      "time": "7 - 9 pm (Zone C)",
-      "venue": "USC Swimming Pool",
-      "venue_link": ""
-    },
-    {
-      "day": "Sat",
-      "time": "10 - 1 pm",
-      "venue": "Palawan Beach, Sentosa (you will be separated into your respective zones)",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/422006",
   "events": [
     {
-      "event_image_name": "ULC.png",
-      "event_name": "Splashdown 2020",
-      "event_date": "12 Dec 2020",
-      "event_description": "Stay tuned for more updates!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "demonstration.jpeg",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "13 Aug 2020",
-      "event_description": "Come join us to find out all about lifesaving!",
-      "event_website": "",
-      "event_sign_up_link": "https://nus-sg.zoom.us/meeting/register/tJUqf-isqjMiE9OLFRiHGK_Ve_x8QzaqeLrX",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "idsulc.jpg",
-      "event_name": "ULC Interest Development Series",
-      "event_date": "31 Jan 2020",
-      "event_description": "Have you ever wondered what to do when someone is drowning? Or would you simply like to make new friends while learning a new set of skills? Come join our introductory course to find out more!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "beach.jpeg",
-      "event_name": "Beach Introduction & Games Day 2019",
-      "event_date": "19 Oct 2019",
-      "event_description": "Annual internal event to introduce our members to various lifesaving techniques for open water rescues and expose them to open water conditions.",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "splashdown19.jpg",
-      "event_name": "Splashdown 2019",
-      "event_date": "21 Sep 2019",
-      "event_description": "Gather your friends to take on the Splashdown Challenge and push your limits to complete 100 laps! Novices looking for a challenge are also welcomed to join us! Do look out for our engaging lifesaving game booths as well. See you there!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "26 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

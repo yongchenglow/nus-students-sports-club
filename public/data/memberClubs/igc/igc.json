@@ -15,57 +15,49 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon & Tues",
-      "time": "6.30 - 9 pm (Weiqi)",
-      "venue": "Zoom",
+      "day": "Contract Bridge",
+      "time": "Every Wednesday, 7 - 10pm (Physical)",
+      "venue": "Every Thursday, 7 - 10pm (Online)",
       "venue_link": ""
     },
     {
-      "day": "Mon & Thurs",
-      "time": "7 - 10 pm (Contract Bridge)",
-      "venue": "Zoom",
+      "day": "Xiangqi",
+      "time": "Every Wednesday, 7 - 9pm (Physical)",
+      "venue": "",
       "venue_link": ""
     },
     {
-      "day": "Mon",
-      "time": "6.30 - 9 pm (Xiangqi, Reversi, Richii Maajan)",
-      "venue": "Zoom",
+      "day": "International Chess",
+      "time": "Every Monday, 8 - 10pm (Online)",
+      "venue": "Every Thursday, 6 - 9pm (Physical)",
       "venue_link": ""
     },
     {
-      "day": "Thurs",
-      "time": "6.30 - 9 pm (International Chess)",
-      "venue": "Zoom",
+      "day": "Reversi",
+      "time": "Every Monday, 6.30 - 9pm (Online)",
+      "venue": "",
+      "venue_link": ""
+    },
+    {
+      "day": "Riichi Maajan",
+      "time": "Every Monday, 6.30 - 9pm (Physical) ",
+      "venue": "Every Tuesday, 8 - 11pm (Online)",
+      "venue_link": ""
+    },
+    {
+      "day": "Weiqi",
+      "time": "Every Monday, 6.30 - 9pm (Online)",
+      "venue": "Every Tuesday, 6.30 - 9pm (Online)",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430852",
   "events": [
     {
-      "event_image_name": "ichess.jpeg",
-      "event_name": "NUS Invitational Tertiary Chess Championships",
-      "event_date": "28 Jun 2020",
-      "event_description": "A platform and opportunity for students from various tertiary institutions to play chess with one another, NUS Invitational Tertiary Chess 2020 will be held online due to the safe distancing measures in place.",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "open pairs.png",
-      "event_name": "NUS Open Pairs (bridge)",
-      "event_date": "11 Jan 2020",
-      "event_description": "The annual NUS IGC-SCBA Open Pairs is back! Sign up now and pit your skills against your peers!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "igcids.png",
-      "event_name": "IGC Interest Development Series",
-      "event_date": "20 Jan 2020",
-      "event_description": "Have you ever been keen to learn strategic board games? Join our beginner's courses for Contract Bridge (Mon), International Chess (Tues) and Weiqi (Wed). No prior experience needed!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "17 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

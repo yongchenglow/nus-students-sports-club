@@ -15,38 +15,14 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon",
-      "time": "6.30 - 7.30 pm (Intermediate, Zone A)",
-      "venue": "MPSH 2",
-      "venue_link": ""
-    },
-    {
-      "day": "Mon",
-      "time": "7.30 - 8.30 pm (Beginner, Zone A)",
-      "venue": "MPSH 2",
-      "venue_link": ""
-    },
-    {
-      "day": "Tues",
-      "time": "6.30 - 7.30 pm (Intermediate, Zone B)",
-      "venue": "MPSH 2",
-      "venue_link": ""
-    },
-    {
-      "day": "Tues",
-      "time": "7.30 - 8.30 pm (Beginner, Zone B)",
+      "day": "Wed",
+      "time": "6.30 - 7.30 pm (Beginner)",
       "venue": "MPSH 2",
       "venue_link": ""
     },
     {
       "day": "Wed",
-      "time": "6.30 - 7.30 pm (Intermediate, Zone C)",
-      "venue": "MPSH 2",
-      "venue_link": ""
-    },
-    {
-      "day": "Wed",
-      "time": "7.30 - 8.30 pm (Beginner, Zone C)",
+      "time": "7.30 - 8.30 pm (Intermediate)",
       "venue": "MPSH 2",
       "venue_link": ""
     }
@@ -54,32 +30,12 @@
   "training_sessions_join_url": "https://bit.ly/nusboxinginterest",
   "events": [
     {
-      "event_image_name": "ma.png",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "11 Aug 2020",
-      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Boxing and other Martial Arts!",
-      "event_website": "",
-      "event_sign_up_link": "https://bit.ly/SCSLF",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "fight.jpg",
-      "event_name": "Boxing Exhibition Fight 2020",
-      "event_date": "17 Jan 2020",
-      "event_description": "Are you a fan of BOXING or simply happen to be in school on a Friday and want to soak yourself in an action packed atmosphere? Then come on down and support your school mates from NUS Boxing, who have been training hard during the holidays, display their fighting skills in the ring!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "19 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ids.jpg",
-      "event_name": "Boxing Interest Development Series",
-      "event_date": "29 Jan 2020",
-      "event_description": "Interested to find out more about boxing? Join us for a crash course in boxing!",
-      "event_website": "",
-      "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5310996",
       "event_sign_up_close": "",
       "event_to_show": "true"
     }

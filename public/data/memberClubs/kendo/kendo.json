@@ -14,56 +14,20 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon",
-      "time": "7 - 9 pm (Zone A)",
-      "venue": "MPSH 6",
-      "venue_link": ""
-    },
-    {
       "day": "Tues",
-      "time": "7 - 9 pm (Zone B)",
+      "time": "7 - 9 pm",
       "venue": "MPSH 6",
       "venue_link": ""
     },
     {
       "day": "Fri",
-      "time": "7 - 9 pm (Zone C)",
+      "time": "7 - 9 pm",
       "venue": "MPSH 6",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "https://bit.ly/3g1poRH",
   "events": [
-    {
-      "event_image_name": "ma.png",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "11 Aug 2020",
-      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Kendo and other Martial Arts!",
-      "event_website": "",
-      "event_sign_up_link": "https://bit.ly/SCSLF",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "camp.jpeg",
-      "event_name": "Kendo Training Camp 2020",
-      "event_date": "2 Jan 2020",
-      "event_description": "An annual training camp for members to interact and prepare for upcoming competitions.",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ken.jpeg",
-      "event_name": "Kendo Welcome Tea 2019",
-      "event_date": "23 Aug 2019",
-      "event_description": "Interested to know more about kendo? Come down to MPSH 6 for our welcome tea! 来てください!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    }
   ],
 
   "instagram_url": "https://www.instagram.com/nuskendoclub",

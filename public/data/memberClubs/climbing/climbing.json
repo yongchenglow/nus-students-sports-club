@@ -53,36 +53,6 @@
   ],
   "training_sessions_join_url": "https://bit.ly/39vLARO",
   "events": [
-    {
-      "event_image_name": "logo2.jpeg",
-      "event_name": "NUS Boulderactive 2021",
-      "event_date": "Jul 2021",
-      "event_description": "Stay tuned for more updates!",
-      "event_website": "www.boulderactive.nusclimb.com",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ClimbNUS.jpg",
-      "event_name": "ClimbNUS 2020",
-      "event_date": "21 Jan 2020",
-      "event_description": "Spanning across 3 days, ClimbNUS 2020 will take place at the Central Library. No prior experience is required, just bring yourself, covered shoes and LOTS of energy! We can't wait to see you start on your something new!",
-      "event_website": "http://instagram.com/climbnus",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "boulderactive.jpg",
-      "event_name": "NUS Boulderactive 2019",
-      "event_date": "25 Jul 2019",
-      "event_description": "Have you ever wanted to try out Sports Climbing or Bouldering? Join us at Singpost Centre this 25 – 28 Jul for an exciting event! From competitive categories to fun climbs purely for experience & exposure, we welcome EVERYONE from all walks of life. Grab your family & friends and make extraordinary memories!",
-      "event_website": "www.boulderactive.nusclimb.com",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    }
   ],
   "instagram_url": "https://www.instagram.com/nus_climbing",
   "facebook_url": "https://www.facebook.com/ClimbNUS/",

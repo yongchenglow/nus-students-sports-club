@@ -15,51 +15,31 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon",
-      "time": "7 - 9 pm (All Zones)",
-      "venue": "Zoom",
-      "venue_link": ""
-    },
-    {
-      "day": "Thurs",
+      "day": "Mon (Physical Training)",
       "time": "7 - 9 pm",
-      "venue": "UTown (Zone C)/Zoom (All Zones)",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
       "venue_link": ""
     },
     {
-      "day": "Sat",
-      "time": "3 - 4 pm (All Zones, optional)",
-      "venue": "Zoom",
+      "day": "Thurs (Physical Training)",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
+      "venue_link": ""
+    },
+    {
+      "day": "Sat (Physical Training - Optional)",
+      "time": "10 am - 12 pm",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
       "venue_link": ""
     }
   ],
   "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430840",
   "events": [
     {
-      "event_image_name": "logo.jpg",
-      "event_name": "Welcome Tea 2020",
-      "event_date": "Aug 2020",
-      "event_description": "Join us on 20 Aug (Zone C, UTown), 24 Aug (Zone A, MPSH 2) or 31 Aug (Zone B, UTown) from 7 - 9 pm to learn more about Karate!",
-      "event_website": "",
-      "event_sign_up_link": "https://bit.ly/SCSLF",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ma.png",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "11 Aug 2020",
-      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Karate and other Martial Arts!",
-      "event_website": "",
-      "event_sign_up_link": "https://nus-sg.zoom.us/j/98977147045?pwd=WkkwUXVUelRpQ2VXZ1habDdqUzBpdz09",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "karateids.png",
-      "event_name": "Karate Interest Development Series",
-      "event_date": "30 Jan 2020",
-      "event_description": "NUS Karate will be having our self defense workshop on 30 Jan from 7pm - 9pm at MPSH2. Join us to learn some moves to protect yourself! Sign up with your friends now and let's have a fun yet fulfilling session together!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "24 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",

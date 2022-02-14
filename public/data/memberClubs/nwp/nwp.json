@@ -1,9 +1,9 @@
 {
   "club_logo_image_name": "NWP.jpg",
-  "club_name": "NUS Nam Wah Pai Self-Defence",
+  "club_name": "NUS Nam Wah Pai Self Defence",
   "carousel_image_name": ["nwp3.jpg", "nwp2.jpg", "nwp4.jpg", "nwp1.jpg"],
   "about_us": [
-    "NUS Nam Wah Pai Self-Defence (NWPSD) is a martial arts club formed with the aim to promote good health and to teach the art of self defence. We are affiliated with World Nam Wah Pai which was established in Singapore since 1964. To date, many branches have been established in Singapore, Malaysia, Japan, China and New Zealand. Our martial arts form tends towards practicality and is based on a flexible system of strikes and grapples.",
+    "NUS Nam Wah Pai Self Defence (NWPSD) is a martial arts club formed with the aim to promote good health and to teach the art of self defence. We are affiliated with World Nam Wah Pai which was established in Singapore since 1964. To date, many branches have been established in Singapore, Malaysia, Japan, China and New Zealand. Our martial arts form tends towards practicality and is based on a flexible system of strikes and grapples.",
     "Here in NUS NWPSD, we do general martial training such as kata and weapons but we specialise in self defence techniques. Want to learn how to defend yourself? Then join us now! We promise you'll find a close-knit community here in NUS NWPSD who's very supportive of one other and will not hesitate to help one another out during events planning and any other challenges you may face.",
     "Interested to find out more? Talk to us now at namwahpai@nussportsclub.org!"
   ],
@@ -18,20 +18,10 @@
   "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430854",
   "events": [
     {
-      "event_image_name": "ma.png",
-      "event_name": "E-SLF Live Demonstration",
-      "event_date": "11 Aug 2020",
-      "event_description": "Interested to find out more? Join us on our Zoom session from 2.30 pm to learn all about Nam Wah Pai Self-Defence and other Martial Arts!",
-      "event_website": "",
-      "event_sign_up_link": "https://nus-sg.zoom.us/j/97052807457?pwd=MEFoRndwVDh1UEc5d0pnOHRmd094Zz09",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "nwpids.jpg",
-      "event_name": "NWP Self-Defence Interest Development Series",
-      "event_date": "1 Feb 2020",
-      "event_description": "New to sports? Curious about our martial arts form? Sign up and join us for an introductory session. See you there!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "29 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
