@@ -13,7 +13,13 @@ class Collage extends Component {
             <div>
               <SportsClubLogo className="img-fluid img-logo" />
               <div className="tagline mb-2">Unite & Ignite</div>
-              {/* <Button className='btn-outline-sc-red' href='http://www.nussportsclub.org/elections' target='_blank'>Elections are Open!</Button> */}
+              <Button
+                className="btn-outline-sc-red"
+                href="https://www.nussportsclub.org/elections"
+                target="_blank"
+              >
+                Find out about Elections
+              </Button>
             </div>
           </Col>
           <Col sm={6} md={7}>
