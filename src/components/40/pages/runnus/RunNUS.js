@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class RunNUS extends Component {
   render() {
-    return(
-      <div>
-        RunNUS
-      </div>
-    )
+    return <div>RunNUS</div>;
   }
 }
 

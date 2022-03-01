@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Projects from './components/Projects';
+import Cover from "./components/Cover";
+import Projects from "./components/Projects";
 
 class SCProjects extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -12,6 +12,6 @@ class SCProjects extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default SCProjects;

@@ -1,10 +1,10 @@
-import debug from 'debug';
+import debug from "debug";
 
-const BASE = 'app';
+const BASE = "app";
 const COLOURS = {
-  info: 'lightblue',
-  warn: 'orange',
-  error: 'red'
+  info: "lightblue",
+  warn: "orange",
+  error: "red",
 }; // choose better colours :)
 
 class Log {
@@ -16,24 +16,27 @@ class Log {
     // Set the colour of the message based on the level
     createDebug.color = COLOURS[level];
 
-    if(source) { createDebug(source, message); }
-    else { createDebug(message); }
+    if (source) {
+      createDebug(source, message);
+    } else {
+      createDebug(message);
+    }
   }
 
   trace(message, source) {
-    return this.generateMessage('trace', message, source);
+    return this.generateMessage("trace", message, source);
   }
 
   info(message, source) {
-    return this.generateMessage('info', message, source);
+    return this.generateMessage("info", message, source);
   }
 
   warn(message, source) {
-    return this.generateMessage('warn', message, source);
+    return this.generateMessage("warn", message, source);
   }
 
   error(message, source) {
-    return this.generateMessage('error', message, source);
+    return this.generateMessage("error", message, source);
   }
 }
 

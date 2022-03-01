@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import AboutNUSSSC from './components/AboutNUSSSC';
-import MissionVision from './components/MissionVision';
+import Cover from "./components/Cover";
+import AboutNUSSSC from "./components/AboutNUSSSC";
+import MissionVision from "./components/MissionVision";
 
 class About extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -14,6 +14,6 @@ class About extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default About;

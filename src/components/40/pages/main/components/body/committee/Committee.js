@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Cells from './components/Cells';
+import Cover from "./components/Cover";
+import Cells from "./components/Cells";
 
 class Committee extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -12,6 +12,6 @@ class Committee extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default Committee;

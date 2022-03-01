@@ -1,22 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import WebPage from './WebPage';
-import MaintenancePage from './maintenance/maintenance.js';
-import NotFoundPage from './notfound/index.js';
-import HomePage from './main/index.js';
-import HomePage2019 from './2019/index.js';
-import NUSBiathlon from './main/nusbiathlon/index.js';
-import RunNUS from './main/runnus/index.js';
-import SunNUS from './main/sunnus/index.js';
-import InterFacultyGames from './main/ifg/index.js';
+import WebPage from "./WebPage";
+import MaintenancePage from "./maintenance/maintenance.js";
+import NotFoundPage from "./notfound/index.js";
+import HomePage from "./main/index.js";
+import HomePage2019 from "./2019/index.js";
+import NUSBiathlon from "./main/nusbiathlon/index.js";
+import RunNUS from "./main/runnus/index.js";
+import SunNUS from "./main/sunnus/index.js";
+import InterFacultyGames from "./main/ifg/index.js";
 
-import { MemoryRouter } from 'react-router-dom';
-import { mount } from 'enzyme';
+import { MemoryRouter } from "react-router-dom";
+import { mount } from "enzyme";
 
 test("Render Home Page on /", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/']}>
+    <MemoryRouter initialEntries={["/"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -26,7 +26,7 @@ test("Render Home Page on /", () => {
 
 test("Render Home Page 2019 on /2019/mc", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/2019/mc']}>
+    <MemoryRouter initialEntries={["/2019/mc"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -36,7 +36,7 @@ test("Render Home Page 2019 on /2019/mc", () => {
 
 test("Render NUS Biathlon on /nusbiathlon", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/nusbiathlon']}>
+    <MemoryRouter initialEntries={["/nusbiathlon"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -46,7 +46,7 @@ test("Render NUS Biathlon on /nusbiathlon", () => {
 
 test("Render RunNUS on /runnus", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/runnus']}>
+    <MemoryRouter initialEntries={["/runnus"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -56,7 +56,7 @@ test("Render RunNUS on /runnus", () => {
 
 test("Render SunNUS on /sunnus", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/sunnus']}>
+    <MemoryRouter initialEntries={["/sunnus"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -66,7 +66,7 @@ test("Render SunNUS on /sunnus", () => {
 
 test("Render Inter-Facutly Games on /ifg", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/ifg']}>
+    <MemoryRouter initialEntries={["/ifg"]}>
       <WebPage />
     </MemoryRouter>
   );
@@ -76,7 +76,7 @@ test("Render Inter-Facutly Games on /ifg", () => {
 
 test("Render Error Page on /random", () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/random']}>
+    <MemoryRouter initialEntries={["/random"]}>
       <WebPage />
     </MemoryRouter>
   );

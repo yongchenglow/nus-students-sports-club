@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import OurPartners from './components/OurPartners';
+import Cover from "./components/Cover";
+import OurPartners from "./components/OurPartners";
 
 class Partners extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -12,6 +12,6 @@ class Partners extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default Partners;

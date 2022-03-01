@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
+import Cover from "./components/Cover";
 
 class Partners extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
       </React.Fragment>
     );
   }
-};
+}
 
 export default Partners;

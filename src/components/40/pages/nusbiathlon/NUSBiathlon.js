@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class NUSBiathlon extends Component {
   render() {
-    return(
-      <div>
-        NUS Biathlon
-      </div>
-    )
+    return <div>NUS Biathlon</div>;
   }
 }
 
