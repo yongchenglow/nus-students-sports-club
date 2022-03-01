@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import SportsClubCollage from "../images/sports_club_collage.jpg";
 import SportsClubLogo from "../../../../../../images/logos/SportsClubLogo.js";

@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Maintenance extends Component {
   render() {
-    return(
-      <div>
-        Maintenance Page
-      </div>
-    )
+    return <div>Maintenance Page</div>;
   }
 }
 

@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
-import ariston from "../images/ariston.png";
-import mc2 from "../images/mc2.jpg";
 import nivea from "../images/nivea.jpg";
 import psFoodAndBeverage from "../images/psFoodAndBeverage.png";
 import SengHong from "../images/SengHong.jpg";
 import Unilever from "../images/Unilever.bmp";
-import Win2 from "../images/Win2.jpg";
 import wipro from "../images/wipro.png";
 import AF from "../images/af.jpg";
 import Cationorm from "../images/cationorm.png";

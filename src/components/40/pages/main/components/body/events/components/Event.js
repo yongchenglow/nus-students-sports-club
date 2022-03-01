@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
@@ -104,7 +106,12 @@ class Event extends Component {
                     </div>
 
                     <div className="paragraph">
-                      <div>1) Tiktok challenge 🎶🎬</div>
+                      <div>
+                        1) Tiktok challenge{" "}
+                        <span role="img" aria-label="">
+                          🎶🎬
+                        </span>
+                      </div>
                       <div>
                         Show your creative side by making a sports-related
                         tiktok that best represents SunNUS and your friends
@@ -112,7 +119,12 @@ class Event extends Component {
                     </div>
 
                     <div className="paragraph">
-                      <div>2) HIIT challenge 🏃🤸🏻‍♀️</div>
+                      <div>
+                        2) HIIT challenge{" "}
+                        <span role="img" aria-label="">
+                          🏃🤸🏻‍♀️
+                        </span>
+                      </div>
                       <div>
                         Film a timelapse of yourself doing the SUNbreaker HIIT
                         workout
@@ -120,7 +132,12 @@ class Event extends Component {
                     </div>
 
                     <div className="paragraph">
-                      <div>3) Paper Roll challenge ⚾️⚽️</div>
+                      <div>
+                        3) Paper Roll challenge{" "}
+                        <span role="img" aria-label="">
+                          ⚾️⚽️
+                        </span>
+                      </div>
                       <div>
                         Grab a paper roll and show us how long you can juggle it
                         for
@@ -240,7 +257,7 @@ class Event extends Component {
                       June.
                     </div>
                     <div className="paragraph">
-                      PS. Check out our collectible medals 😍
+                      PS. Check out our collectible medals <></>😍
                     </div>
                     <div className="text-center">
                       {/* <Button
@@ -289,21 +306,36 @@ class Event extends Component {
                     </div>
                     <div className="paragraph">
                       Introducing NRC's first ever ONLINE Netball event -
-                      InterNetballuxion 2020 📱, that you can participate in
-                      from the comfort of your homes and WIN some attractive
-                      prizes!!🏅
+                      InterNetballuxion 2020{" "}
+                      <span role="img" aria-label="">
+                        📱
+                      </span>
+                      , that you can participate in from the comfort of your
+                      homes and WIN some attractive prizes!!
+                      <span role="img" aria-label="">
+                        🏅
+                      </span>
                     </div>
                     <div className="paragraph">
                       InterNetballuxion 2020 will be held on Instagram
                       (@nus.nrc) from 22 June to 11 July with $600 worth of
-                      grabfood vouchers up for grabs! ✨On top of that, stand a
-                      chance to be eligible for Netballuxion 2021 discounts as
-                      well!💰
+                      grabfood vouchers up for grabs!{" "}
+                      <span role="img" aria-label="">
+                        ✨
+                      </span>
+                      On top of that, stand a chance to be eligible for
+                      Netballuxion 2021 discounts as well!
+                      <span role="img" aria-label="">
+                        💰
+                      </span>
                     </div>
                     <div className="paragraph">
                       More details can be found on our Instagram (@nus.nrc) so
                       what are you waiting for? Join us at InterNetballuxion
-                      2020!!🔥
+                      2020!!
+                      <span role="img" aria-label="">
+                        🔥
+                      </span>
                     </div>
                   </Col>
                 </Row>
@@ -321,29 +353,28 @@ class Event extends Component {
                       13th July to 27th September 2020
                     </div>
                   </Col>
-                  <Col className="text-md-right text-center">
-                    {/* <Button
-                      className="btn-outline-sc-red"
-                      href="http://www.bit.ly/runnus2020"
-                      target="_blank"
-                    >
-                      Sign Up Now!
-                    </Button> */}
-                  </Col>
+                  <Col className="text-md-right text-center"></Col>
                 </Row>
                 <Row className="mt-3">
                   <Col className="event-description text-left">
                     <div className="paragraph">
                       In light of Covid-19, it is pivotal to practice social
-                      distancing even while exercising. 🏃🏻‍♀️🏃🏻‍♂️
+                      distancing even while exercising.
+                      <span role="img" aria-label="">
+                        {" "}
+                        🏃🏻‍♀️🏃🏻‍♂️
+                      </span>
                     </div>
                     <div className="paragraph">
-                      Introducing RunNUS’s very own VIRTUAL RUN!!!✨ Complete
-                      the race anywhere and at your own pace - be it out at the
-                      park or indoors on a treadmill! Track yourself with any
-                      distance tracking app or take a photo of your treadmill as
-                      proof of completion, and upload your image to the
-                      submission page.
+                      Introducing RunNUS’s very own VIRTUAL RUN!!!
+                      <span role="img" aria-label="">
+                        ✨{" "}
+                      </span>
+                      Complete the race anywhere and at your own pace - be it
+                      out at the park or indoors on a treadmill! Track yourself
+                      with any distance tracking app or take a photo of your
+                      treadmill as proof of completion, and upload your image to
+                      the submission page.
                     </div>
                     <div className="paragraph">
                       RunNUS aims promote and support people with disabilities

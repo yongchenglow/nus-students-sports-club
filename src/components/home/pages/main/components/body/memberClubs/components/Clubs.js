@@ -46,14 +46,12 @@ function Clubs(props) {
   const generateClubs = (categories) => {
     setNumCategories(categories.length);
     let clubCount = 0;
-    categories.map((category) => {
-      clubCount += category.clubs.length;
-    });
+    categories.map((category) => (clubCount += category.clubs.length));
     setNumClubs(clubCount);
 
     return categories.map((category) => {
       let clubs = [];
-      category.clubs.map((club) => {
+      category.clubs.map((club) =>
         clubs.push(
           <Card className="club-card">
             <a
@@ -82,8 +80,8 @@ function Clubs(props) {
               <h6 className="find-out">Find out more!</h6>
             </a>
           </Card>
-        );
-      });
+        )
+      );
       return (
         <div className="section text-center">
           <Container>

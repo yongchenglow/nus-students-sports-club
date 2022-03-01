@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
-// Components
-import Log from "../Log";
-
 // import Maintenance from './maintenance/Maintenance';
 import HomeRouter from "./home/HomeRouter";
 import HomeRouter39 from "./39/HomeRouter39";

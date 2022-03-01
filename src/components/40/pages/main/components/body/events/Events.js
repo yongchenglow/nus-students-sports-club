@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Event from './components/Event';
+import Cover from "./components/Cover";
+import Event from "./components/Event";
 
 class Events extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -12,6 +12,6 @@ class Events extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default Events;

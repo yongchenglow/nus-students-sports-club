@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Indoors from './components/Indoors';
-import Land from './components/Land';
-import Water from './components/Water';
-import MartialArts from './components/MartialArts';
+import Cover from "./components/Cover";
+import Indoors from "./components/Indoors";
+import Land from "./components/Land";
+import Water from "./components/Water";
+import MartialArts from "./components/MartialArts";
 
 class MemberClubs extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Cover />
@@ -18,6 +18,6 @@ class MemberClubs extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default MemberClubs;

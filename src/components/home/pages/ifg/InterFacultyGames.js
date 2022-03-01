@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class InterFacultyGames extends Component {
   render() {
-    return(
-      <div>
-        Inter-Faculty Games
-      </div>
-    )
+    return <div>Inter-Faculty Games</div>;
   }
 }
 

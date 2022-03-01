@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Collage from './components/Collage';
-import FeaturedEvents from './components/FeaturedEvents';
-import OurStakeholders from './components/OurStakeholders';
-import CorporateVideo from './components/CorporateVideo';
+import Collage from "./components/Collage";
+import FeaturedEvents from "./components/FeaturedEvents";
+import OurStakeholders from "./components/OurStakeholders";
+import CorporateVideo from "./components/CorporateVideo";
 
 class Home extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <Collage />
@@ -16,6 +16,6 @@ class Home extends Component {
       </React.Fragment>
     );
   }
-};
+}
 
 export default Home;
