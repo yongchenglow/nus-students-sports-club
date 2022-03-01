@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, NavItem, Button } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 import SportsClubLogo from "../../../images/logos/SportsClubLogo";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 class MainNavbar extends Component {
