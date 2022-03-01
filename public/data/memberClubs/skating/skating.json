@@ -16,49 +16,37 @@
   ],
   "training_sessions": [
     {
+      "day": "Tues",
+      "time": "6.30 - 8 pm",
+      "venue": "Multi-purpose Court 14 & 15",
+      "venue_link": ""
+    },
+    {
+      "day": "Tues",
+      "time": "8 - 9.30 pm",
+      "venue": "Multi-purpose Court 14 & 15",
+      "venue_link": ""
+    },
+    {
       "day": "Wed",
-      "time": "7 - 10 pm",
+      "time": "6.30 - 8 pm",
+      "venue": "Multi-purpose Court 14 & 15",
+      "venue_link": ""
+    },
+    {
+      "day": "Wed",
+      "time": "8 - 9.30 pm",
       "venue": "Multi-purpose Court 14 & 15",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430581",
   "events": [
     {
-      "event_image_name": "skatinglogo.png",
-      "event_name": "Skate Challenge 2020",
-      "event_date": "Jul 2020",
-      "event_description": "Stay tuned for more updates!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "workshop.jpeg",
-      "event_name": "Skate Workshop 2020",
-      "event_date": "8 Jan 2020",
-      "event_description": "A new initiative by the 22nd Skating EXCO to expose members who are keen on progressing into Freestyle Slalom or Sliding.",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "clinic.jpeg",
-      "event_name": "Skate Clinic 2019",
-      "event_date": "28 Aug 2019",
-      "event_description": "Interested in picking up a new sport? Come join us at our clinic. Fret not, it's tailored for beginners, and YOU can learn the basics of inline skating from our friendly instructors! Sign-ups are on a first come first basis so do sign up NOW! See you at the courts!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "challenge.png",
-      "event_name": "Skate Challenge 2019",
-      "event_date": "18 May 2019",
-      "event_description": "Tired of slalom, sliding and urban skating? Want to try something new? Then join us at Skate Challenge 2019, an annual event for skaters, by skaters!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "18 & 20 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
@@ -67,5 +55,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nusskating",
   "facebook_url": "https://www.facebook.com/nussc/",
-  "telegram_url": "https://chat.whatsapp.com/EJ9AFPNPsxgE8VBYlVsST3"
+  "telegram_url": "https://t.me/nusskatingskaters",
+  "linktree_url": ""
 }

@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "name": "NUS Biathlon 2022",
+      "image": "NUSBiathlon22.png",
+      "image_link": "https://www.nussportsclub.org/nusbiathlon",
+      "dates": [
+        "19th March 2022 (Physical)",
+        "5th - 26th March 2022 (Virtual)"
+      ],
+      "message": "Follow us on our social media for the latest updates!",
+      "message_link": "https://www.instagram.com/nusbiathlon/?hl=en",
+      "signup_link": "https://bit.ly/nusbiathlon2022",
+      "description": [
+        "Getting busier week by week? Remember to unwind and take a breather!",
+        "Presenting to you the most anticipated annual swim-and-run event in NUS - NUS Biathlon 2022! Organized by fellow NUS students, NUS Biathlon is open to the NUS community and the public to de-stress and indulge in sports. Due to the current COVID-19 restrictions, NUS Biathlon 2022 will be held in a hybrid series, both physically and virtually! Join us this March and be part of the sporting community in NUS!",
+        "Early bird registration: 9 – 18 Feb 2022"
+      ],
+      "button_text": "Find Out More!",
+      "button_link": "https://www.nussportsclub.org/nusbiathlon"
+    }
+  ]
+}

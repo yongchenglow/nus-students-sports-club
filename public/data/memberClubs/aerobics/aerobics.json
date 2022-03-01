@@ -1,11 +1,7 @@
 {
   "club_logo_image_name": "AerobicsLogo.png",
   "club_name": "NUS Aerobics",
-  "carousel_image_name": [
-    "aerobics1.jpg",
-    "aerobics2.jpg",
-    "aerobics3.jpg"
-  ],
+  "carousel_image_name": ["aerobics1.jpg", "aerobics2.jpg", "aerobics3.jpg"],
   "about_us": [
     "NUS Aerobics Club is a friendly community of like-minded individuals- students and staffs alike, with a common goal to get active. Here, regardless of fitness level, everyone is welcome to join the myriad of group exercises available. Like our slogan: Sore Today, Strong Tomorrow, the hour-long classes will push both physical and mental boundaries, and we guarantee that all will leave the studio sweaty yet extremely satisfied!",
     "While a healthy lifestyle is an individual's choice, Aerobics Club is dedicated to support everyone on their road towards their fitness goals- big or small. Our weekly sessions, held through the semester, hope to make exercising a regular habit. Not to mention, our very own experienced instructors are always there to ensure safety and give support- correcting posture, stances or simply to provide encouragement and reassurance.",
@@ -14,27 +10,17 @@
   ],
   "training_sessions": [
     {
-      "day": "Mon - Fri",
-      "time": "hourly sessions between 5 - 8 pm",
-      "venue": "UTown Gym Studio",
+      "day": "Mon - Thurs",
+      "time": "6 - 7 pm",
+      "venue": "Zoom",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://www.instagram.com/p/B7hdGMtFu5e/?utm_source=ig_web_copy_link",
+  "training_sessions_join_url": "https://linktr.ee/nusaerobics",
   "events": [
-    {
-      "event_image_name": "Hyperjive.jpg",
-      "event_name": "Hyperjive 2020",
-      "event_date": "18 Jan 2020",
-      "event_description": "Grab this chance to try out the different aerobics classes we offer! Mix & match to create your very own HyperJive experience that caters to your interest & needs.",
-      "event_website": "https://nus.campuslabs.com/engage/event/5280142",
-      "event_sign_up_link": "https://nus.campuslabs.com/engage/event/5280142",
-      "event_sign_up_close": "19 Jan 2020",
-      "event_to_show": "true"
-    }
-
   ],
   "instagram_url": "https://instagram.com/nusaerobics",
   "facebook_url": "https://facebook.com/nusaerobicsclub/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

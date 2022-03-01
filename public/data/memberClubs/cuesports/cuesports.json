@@ -1,12 +1,7 @@
 {
   "club_logo_image_name": "logo_2020.png",
   "club_name": "NUS Cuesports",
-  "carousel_image_name": [
-    "cue1.jpg",
-    "cue2.jpg",
-    "cue3.jpg",
-    "cue4.jpg"
-  ],
+  "carousel_image_name": ["cue1.jpg", "cue2.jpeg", "cue3.jpeg", "cue4.jpg"],
   "about_us": [
     "Cuesports consist of pool, snooker, and billiards. The sport is a well developed art of thinking ahead. It is not only a game, but first and foremost a demanding sport that requires good stamina, the logical thinking of a chess player, and the stable hand of a concert pianist.",
     "Here at NUS Cuesports, we welcome players of all skill levels. For beginners, we provide weekly coaching on the fundamentals such as bridging, cueing and aiming. For the more advanced players, we enjoy a close relationship with the varsity athletes to create a competitive gameplay. For anyone who wishes to challenge themselves to greater heights, our annual 8-ball Carnival and 9-ball Open event is the perfect environment to do so.",
@@ -16,54 +11,24 @@
   "training_sessions": [
     {
       "day": "Mon",
-      "time": "7.30 - 9.30 pm",
-      "venue": "West Coast Billiard Saloon",
+      "time": "7 - 9 pm (Resumes in Week 1)",
+      "venue": "West Coast Billiard Saloon (opposite Haw Par Villa)",
       "venue_link": ""
     },
     {
-      "day": "Tues",
-      "time": "7.30 - 9.30 pm",
-      "venue": "West Coast Billiard Saloon",
+      "day": "Wed",
+      "time": "7 - 9 pm (Resumes in Week 1)",
+      "venue": "West Coast Billiard Saloon (opposite Haw Par Villa)",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/363863",
+  "training_sessions_join_url": "https://bit.ly/2D511Eq",
   "events": [
     {
-      "event_image_name": "logo_black.png",
-      "event_name": "8 Ball Carnival 2020",
-      "event_date": "Oct 2020",
-      "event_description": "Stay tuned for more updates!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ids.png",
-      "event_name": "Cuesports Interest Development Series",
-      "event_date": "30 Jan 2020",
-      "event_description": "Want to learn more about Cuesports? Join us at our introductory course today!",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "8 ball.jpeg",
-      "event_name": "8 Ball Carnival 2019",
-      "event_date": "12 Oct 2019",
-      "event_description": "In its 16th run, NUS 8 Ball Carnival is back again to hold a tournament based event providing opportunities for recreational players to experience competitive gameplay of 8 ball pool.",
-      "event_website": "",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "9ball.jpg",
-      "event_name": "9 Ball Open 2019",
-      "event_date": "16 Mar 2019",
-      "event_description": "Come join NUS Nine Ball Open where there are two categories: single and doubles. Experience pool in a competitive play and win attractive prices! ",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "17 & 19 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
@@ -72,5 +37,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nuscuesportsclub",
   "facebook_url": "https://www.facebook.com/nuscuesports/",
-  "telegram_url": "https://t.me/joinchat/ChmFRUOQpX4Q9nZ8moUxJg"
+  "telegram_url": "https://tinyurl.com/cuesportsrecre",
+  "linktree_url": ""
 }

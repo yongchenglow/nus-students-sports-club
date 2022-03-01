@@ -1,109 +1,182 @@
-import React, { Component } from 'react';
-import { Container, Card, CardDeck } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import { Container, Card, CardDeck, Button } from "react-bootstrap";
+import { Redirect } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTelegramPlane,
+} from "@fortawesome/free-brands-svg-icons";
 
-import IFGLogo from '../images/IFG_Logo_No_Year.png';
-import NUSBiathlon from '../images/NUS_Biathlon_Logo_No_Year.png';
-import RunNUS from '../images/RunNUS_Logo_No_Year.jpg';
-import NUSSportsCamp from '../images/NUS_Sports_Camp_Logo.png';
-import SunNUS from '../images/SunNUS_Logo_No_Year.png';
+function Projects(props) {
+  const [projects, setProjects] = useState();
 
-class Projects extends Component {
-  render () {
-    return (
-      <div className='section text-center'>
-        <Container>
-          <CardDeck className='justify-content-center'>
-            <Card className='cell-card'>
-              <Card.Img variant='top' className='project-image' src={NUSBiathlon} alt='NUS Biathlon'/>
-              <Card.Body className='text-left'>
-                <Card.Title>NUS Biathlon</Card.Title>
-                <div className='card-sub-title'>
-                  TBA
-                </div>
-                <Card.Text>
-                  <span className='paragraph'>
-                    NUS Biathlon is the largest swim and run event in the National University of Singapore. It has consistently attracted over 200 participants ranging from the NUS community, various educational institutions and the public.
-                  </span>
-                  <span className='paragraph'>
-                    With a huge outreach to both athletes and non-athletes, NUS Biathlon serves as a platform for varsity teams to compete and at the same time, a great opportunity for novices to indulge in the sport.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='cell-card'>
-              <Card.Img variant='top' className='project-image' src={SunNUS} alt='SunNUS' />
-              <Card.Body className='text-left'>
-                <Card.Title>SunNUS</Card.Title>
-                <div className='card-sub-title'>
-                  TBA
-                </div>
-                <Card.Text>
-                  <span className='paragraph'>
-                    SunNUS is the National University of Singapore's largest annual beach event for anyone to do sports.
-                    SunNUS empowers individuals from all walks of life to pursue an active lifestyle and have fun under the sun!
-                  </span>
-                  <span className='paragraph'>
-                    Both NUS students and the general public alike can look forward to the Mount Imbiah Challenge, several beach sports, a performance by beach pageants and an exciting array for fringe games.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='cell-card'>
-              <Card.Img variant='top' className='project-image' src={NUSSportsCamp} alt='NUS Sports Camp' />
-              <Card.Body className='text-left'>
-                <Card.Title>NUS Sports Camp</Card.Title>
-                <div className='card-sub-title'>
-                  29th June to 30th June
-                </div>
-                <Card.Text>
-                  <span className='paragraph'>
-                    NUS Sports Camp is the largest non-faculty freshmen orientation camp. This 4D3N camp brings together students of different backgrounds and advocates the need to live a healthy and active lifestyle.
-                  </span>
-                  <span className='paragraph'>
-                    In this camp, Freshmen will be exposed to a variety of Martial Arts, Indoor, Land, Water and outdoor sports. Through team-building activities, freshmen are bound to have an exciting start to their university life through the strong friendships forged.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='cell-card'>
-              <Card.Img variant='top' className='project-image' src={IFGLogo} alt='Inter-Faculty Games' />
-              <Card.Body className='text-left'>
-                <Card.Title>Inter-Faculty Games</Card.Title>
-                <div className='card-sub-title'>
-                  TBA
-                </div>
-                <Card.Text>
-                  <span className='paragraph'>
-                    Inter-Faculty Games (IFG) is the largest and most anticipated student life event in NUS. For 5 weeks, 3500+ athletes across 11 faculties take part in 23 sporting events in hopes of clinching the Tan Eng Chye Challenge Trophy.
-                  </span>
-                  <span className='paragraph'>
-                    Along with various performing arts groups and student volunteers, we kick start the season with an Opening Ceremony extravaganza, and end it on a high note with a celebratory Closing Ceremony.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='cell-card'>
-              <Card.Img variant='top' className='project-image' src={RunNUS} alt='RunNUS' />
-              <Card.Body className='text-left'>
-                <Card.Title>RunNUS</Card.Title>
-                <div className='card-sub-title'>
-                  6th September
-                </div>
-                <Card.Text>
-                  <span className='paragraph'>
-                    RunNUS is a running event that includes a 3km, 5km and 10km run bundled with a spectacular carnival that includes games, refreshments and lucky draws.
-                  </span>
-                  <span className='paragraph'>
-                    With the tagline ‘Run For A Cause’, RunNUS partners with NUS Disability Support Office (DSO) and Disabled People's Association, to promote the empowerment of people with disabilities through inclusiveness and to encourage running to keep a healthy lifestyle.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </CardDeck>
-        </Container>
-      </div>
-    );
+  const [hasError, setError] = useState(false);
+
+  const getProjects = () => {
+    fetch(
+      process.env.REACT_APP_FILE_PATH_PREFIX +
+        props.mc +
+        process.env.REACT_APP_PROJECT_DATA_PATH,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setProjects(generateProjects(myJson.projects));
+      })
+      .catch(function () {
+        setError(true);
+      });
+  };
+
+  useEffect(() => {
+    getProjects();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const generateProjects = (projects) => {
+    return projects.map((project) => {
+      const projectDates = project.dates.map((date) => (
+        <div className="card-sub-title">{date}</div>
+      ));
+      const projectDescription = project.description.map((description) => (
+        <span className="paragraph">{description}</span>
+      ));
+      let projectButton = null;
+      if (project.button.button_text !== "") {
+        projectButton = (
+          <div className="text-center">
+            <Button
+              className="btn-outline-sc-red"
+              href={project.button.button_link}
+              target="_blank"
+            >
+              {project.button.button_text}
+            </Button>
+          </div>
+        );
+      }
+      let message = null;
+      if (project.message !== "") {
+        message = (
+          <div className="margin-top-12 text-danger">{project.message}</div>
+        );
+      }
+
+      var socials = [];
+      if (project.facebook_url !== "") {
+        socials.push(
+          <Button
+            variant="outline-dark"
+            className="sm-social-club-button"
+            style={{ fontSize: "1.2rem", padding: "0.3rem" }}
+            href={project.facebook_url}
+            key={"facebokLink"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFacebookF} />
+          </Button>
+        );
+      }
+
+      if (project.instagram_url !== "") {
+        socials.push(
+          <Button
+            variant="outline-dark"
+            className="sm-social-club-button"
+            style={{ fontSize: "1.5rem", padding: "0.07rem" }}
+            href={project.instagram_url}
+            key={"instagramLink"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </Button>
+        );
+      }
+
+      if (project.telegram_url !== "") {
+        socials.push(
+          <Button
+            variant="outline-dark"
+            className="sm-social-club-button"
+            style={{ fontSize: "1.5rem", padding: "0.1rem" }}
+            href={project.telegram_url}
+            key={"telegramLink"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTelegramPlane} />
+          </Button>
+        );
+      }
+
+      let cardImage = null;
+
+      if (project.image_url === "") {
+        cardImage = (
+          <Card.Img
+            variant="top"
+            className="project-image"
+            src={
+              process.env.REACT_APP_FILE_PATH_PREFIX +
+              props.mc +
+              process.env.REACT_APP_PROJECT_IMAGE_PATH +
+              project.image
+            }
+            alt={project.name}
+          />
+        );
+      } else {
+        cardImage = (
+          <a href={project.image_url} target="_blank" rel="noopener noreferrer">
+            <Card.Img
+              variant="top"
+              className="project-image"
+              src={
+                process.env.REACT_APP_FILE_PATH_PREFIX +
+                props.mc +
+                process.env.REACT_APP_PROJECT_IMAGE_PATH +
+                project.image
+              }
+              alt={project.name}
+            />
+          </a>
+        );
+      }
+
+      return (
+        <Card className="project-card">
+          {cardImage}
+          <Card.Body className="text-left">
+            <Card.Title>{project.name}</Card.Title>
+            {projectDates}
+            {message}
+            <div className="text-md-left text-center">{socials}</div>
+            <Card.Text>{projectDescription}</Card.Text>
+            {projectButton}
+          </Card.Body>
+        </Card>
+      );
+    });
+  };
+
+  if (hasError === true) {
+    return <Redirect to="/notfound" />;
   }
-};
+
+  return (
+    <div className="section text-center">
+      <Container>
+        <CardDeck className="justify-content-center">{projects}</CardDeck>
+      </Container>
+    </div>
+  );
+}
 
 export default Projects;

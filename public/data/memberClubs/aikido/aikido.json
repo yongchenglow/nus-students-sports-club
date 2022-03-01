@@ -17,31 +17,31 @@
     {
       "day": "Tues",
       "time": "7 - 9pm",
-      "venue": "MPSH 2",
+      "venue": "MPSH or UTown",
       "venue_link": ""
     },
     {
       "day": "Fri",
       "time": "7 - 9pm",
-      "venue": "MPSH 2",
+      "venue": "MPSH or UTown",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/361127",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430579",
   "events": [
     {
-      "event_image_name": "Exposure Course.jpg",
-      "event_name":"Aikido Exposure Course",
-      "event_date":"31 Jan 2020",
-      "event_description": "Curious about what is Aikido? Want to try out our Aikido lesson? We welcome you to join our Aikido Exposure Course to gain an insight about aikido!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "25 & 28 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
-      "event_sign_up_link": "http://bit.ly/aikidoexposure2020",
-      "event_sign_up_close": "1 Feb 2020",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
       "event_to_show": "true"
     }
   ],
   "instagram_url": "https://www.instagram.com/nus_aikido",
   "facebook_url": "https://www.facebook.com/nus.aikido/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": "https://linktr.ee/nusaikido"
 }
-

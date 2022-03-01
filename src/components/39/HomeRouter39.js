@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Route, Switch} from 'react-router-dom';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
 
 // Components
-import Main39 from './main/Main39';
+import Main39 from "./main/Main39";
 
 class HomePage39 extends Component {
-  render(){
+  render() {
     return (
       <React.Fragment>
         <Switch>
-          <Route path='/39/' component={Main39} />
+          <Route path="/39/" component={Main39} />
         </Switch>
       </React.Fragment>
     );

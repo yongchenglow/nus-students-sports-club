@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Cover from './components/Cover';
-import Cells from './components/Cells';
+import Cover from "./components/Cover";
+import Cells from "./components/Cells";
 
 class Committee extends Component {
-  render () {
+  render() {
+    var mc = this.props.match.params.mc ?? "";
+    console.log(mc);
     return (
       <React.Fragment>
-        <Cover />
-        <Cells />
+        <Cover mc={mc ? mc : "current"} />
+        <Cells mc={mc ? mc : "current"} />
       </React.Fragment>
     );
   }
-};
+}
 
 export default Committee;

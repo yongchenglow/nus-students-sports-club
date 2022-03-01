@@ -1,0 +1,191 @@
+{
+  "presidential": [
+    [
+      "/presidential/Kenneth.jpg",
+      "Kenneth Tan Kai Zhi",
+      "President",
+      "Arts and Social Sciences/Y2"
+    ],
+    [
+      "/presidential/Li_Bing.jpg",
+      "Tan Li Bing",
+      "Vice President (Internal)",
+      "Business/Y2"
+    ],
+    [
+      "/presidential/Pricilla.jpg",
+      "Ang Yee Lyn Pricilla",
+      "Vice President (External)",
+      "Business/Y2"
+    ]
+  ],
+  "publicity": [
+    [
+      "/publicity/Sherlyn.jpg",
+      "Sherlyn Ng Yun Lin",
+      "Publicity Secretary",
+      "School of Design and Environment/Y3"
+    ],
+    [
+      "/publicity/Frazel.jpg",
+      "Neow Cheng Frazel",
+      "Publicity Executive",
+      "Engineering/Y2"
+    ],
+    [
+      "/publicity/Jia_Yi.jpg",
+      "Zhuo Jiayi",
+      "Publicity Executive",
+      "Arts and Social Sciences/Y2"
+    ],
+    [
+      "/publicity/Charmian.jpg",
+      "Lee Jia Mei Charmian",
+      "Publicity Executive",
+      "Arts and Social Sciences/Y2"
+    ],
+    [
+      "/publicity/Ryan.jpg",
+      "Ryan Walter Lee",
+      "Publicity Executive",
+      "Business/Y1"
+    ]
+  ],
+  "welfare": [
+    [
+      "/welfare/Ruey_De.jpg",
+      "Koh Ruey De",
+      "Welfare Secretary",
+      "Arts and Social Sciences/Y1"
+    ],
+    [
+      "/welfare/Shawn.jpg",
+      "Ng Kah Chun (Shawn)",
+      "Welfare Executive",
+      "Business/Y2"
+    ],
+    [
+      "/welfare/Neaton.jpg",
+      "Neaton Ang Jia Jun",
+      "Welfare Executive",
+      "Science/Y2"
+    ]
+  ],
+  "finance": [
+    [
+      "/finance/Teflyn.jpg",
+      "Teflyn Phua Siew Leng",
+      "Finance Secretary",
+      "Business/Y3"
+    ],
+    [
+      "/finance/Tobias.jpg",
+      "Tan Jian Hui Tobias",
+      "Finance Executive",
+      "Engineering/Y2"
+    ],
+    [
+      "/finance/Ryan.jpg",
+      "Ryan Teng Shao Yang",
+      "Finance Executive",
+      "Business/Y2"
+    ],
+    ["/finance/Zi_Xuan.jpg", "Tang Zi Xuan", "Finance Executive", "Business/Y2"]
+  ],
+  "projects": [
+    [
+      "/projects/Nellie.jpg",
+      "Nellie Lim Jia Ji",
+      "Projects Secretary",
+      "Arts and Social Sciences/Y2"
+    ],
+    [
+      "/projects/Hao_Yang.jpg",
+      "Than Hao Yang",
+      "Projects Executive (SunNUS)",
+      "Engineering/Y4"
+    ],
+    [
+      "/projects/Jun_Hong.jpg",
+      "Wee Jun Hong",
+      "Projects Executive (RunNUS)",
+      "Computing/Y1"
+    ],
+    [
+      "/projects/Jia_Qi.jpg",
+      "Tan Jia Qi",
+      "Projects Executive (NUS Sports Camp)",
+      "Business/Y2"
+    ],
+    [
+      "/projects/Jing_Heng.jpg",
+      "Lim Jing Heng",
+      "Projects Executive (NUS Biathlon)",
+      "Business/Y2"
+    ],
+    [
+      "/projects/Tammy.jpg",
+      "Tammy Tan Xin Ning",
+      "Projects Executive (IFG Sports)",
+      "Business/Y2"
+    ],
+    [
+      "/projects/Saran.jpg",
+      "Saravanan s/o Javahar",
+      "Projects Executive (IFG Show)",
+      "Business/Y2"
+    ]
+  ],
+  "marketing": [
+    [
+      "/marketing/Eamon.jpg",
+      "Lo Ho Fung Eamon",
+      "Marketing Secretary",
+      "Science/Y3"
+    ],
+    [
+      "/marketing/Chin_An.jpg",
+      "Eng Chin An",
+      "Marketing Executive",
+      "School of Design and Environment/Y3"
+    ],
+    [
+      "/marketing/Jia_Hui.jpg",
+      "Ng Jia Hui",
+      "Marketing Executive",
+      "School of Design and Environment/Y2"
+    ],
+    [
+      "/marketing/Jaccine.jpg",
+      "Lee Jia Xin",
+      "Marketing Executive",
+      "Science/Y1"
+    ]
+  ],
+  "secretariat": [
+    [
+      "/secretariat/Tabitha.jpg",
+      "Tabitha Ong Wei Shien",
+      "General Secretary",
+      "Medicine/Y3"
+    ],
+    [
+      "/secretariat/Ashley.jpg",
+      "Chia Zhen You (Ashley)",
+      "Deputy General Secretary",
+      "Science/Y2"
+    ],
+    [
+      "/secretariat/Sararina.jpg",
+      "Toh Wei Li Sararina",
+      "Deputy General Secretary",
+      "School of Design and Environment/Y2"
+    ],
+    [
+      "/secretariat/Jonathan.jpg",
+      "Yeo Wei Cheng Jonathan",
+      "Deputy General Secretary",
+      "Engineering/Y3"
+    ]
+  ]
+}

@@ -9,26 +9,32 @@
   ],
   "about_us": [
     "Wushu is a blanket term for all Chinese martial arts.  It is an integral part of Chinese culture and helps build character, discipline and virtue. In the past, Chinese martial arts were not only used by the military, but also by civilians for self defense, to improve their health, or simply as part of the history and traditions of individual families and villages.",
-   "NUS Wushu focuses on traditional wushu practiced through taolus, which are a set routine comprising connected techniques, choreographed with patterns of attack and defense.",
-   "As it does not contain many stunts and acrobatics, traditional wushu is not difficult to pick up or learn, even if one does not have a background in martial arts or sports.",
-   "We welcome all who are interested in joining us and learning more about Wushu. Even though Wushu may seem like an individual sport, NUS Wushu has always been working on fostering club bonding through various events and outings. We train hard and play hard. Also, many of our members have stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.",
+    "NUS Wushu focuses on traditional wushu practiced through taolus, which are a set routine comprising connected techniques, choreographed with patterns of attack and defense.",
+    "As it does not contain many stunts and acrobatics, traditional wushu is not difficult to pick up or learn, even if one does not have a background in martial arts or sports.",
+    "We welcome all who are interested in joining us and learning more about Wushu. Even though Wushu may seem like an individual sport, NUS Wushu has always been working on fostering club bonding through various events and outings. We train hard and play hard. Also, many of our members have stayed in Wushu throughout their years in NUS because of the friendships and bonds fostered.",
     "Interested to find out more? Talk to us now at nuswushu@gmail.com!"
   ],
   "training_sessions": [
     {
-      "day": "Mon & Fri",
-      "time": "7 - 10 pm",
+      "day": "Mon",
+      "time": "7 - 9.30 pm",
+      "venue": "MPSH 6",
+      "venue_link": ""
+    },
+    {
+      "day": "Fri",
+      "time": "7 - 9.30 pm)",
       "venue": "MPSH 6",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/362902",
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/422901",
   "events": [
     {
-      "event_image_name": "wushuids.png",
-      "event_name": "Wushu Interest Development Series",
-      "event_date": "31 Jan 2020",
-      "event_description": "New to sports? Curious about our martial arts form? Sign up and join us for an introductory session. See you there!",
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "24 & 28 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
       "event_website": "",
       "event_sign_up_link": "",
       "event_sign_up_close": "",
@@ -37,5 +43,6 @@
   ],
   "instagram_url": "https://www.instagram.com/nuswushu",
   "facebook_url": "https://www.facebook.com/NUSWushu/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }

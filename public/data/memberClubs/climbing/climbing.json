@@ -9,58 +9,53 @@
   ],
   "about_us": [
     "The NUS Climbing Club prides itself as the largest recreational interest group as part of the NUSSSC. We aim to equip our club members with the technical ability and know-hows of climbing, and to induct NUS students to the ever-growing climbing community.",
-   "This year marks the seventh annual ClimbNUS organised by the club to introduce the sport of climbing to the NUS community. In addition, the club also organises one of the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS Boulderactive. Held annually, Boulderactive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore. In 2019, Boulderactive also partnered the SEA League.",  
-   "Club sessions are held twice every week on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester.",
+    "This year marks the seventh annual ClimbNUS organised by the club to introduce the sport of climbing to the NUS community. In addition, the club also organises one of the biggest bouldering competition in Singapore together with their counterparts in the Varsity Team: NUS Boulderactive. Held annually, Boulderactive attracts top regional climbers to compete on boulder problems, as set by established route setters in Singapore. In 2019, Boulderactive also partnered the SEA League.",
+    "Club sessions are held twice every week on Tuesdays and Fridays, where like-minded and enthusiastic club members train together at the USC Wall and the UTown Wall. Due to the overwhelming popularity of the club, members are required to fulfil several requirements (e.g., attendance) to retain their membership with the club for each semester.",
     "Interested to find out more? Talk to us now at hello@nusclimb.com or visit us at nusclimb.com!"
   ],
   "training_sessions": [
     {
-      "day": "Tues",
-      "time": "4 - 10 pm",
-      "venue": "University Sports Centre",
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Mon, 6.30 - 8, 8 - 10 pm (Zone B)",
       "venue_link": ""
     },
     {
-      "day": "Fri",
-      "time": "4 - 10 pm",
-      "venue": "University Sports Centre & UTown",
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Tues, Thurs 6.30 - 8, 8 - 10 pm (Zone C)",
+      "venue_link": ""
+    },
+    {
+      "day": "UTown Highwall",
+      "time": "",
+      "venue": "Wed, 6.30 - 8, 8 - 10 pm (Zone A)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Mon, 4 - 6.30, 6.30 - 9 pm (Zone A)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Tues, 4 - 6, 6 - 8, 8 - 10 pm (Zone B)",
+      "venue_link": ""
+    },
+    {
+      "day": "USC Bouldering",
+      "time": "",
+      "venue": "Fri, 4 - 6, 6 - 8, 8 - 10 pm (Zone C)",
       "venue_link": ""
     }
   ],
-  "training_sessions_join_url": "",
+  "training_sessions_join_url": "https://bit.ly/39vLARO",
   "events": [
-    {
-      "event_image_name": "logo2.jpeg",
-      "event_name": "NUS Boulderactive 2021",
-      "event_date": "Jul 2021",
-      "event_description": "Stay tuned for more updates!",
-      "event_website": "www.boulderactive.nusclimb.com",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "ClimbNUS.jpg",
-      "event_name": "ClimbNUS 2020",
-      "event_date": "21 Jan 2020",
-      "event_description": "Spanning across 3 days, ClimbNUS 2020 will take place at the Central Library. No prior experience is required, just bring yourself, covered shoes and LOTS of energy! We can't wait to see you start on your something new!",
-      "event_website": "http://instagram.com/climbnus",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    },
-    {
-      "event_image_name": "boulderactive.jpg",
-      "event_name": "NUS Boulderactive 2019",
-      "event_date": "25 Jul 2019",
-      "event_description": "Have you ever wanted to try out Sports Climbing or Bouldering? Join us at Singpost Centre this 25 – 28 Jul for an exciting event! From competitive categories to fun climbs purely for experience & exposure, we welcome EVERYONE from all walks of life. Grab your family & friends and make extraordinary memories!",
-      "event_website": "www.boulderactive.nusclimb.com",
-      "event_sign_up_link": "",
-      "event_sign_up_close": "",
-      "event_to_show": "true"
-    }
   ],
   "instagram_url": "https://www.instagram.com/nus_climbing",
   "facebook_url": "https://www.facebook.com/ClimbNUS/",
-  "telegram_url": ""
+  "telegram_url": "",
+  "linktree_url": ""
 }
