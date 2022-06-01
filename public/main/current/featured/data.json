@@ -1,17 +1,39 @@
 {
   "featured": [
     {
-      "name": "SunNUS SOAR is live!",
-      "image": "SunNUS2021SOAR.PNG",
-      "image_link": "http://bit.ly/ilovesunnus",
-      "dates": ["24 August - 30 September 2021"],
+      "name": "NUS Biathlon 2022!",
+      "image": "NUSBiathlon22.png",
+      "image_link": "https://bit.ly/nusbiathlon2022",
+      "dates": ["19th March 2022 (Physical)",
+        "5th - 26th March 2022 (Virtual)"],
       "message": "",
       "message_link": "",
       "description": [
-        "SunNUS SOAR is live! 😱We will be opening SOAR from 24th August - 30th September🏆Grab your friends and complete your quest within 3h! Simply download app from Google Play Store or App Store and begin your adventure🏃🏻😆 Grab some of our limited edition merchandise to commemorate SOAR! 👚👕 We are selling our t-shirts at 2 for $20 and will be opening merch collection on 2 September, 9:30am -11:30am. Don’t miss out on this opportunity!🤙🏻 Registration ends 19 September"
+        "Getting busier week by week? Remember to unwind and take a breather!",
+
+
+        " Presenting to you the most anticipated annual swim-and-run event in NUS - NUS Biathlon 2022! Organized by fellow NUS students, NUS Biathlon is open to the NUS community and the public to de-stress and indulge in sports. Due to the current COVID-19 restrictions, NUS Biathlon 2022 will be held in a hybrid series, both physically and virtually! Join us this March and be part of the sporting community in NUS!",
+
+
+        " Early bird registration: 9 – 18 Feb 2022"
       ],
       "button_text": "Join Now",
-      "button_link": "http://bit.ly/ilovesunnus"
+      "button_link": "https://bit.ly/nusbiathlon2022"
+    },
+    {
+      "name": "NETBALLUXION 2022 !",
+      "image": "Netballuxion2022.jpg",
+      "image_link": "https://nus.campuslabs.com/engage/submitter/form/start/537278",
+      "dates": ["19 June 2022 "],
+      "message": "",
+      "message_link": "",
+      "description": [
+        "Description: After 3 long years, we are back with our physical NETBALLUXION event! Happening in June, you can anticipate an exciting and thrilling day of pitching your netball skills against others in a game of Street Netball. Be it to challenge yourself or to simply have fun, come join us for NETBALLUXION ‘22!🤼‍♀️",
+      
+        "More info will be released soon. Stay tuned for more updates! Follow us at @nus.nrc on Instagram and NUS Netball Recreational Club- NUS NRC on Facebook! We hope to see you there!"
+      ],
+      "button_text": "Join Now",
+      "button_link": "https://nus.campuslabs.com/engage/submitter/form/start/537278"
     }
   ],
   "old_featured": [
