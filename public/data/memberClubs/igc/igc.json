@@ -1,0 +1,71 @@
+{
+  "club_logo_image_name": "IGC.jpeg",
+  "club_name": "NUS Intellectual Games Club",
+  "carousel_image_name": ["igc1.jpg", "igc2.jpg", "igc3.jpg"],
+  "about_us": [
+    "NUS Intellectual Games Club is a family of people who indulges in mindsports. The main aim of the club is to entertain the NUS community (staff and students), exchange insights and strategies and popularize mindsports on campus. We provide a large variety of mindsports and our members have meetings at least once a week. No previous knowledge of games is required, and no restriction is imposed. You can make friends and learn new games by joining us. Details of different games are introduced below. Are you ready to transform yourself into a smarter person? Make the first step and learn this game because you'll benefit from it for a lifetime.",
+    "Contract Bridge (Bridge): Contract bridge is a trick-taking game using a standard deck of 52 playing cards. It is played by four players in two competing partnerships, with partners sitting opposite each other around a table.",
+    "Chinese Chess: This game is a battle of wits between two armies. To achieve victory, you need to have patience, composure and serious tactical thinking among many other great qualities that a person has.",
+    "International Chess (Chess): Being one of the world's most popular game, chess is played by millions worldwide. \"To see the infinity within the finite, that's beauty.\" ~ Louis Chin, 2007.",
+    "Reversi (Othello): Othello is an abstract, two-player strategy game played on an 8x8, 64-square board. The objective is to end the game with more discs of your own colour face up.",
+    "Weiqi (Go): Weiqi uses the most elemental concepts -- line and circle, black and white -- combining them with simple rules to generate subtle strategies and complex tactics that stagger the imagination.",
+    "Riichi Maajan: Riichi Maajan is the Japanese variant of mahjong. Unlike the other variants of mahjong, Riichi Maajan is more strategic-based. The game involves much analytical thinking and risk-benefit analysis in order for the player to make the optimal decision.",
+    "The culture of our club can be described as friendly and welcoming. We play, laugh and have fun together. No matter what your skill level is, feel free to join us. There is no limit for the number of members that we take in each year. If you are keen on intellectual games and want to have fun and learn, don't hesitate to join our club so that we can play, learn and most importantly enjoy ourselves together!",
+    "Interested to find out more? Talk to us now at igc@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Contract Bridge",
+      "time": "Every Wednesday, 7 - 10pm (Physical)",
+      "venue": "Every Thursday, 7 - 10pm (Online)",
+      "venue_link": ""
+    },
+    {
+      "day": "Xiangqi",
+      "time": "Every Wednesday, 7 - 9pm (Physical)",
+      "venue": "",
+      "venue_link": ""
+    },
+    {
+      "day": "International Chess",
+      "time": "Every Monday, 8 - 10pm (Online)",
+      "venue": "Every Thursday, 6 - 9pm (Physical)",
+      "venue_link": ""
+    },
+    {
+      "day": "Reversi",
+      "time": "Every Monday, 6.30 - 9pm (Online)",
+      "venue": "",
+      "venue_link": ""
+    },
+    {
+      "day": "Riichi Maajan",
+      "time": "Every Monday, 6.30 - 9pm (Physical) ",
+      "venue": "Every Tuesday, 8 - 11pm (Online)",
+      "venue_link": ""
+    },
+    {
+      "day": "Weiqi",
+      "time": "Every Monday, 6.30 - 9pm (Online)",
+      "venue": "Every Tuesday, 6.30 - 9pm (Online)",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430852",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "17 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/igc_nus",
+  "facebook_url": "https://www.facebook.com/igcnus/",
+  "telegram_url": "",
+  "linktree_url": ""
+}

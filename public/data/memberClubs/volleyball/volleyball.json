@@ -1,0 +1,48 @@
+{
+  "club_logo_image_name": "Volleyball.png",
+  "club_name": "NUS Volleyball Club",
+  "carousel_image_name": ["vb1.jpg", "vb2.jpg", "vb3.jpg", "volleyball.jpeg"],
+  "about_us": [
+    "Volleyball is an indoor sport which requires the demonstration of only three basic movements -- dig, set and spike. As a recreational club, we welcome members of different backgrounds, amateur or skilled.",
+    "In recreational volleyball, we organise weekly training sessions for all members to help hone your skills. Look forward to free and easy volleyball matches amongst members after every training session! We also organise a competition every year so that members can put their skills to the test!",
+    "Do hit us up if you're ready for a dive! And fret not because everyone is really friendly and nice. And if you join, you will definitely be included for our fun supper sessions after volleyball. So come join us if you're hoping to make friends!",
+    "Interested to find out more? Talk to us today at volleyball@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Mon",
+      "time": "6 - 10 pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    },
+    {
+      "day": "Wed",
+      "time": "6 - 10 pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    },
+    {
+      "day": "Fri",
+      "time": "6 - 10 pm",
+      "venue": "Volleyball Courts",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/431038",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "17 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus.volleyball/",
+  "facebook_url": "",
+  "telegram_url": "",
+  "linktree_url": ""
+}

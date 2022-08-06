@@ -1,0 +1,132 @@
+{
+  "memberClubs": [
+    {
+      "category": "land",
+      "clubs": [
+        {
+          "name": "Archery",
+          "short_name": "archery",
+          "full_name": "NUS Archery Club",
+          "image": "Archery.jpg"
+        },
+        {
+          "short_name": "basketball",
+          "name": "Basketball",
+          "full_name": "NUS Basketball Club",
+          "image": "Basketball.jpg"
+        },
+        {
+          "short_name": "netball",
+          "name": "Netball",
+          "full_name": "NUS Netball Recreational Club",
+          "image": "Netball.jpg"
+        },
+        {
+          "short_name": "skating",
+          "name": "Skating",
+          "full_name": "NUS Skating Club",
+          "image": "Skating.jpg"
+        },
+        {
+          "short_name": "volleyball",
+          "name": "Volleyball",
+          "full_name": "NUS Volleyball Club",
+          "image": "Volleyball.jpg"
+        }
+      ]
+    },
+    {
+      "category": "indoors",
+      "clubs": [
+        {
+          "short_name": "aerobics",
+          "name": "Aerobics",
+          "full_name": "NUS Aerobics Club",
+          "image": "Aerobics.jpg"
+        },
+        {
+          "short_name": "climbing",
+          "name": "Climbing",
+          "full_name": "NUS Climbing Club",
+          "image": "Climbing.jpg"
+        },
+        {
+          "short_name": "cuesports",
+          "name": "Cuesports",
+          "full_name": "NUS Cuesports Club",
+          "image": "Cuesports.jpg"
+        },
+        {
+          "short_name": "igc",
+          "name": "Intellectual Games Club",
+          "full_name": "Intellectual Games Club",
+          "image": "IGC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "water",
+      "clubs": [
+        {
+          "short_name": "ulc",
+          "name": "University Lifeguard Corps",
+          "full_name": "NUS Univerisity Lifeguard Corps",
+          "image": "ULC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "martial arts",
+      "clubs": [
+        {
+          "short_name": "aikido",
+          "name": "Aikido",
+          "full_name": "NUS Aikido Club",
+          "image": "Aikido.jpg"
+        },
+        {
+          "short_name": "boxing",
+          "name": "Boxing",
+          "full_name": "NUS Boxing Club",
+          "image": "Boxing.jpg"
+        },
+        {
+          "short_name": "capoeira",
+          "name": "Capoeira",
+          "full_name": "NUS Capoeira Club",
+          "image": "Capoeira.jpg"
+        },
+        {
+          "short_name": "karate",
+          "name": "Karate",
+          "full_name": "NUS Karate Club",
+          "image": "Karate.jpg"
+        },
+        {
+          "short_name": "kendo",
+          "name": "Kendo",
+          "full_name": "NUS Kendo Club",
+          "image": "Kendo.jpg"
+        },
+        {
+          "short_name": "muaythai",
+          "name": "Muay Thai",
+          "full_name": "NUS Muay Thai Club",
+          "image": "MuayThai.jpg"
+        },
+        {
+          "short_name": "nwp",
+          "name": "Nam Wah Pai Self Defence",
+          "full_name": "NUS Nam Wah Pai Self Defence",
+          "image": "NWP.jpg"
+        },
+        {
+          "short_name": "wushu",
+          "name": "Wushu",
+          "full_name": "NUS Wushu Club",
+          "image": "Wushu.jpg"
+        }
+      ]
+    }
+  ]
+}

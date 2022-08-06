@@ -1,0 +1,47 @@
+{
+  "club_logo_image_name": "boxinglogo.PNG",
+  "club_name": "NUS Boxing Club",
+  "carousel_image_name": [
+    "boxing1.jpg",
+    "boxing2.jpg",
+    "boxing3.jpg",
+    "boxing4.jpg"
+  ],
+  "about_us": [
+    "NUS Boxing Club's arms are open to all whether you've been boxing since young or if it's your first time touching gloves, we guarantee that you'll learn something out of it. You'll see us training in different ways some murdering the punching bags, showcasing slick bob and weaves, hitting the pads, and of course, sparring. Don't worry though, safety is emphasized here and you'll be taught how to watch out for one another.",
+    "To cater to different skill sets, we offer both beginner and intermediate classes. Beginner classes are focused on honing essential boxing movements and fundamentals like your jabs, straights, hooks and uppercuts. Those in the intermediate classes will learn more advanced moves and how to integrate different techniques into your sparring. Boxers who are passionate and committed will also get to participate in our annual Boxing Exhibition Fight. This is an exciting event where our boxers train hard to prepare to step in the ring and showcase what they've learnt.",
+    "We're proud to say that we have an extremely dedicated and licensed coach to groom our boxers to their fullest potential, supported by welcoming seniors. We would love to have you with us! Boxing is a pretty cool sport, we promise you won't regret jumping on board.",
+    "Interested to find out more? Talk to us now at boxing@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Wed",
+      "time": "6.30 - 7.30 pm (Beginner)",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    },
+    {
+      "day": "Wed",
+      "time": "7.30 - 8.30 pm (Intermediate)",
+      "venue": "MPSH 2",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://bit.ly/nusboxinginterest",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "19 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nusboxing",
+  "facebook_url": "https://www.facebook.com/nusboxing/",
+  "telegram_url": "",
+  "linktree_url": ""
+}

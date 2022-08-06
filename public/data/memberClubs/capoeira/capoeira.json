@@ -1,0 +1,41 @@
+{
+  "club_logo_image_name": "Capoeira.jpg",
+  "club_name": "NUS Capoeira",
+  "carousel_image_name": ["capo.jpeg", "capo3.jpeg", "capo2.jpg", "capo4.jpg"],
+  "about_us": [
+    "Capoeira is a Brazilian martial art that consists elements of combat, dance, acrobatics, and even music. Practitioners of Capoeira (Capoeiristas) learn to be agile fighters who are able to lure in their opponents and outsmart them with feats of trickery. Since it is a relatively niche sport, members should come in with an open mind! Expect to learn a martial art that is very different from other traditional ones, especially due to its laid-back nature.",
+    "The laid-back nature of Capoeira extends to our club too; our members are always open to giving each other tips and advice for how to carry out certain moves. It's always fun to learn how to string different kicks together to create fancy combos, and tricky acrobatics. We expect around 10 new members for each intake, but more are always welcome!",
+    "Interested to find out more? Talk to us now at capoeira@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Tues - Music",
+      "time": "7.30 - 9.30 pm",
+      "venue": "Bendemeer",
+      "venue_link": ""
+    },
+    {
+      "day": "Thurs - Physical Training",
+      "time": "7.30 - 9.30 pm",
+      "venue": "Bishan Stadium",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/431121",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "25 & 27 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus.capoeira/",
+  "facebook_url": "",
+  "telegram_url": "",
+  "linktree_url": ""
+}
