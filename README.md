@@ -22,9 +22,9 @@ This repository contains the code for NUS Students' Sports Club Website.
 
 ### Install Node.js
 
-Install Node.js by going to the following [website](https://nodejs.org/en/ "Node.js Homepage") and **download the LTS version**.
+Install Node.js by going to the following [website](https://nodejs.org/en/ 'Node.js Homepage') and **download the LTS version**.
 
-![image of Node JS Homepage](./public/images/NodeHomepage.png "NodeHomepage")
+![image of Node JS Homepage](./public/images/NodeHomepage.png 'NodeHomepage')
 
 After installing Node.js, check that everything has been installed correctly, open the terminal application and type in the following:
 
