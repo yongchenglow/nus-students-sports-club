@@ -16,7 +16,13 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: yarn build
+      - name: Build
         run: |
           yarn install --frozen-lockfile
           yarn build
+
+      - name: Lint
+        run: |
+          yarn lint
+          yarn tsc
+          yarn prettier:check
