@@ -1,0 +1,32 @@
+{
+  "featured": [
+    {
+      "name": "SunNUS SOAR is live!",
+      "image": "SunNUS2021SOAR.PNG",
+      "image_link": "http://bit.ly/ilovesunnus",
+      "dates": ["24 August - 30 September 2021"],
+      "message": "",
+      "message_link": "",
+      "description": [
+        "SunNUS SOAR is live! 😱We will be opening SOAR from 24th August - 30th September🏆Grab your friends and complete your quest within 3h! Simply download app from Google Play Store or App Store and begin your adventure🏃🏻😆 Grab some of our limited edition merchandise to commemorate SOAR! 👚👕 We are selling our t-shirts at 2 for $20 and will be opening merch collection on 2 September, 9:30am -11:30am. Don’t miss out on this opportunity!🤙🏻 Registration ends 19 September"
+      ],
+      "button_text": "Join Now",
+      "button_link": "http://bit.ly/ilovesunnus"
+    }
+  ],
+  "old_featured": [
+    {
+      "name": "SunNUS",
+      "image": "image",
+      "image_link": "http://bit.ly/ilovesunnus",
+      "dates": ["SunNUS is Postponed!"],
+      "message": "Follow our socials for updates",
+      "message_link": "https://www.instagram.com/sunnus_official/?hl=en",
+      "description": [
+        "School is out, and SunNUS is in! Guess what, REGISTRATION IS OPEN! Ready for an awesome summer? Grab your friends and take part in our Team Sports Series (TSS) in campus! 🏃🏻🏐🏈🥏🤾🏼‍♂️⛹🏼‍♀️ or take part in our NEW SEGMENT, Sentosa Outdoor Adventure Race (SOAR) and win attractive prizes! 🔍📱🌿☀️ What are you waiting for? Click on the link and sign up now!😆"
+      ],
+      "button_text": "Join Now",
+      "button_link": "http://bit.ly/ilovesunnus"
+    }
+  ]
+}

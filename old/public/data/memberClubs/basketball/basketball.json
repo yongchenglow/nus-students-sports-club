@@ -1,0 +1,48 @@
+{
+  "club_logo_image_name": "logo.png",
+  "club_name": "NUS Basketball Club",
+  "carousel_image_name": [
+    "Bball1.jpg",
+    "Bball2.jpeg",
+    "Bball3.jpg",
+    "Bball4.jpg"
+  ],
+  "about_us": [
+    "NUS Basketball Club is a recreational and non-competitive basketball member club under NUS Students' Sports Club. Our club caters to all NUS students who are interested in the game of basketball. We strive to provide a safe platform for members to play, learn, practice basketball skills and in the process, have fun and forge new friendships!",
+    "NUS Basketball Club welcomes everyone, regardless of your skill level. Our training sessions cater to our members' needs and experience in basketball: training sessions are split into the beginners and intermediate group to ensure that members can learn at their own pace comfortably.",
+    "The beginners group focuses on the basics of basketball with drills such as dribbling and shooting, while slowly working up to the more advanced aspects of basketball and eventually being able to play in matches. Whereas the intermediate group focuses on more advanced drills and are split into smaller groups to play matches.",
+    "On top of our weekly trainings, we also organise various competitions such as the annual 3v3 BasketbALLSTAR Competition for all NUS students and staff to participate and gain experience over exciting games. On top of that, there are also amazing prizes are up for grabs!",
+    "Interested to find out more? Talk to us now at basketball@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Wed",
+      "time": "7 - 9 pm",
+      "venue": "Basketball Courts 6 and 7",
+      "venue_link": ""
+    },
+    {
+      "day": "Thurs",
+      "time": "7 - 9 pm",
+      "venue": "Basketball Courts 6 and 7",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430844",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "21 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nusbasketballclub",
+  "facebook_url": "",
+  "telegram_url": "https://t.me/joinchat/AAAAAE4TqiAaXYka9Hpl3Q",
+  "linktree_url": ""
+}

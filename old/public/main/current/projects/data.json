@@ -1,0 +1,101 @@
+{
+  "projects": [
+    {
+      "name": "NUS Biathlon",
+      "image": "NUS_Biathlon_Logo_No_Year.png",
+      "image_url": "https://www.nussportsclub.org/nusbiathlon",
+      "dates": [
+            "Physical: 19th March 2022",
+            "Virtual: 5th March 2022 to 26th March 2022"],
+      "message": "",
+      "instagram_url": "https://www.instagram.com/nusbiathlon",
+      "facebook_url": "https://www.facebook.com/nusbiathlon",
+      "telegram_url": "https://t.me/nusbiathlon",
+      "description": [
+        "NUS Biathlon is the largest swim and run event in the National University of Singapore. It has consistently attracted over 200 participants ranging from the NUS community, various educational institutions and the public.",
+        "With a huge outreach to both athletes and non-athletes, NUS Biathlon serves as a platform for varsity teams to compete and at the same time, a great opportunity for novices to indulge in the sport.",
+        "NUS Biathlon 2022 is going HYBRID in light of COVID-19. But fear not, we will still focus on attracting beginners to try out this endurance sport and to spark interest in endurance sports in the NUS community, as well as the public. Even through adversity, we managed to find ways to make this event possible through exercising our motto of ‘BREATHE’, while adhering to COVID safety guidelines."
+      ],
+      "button": {
+        "button_text": "Find Out More!",
+        "button_link": "https://www.nussportsclub.org/nusbiathlon"
+      }
+    },
+    {
+      "name": "SunNUS",
+      "image": "SunNUS_Logo_No_Year.png",
+      "image_url": "https://www.nussportsclub.org/sunnus",
+      "dates": ["23 July 2022"],
+      "message": "Follow our socials for the latest updates",
+      "instagram_url": "https://www.instagram.com/sunnus_official",
+      "facebook_url": "https://www.facebook.com/sunnus.official",
+      "telegram_url": "https://t.me/sunnus_official",
+      "description": [
+        "SunNUS is the largest beach event held annually. SunNUS empowers individuals from all walks of life to pursue an active lifestyle and have fun in the sun!",
+
+        "Participants can look forward to our signature Team Sports Series, where we have Volleyball, Touch Rugby, Frisbee, Dodgeball and Tchoukball, we even have recreational captain’s ball! Look forward to the SunNUS Outdoor Adventure Race where great adventure awaits you! Since SunNUS is having its 10th Anniversary, we are rolling out our inaugural Water Sports Series! Compete in teams in a game of water captains ball or challenge yourself to the water obstacle course!",
+        "Join SunNUS now, where fun awaits you!"
+      ],
+      "button": {
+        "button_text": "Find Out More!",
+        "button_link": "https://www.nussportsclub.org/sunnus"
+      }
+    },
+    {
+      "name": "NUS Sports Camp",
+      "image": "NUS_Sports_Camp_Logo.png",
+      "image_url": "",
+      "dates": ["4th July 2022 to 7th July 2022"],
+      "message": "",
+      "instagram_url": "https://www.instagram.com/nussportscamp",
+      "facebook_url": "https://www.facebook.com/nussscsc",
+      "telegram_url": "https://t.me/nussportscamp",
+      "description": [
+        "NUS Sports Camp is a freshmen orientation camp organized annually by the NUS Students’ Sports Club. This year, our 4-days camp will be fully in-person, where we bring together many sportsmen/women of different backgrounds and proliferate the need to lead a healthy and active lifestyle through a wide array of sporting activities.",
+
+        "With more than 25 years of history, NUS Sports Camp has earned a reputation of being the most anticipated camp on campus for incoming freshmen and current undergraduates, who return as camp seniors. Participants will engage in a multitude of sports ranging from Land, Water, Indoor and Martial Arts offered by NUS. Through team-building activities, freshmen are bound to have an exciting start to their university life through the strong friendships forged!"
+      ],
+      "button": {
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    {
+      "name": "Inter-Faculty Games",
+      "image": "IFG_Logo_No_Year.png",
+      "image_url": "",
+      "dates": ["12th August 2022 to 15th September 2022"],
+      "message": "Follow our socials for the latest updates",
+      "instagram_url": "https://www.instagram.com/official_ifg",
+      "facebook_url": "https://www.facebook.com/InterFacultyGames",
+      "telegram_url": "https://t.me/official_ifg",
+      "description": [
+        "Inter-Faculty Games (IFG) is the largest and most anticipated student life event in NUS. For 5 weeks, 3500+ athletes across 10 faculties take part in 27 sporting events in hopes of clinching the Tan Eng Chye Challenge Trophy.",
+        "Along with various performing arts groups and student volunteers, we kick start the season with an Opening Ceremony extravaganza, and end it on a high note with a celebratory Closing Ceremony."
+      ],
+      "button": {
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    {
+      "name": "RunNUS",
+      "image": "RunNUS_Logo_No_Year.jpg",
+      "image_url": "http://runnus.nussportsclub.org",
+      "dates": ["17th August 2022 - 17th September 2022"],
+      "message": "Follow our socials for the latest updates",
+      "instagram_url": "https://www.instagram.com/runnus",
+      "facebook_url": "https://www.facebook.com/RunNUS",
+      "telegram_url": "https://t.me/runnus",
+      "description": [
+        "RunNUS is an annual running event organized by the NUS Students’ Sports Club (NUSSSC) and aims to promote healthy living among the NUS population and the public. Since our inception in 2007, RunNUS has become one of the largest and most anticipated running events for NUS students, staff, alumni and the public.",
+        "With the improve in the current COVID-19 situation, RunNUS 2022 will be adopting a hybrid format which comprises of both a physical and a virtual run. In addition to our classic 3km, 5km and 10km categories, we are presenting an exclusive “Run as One” category in celebration of our 16th Anniversary and to bring the people back together after two years of pandemic. Through “Run as One”, we aim to promote unity among Singaporeans where participants are allowed to form groups of 5, where they run 5km individually to cumulatively complete 25km.",
+        "With our tagline “Run for a Cause”, RunNUS aims to encourage a healthy lifestyle through running and to raise awareness and promote inclusivity of Persons with Disabilities and Special Needs (PWDSNs). As such, net proceeds will be channeled to our beneficiaries, Disabled People’s Association (DPA) and Singapore Disability Sports Council (SDSC)."
+      ],
+      "button": {
+        "button_text": "Find Out More!",
+        "button_link": "http://runnus.nussportsclub.org"
+      }
+    }
+  ]
+}

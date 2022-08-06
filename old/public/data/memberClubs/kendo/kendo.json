@@ -1,0 +1,37 @@
+{
+  "club_logo_image_name": "Kendo.jpg",
+  "club_name": "NUS Kendo",
+  "carousel_image_name": [
+    "kendo1.jpg",
+    "kendo2.jpeg",
+    "kendo3.jpg",
+    "kendo4.jpg"
+  ],
+  "about_us": [
+    "Kendo is a martial art about the way of the sword, where NUS students and alumni gather to hone their skills in the dojo. While Kendo may seem like a very physical activity, don't be deceived, the underpinnings of both philosophy and mental resilience make their appearance both in trainings and in competitions.",
+    "In Kendo we all start from the ground up, no prior experience is required. Under the seniors' and sensei's guidance, you will learn to move swiftly and strike fearlessly, to attack and counter-attack, and to think on your feet while paying attention to your surroundings; all fundamental to being a kendoka.",
+    "Interested to find out more? Talk to us now at nuskendoka@gmail.com!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Tues",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 6",
+      "venue_link": ""
+    },
+    {
+      "day": "Fri",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 6",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://bit.ly/3g1poRH",
+  "events": [
+  ],
+
+  "instagram_url": "https://www.instagram.com/nuskendoclub",
+  "facebook_url": "https://www.facebook.com/NUSKendoClub/",
+  "telegram_url": "",
+  "linktree_url": ""
+}

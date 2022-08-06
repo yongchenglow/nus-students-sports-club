@@ -1,0 +1,47 @@
+{
+  "club_logo_image_name": "Aikido Logo (updated).jpg",
+  "club_name": "NUS Aikido",
+  "carousel_image_name": [
+    "aikido.jpeg",
+    "aikido2.jpeg",
+    "aikido3.jpeg",
+    "aikido4.jpeg"
+  ],
+  "about_us": [
+    "\"Ai\" refers to harmony, \"ki\" refers to spirit or energy while \"do\" refers to the path or the way. So when added together, Aikido is the way of the spirit of harmony. Aikido is a true budo or martial way that evolved in the historic tradition of Japanese warrior arts. Budo is more than a science of tactics and self-defence. It is a discipline for perfecting the spirit of the practitioner. Aikido is a paradox: it is an extremely effective form of self-defence but it is also considered by many to be a path of peace and reconciliation.",
+    "We are a community of kind and compassionate people who trains with utmost respect, discipline and enthusiasm.",
+    "Respect and care for the safety of those who they practice with. Respect and adhere to the Dojo Etiquette.",
+    "Interested to find out more? Talk to us now at aikidonus@gmail.com!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Tues",
+      "time": "7 - 9pm",
+      "venue": "MPSH or UTown",
+      "venue_link": ""
+    },
+    {
+      "day": "Fri",
+      "time": "7 - 9pm",
+      "venue": "MPSH or UTown",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430579",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "25 & 28 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nus_aikido",
+  "facebook_url": "https://www.facebook.com/nus.aikido/",
+  "telegram_url": "",
+  "linktree_url": "https://linktr.ee/nusaikido"
+}

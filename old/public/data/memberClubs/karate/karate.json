@@ -1,0 +1,53 @@
+{
+  "club_logo_image_name": "logo.jpg",
+  "club_name": "NUS Karate",
+  "carousel_image_name": [
+    "karate1.jpg",
+    "karate2.jpeg",
+    "karate3.jpg",
+    "karate4.jpg"
+  ],
+  "about_us": [
+    "NUS Karate is a well-established martial arts club, practicing the Shito-ryu style of Karate. This style unites agility & strength while achieving an artistic form of movement. Our instructor Shihan Yoshimasa Ishikawa, founder of the Ken Yu Kai Karate Association (Singapore), holds an impressive 8th Dan black belt in Karate (Shito-ryu style) and has practiced the art for more than 50 years! Under his guidance, members will learn Kihon (Basics), Kata (set of choreographed movements) and Kumite (sparring).",
+    "We are extremely beginner friendly as incoming members do not need to have any prior experience in Karate. All they need is an enthusiastic attitude towards learning and to be respectful towards the rules of the dojo!",
+    "Besides our regular training every Monday & Thursday, NUS Karate also holds regular welfare events such as suppers, BBQs & karaoke sessions just to name a few! We also make use of any opportunity to let members gain more performance exposure through events such as the Student Life Fair and Exchangers' Welcome Party. Interested students can be assured that there is no limit on the number of newcomers we take in each year!",
+    "Interested to find out more? Talk to us now at karate@nussportsclub.org!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Mon (Physical Training)",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
+      "venue_link": ""
+    },
+    {
+      "day": "Thurs (Physical Training)",
+      "time": "7 - 9 pm",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
+      "venue_link": ""
+    },
+    {
+      "day": "Sat (Physical Training - Optional)",
+      "time": "10 am - 12 pm",
+      "venue": "MPSH 2 or Utown Internal Street level 3 ",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://nus.campuslabs.com/engage/submitter/form/start/430840",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "24 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nuskarate",
+  "facebook_url": "https://www.facebook.com/NUSKarate/",
+  "telegram_url": "",
+  "linktree_url": ""
+}

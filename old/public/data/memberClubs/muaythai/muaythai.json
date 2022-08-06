@@ -1,0 +1,47 @@
+{
+  "club_logo_image_name": "muaythailogo.jpg",
+  "club_name": "NUS MuayThai",
+  "carousel_image_name": [
+    "muaythai.JPG",
+    "muaythai2.JPG",
+    "muaythai3.jpg",
+    "muaythai4.jpg"
+  ],
+  "about_us": [
+    "Muay Thai, also known as the art of 8 limbs, utilizes the fists, elbows, knees and legs as weapons. We use stand up striking along with various clinching techniques. Muay Thai, like all other combat sports, is not merely about combos and hits but a tactful amalgam of fight IQ, muscle memory, fitness, training, training and training (smart).",
+    "Our team consists of our coach, alumni, students, and our team manager. No doubt an individual sport, you do not train alone. We create a safe space for one another, for making mistakes and learning from them. A space free of mindless judgements, we only do what is necessary and effective. As a team we strive for excellence - even in the simplest of pad holding.",
+    "We hold recreational classes, both beginners and intermediate. Depending on prior knowledge and experience, team members will advise on which class is more suitable. Through the 8 lessons, expect to learn the basics of fighting stance and power generation as well as simple combinations and padwork. Classes are systematic and well thought out by the coach, with at least 4 team members facilitating each class. Come join us for your first Muay Thai experience!",
+    "Interested to find out more? Talk to us now at nusmuaythaicomm@gmail.com!"
+  ],
+  "training_sessions": [
+    {
+      "day": "Beginner Sessions",
+      "time": "Tues: 5 - 6.30 pm, Wed: 5 - 6.30 pm, Fri: 4 - 5.30pm & 5.30 - 7pm",
+      "venue": "USC Mezzanine",
+      "venue_link": ""
+    },
+    {
+      "day": "Intermediate Sessions",
+      "time": "Wed: 6.30 - 8 pm",
+      "venue": "USC Mezzanine",
+      "venue_link": ""
+    }
+  ],
+  "training_sessions_join_url": "https://bit.ly/nusmt2020",
+  "events": [
+    {
+      "event_image_name": "ids2022logo.png",
+      "event_name": "IDS 2022",
+      "event_date": "18 Jan 2022",
+      "event_description": "Itching to try out a new sport but not sure where to start? Being our 4th edition this year, IDS is back again with more exciting lineups just for you! Just sign up for a trial class today to explore your interests! See you at IDS 2022!",
+      "event_website": "",
+      "event_sign_up_link": "",
+      "event_sign_up_close": "",
+      "event_to_show": "true"
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/nusmuaythai",
+  "facebook_url": "https://www.facebook.com/nusmuaythai/",
+  "telegram_url": "",
+  "linktree_url": ""
+}
